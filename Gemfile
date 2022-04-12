@@ -37,6 +37,7 @@ group :development, :test do
   gem 'irbtools'
   gem 'pry'
   gem 'figaro'
+  gem 'rspec_junit_formatter'
 end
 
 group :development do
