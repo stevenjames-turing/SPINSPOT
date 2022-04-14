@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe TldrService do 
+RSpec.describe TldrService, :vcr do 
   context '#advanced_article_summary(article_url)' do 
     it 'returns a summarized article hash' do 
       article_url = 'https://techcrunch.com/2019/08/12/verizon-is-selling-tumblr-to-wordpress-parent-automattic/'
