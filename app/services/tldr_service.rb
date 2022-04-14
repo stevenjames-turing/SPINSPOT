@@ -1,11 +1,10 @@
 class TldrService
-
   def self.advanced_article_summary(article_url)
     conn = Faraday.new(url: 'https://tldrthis.p.rapidapi.com/v1/model') do |faraday|
       faraday.headers['X-RapidAPI-Host'] = 'tldrthis.p.rapidapi.com'
       faraday.headers['X-RapidAPI-Key'] = ENV['tldr_key']
       faraday.adapter Faraday.default_adapter
-    end 
+    end
 
     response = conn.post('https://tldrthis.p.rapidapi.com/v1/model/abstractive/summarize-url/') do |req|
       req.body = "{
@@ -15,17 +14,17 @@ class TldrService
                           \"is_detailed\": false
                           }"
     end
-    
+
     json = JSON.parse(response.body, symbolize_names: true)
   end
-  
+
   def self.standard_article_summary(article_url)
     conn = Faraday.new(url: 'https://tldrthis.p.rapidapi.com/v1/model') do |faraday|
       faraday.headers['X-RapidAPI-Host'] = 'tldrthis.p.rapidapi.com'
       faraday.headers['X-RapidAPI-Key'] = ENV['tldr_key']
       faraday.adapter Faraday.default_adapter
-    end 
-  
+    end
+
     response = conn.post('https://tldrthis.p.rapidapi.com/v1/model/extractive/summarize-url/') do |req|
       req.body = "{
                   \"url\": \"#{article_url}\",
@@ -33,7 +32,7 @@ class TldrService
                   \"is_detailed\": false
                   }"
     end
-    
+
     json = JSON.parse(response.body, symbolize_names: true)
   end
 end
