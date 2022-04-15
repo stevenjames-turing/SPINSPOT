@@ -7,7 +7,7 @@ RSpec.describe TldrService, :vcr do
       tldr = TldrService.advanced_article_summary(article_url)
 
       expect(tldr).to be_a Hash
-require "pry"; binding.pry
+
       expect(tldr[:summary]).to be_an Array
       expect(tldr[:article_text]).to be_a String
       expect(tldr[:article_image]).to be_a String
