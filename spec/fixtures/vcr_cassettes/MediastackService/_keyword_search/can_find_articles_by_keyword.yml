@@ -1,0 +1,163 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.mediastack.com/v1/news?access_key=<mediastack_key>&keywords=brooklyn&languages=en
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.2.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 15 Apr 2022 00:27:25 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - no-cache, private
+      X-Request-Time:
+      - '0.073'
+      - '0.104'
+      X-Apilayer-Transaction-Id:
+      - 204e8023-a57d-437a-8957-a6ea838cf44f
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET, POST, HEAD, OPTIONS
+      Access-Control-Allow-Headers:
+      - "*"
+      X-Quota-Limit:
+      - '500'
+      X-Quota-Remaining:
+      - '467'
+      X-Increment-Usage:
+      - '1'
+      Cf-Cache-Status:
+      - DYNAMIC
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=SSj66rQg4stW0R8KXcLQF5H1NWwWyQe%2BsqRKNpHyUU%2BknwOFF5BFtqjEolisClOQ5MReXCdjSho8X9bUGKgTH0pvznfzbnG73EkMXVpGAN5%2BsPUxqXGZpeSwVb5fKladl5TbXPo%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 6fc08e2e2d78635d-ORD
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"pagination":{"limit":25,"offset":0,"count":25,"total":3739},"data":[{"author":"","title":"Brooklyn
+        Beckham announces new TV show Cookin\u2019 with Brooklyn","description":"Brooklyn
+        Beckham has announced he\u2019s launching his very own cooking show, Cookin\u2019
+        With Brooklyn.","url":"https:\/\/www.independent.co.uk\/tv\/culture\/brooklyn-beckham-cooking-tv-show-b2012036.html","source":"Independent","image":"https:\/\/static.independent.co.uk\/2022\/02\/10\/10\/Screenshot%202022-02-10%20at%2010.58.47.JPG?width=1024\u0026auto=webp","category":"general","language":"en","country":"gb","published_at":"2022-02-10T11:00:41+00:00"},{"author":"Paul
+        Mirengoff","title":"Meritocracy at Brooklyn Tech","description":"(Paul Mirengoff)
+        The virtues of a meritocracy may be lost on Harvard students like that \u0026#8220;queer
+        Middle Easterner,\u0026#8221; but they come through clearly in this excellent
+        New York Times article by Michael Powell. His piece deals with the subject
+        through the lens of Brooklyn Tech, an elite New York City high school from
+        which one of my cousins graduated in the 1960s. Brooklyn Tech hasn\u0026#8217;t
+        yielded to demands that it stop admitting","url":"https:\/\/www.powerlineblog.com\/archives\/2022\/01\/meritocracy-at-brooklyn-tech.php","source":"powerlineblog","image":"https:\/\/www.powerlineblog.com\/ed-assets\/2022\/01\/brooklyn-tech.jpg","category":"general","language":"en","country":"us","published_at":"2022-01-30T02:19:47+00:00"},{"author":"artappraiser","title":"In
+        pictures: Brooklyn subway","description":"In reply to Multiple people shot
+        in NewIn pictures: Brooklyn subway shooting @ CNN.com, some great photo journalism
+        there (all on one page, not a slideshow)I would just like to say one thing
+        about people who don\u0027t like cops that look like this and want to see
+        them abolished -Caption:\u00a0Police and emergency responders gather outside
+        the 36th Street subway station in Brooklyn, New York, on Tuesday, April 12.\u00a0Spencer
+        Platt\/Getty Images\u00a0FUCK YOU, you obviously didn\u0027t live through
+        an event like 9\/11\/01. I\u0027m glad and proud we have them! Each one of
+        them is worth 50 social workers refusing to show...","url":"http:\/\/dagblog.com\/comment\/316186#comment-316186","source":"dagblog","image":null,"category":"general","language":"en","country":"us","published_at":"2022-04-12T20:22:12+00:00"},{"author":"C.
+        J. Hughes","title":"Homes for Sale in Brooklyn and Manhattan","description":"This
+        week\u2019s properties are in Harlem, Greenwich Village and Park Slope.","url":"https:\/\/www.nytimes.com\/2022\/01\/27\/realestate\/housing-makrket-nyc.html","source":"The
+        New York Times","image":null,"category":"business","language":"en","country":"us","published_at":"2022-01-27T14:00:20+00:00"},{"author":"C.
+        J. Hughes","title":"Homes for Sale in Brooklyn and Manhattan","description":"This
+        week\u2019s properties are in Hudson Heights, Turtle Bay and Greenpoint.","url":"https:\/\/www.nytimes.com\/2022\/02\/03\/realestate\/homes-for-sale-in-brooklyn-and-manhattan.html","source":"The
+        New York Times","image":null,"category":"business","language":"en","country":"us","published_at":"2022-02-03T14:00:16+00:00"},{"author":"C.
+        J. Hughes","title":"Homes for Sale in Brooklyn and Manhattan","description":"This
+        week\u2019s properties are in Midwood, Morningside Heights and the Sutton
+        Place area.","url":"https:\/\/www.nytimes.com\/2022\/02\/10\/realestate\/housing-market-nyc.html","source":"The
+        New York Times","image":null,"category":"business","language":"en","country":"us","published_at":"2022-02-10T14:00:45+00:00"},{"author":"budwiser","title":"Brooklyn
+        nets to win title","description":"+600 The biggest question mark for this
+        team is injuries. Is durant going to last But ironically less injury prone
+        since harden took his hamstring to philly Durant is the best player in the
+        league. You could say curry, great player but curry has to run around to get
+        a shot and is...","url":"https:\/\/www.sportsbookreview.com\/forum\/nba-basketball-betting\/3690781-brooklyn-nets-win-title.html","source":"sbrforum","image":null,"category":"general","language":"en","country":"us","published_at":"2022-02-20T19:15:33+00:00"},{"author":"C.
+        J. Hughes","title":"Homes for Sale in Brooklyn and Manhattan","description":"This
+        week\u2019s properties are in Sunset Park, the East Village and the Sutton
+        Place neighborhood.","url":"https:\/\/www.nytimes.com\/2022\/03\/03\/realestate\/housing-market-nyc.html","source":"The
+        New York Times","image":null,"category":"business","language":"en","country":"us","published_at":"2022-03-03T14:00:25+00:00"},{"author":"C.
+        J. Hughes","title":"Homes for Sale in Brooklyn and Manhattan","description":"This
+        week\u2019s properties are in Midtown, Hudson Heights and Gowanus.","url":"https:\/\/www.nytimes.com\/2022\/03\/17\/realestate\/housing-market-nyc.html","source":"The
+        New York Times","image":null,"category":"business","language":"en","country":"us","published_at":"2022-03-17T13:00:48+00:00"},{"author":null,"title":"Carlsberg
+        A\/S : Brooklyn Brewery launches Brooklyn Pilsner - a crisp, bright and refreshing
+        lager","description":"(marketscreener.com) The award-winning Brooklyn Brewery
+        is extending its reach into the premium lager category with the launch of
+        Brooklyn Pilsner - a crisp, bright and refreshing new lager that\u0027s inspired
+        by Brooklyn, and brewed for all. Adding to its diverse range of flavourful
+        beers, Brooklyn...https:\/\/www.marketscreener.com\/quote\/stock\/CARLSBERG-A-S-1412856\/news\/Carlsberg-A-S-Brooklyn-Brewery-launches-Brooklyn-Pilsner-a-crisp-bright-and-refreshing-lager-40001241\/?utm_medium=RSS\u0026utm_content=20220408","url":"https:\/\/www.marketscreener.com\/quote\/stock\/CARLSBERG-A-S-1412856\/news\/Carlsberg-A-S-Brooklyn-Brewery-launches-Brooklyn-Pilsner-a-crisp-bright-and-refreshing-lager-40001241\/?utm_medium=RSS\u0026utm_content=20220408","source":"4-traders","image":null,"category":"general","language":"en","country":"us","published_at":"2022-04-08T10:30:33+00:00"},{"author":"jamesfallon2014","title":"Brooklyn
+        Beckham\u2019s Future\u00a0Connection","description":"Daily highlights from
+        the fashion scene.","url":"https:\/\/wwd.com\/fashion-news\/fashion-scoops\/brooklyn-beckhams-soon-to-be-father-in-law-1235054906\/","source":"wwd","image":null,"category":"general","language":"en","country":"us","published_at":"2022-01-27T05:01:03+00:00"},{"author":null,"title":"Robbery
+        caught on camera in Brooklyn","description":"Robbery caught on camera in Brooklyn","url":"https:\/\/abc7ny.com\/brooklyn-robbery-flatbush-caught-on-camera-surveillance-video\/11661120\/","source":"CNN
+        US","image":null,"category":"general","language":"en","country":"us","published_at":"2022-03-18T16:20:04+00:00"},{"author":null,"title":"Updates
+        on the Brooklyn Subway Shooting","description":"The Fire Department said that
+        13 people were injured after a shooting on a subway platform in Brooklyn on
+        Tuesday morning. Stephen Nessen, WNYC transportation reporter, joins with
+        the latest news.","url":"http:\/\/www.wnyc.org\/story\/updates-brooklyn-subway-shooting\/","source":"wnyc","image":null,"category":"general","language":"en","country":"us","published_at":"2022-04-12T14:43:55+00:00"},{"author":"C.
+        J. Hughes","title":"Homes for Sale in Brooklyn and Manhattan","description":"This
+        week\u2019s properties are in Chelsea, Midtown and Stuyvesant Heights.","url":"https:\/\/www.nytimes.com\/2022\/02\/24\/realestate\/homes-for-sale-in-brooklyn-and-manhattan.html","source":"The
+        New York Times","image":null,"category":"business","language":"en","country":"us","published_at":"2022-02-24T14:00:23+00:00"},{"author":null,"title":"Brooklyn
+        restaurant a casualty of Covid","description":"Brooklyn restaurant a casualty
+        of Covid","url":"https:\/\/abc7ny.com\/sidecar-restaurant-closing-park-slope-covid-closures\/11430570\/","source":"CNN
+        US","image":null,"category":"general","language":"en","country":"us","published_at":"2022-01-06T14:10:03+00:00"},{"author":"C.
+        J. Hughes","title":"Homes for Sale in Brooklyn and Manhattan","description":"This
+        week\u2019s properties are in Clinton Hill, Murray Hill and Lincoln Square.","url":"https:\/\/www.nytimes.com\/2022\/01\/06\/realestate\/housing-market-nyc.html","source":"The
+        New York Times","image":null,"category":"business","language":"en","country":"us","published_at":"2022-01-06T14:00:19+00:00"},{"author":"C.
+        J. Hughes","title":"Homes for Sale in Brooklyn and Manhattan","description":"This
+        week\u2019s properties are in Fort Greene, Hell\u2019s Kitchen and Greenwich
+        Village.","url":"https:\/\/www.nytimes.com\/2022\/03\/10\/realestate\/housing-market-nyc.html","source":"The
+        New York Times","image":null,"category":"business","language":"en","country":"us","published_at":"2022-03-10T14:00:21+00:00"},{"author":"C.
+        J. Hughes","title":"Homes for Sale in Brooklyn, Manhattan and the Bronx","description":"This
+        week\u2019s properties are in Crown Heights, TriBeCa and Riverdale.","url":"https:\/\/www.nytimes.com\/2022\/01\/13\/realestate\/housing-market-nyc.html","source":"The
+        New York Times","image":null,"category":"business","language":"en","country":"us","published_at":"2022-01-13T14:00:23+00:00"},{"author":"Hana
+        Levi Julian","title":"Hassidic Man Beaten in Williamsburg, Brooklyn","description":"The
+        attack took place a few hours after dozens attended a demonstration against
+        antisemitism in New York City.","url":"https:\/\/www.jewishpress.com\/news\/breaking-news\/hassidic-man-beaten-in-williamsburg-brooklyn\/2022\/01\/03\/","source":"jewishpress","image":null,"category":"general","language":"en","country":"us","published_at":"2022-01-03T19:33:57+00:00"},{"author":null,"title":"President
+        Biden briefed on Brooklyn shooting","description":"","url":"https:\/\/www.cnn.com\/us\/live-news\/brooklyn-subway-shooting-nyc\/h_4fbbdf102bdee51abf127a954845c989","source":"CNN","image":"https:\/\/cdn.cnn.com\/cnnnext\/dam\/assets\/150325082152-social-gfx-cnn-logo-super-169.jpg","category":"general","language":"en","country":"us","published_at":"2022-04-12T15:30:04+00:00"},{"author":"Cristina
+        Cabrera","title":"Brooklyn Subway Shooter Still At Large","description":"A
+        lot of things happened. Here are some of the things. This is TPM\u2019s Morning
+        Memo.Person Of Interest IdentifiedThe police named 62-year-old Frank R. James
+        as a \u0026#8220;person of interest\u0026#8221; in the case. James allegedly
+        rented a U-Haul truck in Philadelphia that was abandoned about five blocks
+        away from the station where police say the gunman entered to get on the train.
+        A key to the truck was found at the scene of the shooting.James seemed to
+        have posted disturbing videos of him ranting about New York City Mayor Eric
+        Adams, Russia\u0026#8217;s war on Ukraine and other topics.James has addresses...","url":"https:\/\/talkingpointsmemo.com\/morning-memo\/brooklyn-subway-shooter-still-at-large?utm_source=rss\u0026utm_medium=rss\u0026utm_campaign=brooklyn-subway-shooter-still-at-large","source":"tpmdc","image":null,"category":"general","language":"en","country":"us","published_at":"2022-04-13T12:13:16+00:00"},{"author":"C.
+        J. Hughes","title":"Homes for Sale in Manhattan, Brooklyn and Queens","description":"This
+        week\u2019s properties are on the Upper West Side and in Brooklyn Heights
+        and Jackson Heights.","url":"https:\/\/www.nytimes.com\/2022\/01\/20\/realestate\/housing-market-nyc.html","source":"The
+        New York Times","image":null,"category":"business","language":"en","country":"us","published_at":"2022-01-20T14:00:14+00:00"},{"author":"Jesse
+        O\u2019Neill","title":"Bronx teen arrested in Brooklyn murder","description":"Kendu
+        Skeen was arrested for allegedly shooting and killing Ahmad Perkins.","url":"https:\/\/nypost.com\/2022\/04\/02\/bronx-teen-kendu-skeen-arrested-in-brooklyn-murder\/","source":"Post","image":"https:\/\/nypost.com\/wp-content\/uploads\/sites\/2\/2022\/04\/police-tape-stock-1-e1648881448204.jpg?quality=90\u0026strip=all","category":"general","language":"en","country":"zm","published_at":"2022-04-02T07:20:40+00:00"},{"author":"jeanpalmieri2014","title":"Todd
+        Snyder to Open Store in\u00a0Brooklyn","description":"The unit in Williamsburg
+        will be the designer\u0027s sixth location.","url":"https:\/\/wwd.com\/menswear-news\/mens-designer-luxury\/todd-snyder-to-open-store-in-brooklyn-1235058725\/","source":"wwd","image":null,"category":"general","language":"en","country":"us","published_at":"2022-02-01T05:01:27+00:00"},{"author":"Dr.
+        Rafael Medoff","title":"From Brooklyn Housewife to Zionist Lobbyist","description":"\u0026#8220;Irish,
+        sympathetic, hates British, will definitely help.\u201d \u00a0So read an entry
+        in the diary of Brooklyn housewife Esther Kaplan, after meeting with Rep.
+        John J. Rooney, an Irish-American congressman from New York City, seventy-five
+        years ago this week. Mrs. Kaplan had no background in lobbying or political
+        activism, but when her son David was arrested [\u0026#8230;]The post From
+        Brooklyn Housewife to Zionist Lobbyist appeared first on Jewish Journal.","url":"https:\/\/jewishjournal.com\/commentary\/345367\/from-brooklyn-housewife-to-zionist-lobbyist\/?utm_source=rss\u0026utm_medium=rss\u0026utm_campaign=from-brooklyn-housewife-to-zionist-lobbyist","source":"jewishjournal","image":null,"category":"general","language":"en","country":"us","published_at":"2022-02-23T18:41:45+00:00"}]}'
+  recorded_at: Fri, 15 Apr 2022 00:27:25 GMT
+recorded_with: VCR 6.1.0
