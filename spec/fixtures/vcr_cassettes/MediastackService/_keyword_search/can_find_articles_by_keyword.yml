@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sat, 16 Apr 2022 01:10:30 GMT
+      - Sat, 16 Apr 2022 01:27:16 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -29,10 +29,10 @@ http_interactions:
       Cache-Control:
       - no-cache, private
       X-Request-Time:
-      - '0.059'
-      - '0.089'
+      - '0.852'
+      - '0.878'
       X-Apilayer-Transaction-Id:
-      - 7009687a-76dc-4626-be6a-4d9c780bfbe5
+      - 512ee4c8-ac2c-415c-b100-96ce6a0445ce
       Access-Control-Allow-Origin:
       - "*"
       Access-Control-Allow-Methods:
@@ -42,24 +42,24 @@ http_interactions:
       X-Quota-Limit:
       - '500'
       X-Quota-Remaining:
-      - '455'
+      - '454'
       X-Increment-Usage:
       - '1'
       Cf-Cache-Status:
       - DYNAMIC
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=mBUyuWe0JXL9LW%2BRMVqJeOTHTfY7E4UGHtmdZVyC%2BUPCRVixXOVgtb1bzAtqQeu8W%2Bls36Y3Bh2WFL%2F6zGaawujWiqQeMxUH%2B8qXBbwmOS5ydiyRcNMAuy4npjKe47PXela9niCaLJ2PZuKXyBEPJdk%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=TbxJeUApyR8KkNaApOrKYcj%2FeWMunXogLbNs7U7kBPkLzpD1hiEdEbEA71vmTAWnOo40p8g6Ps%2BTaTUYz8zhhKpUCLkn%2F%2FIC%2F4lOU9GHYH1FEyMzIlHHlkYFDot8JIyDitiLu04I4pPVPxG3%2FQ3%2BF3E%3D"}],"group":"cf-nel","max_age":604800}'
       Nel:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Cf-Ray:
-      - 6fc90aa78c042937-ORD
+      - 6fc92330ccbb28e9-ORD
       Alt-Svc:
       - h3=":443"; ma=86400, h3-29=":443"; ma=86400
     body:
       encoding: ASCII-8BIT
-      string: '{"pagination":{"limit":25,"offset":0,"count":25,"total":3807},"data":[{"author":"","title":"Brooklyn
+      string: '{"pagination":{"limit":25,"offset":0,"count":25,"total":3808},"data":[{"author":"","title":"Brooklyn
         Beckham announces new TV show Cookin\u2019 with Brooklyn","description":"Brooklyn
         Beckham has announced he\u2019s launching his very own cooking show, Cookin\u2019
         With Brooklyn.","url":"https:\/\/www.independent.co.uk\/tv\/culture\/brooklyn-beckham-cooking-tv-show-b2012036.html","source":"Independent","image":"https:\/\/static.independent.co.uk\/2022\/02\/10\/10\/Screenshot%202022-02-10%20at%2010.58.47.JPG?width=1024\u0026auto=webp","category":"general","language":"en","country":"gb","published_at":"2022-02-10T11:00:41+00:00"},{"author":"Paul
@@ -154,5 +154,5 @@ http_interactions:
         Skeen was arrested for allegedly shooting and killing Ahmad Perkins.","url":"https:\/\/nypost.com\/2022\/04\/02\/bronx-teen-kendu-skeen-arrested-in-brooklyn-murder\/","source":"Post","image":"https:\/\/nypost.com\/wp-content\/uploads\/sites\/2\/2022\/04\/police-tape-stock-1-e1648881448204.jpg?quality=90\u0026strip=all","category":"general","language":"en","country":"zm","published_at":"2022-04-02T07:20:40+00:00"},{"author":"jeanpalmieri2014","title":"Todd
         Snyder to Open Store in\u00a0Brooklyn","description":"The unit in Williamsburg
         will be the designer\u0027s sixth location.","url":"https:\/\/wwd.com\/menswear-news\/mens-designer-luxury\/todd-snyder-to-open-store-in-brooklyn-1235058725\/","source":"wwd","image":null,"category":"general","language":"en","country":"us","published_at":"2022-02-01T05:01:27+00:00"}]}'
-  recorded_at: Sat, 16 Apr 2022 01:10:30 GMT
+  recorded_at: Sat, 16 Apr 2022 01:27:16 GMT
 recorded_with: VCR 6.1.0
