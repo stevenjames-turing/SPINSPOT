@@ -24,7 +24,7 @@ RSpec.describe Article do
     expect(article.title).to eq("What Is a ‘Poison Pill’ Defense?")
     expect(article.url).to eq("https://www.nytimes.com/2022/04/15/business/twitter-poison-pill-explainer.html")
     expect(article.source).to eq("nytimes")
-    expect(article.image).to eq("https://static01.nyt.com/images/2022/04/15/business/15xp-poisonpill1/15xp-poisonpill1-moth.jpg")
+    expect(article.photo_url).to eq("https://static01.nyt.com/images/2022/04/15/business/15xp-poisonpill1/15xp-poisonpill1-moth.jpg")
     expect(article.published_at).to eq("2022-04-15T20:16:16+00:00")
   end
 end
