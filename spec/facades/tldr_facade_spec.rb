@@ -12,7 +12,14 @@ RSpec.describe TldrFacade, :vcr do
         expect(@advanced_summary).to be_a Tldr
       end
 
-      
+      it 'can create multiple Tldr for all articles' do 
+        objects = @articles.map do |article| 
+          TldrFacade.advanced_article_summary(article.url, article.bias, article.source)
+        end
+
+        expect(objects.first).to be_a Tldr
+        expect(objects.count).to eq(@articles.count)
+      end
     end
   end
 end
