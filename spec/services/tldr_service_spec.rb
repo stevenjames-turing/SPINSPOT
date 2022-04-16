@@ -9,11 +9,11 @@ RSpec.describe TldrService, :vcr do
       expect(tldr).to be_a Hash
 
       expect(tldr[:summary]).to be_an Array
-      expect(tldr[:article_text]).to be_an String
-      expect(tldr[:article_image]).to be_an String
-      expect(tldr[:article_pub_date]).to be_an String
-      expect(tldr[:article_url]).to be_an String
-      expect(tldr[:article_title]).to be_an String
+      expect(tldr[:article_text]).to be_a String
+      expect(tldr[:article_image]).to be_a String
+      expect(tldr[:article_pub_date]).to be_a String
+      expect(tldr[:article_url]).to be_a String
+      expect(tldr[:article_title]).to be_a String
 
       expect(tldr[:article_url]).to eq(article_url)
       expect(tldr[:article_title]).to eq('Verizon is selling Tumblr to WordPress.com parent, Automattic – TechCrunch')
@@ -28,11 +28,11 @@ RSpec.describe TldrService, :vcr do
       expect(tldr).to be_a Hash
 
       expect(tldr[:summary]).to be_an Array
-      expect(tldr[:article_text]).to be_an String
-      expect(tldr[:article_image]).to be_an String
-      expect(tldr[:article_pub_date]).to be_an String
-      expect(tldr[:article_url]).to be_an String
-      expect(tldr[:article_title]).to be_an String
+      expect(tldr[:article_text]).to be_a String
+      expect(tldr[:article_image]).to be_a String
+      expect(tldr[:article_pub_date]).to be_a String
+      expect(tldr[:article_url]).to be_a String
+      expect(tldr[:article_title]).to be_a String
 
       expect(tldr[:article_url]).to eq(article_url)
       expect(tldr[:article_title]).to eq('Verizon is selling Tumblr to WordPress.com parent, Automattic – TechCrunch')
