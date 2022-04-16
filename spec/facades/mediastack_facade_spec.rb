@@ -25,5 +25,17 @@ RSpec.describe MediastackFacade, :vcr do
         expect(@center_bias.first).to be_a Article
       end
     end
+
+    context '#right_bias_keyword_search(keyword)' do 
+      before(:each) do 
+        @right_bias = MediastackFacade.right_bias_keyword_search("Elon")
+      end
+      it 'returns an array of articles from left bias source' do 
+        expect(@right_bias).to be_an Array
+      end
+      it 'creates Article objects' do 
+        expect(@right_bias.first).to be_a Article
+      end
+    end
   end
 end
