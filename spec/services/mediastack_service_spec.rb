@@ -11,9 +11,4 @@ RSpec.describe MediastackService, :vcr do
       expect(brooklyn[:data][0][:url]).to eq("https://www.independent.co.uk/tv/culture/brooklyn-beckham-cooking-tv-show-b2012036.html")
     end
   end
-
-  context '#' do
-    it '' do
-    end
-  end
 end
