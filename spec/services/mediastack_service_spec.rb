@@ -25,4 +25,16 @@ RSpec.describe MediastackService, :vcr do
       end
     end
   end
+
+  context '#right_bias_keyword_searchright_bias_keyword_search(keyword)' do
+    it 'can find articles from sources with center bias by keyword' do
+      article_url = "http://api.mediastack.com/v1/news"
+      articles = MediastackService.right_bias_keyword_search("elon musk")
+
+      expect(articles).to be_a Hash
+      articles[:data].each do |article|
+        expect(article[:source]).to include("Fox") | include("FOX") | include("Breitbart")
+      end
+    end
+  end
 end
