@@ -1,0 +1,153 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.mediastack.com/v1/news?access_key=<mediastack_key>&countries=us&keywords=Elon&languages=en&sort=published_desc&sources=bloomberg,cnbc,forbes,npr-national-public-radio,reuters
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.2.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sat, 16 Apr 2022 18:21:49 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - no-cache, private
+      X-Request-Time:
+      - '0.980'
+      - '1.014'
+      X-Apilayer-Transaction-Id:
+      - 978fc8ef-fc10-4107-9a9a-33df1f1d413b
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET, POST, HEAD, OPTIONS
+      Access-Control-Allow-Headers:
+      - "*"
+      X-Quota-Limit:
+      - '500'
+      X-Quota-Remaining:
+      - '317'
+      X-Increment-Usage:
+      - '1'
+      Cf-Cache-Status:
+      - DYNAMIC
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=BwmY0n%2FSPTcsBNZJOcchQ55KYProtYDPACt1ClJpANNKl%2F%2Fc2IUW%2F5lIU4gbNWn88RsguCkkZBnOXTIYg3cgUTbUy1vC5AWV0lZq1T%2FLTAOF05oxNBxzNbXqwDh1LOctD2XYDL4%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 6fcef15b1f986174-ORD
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"pagination":{"limit":25,"offset":0,"count":25,"total":116},"data":[{"author":"Sergei
+        Klebnikov, Forbes Staff","title":"Twitter Board Adopts Poison Pill To Fend
+        Off Elon Musk\u2019s Takeover Bid","description":"The move comes a day after
+        Musk\u2019s unsolicited $43 billion offer to buy the company.","url":"https:\/\/www.forbes.com\/sites\/sergeiklebnikov\/2022\/04\/15\/twitter-board-adopts-poison-pill-to-fend-off-elon-musks-takeover-bid\/","source":"Forbes","image":"https:\/\/thumbor.forbes.com\/thumbor\/fit-in\/0x0\/filters%3Aformat%28jpg%29\/https:\/\/specials-images.forbesimg.com\/imageserve\/6259a5c252ce3b9e1bc1628b\/0x0.jpg?cropX1=0\u0026cropX2=2224\u0026cropY1=91\u0026cropY2=1342","category":"general","language":"en","country":"us","published_at":"2022-04-15T17:06:35+00:00"},{"author":"Timothy
+        L. O\u0027Brien","title":"Elon Musk Is Not\u00a0What Twitter Needs\u00a0Right
+        Now","description":"Elon Musk Is Not\u00a0What Twitter Needs\u00a0Right Now","url":"https:\/\/www.bloombergquint.com\/gadfly\/elon-musk-is-not-what-twitter-needs-right-now","source":"Bloomberg
+        | Latest And Live Business","image":null,"category":"business","language":"en","country":"us","published_at":"2022-04-15T08:48:22+00:00"},{"author":"Sarah
+        Frier","title":"Twitter Is Weighing a Poison Pill Defense to Thwart Elon Musk\u2019s
+        Takeover Bid","description":"Twitter Is Weighing a Poison Pill Defense to
+        Thwart Elon Musk\u2019s Takeover Bid","url":"https:\/\/www.bloombergquint.com\/business\/twitter-is-said-to-weigh-poison-pill-defense-to-thwart-musk-bid","source":"Bloomberg
+        | Latest And Live Business","image":null,"category":"business","language":"en","country":"us","published_at":"2022-04-15T05:07:48+00:00"},{"author":null,"title":"Elon
+        Musk could try to run three major companies at once \u2014 the last known
+        CEO who did it is now an international fugitive","description":"If Elon Musk
+        buys Twitter, he could land on a very exclusive \u2014 and somewhat infamous
+        \u2014 shortlist of CEOs who\u0027ve run at least three of the world\u0027s
+        largest companies at once.","url":"https:\/\/www.cnbc.com\/2022\/04\/14\/elon-musk-could-run-three-major-companies-at-once-like-carlos-ghosn.html","source":"CNBC","image":null,"category":"general","language":"en","country":"us","published_at":"2022-04-14T20:54:14+00:00"},{"author":null,"title":"Elon
+        Musk says he\u0027s \u0027not sure\u0027 he\u0027ll be able to buy Twitter
+        after making $43 billion bid","description":"Musk comments came at the TED2022
+        conference just hours after he revealed in a regulatory filing Thursday that
+        he offered $54.20 per share to buy the platform.","url":"https:\/\/www.cnbc.com\/2022\/04\/14\/elon-musk-not-sure-hell-be-able-to-buy-twitter.html","source":"CNBC","image":null,"category":"general","language":"en","country":"us","published_at":"2022-04-14T17:49:45+00:00"},{"author":null,"title":"Tesla
+        shares dip after CEO Elon Musk makes bid to buy Twitter","description":"Tesla\u0026#039;s
+        CEO Elon Musk made an offer to buy Twitter.","url":"https:\/\/www.cnbc.com\/2022\/04\/14\/tesla-shares-dip-after-ceo-elon-musk-makes-bid-to-buy-twitter.html","source":"Cnbc
+        | World Business News Leader","image":null,"category":"business","language":"en","country":"us","published_at":"2022-04-14T16:11:00+00:00"},{"author":"Sergei
+        Klebnikov, Forbes Staff","title":"Distraction Or Hostile Takeover? Here\u2019s
+        What Analysts Say About Elon Musk\u2019s Offer To Buy Twitter","description":"Analysts
+        are split on whether an acquisition looks likely or remains just a fantasy.","url":"https:\/\/www.forbes.com\/sites\/sergeiklebnikov\/2022\/04\/14\/distraction-or-hostile-takeover-heres-what-analysts-say-about-elon-musks-offer-to-buy-twitter\/","source":"Forbes","image":"https:\/\/thumbor.forbes.com\/thumbor\/fit-in\/0x0\/filters%3Aformat%28jpg%29\/https:\/\/specials-images.forbesimg.com\/imageserve\/6258379ed5e50a4b26015a80\/0x0.jpg?cropX1=0\u0026cropX2=3141\u0026cropY1=198\u0026cropY2=1966","category":"general","language":"en","country":"us","published_at":"2022-04-14T15:05:59+00:00"},{"author":"Siladitya
+        Ray, Forbes Staff","title":"Elon Musk Wants To Buy Twitter And Take It Private,
+        SEC Filing Reveals","description":"Musk wants to buy the entirety of Twitter
+        and transform it into a \u201cfree speech platform.\u201d","url":"https:\/\/www.forbes.com\/sites\/siladityaray\/2022\/04\/14\/elon-musk-wants-to-buy-twitter-and-take-it-private-sec-filing-reveals\/","source":"Forbes","image":"https:\/\/thumbor.forbes.com\/thumbor\/fit-in\/0x0\/filters%3Aformat%28jpg%29\/https:\/\/specials-images.forbesimg.com\/imageserve\/6257f8845914657935243179\/0x0.jpg?cropX1=0\u0026cropX2=2941\u0026cropY1=80\u0026cropY2=1734","category":"general","language":"en","country":"us","published_at":"2022-04-14T10:37:18+00:00"},{"author":"Maxwell
+        Adler","title":"Elon Musk Launches $43 Billion Hostile Takeover of Twitter","description":"Elon
+        Musk Launches $43 Billion Hostile Takeover of Twitter","url":"https:\/\/www.bloombergquint.com\/business\/elon-musk-launches-43-billion-hostile-takeover-of-twitter","source":"Bloomberg
+        | Latest And Live Business","image":null,"category":"business","language":"en","country":"us","published_at":"2022-04-14T10:34:22+00:00"},{"author":null,"title":"Elon
+        Musk offers to buy Twitter for $54.20 a share, so it can be \u0027transformed
+        as private company\u0027","description":"Elon Musk offered to buy Twitter
+        for $54.20 a share, saying the social media company need to be transformed
+        privately.","url":"https:\/\/www.cnbc.com\/2022\/04\/14\/elon-musk-offers-to-buy-twitter-for-54point20-a-share-saying-it-needs-to-be-transformed-as-private-company.html","source":"CNBC","image":null,"category":"general","language":"en","country":"us","published_at":"2022-04-14T10:29:52+00:00"},{"author":"Bob
+        Van Voris","title":"Elon Musk Sued Over Delay in Disclosing Twitter Stake","description":"Elon
+        Musk Sued Over Delay in Disclosing Twitter Stake","url":"https:\/\/www.bloombergquint.com\/business\/elon-musk-sued-over-delay-in-disclosing-twitter-holdings","source":"Bloomberg
+        | Latest And Live Business","image":null,"category":"business","language":"en","country":"us","published_at":"2022-04-13T06:14:44+00:00"},{"author":"Zachary
+        Snowdon Smith, Forbes Staff","title":"Twitter Shareholder Sues Musk, Saying
+        He Misled Investors","description":"A shareholder seeks class-action status
+        for suit that claims Elon Musk\u2019s delay in disclosing his stake in Twitter
+        temporarily held down the company\u2019s stock price, cheating shareholders
+        who sold stock in that period.","url":"https:\/\/www.forbes.com\/sites\/zacharysmith\/2022\/04\/12\/twitter-shareholder-sues-musk-saying-he-misled-investors\/","source":"Forbes","image":"https:\/\/thumbor.forbes.com\/thumbor\/fit-in\/0x0\/filters%3Aformat%28jpg%29\/https:\/\/specials-images.forbesimg.com\/imageserve\/62560b7cfa131337ea22a946\/0x0.jpg?cropX1=0\u0026cropX2=4449\u0026cropY1=253\u0026cropY2=2756","category":"general","language":"en","country":"us","published_at":"2022-04-12T23:53:49+00:00"},{"author":null,"title":"Elon
+        Musk deletes tweets critical of Twitter after weekend barrage","description":"Over
+        the weekend, Musk posted a number of tweets with suggestions on how to transform
+        Twitter and its products.","url":"https:\/\/www.cnbc.com\/2022\/04\/11\/elon-musk-deletes-tweets-critical-of-twitter-after-weekend-barrage.html","source":"CNBC","image":null,"category":"general","language":"en","country":"us","published_at":"2022-04-11T22:07:00+00:00"},{"author":"Liam
+        Denning","title":"Elon Musk Isn\u2019t Joining Twitter. Twitter Has Joined
+        Him.","description":"Elon Musk Isn\u2019t Joining Twitter. Twitter Has Joined
+        Him.","url":"https:\/\/www.bloombergquint.com\/gadfly\/elon-musk-isn-t-joining-twitter-twitter-has-joined-him","source":"Bloomberg
+        | Latest And Live Business","image":null,"category":"business","language":"en","country":"us","published_at":"2022-04-11T19:11:57+00:00"},{"author":"Parmy
+        Olson","title":"Elon Musk Is Really Trolling Twitter Now","description":"Elon
+        Musk Is Really Trolling Twitter Now","url":"https:\/\/www.bloombergquint.com\/gadfly\/tesla-ceo-elon-musk-is-trolling-twitter-board-remember-gamestop-dogecoin","source":"Bloomberg
+        | Latest And Live Business","image":null,"category":"business","language":"en","country":"us","published_at":"2022-04-11T16:16:21+00:00"},{"author":null,"title":"Twitter
+        shares fall after Elon Musk abandons plan to join board","description":"Twitter
+        shares fell sharply in premarket trading Monday after CEO Parag Agrawal revealed
+        that Elon Musk abandoned his plan to join the company\u0027s board.","url":"https:\/\/www.cnbc.com\/2022\/04\/11\/twitter-shares-fall-as-elon-musk-abandons-plan-to-join-board.html","source":"CNBC","image":null,"category":"general","language":"en","country":"us","published_at":"2022-04-11T10:09:31+00:00"},{"author":null,"title":"Elon
+        Musk decides not to join Twitter board, says CEO Parag Agrawal","description":"Tesla
+        and SpaceX CEO Elon Musk abandoned his plans to join the board of Twitter
+        after buying a 9% stake.","url":"https:\/\/www.cnbc.com\/2022\/04\/11\/elon-musk-decides-not-to-join-twitter-board-says-ceo-parag-agrawal.html","source":"CNBC","image":null,"category":"general","language":"en","country":"us","published_at":"2022-04-11T04:40:31+00:00"},{"author":"John
+        Tamny, Contributor","title":"Elon Musk\u2019s Mysterious Investment In Twitter
+        Is a Happy Rejection of Victimhood","description":"When we want something,
+        let\u2019s put our wealth to work as opposed to running to Washington for
+        help.","url":"https:\/\/www.forbes.com\/sites\/johntamny\/2022\/04\/10\/elon-musks-mysterious-investment-in-twitter-is-a-happy-rejection-of-victimhood\/","source":"Forbes","image":"https:\/\/thumbor.forbes.com\/thumbor\/fit-in\/0x0\/filters%3Aformat%28jpg%29\/https:\/\/specials-images.forbesimg.com\/imageserve\/6251cfec7b5ec1b5cd14a314\/0x0.jpg?cropX1=0\u0026cropX2=3320\u0026cropY1=280\u0026cropY2=2147","category":"general","language":"en","country":"us","published_at":"2022-04-10T14:00:00+00:00"},{"author":"Shiyin
+        Chen","title":"Elon Musk Floats Checkmarks, No Ads for Twitter\u2019s Blue
+        Service","description":"Elon Musk Floats Checkmarks, No Ads for Twitter\u2019s
+        Blue Service","url":"https:\/\/www.bloombergquint.com\/business\/elon-musk-floats-checkmarks-no-ads-for-twitter-s-blue-service","source":"Bloomberg
+        | Latest And Live Business","image":null,"category":"business","language":"en","country":"us","published_at":"2022-04-10T06:41:27+00:00"},{"author":null,"title":"Elon
+        Musk says people who subscribe to Twitter Blue should be able to pay with
+        dogecoin","description":"Elon Musk has suggested changes to Twitter Blue \u2014
+        including a price cut, banning ads, and the option to pay in dogecoin.","url":"https:\/\/www.cnbc.com\/2022\/04\/10\/elon-musk-on-changes-to-twitter-blue-says-dogecoin-should-be-accepted.html","source":"CNBC","image":null,"category":"general","language":"en","country":"us","published_at":"2022-04-10T05:20:35+00:00"},{"author":null,"title":"Elon
+        Musk says Tesla may have to get into the lithium business because costs are
+        so \u0027insane\u0027","description":"According to Benchmark Mineral Intelligence,
+        the cost of the metal has gone up more than 480% in the last year.","url":"https:\/\/www.cnbc.com\/2022\/04\/08\/elon-musk-telsa-may-have-get-into-mining-refining-lithium-directly.html","source":"CNBC","image":null,"category":"general","language":"en","country":"us","published_at":"2022-04-08T20:26:39+00:00"},{"author":"Dana
+        Hull","title":"Tesla\u2019s \u2018Cyber Rodeo\u2019 and SpaceX\u2019s Launch\u00a0Up
+        Next in Elon\u00a0Musk\u2019s Wild Week","description":"Tesla\u2019s \u2018Cyber
+        Rodeo\u2019 and SpaceX\u2019s Launch\u00a0Up Next in Elon\u00a0Musk\u2019s
+        Wild Week","url":"https:\/\/www.bloombergquint.com\/business\/tesla-cyber-rodeo-and-spacex-launch-up-next-in-elon-musk-s-wild-week","source":"Bloomberg
+        | Latest And Live Business","image":null,"category":"business","language":"en","country":"us","published_at":"2022-04-08T12:30:45+00:00"},{"author":null,"title":"Elon
+        Musk says production of Tesla\u0027s Optimus humanoid robot could start next
+        year","description":"The electric vehicle maker may start production of a
+        humanoid robot known as Optimus as early as next year, CEO Elon Musk said
+        Thursday.","url":"https:\/\/www.cnbc.com\/2022\/04\/08\/elon-musk-says-tesla-is-aiming-to-start-production-on-optimus-next-year.html","source":"CNBC","image":null,"category":"general","language":"en","country":"us","published_at":"2022-04-08T11:33:46+00:00"},{"author":"Alan
+        Ohnsman, Forbes Staff","title":"Elon Musk Opens Tesla\u2019s \u2018Giga Texas\u2019
+        That He Says Is The Biggest U.S. Plant","description":"The new Austin factory
+        is to build 500,000 Model Ys a year, with the Tesla Cybertruck, Roadster and
+        Semi coming in 2023.","url":"https:\/\/www.forbes.com\/sites\/alanohnsman\/2022\/04\/07\/elon-musk-opens-teslas-giga-texas-that--he-says-is-the-biggest-us-plant\/","source":"Forbes","image":"https:\/\/thumbor.forbes.com\/thumbor\/fit-in\/0x0\/filters%3Aformat%28jpg%29\/https:\/\/specials-images.forbesimg.com\/imageserve\/624fab4ba1283241514ebda5\/0x0.jpg?cropX1=0\u0026cropX2=2048\u0026cropY1=192\u0026cropY2=1336","category":"general","language":"en","country":"us","published_at":"2022-04-08T03:48:28+00:00"},{"author":null,"title":"Tesla
+        CEO Elon Musk hosts \u0027Cyber Rodeo\u0027 party to open Austin factory","description":"Tesla
+        aims to make 500,000 units of the Model Y in a single year in Austin, the
+        CEO revealed Thursday night.","url":"https:\/\/www.cnbc.com\/2022\/04\/07\/tesla-ceo-elon-musk-hosts-cyber-rodeo-party-to-open-austin-factory.html","source":"CNBC","image":null,"category":"general","language":"en","country":"us","published_at":"2022-04-08T03:29:42+00:00"}]}'
+  recorded_at: Sat, 16 Apr 2022 18:21:49 GMT
+recorded_with: VCR 6.1.0
