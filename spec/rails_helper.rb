@@ -82,6 +82,6 @@ VCR.configure do |config|
   config.filter_sensitive_data('<tldr_key>') { ENV['tldr_key'] }
   config.filter_sensitive_data('<mediastack_key>') { ENV['mediastack_key'] }
   config.default_cassette_options = { re_record_interval: 30.days }
-  config.default_cassette_options = { :record => :new_episodes }
+  # config.default_cassette_options = { :record => :new_episodes }
   config.configure_rspec_metadata!
 end
