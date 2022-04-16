@@ -8,5 +8,14 @@ class MediastackFacade
     end
   end
   
+  def self.center_bias_keyword_search(keyword)
+    json = MediastackService.center_bias_keyword_search(keyword)
+    
+    @articles = json[:data].map do |article_data|
+      Article.new(article_data, "center_bias")
+    end
+  end
+  
+  
 
 end
