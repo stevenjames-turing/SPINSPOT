@@ -1,0 +1,17 @@
+require 'rails_helper'
+
+RSpec.describe MediastackFacade, :vcr do 
+  context 'class methods' do
+    context '#left_bias_keyword_search(keyword)' do 
+      before(:each) do 
+        @left_bias = MediastackFacade.left_bias_keyword_search("Elon")
+      end
+      it 'returns an array of articles from left bias source' do 
+        expect(@left_bias).to be_an Array
+      end
+      it 'creates Article objects' do 
+        expect(@left_bias.first).to be_a Article
+      end
+    end
+  end
+end
