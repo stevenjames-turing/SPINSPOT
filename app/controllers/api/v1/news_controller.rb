@@ -15,7 +15,7 @@ class Api::V1::NewsController < ApplicationController
       TldrFacade.standard_article_summary(article.url, article.bias, article.source)
     end 
 
-    json_response(NewsSerializer.new([@left_bias_tldr, @center_bias_tldr, @right_bias_tldr]))
+    json_response([@left_bias_tldr, @center_bias_tldr, @right_bias_tldr])
   end
 
   
