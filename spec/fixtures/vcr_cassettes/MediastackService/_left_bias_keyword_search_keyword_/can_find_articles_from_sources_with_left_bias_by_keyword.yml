@@ -1,0 +1,71 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.mediastack.com/v1/news?access_key=<mediastack_key>&countries=us&keywords=elon%20musk&languages=en&limit=2&sort=published_desc&sources=abc-news,cnn,guardian,nytimes
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.2.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 17 Apr 2022 17:28:31 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - no-cache, private
+      X-Request-Time:
+      - '0.054'
+      - '0.094'
+      X-Apilayer-Transaction-Id:
+      - d91947ec-644a-4870-bf33-e8dbe09f7a84
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET, POST, HEAD, OPTIONS
+      Access-Control-Allow-Headers:
+      - "*"
+      X-Quota-Limit:
+      - '500'
+      X-Quota-Remaining:
+      - '230'
+      X-Increment-Usage:
+      - '1'
+      Cf-Cache-Status:
+      - DYNAMIC
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=nouX9VgyPyZ9GB%2FEytVxN7TWvBNZ1AoTANyLszVgUpUxZOf%2B2SoYOOd7A7LqOpIxx2TLQqBo6xRVySsHEKn1I1Imfe8NQjwAssAz6wH6AvjUL%2Bi77FuNTtu3kKIqoXEVrZW85j8%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 6fd6e0a8ece7812e-ORD
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"pagination":{"limit":2,"offset":0,"count":2,"total":64},"data":[{"author":null,"title":"Twitter
+        adopts \u0027poison pill\u0027 measure that could thwart Elon Musk\u0027s
+        takeover bid","description":"Twitter\u0027s board of directors has adopted
+        a limited-term shareholder rights plan called a \u0022poison pill\u0022 that
+        could make it harder for Elon Musk to acquire the company.","url":"https:\/\/www.cnn.com\/2022\/04\/15\/tech\/twitter-elon-musk-poison-pill\/index.html","source":"CNN","image":"https:\/\/cdn.cnn.com\/cnnnext\/dam\/assets\/220415072137-04-elon-musk-ted-0414-super-169.jpg","category":"general","language":"en","country":"us","published_at":"2022-04-15T20:31:15+00:00"},{"author":"Amanda
+        Holpuch","title":"What Is a \u2018Poison Pill\u2019 Defense?","description":"Twitter
+        has unveiled its plan to fight Elon Musk\u2019s bid for the company. It\u2019s
+        a well-worn tactic to fend off corporate raiders and hostile takeovers.","url":"https:\/\/www.nytimes.com\/2022\/04\/15\/business\/twitter-poison-pill-explainer.html","source":"nytimes","image":"https:\/\/static01.nyt.com\/images\/2022\/04\/15\/business\/15xp-poisonpill1\/15xp-poisonpill1-moth.jpg","category":"general","language":"en","country":"us","published_at":"2022-04-15T20:16:16+00:00"}]}'
+  recorded_at: Sun, 17 Apr 2022 17:28:31 GMT
+recorded_with: VCR 6.1.0
