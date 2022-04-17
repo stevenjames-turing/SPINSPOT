@@ -23,7 +23,7 @@ class MediastackService
       faraday.params['languages'] = "en"
       faraday.params['countries'] = "us"
       faraday.params['sort'] = 'published_desc'
-      faraday.params['limit'] = '2'
+      faraday.params['limit'] = '1'
       faraday.adapter Faraday.default_adapter
     end
     response = conn.get("news")
@@ -38,7 +38,7 @@ class MediastackService
       faraday.params['languages'] = "en"
       faraday.params['countries'] = "us"
       faraday.params['sort'] = 'published_desc'
-      faraday.params['limit'] = '2'
+      faraday.params['limit'] = '1'
       faraday.adapter Faraday.default_adapter
     end
     response = conn.get("news")
@@ -53,7 +53,7 @@ class MediastackService
       faraday.params['languages'] = "en"
       faraday.params['countries'] = "us"
       faraday.params['sort'] = 'published_desc'
-      faraday.params['limit'] = '2'
+      faraday.params['limit'] = '1'
       faraday.adapter Faraday.default_adapter
     end
     response = conn.get("news")
