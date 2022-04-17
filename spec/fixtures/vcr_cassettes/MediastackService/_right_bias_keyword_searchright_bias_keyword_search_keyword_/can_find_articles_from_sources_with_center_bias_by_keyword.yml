@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://api.mediastack.com/v1/news?access_key=<mediastack_key>&countries=us&keywords=elon%20musk&languages=en&limit=2&sort=published_desc&sources=foxnews,breitbart
+    uri: http://api.mediastack.com/v1/news?access_key=<mediastack_key>&countries=us&keywords=elon%20musk&languages=en&limit=1&sort=published_desc&sources=foxnews,breitbart
     body:
       encoding: US-ASCII
       string: ''
@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sun, 17 Apr 2022 17:28:31 GMT
+      - Sun, 17 Apr 2022 17:46:28 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -29,10 +29,10 @@ http_interactions:
       Cache-Control:
       - no-cache, private
       X-Request-Time:
-      - '0.041'
-      - '0.066'
+      - '0.070'
+      - '0.100'
       X-Apilayer-Transaction-Id:
-      - 51530870-251b-41ce-b45e-a8e29a598602
+      - 86cde401-5bcd-4ed7-8ade-2dbdb281f062
       Access-Control-Allow-Origin:
       - "*"
       Access-Control-Allow-Methods:
@@ -42,34 +42,28 @@ http_interactions:
       X-Quota-Limit:
       - '500'
       X-Quota-Remaining:
-      - '228'
+      - '212'
       X-Increment-Usage:
       - '1'
       Cf-Cache-Status:
       - DYNAMIC
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=rMZAiKueGY4wQevvAFOPEymmzJjGhrWykL8MM1VwQ%2BjP49S7FPY5yZLwejrlC0FNqsu2VqlHv8elXsBmzzRBd9Ha4Z7YYqKsLYFGXd%2BtSjWQ%2BgZSclPWrO5C93jy8kAgTuRuQe8%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=dj%2BrCpnLDDxTVbgD1Mk%2Bz3axvVwnvSldk0U16EGamrdo2FU6VjIRktBXAxglKkX2OUM6c8pHVV%2Bj65IT%2BD7x80f03ru6xNsVlf1FvI32O2QROuZ15noRRVCs2dIMHH11aWW3cIA%3D"}],"group":"cf-nel","max_age":604800}'
       Nel:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Cf-Ray:
-      - 6fd6e0ac281b2aae-ORD
+      - 6fd6faf7bf752c58-ORD
       Alt-Svc:
       - h3=":443"; ma=86400, h3-29=":443"; ma=86400
     body:
       encoding: ASCII-8BIT
-      string: '{"pagination":{"limit":2,"offset":0,"count":2,"total":2},"data":[{"author":"Gary
+      string: '{"pagination":{"limit":1,"offset":0,"count":1,"total":2},"data":[{"author":"Gary
         Gastelu","title":"Tesla raising \u0026apos;Full Self-Driving\u0026apos; price
         to $12,000","description":"Tesla is increasing the price of its Full Self-Driving
         feature to $12,000 on January 17, Elon Musk has announced. The system remains
         in development in beta.","url":"https:\/\/www.foxnews.com\/auto\/tesla-raising-full-self-driving-price-12000","source":"FOX
-        News - Lifestyle","image":"https:\/\/static.foxnews.com\/foxnews.com\/content\/uploads\/2021\/10\/SELF.jpg","category":"entertainment","language":"en","country":"us","published_at":"2022-01-10T12:17:03+00:00"},{"author":"Dom
-        Calicchio","title":"California state Dem Lorena Gonzalez \u2013 known for
-        F-bombs against Trump, Musk -- is stepping down","description":"Lorena Gonzalez,
-        a far-left California state lawmaker known for profane criticism directed
-        at former President Donald Trump and billionaire entrepreneur Elon Musk, is
-        resigning from her state Assembly seat.","url":"https:\/\/www.foxnews.com\/politics\/california-democrat-lorena-gonzalez-f-bombs-trump-musk","source":"FOX
-        News - Politics","image":"https:\/\/static.foxnews.com\/foxnews.com\/content\/uploads\/2020\/02\/Lorena-Gonzalez.jpg","category":"politics","language":"en","country":"us","published_at":"2022-01-05T06:13:30+00:00"}]}'
-  recorded_at: Sun, 17 Apr 2022 17:28:31 GMT
+        News - Lifestyle","image":"https:\/\/static.foxnews.com\/foxnews.com\/content\/uploads\/2021\/10\/SELF.jpg","category":"entertainment","language":"en","country":"us","published_at":"2022-01-10T12:17:03+00:00"}]}'
+  recorded_at: Sun, 17 Apr 2022 17:46:28 GMT
 recorded_with: VCR 6.1.0

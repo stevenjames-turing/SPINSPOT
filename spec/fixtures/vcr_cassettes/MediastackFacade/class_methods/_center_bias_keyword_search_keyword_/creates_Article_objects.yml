@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://api.mediastack.com/v1/news?access_key=<mediastack_key>&countries=us&keywords=Elon&languages=en&limit=2&sort=published_desc&sources=bloomberg,cnbc,forbes,npr-national-public-radio,reuters
+    uri: http://api.mediastack.com/v1/news?access_key=<mediastack_key>&countries=us&keywords=Elon&languages=en&limit=1&sort=published_desc&sources=bloomberg,cnbc,forbes,npr-national-public-radio,reuters
     body:
       encoding: US-ASCII
       string: ''
@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sun, 17 Apr 2022 17:25:03 GMT
+      - Sun, 17 Apr 2022 17:42:56 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -29,10 +29,10 @@ http_interactions:
       Cache-Control:
       - no-cache, private
       X-Request-Time:
-      - '0.066'
-      - '0.095'
+      - '0.069'
+      - '0.101'
       X-Apilayer-Transaction-Id:
-      - 4c90ab60-6e7e-49cf-bed4-556a59978f0f
+      - 0cdc23c1-e330-4d7f-9d36-b8cc64803382
       Access-Control-Allow-Origin:
       - "*"
       Access-Control-Allow-Methods:
@@ -42,31 +42,28 @@ http_interactions:
       X-Quota-Limit:
       - '500'
       X-Quota-Remaining:
-      - '237'
+      - '221'
       X-Increment-Usage:
       - '1'
       Cf-Cache-Status:
       - DYNAMIC
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=WXI%2FWEDLpfc5WLHnh1Poz3OfCR4n5I4rg2cZj6tCGkrbazZW3L26tFU5Z5iMfZcBUBJ%2BiXu1ua%2BF%2Bvvy6Tp5xqa0rM3FVm2XEpocx%2FHWz968nKUNck9OCVR0JbeGD1j2kMNvywc%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=EYC2qw%2FcsgNvexA4cvhHrSWR0%2BREmEWxgYok9%2Fq%2BU27SyGJPS7qbERByuFxPr8tDifEcsAxzT2ffzsL1HQJL3MgIAthtJ3fBPggvTsopul2%2Fw7teKAu0GtKQccpmS5qp0I2VtXI%3D"}],"group":"cf-nel","max_age":604800}'
       Nel:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Cf-Ray:
-      - 6fd6db9a6b95631e-ORD
+      - 6fd6f5c77b8a6309-ORD
       Alt-Svc:
       - h3=":443"; ma=86400, h3-29=":443"; ma=86400
     body:
       encoding: ASCII-8BIT
-      string: '{"pagination":{"limit":2,"offset":0,"count":2,"total":117},"data":[{"author":null,"title":"Elon
+      string: '{"pagination":{"limit":1,"offset":0,"count":1,"total":117},"data":[{"author":null,"title":"Elon
         Musk \u2018funding secured\u2019 tweets ruled false new court filing suggests","description":"A
         court filing out Friday suggests a judge ruled that CEO Elon Musk knowingly
         made false statements when he tweeted about a take-private deal for Tesla
         in 2018.","url":"https:\/\/www.cnbc.com\/2022\/04\/16\/elon-musk-funding-secured-tweets-ruled-false-new-court-filing-suggests.html","source":"Cnbc
-        | World Business News Leader","image":null,"category":"business","language":"en","country":"us","published_at":"2022-04-16T21:47:00+00:00"},{"author":"Sergei
-        Klebnikov, Forbes Staff","title":"Twitter Board Adopts Poison Pill To Fend
-        Off Elon Musk\u2019s Takeover Bid","description":"The move comes a day after
-        Musk\u2019s unsolicited $43 billion offer to buy the company.","url":"https:\/\/www.forbes.com\/sites\/sergeiklebnikov\/2022\/04\/15\/twitter-board-adopts-poison-pill-to-fend-off-elon-musks-takeover-bid\/","source":"Forbes","image":"https:\/\/thumbor.forbes.com\/thumbor\/fit-in\/0x0\/filters%3Aformat%28jpg%29\/https:\/\/specials-images.forbesimg.com\/imageserve\/6259a5c252ce3b9e1bc1628b\/0x0.jpg?cropX1=0\u0026cropX2=2224\u0026cropY1=91\u0026cropY2=1342","category":"general","language":"en","country":"us","published_at":"2022-04-15T17:06:35+00:00"}]}'
-  recorded_at: Sun, 17 Apr 2022 17:25:03 GMT
+        | World Business News Leader","image":null,"category":"business","language":"en","country":"us","published_at":"2022-04-16T21:47:00+00:00"}]}'
+  recorded_at: Sun, 17 Apr 2022 17:42:56 GMT
 recorded_with: VCR 6.1.0

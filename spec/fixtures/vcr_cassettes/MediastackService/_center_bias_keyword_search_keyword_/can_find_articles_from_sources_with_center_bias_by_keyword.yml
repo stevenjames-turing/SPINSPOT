@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://api.mediastack.com/v1/news?access_key=<mediastack_key>&countries=us&keywords=elon%20musk&languages=en&limit=2&sort=published_desc&sources=bloomberg,cnbc,forbes,npr-national-public-radio,reuters
+    uri: http://api.mediastack.com/v1/news?access_key=<mediastack_key>&countries=us&keywords=elon%20musk&languages=en&limit=1&sort=published_desc&sources=bloomberg,cnbc,forbes,npr-national-public-radio,reuters
     body:
       encoding: US-ASCII
       string: ''
@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sun, 17 Apr 2022 17:28:31 GMT
+      - Sun, 17 Apr 2022 17:46:28 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -29,10 +29,10 @@ http_interactions:
       Cache-Control:
       - no-cache, private
       X-Request-Time:
-      - '0.057'
-      - '0.086'
+      - '0.052'
+      - '0.079'
       X-Apilayer-Transaction-Id:
-      - '09f44eb0-c4d3-4189-84e8-5323356ea5b1'
+      - ed3e1b56-b004-412a-9f04-4e460749c402
       Access-Control-Allow-Origin:
       - "*"
       Access-Control-Allow-Methods:
@@ -42,31 +42,27 @@ http_interactions:
       X-Quota-Limit:
       - '500'
       X-Quota-Remaining:
-      - '229'
+      - '213'
       X-Increment-Usage:
       - '1'
       Cf-Cache-Status:
       - DYNAMIC
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=3xpYzcRHIGkPTh2qjQ8lJShdqpfmttWIypnhvEjjHlKsKEfAr%2F8O7UzVAZCMtb8OigNq8HwVS9ku%2FxErvWQiMN%2BU7g0L7XmxzOVyYIvK%2B76xSZSrEisPgQHSihq6K%2BSdB7gFoGY%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=8bzGX3yMk7T323r1GVhUHiURhLlglANU7%2BeE9gyKr2%2B0X7vg7Pcve8fhp%2Ff%2FuAPGJwkQoKBxr4i7IDSRaVB7FISMgsXT9ij6H8MdwETHuZBctfvqe1qJxRMRgjbX2wNpIkgyDrs%3D"}],"group":"cf-nel","max_age":604800}'
       Nel:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Cf-Ray:
-      - 6fd6e0aab9c886e1-ORD
+      - 6fd6faf64bdf2d82-ORD
       Alt-Svc:
       - h3=":443"; ma=86400, h3-29=":443"; ma=86400
     body:
       encoding: ASCII-8BIT
-      string: '{"pagination":{"limit":2,"offset":0,"count":2,"total":166},"data":[{"author":"Shiyin
+      string: '{"pagination":{"limit":1,"offset":0,"count":1,"total":166},"data":[{"author":"Shiyin
         Chen","title":"Twitter Board\u2019s Interest Not Aligned With Holders, Musk
         Says","description":"Twitter Board\u2019s Interest Not Aligned With Holders,
         Musk Says","url":"https:\/\/www.bloombergquint.com\/business\/twitter-board-s-economic-interest-not-aligned-with-holders-musk","source":"Bloomberg
-        | Latest And Live Business","image":null,"category":"business","language":"en","country":"us","published_at":"2022-04-17T05:29:05+00:00"},{"author":"Chris
-        Dolmetsch","title":"Judge Rules Musk Go-Private Tweet False, Tesla Investors
-        Say","description":"Judge Rules Musk Go-Private Tweet False, Tesla Investors
-        Say","url":"https:\/\/www.bloombergquint.com\/business\/musk-go-private-tweet-ruled-false-by-judge-tesla-investors-say","source":"Bloomberg
-        | Latest And Live Business","image":null,"category":"business","language":"en","country":"us","published_at":"2022-04-17T05:17:21+00:00"}]}'
-  recorded_at: Sun, 17 Apr 2022 17:28:31 GMT
+        | Latest And Live Business","image":null,"category":"business","language":"en","country":"us","published_at":"2022-04-17T05:29:05+00:00"}]}'
+  recorded_at: Sun, 17 Apr 2022 17:46:28 GMT
 recorded_with: VCR 6.1.0
