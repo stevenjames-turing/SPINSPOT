@@ -23,12 +23,13 @@ class MediastackService
       faraday.params['languages'] = "en"
       faraday.params['countries'] = "us"
       faraday.params['sort'] = 'published_desc'
+      faraday.params['limit'] = '2'
       faraday.adapter Faraday.default_adapter
     end
     response = conn.get("news")
     JSON.parse(response.body, symbolize_names: true)
   end
-
+  
   def self.center_bias_keyword_search(keyword)
     conn = Faraday.new(url: 'http://api.mediastack.com/v1/') do |faraday|
       faraday.params['access_key'] = ENV['mediastack_key']
@@ -37,12 +38,13 @@ class MediastackService
       faraday.params['languages'] = "en"
       faraday.params['countries'] = "us"
       faraday.params['sort'] = 'published_desc'
+      faraday.params['limit'] = '2'
       faraday.adapter Faraday.default_adapter
     end
     response = conn.get("news")
     JSON.parse(response.body, symbolize_names: true)
   end
-
+  
   def self.right_bias_keyword_search(keyword)
     conn = Faraday.new(url: 'http://api.mediastack.com/v1/') do |faraday|
       faraday.params['access_key'] = ENV['mediastack_key']
@@ -51,6 +53,7 @@ class MediastackService
       faraday.params['languages'] = "en"
       faraday.params['countries'] = "us"
       faraday.params['sort'] = 'published_desc'
+      faraday.params['limit'] = '2'
       faraday.adapter Faraday.default_adapter
     end
     response = conn.get("news")
