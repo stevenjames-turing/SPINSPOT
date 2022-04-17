@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://api.mediastack.com/v1/news?access_key=<mediastack_key>&countries=us&keywords=Elon&languages=en&sort=published_desc&sources=abc-news,cnn,guardian,nytimes
+    uri: http://api.mediastack.com/v1/news?access_key=<mediastack_key>&countries=us&keywords=Elon&languages=en&limit=2&sort=published_desc&sources=abc-news,cnn,guardian,nytimes
     body:
       encoding: US-ASCII
       string: ''
@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sat, 16 Apr 2022 18:18:03 GMT
+      - Sun, 17 Apr 2022 17:25:03 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -29,10 +29,10 @@ http_interactions:
       Cache-Control:
       - no-cache, private
       X-Request-Time:
-      - '0.076'
-      - '0.106'
+      - '0.082'
+      - '0.110'
       X-Apilayer-Transaction-Id:
-      - b9459ae8-5570-428e-bf32-6963b98b6e4b
+      - aae84257-365d-4545-afc0-d853d193fd48
       Access-Control-Allow-Origin:
       - "*"
       Access-Control-Allow-Methods:
@@ -42,110 +42,30 @@ http_interactions:
       X-Quota-Limit:
       - '500'
       X-Quota-Remaining:
-      - '319'
+      - '240'
       X-Increment-Usage:
       - '1'
       Cf-Cache-Status:
       - DYNAMIC
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=1%2B2P9Ik%2Booj6eKox5QWPcw2eSUKXVCqc%2F4V7Q9cOEZ813Ty74Di5xidL4wbTKy25XOCfqSBWt44kdakZUYE0o6oiaGKh%2BO%2B0VzJi%2FUoV5eUSQijklJp2M0ljmiVB3NrGglBaQro%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=E4z0C80g9gtmc7tpt%2BYF%2FSjFwN8Vc2YwujAAE6gyTUL2lcLa7pcWr8WVTYbph81jQ%2ByZBadS9IrB2KWPiaRpoUHAYoM%2FSz0t8NFqJXesEO80x%2Ff3RHqVXOLzcEWLRbuizdJVbcE%3D"}],"group":"cf-nel","max_age":604800}'
       Nel:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Cf-Ray:
-      - 6fceebdbaf2b2bd8-ORD
+      - 6fd6db94cc68812e-ORD
       Alt-Svc:
       - h3=":443"; ma=86400, h3-29=":443"; ma=86400
     body:
       encoding: ASCII-8BIT
-      string: '{"pagination":{"limit":25,"offset":0,"count":25,"total":60},"data":[{"author":null,"title":"Twitter
+      string: '{"pagination":{"limit":2,"offset":0,"count":2,"total":60},"data":[{"author":null,"title":"Twitter
         adopts \u0027poison pill\u0027 measure that could thwart Elon Musk\u0027s
         takeover bid","description":"Twitter\u0027s board of directors has adopted
         a limited-term shareholder rights plan called a \u0022poison pill\u0022 that
         could make it harder for Elon Musk to acquire the company.","url":"https:\/\/www.cnn.com\/2022\/04\/15\/tech\/twitter-elon-musk-poison-pill\/index.html","source":"CNN","image":"https:\/\/cdn.cnn.com\/cnnnext\/dam\/assets\/220415072137-04-elon-musk-ted-0414-super-169.jpg","category":"general","language":"en","country":"us","published_at":"2022-04-15T20:31:15+00:00"},{"author":"Amanda
         Holpuch","title":"What Is a \u2018Poison Pill\u2019 Defense?","description":"Twitter
         has unveiled its plan to fight Elon Musk\u2019s bid for the company. It\u2019s
-        a well-worn tactic to fend off corporate raiders and hostile takeovers.","url":"https:\/\/www.nytimes.com\/2022\/04\/15\/business\/twitter-poison-pill-explainer.html","source":"nytimes","image":"https:\/\/static01.nyt.com\/images\/2022\/04\/15\/business\/15xp-poisonpill1\/15xp-poisonpill1-moth.jpg","category":"general","language":"en","country":"us","published_at":"2022-04-15T20:16:16+00:00"},{"author":"Amanda
-        Holpuch","title":"What Is a \u2018Poison Pill\u2019 Defense?","description":"Twitter
-        has unveiled its plan to fight Elon Musk\u2019s bid for the company. It\u2019s
-        a well-worn tactic to fend off corporate raiders and hostile takeovers.","url":"https:\/\/www.nytimes.com\/2022\/04\/15\/us\/twitter-poison-pill-explainer.html","source":"The
-        New York Times","image":"https:\/\/static01.nyt.com\/images\/2022\/04\/15\/business\/15xp-poisonpill1\/15xp-poisonpill1-moth.jpg","category":"general","language":"en","country":"us","published_at":"2022-04-15T19:52:52+00:00"},{"author":null,"title":"Stunt
-        or strategy? What Elon Musk wants from Twitter","description":"Some billionaires
-        buy newspapers, magazines and sports teams. Elon Musk is trying to buy a social
-        network that he himself admits might cause much of the world to hate him.","url":"https:\/\/www.cnn.com\/2022\/04\/15\/tech\/elon-musk-twitter-bid-strategy\/index.html","source":"CNN","image":"https:\/\/cdn.cnn.com\/cnnnext\/dam\/assets\/220414195258-01-elon-musk-twitter-super-169.jpg","category":"general","language":"en","country":"us","published_at":"2022-04-15T15:10:53+00:00"},{"author":"Mike
-        Isaac, Kate Conger and Lauren Hirsch","title":"Elon Musk Launches Bid to Buy
-        Twitter","description":"The billionaire executive recently became one of the
-        company\u2019s largest shareholders. Now he says he wants to buy the whole
-        thing and change how it handles speech.","url":"https:\/\/www.nytimes.com\/2022\/04\/14\/technology\/elon-musk-twitter-bid.html","source":"The
-        New York Times","image":"https:\/\/static01.nyt.com\/images\/2022\/04\/14\/business\/14twitter\/14twitter-moth.jpg","category":"technology","language":"en","country":"us","published_at":"2022-04-14T23:19:05+00:00"},{"author":"Kara
-        Swisher","title":"Elon Musk\u2019s Ultimate Twitter Troll: A Takeover Bid","description":"The
-        billionaire could be at the helm of the internet\u2019s loudest megaphone.","url":"https:\/\/www.nytimes.com\/2022\/04\/14\/opinion\/musk-twitter-agrawal.html","source":"The
-        New York Times","image":"https:\/\/static01.nyt.com\/images\/2022\/04\/14\/opinion\/14Swisher-image\/14Swisher-image-moth.jpg","category":"general","language":"en","country":"us","published_at":"2022-04-14T22:23:49+00:00"},{"author":"Amelia
-        Nierenberg","title":"Your Friday Briefing: Russia\u2019s Flagship Sinks","description":"Plus
-        Elon Musk\u2019s bid for Twitter and Britain\u2019s plan to resettle asylum
-        seekers \u2026 in Rwanda.","url":"https:\/\/www.nytimes.com\/2022\/04\/14\/briefing\/your-friday-briefing-russias-flagship-sinks.html","source":"The
-        New York Times","image":"https:\/\/static01.nyt.com\/images\/2022\/04\/14\/world\/041522ambriefing-asia-promo\/14ukrain-hp-fader20-moth.jpg","category":"general","language":"en","country":"us","published_at":"2022-04-14T21:06:27+00:00"},{"author":null,"title":"Elon
-        Musk doesn\u0027t need a board seat to change Twitter","description":"Elon
-        Musk may have declined an invitation to join Twitter\u0027s board, but that
-        doesn\u0027t necessarily mean he\u0027s abandoning his plans to shake up the
-        company. If anything, it could free him to be even more disruptive.","url":"https:\/\/www.cnn.com\/2022\/04\/13\/tech\/elon-musk-twitter-investment-plans\/index.html","source":"CNN","image":"https:\/\/cdn.cnn.com\/cnnnext\/dam\/assets\/220412172331-02-elon-musk-0322-super-169.jpg","category":"general","language":"en","country":"us","published_at":"2022-04-14T19:02:43+00:00"},{"author":null,"title":"Can
-        Elon Musk be stopped from taking over Twitter?","description":"Ten days after
-        Elon Musk disclosed he\u0027d become Twitter\u0027s largest shareholder, the
-        world\u0027s richest man has made an offer to buy the company outright.","url":"https:\/\/www.cnn.com\/2022\/04\/14\/tech\/elon-musk-twitter-offer-whats-next\/index.html","source":"CNN","image":"https:\/\/cdn.cnn.com\/cnnnext\/dam\/assets\/220414112340-restricted-elon-musk-twitter-takeover-super-169.jpg","category":"general","language":"en","country":"us","published_at":"2022-04-14T17:26:17+00:00"},{"author":"Lauren
-        Hirsch","title":"Now That Elon Musk Has Offered to Buy Twitter, What Happens
-        Next?","description":"The board will review the offer, but it doesn\u2019t
-        have the last word.","url":"https:\/\/www.nytimes.com\/2022\/04\/14\/technology\/twitter-elon-musk-offer-process.html","source":"nytimes","image":null,"category":"general","language":"en","country":"us","published_at":"2022-04-14T17:13:47+00:00"},{"author":"Shira
-        Ovide","title":"Elon Musk Is a Digital Citizen Kane","description":"What would
-        Twitter look like with Musk as its sole proprietor?","url":"https:\/\/www.nytimes.com\/2022\/04\/14\/technology\/elon-musk-is-a-digital-citizen-kane.html","source":"The
-        New York Times","image":"https:\/\/static01.nyt.com\/images\/2022\/04\/14\/business\/14OnTech-MuskTwitter-NL-GIF\/14OnTech-MuskTwitter-NL-GIF-moth.jpg","category":"technology","language":"en","country":"us","published_at":"2022-04-14T16:52:28+00:00"},{"author":"Lauren
-        Hirsch","title":"How will Elon Musk pay for Twitter?","description":"How will
-        Elon Musk pay for Twitter?","url":"https:\/\/www.nytimes.com\/live\/2022\/04\/14\/business\/elon-musk-twitter\/how-will-elon-musk-pay-for-twitter","source":"nytimes","image":"https:\/\/static01.nyt.com\/images\/2022\/04\/14\/business\/14-elon-musk-twitter-advisers1\/14-elon-musk-twitter-advisers1-moth.jpg","category":"general","language":"en","country":"us","published_at":"2022-04-14T15:46:50+00:00"},{"author":"Melina
-        Delkic","title":"What Does Elon Musk Want With Twitter?","description":"\u201cI
-        invested in Twitter as I believe in its potential to be the platform for free
-        speech around the globe,\u201d Mr. Musk wrote.","url":"https:\/\/www.nytimes.com\/live\/2022\/04\/14\/business\/elon-musk-twitter\/what-does-elon-musk-want","source":"nytimes","image":"https:\/\/static01.nyt.com\/images\/2022\/04\/14\/business\/14-elon-musk-twitter-What-does-musk-want\/14-elon-musk-twitter-What-does-musk-want-moth.jpg","category":"general","language":"en","country":"us","published_at":"2022-04-14T14:58:22+00:00"},{"author":null,"title":"Elon
-        Musk Fast Facts","description":"Read CNN\u0027s Fast Facts about Elon Musk
-        and learn more about the billionaire entrepreneur behind Tesla, SpaceX and
-        SolarCity.","url":"https:\/\/www.cnn.com\/2016\/08\/03\/world\/elon-musk-fast-facts\/index.html","source":"CNN","image":"https:\/\/cdn.cnn.com\/cnnnext\/dam\/assets\/130813103728-elon-musk-super-169.jpg","category":"general","language":"en","country":"us","published_at":"2022-04-14T12:45:09+00:00"},{"author":"Eshe
-        Nelson","title":"Elon Musk offers to buy Twitter for $54.20 a share.","description":"\u201cTwitter
-        has extraordinary potential. I will unlock it,\u201d the Tesla chief executive
-        said in a regulatory filing.","url":"https:\/\/www.nytimes.com\/live\/2022\/04\/14\/business\/elon-musk-twitter\/elon-musk-twitter","source":"nytimes","image":"https:\/\/static01.nyt.com\/images\/2022\/04\/14\/multimedia\/14musk-twitter\/14musk-twitter-moth.jpg","category":"general","language":"en","country":"us","published_at":"2022-04-14T11:20:41+00:00"},{"author":"Eshe
-        Nelson","title":"Elon Musk offers to buy Twitter for $54.20 a share.","description":"\u201cTwitter
-        has extraordinary potential. I will unlock it,\u201d the Tesla chief executive
-        said in a regulatory filing.","url":"https:\/\/www.nytimes.com\/live\/2022\/04\/14\/business\/economy-news-inflation-russia\/elon-musk-twitter","source":"nytimes","image":"https:\/\/static01.nyt.com\/images\/2022\/04\/14\/multimedia\/14musk-twitter\/14musk-twitter-moth.jpg","category":"general","language":"en","country":"us","published_at":"2022-04-14T11:12:33+00:00"},{"author":null,"title":"Elon
-        Musk offers to buy Twitter","description":"\u2022 Analysis: Elon Musk doesn\u0027t
-        need a board seat to change Twitter\u2022 Opinion: By spurning a board seat,
-        Elon Musk could wreak havoc for Twitter","url":"https:\/\/www.cnn.com\/2022\/04\/14\/tech\/elon-musk-twitter-offer\/index.html","source":"CNN","image":"https:\/\/cdn.cnn.com\/cnnnext\/dam\/assets\/220413121601-03-elon-musk-0309-file-super-169.jpg","category":"general","language":"en","country":"us","published_at":"2022-04-14T11:07:42+00:00"},{"author":"Eshe
-        Nelson","title":"Elon Musk offers to buy Twitter for $54.20 a share.","description":"\u201cTwitter
-        has extraordinary potential. I will unlock it,\u201d the Tesla chief executive
-        said in regulatory filing.","url":"https:\/\/www.nytimes.com\/2022\/04\/14\/business\/elon-musk-twitter.html","source":"nytimes","image":"https:\/\/static01.nyt.com\/images\/2022\/04\/14\/multimedia\/14musk-twitter\/14musk-twitter-moth.jpg","category":"general","language":"en","country":"us","published_at":"2022-04-14T10:58:27+00:00"},{"author":null,"title":"Tesla
-        CEO Elon Musk offers to buy Twitter in cash deal","description":"The offer
-        comes days after he said he would no longer be joining the board.","url":"https:\/\/abcnews.go.com\/Technology\/wireStory\/tesla-ceo-elon-musk-offers-buy-twitter-84076418","source":"ABC
-        News","image":"https:\/\/s.abcnews.com\/images\/Technology\/WireAP_3c34fa6de94748c0889d913c59ffb764_4x3_384.jpg","category":"general","language":"en","country":"us","published_at":"2022-04-14T10:44:41+00:00"},{"author":"Mike
-        Isaac and Kate Conger","title":"Twitter Grapples With an Elon Musk Problem","description":"Mr.
-        Musk, Twitter\u2019s biggest shareholder, is free to buy more stock in the
-        company and could use the platform against itself. Some employees are dismayed.","url":"https:\/\/www.nytimes.com\/2022\/04\/11\/technology\/twitter-elon-musk-problem.html","source":"The
-        New York Times","image":"https:\/\/static01.nyt.com\/images\/2022\/04\/11\/business\/11Twitter-01\/11Twitter-01-moth.jpg","category":"technology","language":"en","country":"us","published_at":"2022-04-11T21:50:23+00:00"},{"author":null,"title":"Twitter
-        CEO: Elon Musk will not join Twitter board","description":"Tesla CEO Elon
-        Musk, who recently bought a large stake in Twitter, has decided not to join
-        the social media company\u0027s board.","url":"https:\/\/www.cnn.com\/2022\/04\/11\/tech\/elon-musk-twitter-board\/index.html","source":"CNN","image":"https:\/\/cdn.cnn.com\/cnnnext\/dam\/assets\/220410225809-elon-musk-0322-super-169.jpg","category":"general","language":"en","country":"us","published_at":"2022-04-11T09:15:46+00:00"},{"author":null,"title":"Elon
-        Musk no longer joining Twitter\u0027s board of directors","description":"Tesla
-        CEO Elon Musk won\u0026rsquo;t be joining Twitter\u0026rsquo;s board of directors
-        as previously announced","url":"https:\/\/abcnews.go.com\/Business\/wireStory\/elon-musk-longer-joining-twitters-board-directors-84006911","source":"ABC
-        News","image":"https:\/\/s.abcnews.com\/images\/Technology\/WireAP_dc38f1bc371e4f238a753e9b4fab0f7b_4x3_384.jpg","category":"general","language":"en","country":"us","published_at":"2022-04-11T06:17:40+00:00"},{"author":"Mike
-        Isaac","title":"Elon Musk Will Not Join Twitter\u2019s Board, Company Says","description":"The
-        announcement reverses a decision last week, when Twitter said Mr. Musk would
-        become a board member after amassing a 9.2 percent stake in the company.","url":"https:\/\/www.nytimes.com\/2022\/04\/10\/technology\/elon-musk-twitter-board.html","source":"The
-        New York Times","image":null,"category":"technology","language":"en","country":"us","published_at":"2022-04-11T03:52:25+00:00"},{"author":null,"title":"Musk
-        suggests Twitter changes, including accepting Dogecoin","description":"As
-        Twitter\u0026rsquo;s newest board member and largest shareholder, Elon Musk
-        is already floating suggestions for changes he\u0026rsquo;d like to see on
-        the social media platform","url":"https:\/\/abcnews.go.com\/Business\/wireStory\/musk-suggests-twitter-including-accepting-dogecoin-84001614","source":"ABC
-        News","image":"https:\/\/s.abcnews.com\/images\/Technology\/WireAP_d02dd339b0e74beab4f69808851f0f70_4x3_384.jpg","category":"general","language":"en","country":"us","published_at":"2022-04-10T22:36:42+00:00"},{"author":null,"title":"Elon
-        Musk bought a big stake in Twitter. So, what now?","description":"Elon Musk
-        is now a big shareholder at Twitter and is joining the company\u0027s board.
-        CNN\u0027s Harry Enten and Oliver Darcy explain what that could mean for the
-        platform. Reliable Sources Daily is available on CNN+ \u2014 CNN\u0027s new
-        streaming service.","url":"https:\/\/www.cnn.com\/videos\/business\/2022\/04\/08\/elon-musk-twitter-rsdaily-cnn-plus-orig.cnn-business","source":"CNN","image":"https:\/\/cdn.cnn.com\/cnnnext\/dam\/assets\/220408111902-elon-musk-twitter-cnnplus-super-169.jpg","category":"general","language":"en","country":"us","published_at":"2022-04-08T23:10:13+00:00"}]}'
-  recorded_at: Sat, 16 Apr 2022 18:18:03 GMT
+        a well-worn tactic to fend off corporate raiders and hostile takeovers.","url":"https:\/\/www.nytimes.com\/2022\/04\/15\/business\/twitter-poison-pill-explainer.html","source":"nytimes","image":"https:\/\/static01.nyt.com\/images\/2022\/04\/15\/business\/15xp-poisonpill1\/15xp-poisonpill1-moth.jpg","category":"general","language":"en","country":"us","published_at":"2022-04-15T20:16:16+00:00"}]}'
+  recorded_at: Sun, 17 Apr 2022 17:25:03 GMT
 recorded_with: VCR 6.1.0

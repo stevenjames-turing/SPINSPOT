@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://api.mediastack.com/v1/news?access_key=<mediastack_key>&countries=us&keywords=Elon&languages=en&sort=published_desc&sources=abc-news,cnn,guardian,nytimes
+    uri: http://api.mediastack.com/v1/news?access_key=<mediastack_key>&countries=us&keywords=Elon&languages=en&limit=2&sort=published_desc&sources=abc-news,cnn,guardian,nytimes
     body:
       encoding: US-ASCII
       string: ''
@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sat, 16 Apr 2022 19:38:53 GMT
+      - Sun, 17 Apr 2022 17:25:06 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -29,10 +29,10 @@ http_interactions:
       Cache-Control:
       - no-cache, private
       X-Request-Time:
-      - '0.072'
-      - '0.098'
+      - '0.061'
+      - '0.089'
       X-Apilayer-Transaction-Id:
-      - 071eb07a-0b02-40ce-ad1f-781c9abba4a6
+      - d491777d-f118-45fd-9ac0-7a2a468a54fc
       Access-Control-Allow-Origin:
       - "*"
       Access-Control-Allow-Methods:
@@ -42,112 +42,32 @@ http_interactions:
       X-Quota-Limit:
       - '500'
       X-Quota-Remaining:
-      - '309'
+      - '232'
       X-Increment-Usage:
       - '1'
       Cf-Cache-Status:
       - DYNAMIC
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=2sD00YjApRFEKJ%2BzlGiaCk3pDPDvIXbBFH4%2BRYDRDsVvpiO6BJ%2BNIsBRrKrLXfDbrgPkpYDZ9KZpyYS1LZ86kmerc9os1v4zF60R%2BbTr80d7m%2F7QnKxGSCAfe6GV3P3nmw5cSDQ%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=6%2F%2BT2pWMVmtnw%2FmTDu%2FbMmzVUE%2F4VEDV7I1Gqe5TeHwW1Ty5aF0ioeKHymfIp58AlxUoQCA9Yoc7UCzp24K%2FHowR%2BVbt2Kq%2BqVbbq1Zaxaa3UyyyyzLlKMzdG9c%2F%2BYMMi6X0OMc%3D"}],"group":"cf-nel","max_age":604800}'
       Nel:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Cf-Ray:
-      - 6fcf62461b022c44-ORD
+      - 6fd6dbaa3adafdd9-ORD
       Alt-Svc:
       - h3=":443"; ma=86400, h3-29=":443"; ma=86400
     body:
       encoding: ASCII-8BIT
-      string: '{"pagination":{"limit":25,"offset":0,"count":25,"total":60},"data":[{"author":null,"title":"Twitter
+      string: '{"pagination":{"limit":2,"offset":0,"count":2,"total":60},"data":[{"author":null,"title":"Twitter
         adopts \u0027poison pill\u0027 measure that could thwart Elon Musk\u0027s
         takeover bid","description":"Twitter\u0027s board of directors has adopted
         a limited-term shareholder rights plan called a \u0022poison pill\u0022 that
         could make it harder for Elon Musk to acquire the company.","url":"https:\/\/www.cnn.com\/2022\/04\/15\/tech\/twitter-elon-musk-poison-pill\/index.html","source":"CNN","image":"https:\/\/cdn.cnn.com\/cnnnext\/dam\/assets\/220415072137-04-elon-musk-ted-0414-super-169.jpg","category":"general","language":"en","country":"us","published_at":"2022-04-15T20:31:15+00:00"},{"author":"Amanda
         Holpuch","title":"What Is a \u2018Poison Pill\u2019 Defense?","description":"Twitter
         has unveiled its plan to fight Elon Musk\u2019s bid for the company. It\u2019s
-        a well-worn tactic to fend off corporate raiders and hostile takeovers.","url":"https:\/\/www.nytimes.com\/2022\/04\/15\/business\/twitter-poison-pill-explainer.html","source":"nytimes","image":"https:\/\/static01.nyt.com\/images\/2022\/04\/15\/business\/15xp-poisonpill1\/15xp-poisonpill1-moth.jpg","category":"general","language":"en","country":"us","published_at":"2022-04-15T20:16:16+00:00"},{"author":"Amanda
-        Holpuch","title":"What Is a \u2018Poison Pill\u2019 Defense?","description":"Twitter
-        has unveiled its plan to fight Elon Musk\u2019s bid for the company. It\u2019s
-        a well-worn tactic to fend off corporate raiders and hostile takeovers.","url":"https:\/\/www.nytimes.com\/2022\/04\/15\/us\/twitter-poison-pill-explainer.html","source":"The
-        New York Times","image":"https:\/\/static01.nyt.com\/images\/2022\/04\/15\/business\/15xp-poisonpill1\/15xp-poisonpill1-moth.jpg","category":"general","language":"en","country":"us","published_at":"2022-04-15T19:52:52+00:00"},{"author":null,"title":"Stunt
-        or strategy? What Elon Musk wants from Twitter","description":"Some billionaires
-        buy newspapers, magazines and sports teams. Elon Musk is trying to buy a social
-        network that he himself admits might cause much of the world to hate him.","url":"https:\/\/www.cnn.com\/2022\/04\/15\/tech\/elon-musk-twitter-bid-strategy\/index.html","source":"CNN","image":"https:\/\/cdn.cnn.com\/cnnnext\/dam\/assets\/220414195258-01-elon-musk-twitter-super-169.jpg","category":"general","language":"en","country":"us","published_at":"2022-04-15T15:10:53+00:00"},{"author":"Mike
-        Isaac, Kate Conger and Lauren Hirsch","title":"Elon Musk Launches Bid to Buy
-        Twitter","description":"The billionaire executive recently became one of the
-        company\u2019s largest shareholders. Now he says he wants to buy the whole
-        thing and change how it handles speech.","url":"https:\/\/www.nytimes.com\/2022\/04\/14\/technology\/elon-musk-twitter-bid.html","source":"The
-        New York Times","image":"https:\/\/static01.nyt.com\/images\/2022\/04\/14\/business\/14twitter\/14twitter-moth.jpg","category":"technology","language":"en","country":"us","published_at":"2022-04-14T23:19:05+00:00"},{"author":"Kara
-        Swisher","title":"Elon Musk\u2019s Ultimate Twitter Troll: A Takeover Bid","description":"The
-        billionaire could be at the helm of the internet\u2019s loudest megaphone.","url":"https:\/\/www.nytimes.com\/2022\/04\/14\/opinion\/musk-twitter-agrawal.html","source":"The
-        New York Times","image":"https:\/\/static01.nyt.com\/images\/2022\/04\/14\/opinion\/14Swisher-image\/14Swisher-image-moth.jpg","category":"general","language":"en","country":"us","published_at":"2022-04-14T22:23:49+00:00"},{"author":"Amelia
-        Nierenberg","title":"Your Friday Briefing: Russia\u2019s Flagship Sinks","description":"Plus
-        Elon Musk\u2019s bid for Twitter and Britain\u2019s plan to resettle asylum
-        seekers \u2026 in Rwanda.","url":"https:\/\/www.nytimes.com\/2022\/04\/14\/briefing\/your-friday-briefing-russias-flagship-sinks.html","source":"The
-        New York Times","image":"https:\/\/static01.nyt.com\/images\/2022\/04\/14\/world\/041522ambriefing-asia-promo\/14ukrain-hp-fader20-moth.jpg","category":"general","language":"en","country":"us","published_at":"2022-04-14T21:06:27+00:00"},{"author":null,"title":"Elon
-        Musk doesn\u0027t need a board seat to change Twitter","description":"Elon
-        Musk may have declined an invitation to join Twitter\u0027s board, but that
-        doesn\u0027t necessarily mean he\u0027s abandoning his plans to shake up the
-        company. If anything, it could free him to be even more disruptive.","url":"https:\/\/www.cnn.com\/2022\/04\/13\/tech\/elon-musk-twitter-investment-plans\/index.html","source":"CNN","image":"https:\/\/cdn.cnn.com\/cnnnext\/dam\/assets\/220412172331-02-elon-musk-0322-super-169.jpg","category":"general","language":"en","country":"us","published_at":"2022-04-14T19:02:43+00:00"},{"author":null,"title":"Can
-        Elon Musk be stopped from taking over Twitter?","description":"Ten days after
-        Elon Musk disclosed he\u0027d become Twitter\u0027s largest shareholder, the
-        world\u0027s richest man has made an offer to buy the company outright.","url":"https:\/\/www.cnn.com\/2022\/04\/14\/tech\/elon-musk-twitter-offer-whats-next\/index.html","source":"CNN","image":"https:\/\/cdn.cnn.com\/cnnnext\/dam\/assets\/220414112340-restricted-elon-musk-twitter-takeover-super-169.jpg","category":"general","language":"en","country":"us","published_at":"2022-04-14T17:26:17+00:00"},{"author":"Lauren
-        Hirsch","title":"Now That Elon Musk Has Offered to Buy Twitter, What Happens
-        Next?","description":"The board will review the offer, but it doesn\u2019t
-        have the last word.","url":"https:\/\/www.nytimes.com\/2022\/04\/14\/technology\/twitter-elon-musk-offer-process.html","source":"nytimes","image":null,"category":"general","language":"en","country":"us","published_at":"2022-04-14T17:13:47+00:00"},{"author":"Shira
-        Ovide","title":"Elon Musk Is a Digital Citizen Kane","description":"What would
-        Twitter look like with Musk as its sole proprietor?","url":"https:\/\/www.nytimes.com\/2022\/04\/14\/technology\/elon-musk-is-a-digital-citizen-kane.html","source":"The
-        New York Times","image":"https:\/\/static01.nyt.com\/images\/2022\/04\/14\/business\/14OnTech-MuskTwitter-NL-GIF\/14OnTech-MuskTwitter-NL-GIF-moth.jpg","category":"technology","language":"en","country":"us","published_at":"2022-04-14T16:52:28+00:00"},{"author":"Lauren
-        Hirsch","title":"How will Elon Musk pay for Twitter?","description":"How will
-        Elon Musk pay for Twitter?","url":"https:\/\/www.nytimes.com\/live\/2022\/04\/14\/business\/elon-musk-twitter\/how-will-elon-musk-pay-for-twitter","source":"nytimes","image":"https:\/\/static01.nyt.com\/images\/2022\/04\/14\/business\/14-elon-musk-twitter-advisers1\/14-elon-musk-twitter-advisers1-moth.jpg","category":"general","language":"en","country":"us","published_at":"2022-04-14T15:46:50+00:00"},{"author":"Melina
-        Delkic","title":"What Does Elon Musk Want With Twitter?","description":"\u201cI
-        invested in Twitter as I believe in its potential to be the platform for free
-        speech around the globe,\u201d Mr. Musk wrote.","url":"https:\/\/www.nytimes.com\/live\/2022\/04\/14\/business\/elon-musk-twitter\/what-does-elon-musk-want","source":"nytimes","image":"https:\/\/static01.nyt.com\/images\/2022\/04\/14\/business\/14-elon-musk-twitter-What-does-musk-want\/14-elon-musk-twitter-What-does-musk-want-moth.jpg","category":"general","language":"en","country":"us","published_at":"2022-04-14T14:58:22+00:00"},{"author":null,"title":"Elon
-        Musk Fast Facts","description":"Read CNN\u0027s Fast Facts about Elon Musk
-        and learn more about the billionaire entrepreneur behind Tesla, SpaceX and
-        SolarCity.","url":"https:\/\/www.cnn.com\/2016\/08\/03\/world\/elon-musk-fast-facts\/index.html","source":"CNN","image":"https:\/\/cdn.cnn.com\/cnnnext\/dam\/assets\/130813103728-elon-musk-super-169.jpg","category":"general","language":"en","country":"us","published_at":"2022-04-14T12:45:09+00:00"},{"author":"Eshe
-        Nelson","title":"Elon Musk offers to buy Twitter for $54.20 a share.","description":"\u201cTwitter
-        has extraordinary potential. I will unlock it,\u201d the Tesla chief executive
-        said in a regulatory filing.","url":"https:\/\/www.nytimes.com\/live\/2022\/04\/14\/business\/elon-musk-twitter\/elon-musk-twitter","source":"nytimes","image":"https:\/\/static01.nyt.com\/images\/2022\/04\/14\/multimedia\/14musk-twitter\/14musk-twitter-moth.jpg","category":"general","language":"en","country":"us","published_at":"2022-04-14T11:20:41+00:00"},{"author":"Eshe
-        Nelson","title":"Elon Musk offers to buy Twitter for $54.20 a share.","description":"\u201cTwitter
-        has extraordinary potential. I will unlock it,\u201d the Tesla chief executive
-        said in a regulatory filing.","url":"https:\/\/www.nytimes.com\/live\/2022\/04\/14\/business\/economy-news-inflation-russia\/elon-musk-twitter","source":"nytimes","image":"https:\/\/static01.nyt.com\/images\/2022\/04\/14\/multimedia\/14musk-twitter\/14musk-twitter-moth.jpg","category":"general","language":"en","country":"us","published_at":"2022-04-14T11:12:33+00:00"},{"author":null,"title":"Elon
-        Musk offers to buy Twitter","description":"\u2022 Analysis: Elon Musk doesn\u0027t
-        need a board seat to change Twitter\u2022 Opinion: By spurning a board seat,
-        Elon Musk could wreak havoc for Twitter","url":"https:\/\/www.cnn.com\/2022\/04\/14\/tech\/elon-musk-twitter-offer\/index.html","source":"CNN","image":"https:\/\/cdn.cnn.com\/cnnnext\/dam\/assets\/220413121601-03-elon-musk-0309-file-super-169.jpg","category":"general","language":"en","country":"us","published_at":"2022-04-14T11:07:42+00:00"},{"author":"Eshe
-        Nelson","title":"Elon Musk offers to buy Twitter for $54.20 a share.","description":"\u201cTwitter
-        has extraordinary potential. I will unlock it,\u201d the Tesla chief executive
-        said in regulatory filing.","url":"https:\/\/www.nytimes.com\/2022\/04\/14\/business\/elon-musk-twitter.html","source":"nytimes","image":"https:\/\/static01.nyt.com\/images\/2022\/04\/14\/multimedia\/14musk-twitter\/14musk-twitter-moth.jpg","category":"general","language":"en","country":"us","published_at":"2022-04-14T10:58:27+00:00"},{"author":null,"title":"Tesla
-        CEO Elon Musk offers to buy Twitter in cash deal","description":"The offer
-        comes days after he said he would no longer be joining the board.","url":"https:\/\/abcnews.go.com\/Technology\/wireStory\/tesla-ceo-elon-musk-offers-buy-twitter-84076418","source":"ABC
-        News","image":"https:\/\/s.abcnews.com\/images\/Technology\/WireAP_3c34fa6de94748c0889d913c59ffb764_4x3_384.jpg","category":"general","language":"en","country":"us","published_at":"2022-04-14T10:44:41+00:00"},{"author":"Mike
-        Isaac and Kate Conger","title":"Twitter Grapples With an Elon Musk Problem","description":"Mr.
-        Musk, Twitter\u2019s biggest shareholder, is free to buy more stock in the
-        company and could use the platform against itself. Some employees are dismayed.","url":"https:\/\/www.nytimes.com\/2022\/04\/11\/technology\/twitter-elon-musk-problem.html","source":"The
-        New York Times","image":"https:\/\/static01.nyt.com\/images\/2022\/04\/11\/business\/11Twitter-01\/11Twitter-01-moth.jpg","category":"technology","language":"en","country":"us","published_at":"2022-04-11T21:50:23+00:00"},{"author":null,"title":"Twitter
-        CEO: Elon Musk will not join Twitter board","description":"Tesla CEO Elon
-        Musk, who recently bought a large stake in Twitter, has decided not to join
-        the social media company\u0027s board.","url":"https:\/\/www.cnn.com\/2022\/04\/11\/tech\/elon-musk-twitter-board\/index.html","source":"CNN","image":"https:\/\/cdn.cnn.com\/cnnnext\/dam\/assets\/220410225809-elon-musk-0322-super-169.jpg","category":"general","language":"en","country":"us","published_at":"2022-04-11T09:15:46+00:00"},{"author":null,"title":"Elon
-        Musk no longer joining Twitter\u0027s board of directors","description":"Tesla
-        CEO Elon Musk won\u0026rsquo;t be joining Twitter\u0026rsquo;s board of directors
-        as previously announced","url":"https:\/\/abcnews.go.com\/Business\/wireStory\/elon-musk-longer-joining-twitters-board-directors-84006911","source":"ABC
-        News","image":"https:\/\/s.abcnews.com\/images\/Technology\/WireAP_dc38f1bc371e4f238a753e9b4fab0f7b_4x3_384.jpg","category":"general","language":"en","country":"us","published_at":"2022-04-11T06:17:40+00:00"},{"author":"Mike
-        Isaac","title":"Elon Musk Will Not Join Twitter\u2019s Board, Company Says","description":"The
-        announcement reverses a decision last week, when Twitter said Mr. Musk would
-        become a board member after amassing a 9.2 percent stake in the company.","url":"https:\/\/www.nytimes.com\/2022\/04\/10\/technology\/elon-musk-twitter-board.html","source":"The
-        New York Times","image":null,"category":"technology","language":"en","country":"us","published_at":"2022-04-11T03:52:25+00:00"},{"author":null,"title":"Musk
-        suggests Twitter changes, including accepting Dogecoin","description":"As
-        Twitter\u0026rsquo;s newest board member and largest shareholder, Elon Musk
-        is already floating suggestions for changes he\u0026rsquo;d like to see on
-        the social media platform","url":"https:\/\/abcnews.go.com\/Business\/wireStory\/musk-suggests-twitter-including-accepting-dogecoin-84001614","source":"ABC
-        News","image":"https:\/\/s.abcnews.com\/images\/Technology\/WireAP_d02dd339b0e74beab4f69808851f0f70_4x3_384.jpg","category":"general","language":"en","country":"us","published_at":"2022-04-10T22:36:42+00:00"},{"author":null,"title":"Elon
-        Musk bought a big stake in Twitter. So, what now?","description":"Elon Musk
-        is now a big shareholder at Twitter and is joining the company\u0027s board.
-        CNN\u0027s Harry Enten and Oliver Darcy explain what that could mean for the
-        platform. Reliable Sources Daily is available on CNN+ \u2014 CNN\u0027s new
-        streaming service.","url":"https:\/\/www.cnn.com\/videos\/business\/2022\/04\/08\/elon-musk-twitter-rsdaily-cnn-plus-orig.cnn-business","source":"CNN","image":"https:\/\/cdn.cnn.com\/cnnnext\/dam\/assets\/220408111902-elon-musk-twitter-cnnplus-super-169.jpg","category":"general","language":"en","country":"us","published_at":"2022-04-08T23:10:13+00:00"}]}'
-  recorded_at: Sat, 16 Apr 2022 19:38:53 GMT
+        a well-worn tactic to fend off corporate raiders and hostile takeovers.","url":"https:\/\/www.nytimes.com\/2022\/04\/15\/business\/twitter-poison-pill-explainer.html","source":"nytimes","image":"https:\/\/static01.nyt.com\/images\/2022\/04\/15\/business\/15xp-poisonpill1\/15xp-poisonpill1-moth.jpg","category":"general","language":"en","country":"us","published_at":"2022-04-15T20:16:16+00:00"}]}'
+  recorded_at: Sun, 17 Apr 2022 17:25:06 GMT
 - request:
     method: post
     uri: https://tldrthis.p.rapidapi.com/v1/model/extractive/summarize-url/
@@ -178,7 +98,7 @@ http_interactions:
       Content-Type:
       - application/json
       Date:
-      - Sat, 16 Apr 2022 19:38:55 GMT
+      - Sun, 17 Apr 2022 17:25:06 GMT
       Server:
       - RapidAPI-1.2.8
       X-Rapidapi-Region:
@@ -188,9 +108,9 @@ http_interactions:
       X-Ratelimit-Requests-Limit:
       - '100'
       X-Ratelimit-Requests-Remaining:
-      - '60'
+      - '95'
       X-Ratelimit-Requests-Reset:
-      - '2343236'
+      - '2591887'
       Content-Length:
       - '10416'
       Connection:
@@ -199,5 +119,5 @@ http_interactions:
       encoding: ASCII-8BIT
       string: !binary |-
         eyJzdW1tYXJ5IjpbIk5ldyBZb3JrIChDTk4gQnVzaW5lc3MpIFR3aXR0ZXIncyBib2FyZCBvZiBkaXJlY3RvcnMgaGFzIGFkb3B0ZWQgYSBsaW1pdGVkLXRlcm0gc2hhcmVob2xkZXIgcmlnaHRzIHBsYW4gY2FsbGVkIGEgXCJwb2lzb24gcGlsbFwiIHRoYXQgY291bGQgbWFrZSBpdCBoYXJkZXIgZm9yIEVsb24gTXVzayB0byBhY3F1aXJlIHRoZSBjb21wYW55IC4iLCJNdXNrIGRpZCBub3QgcmVzcG9uZCB0byBhIHJlcXVlc3QgZm9yIGNvbW1lbnQgZnJvbSBDTk4gQnVzaW5lc3MuIiwiVGhhdCByZXByZXNlbnRzIGEgMzglIHByZW1pdW0gb3ZlciB0aGUgY2xvc2luZyBwcmljZSBvbiBBcHJpbCAxLCB0aGUgbGFzdCB0cmFkaW5nIGRheSBiZWZvcmUgTXVzayBkaXNjbG9zZWQgdGhhdCBoZSBoYWQgYmVjb21lIFR3aXR0ZXIncyBiaWdnZXN0IHNoYXJlaG9sZGVyLCBhbmQgYW4gMTglIHByZW1pdW0gb3ZlciBpdHMgY2xvc2luZyBwcmljZSBXZWRuZXNkYXkuIiwiSXZlcyBhbHNvIG5vdGVkIHRoZXJlIGlzIGEgcmlzayB0aGF0IFR3aXR0ZXIncyBwbGFuIGNvdWxkIGdldCBjaGFsbGVuZ2VkIGJ5IE11c2sgb3Igb3RoZXIgc2hhcmVob2xkZXJzIGluIGNvdXJ0LCB3aGljaCBjb3VsZCBwdXQgdGhlIGJvYXJkIGluIHRoZSBwb3NpdGlvbiBvZiBkZWZlbmRpbmcgdGhhdCB0aGUgcGxhbiB3YXMgaW4gdGhlIGJlc3QgaW50ZXJlc3Qgb2Ygc2hhcmVob2xkZXJzLiIsIkV2ZW4gc28sIHRoZXJlIHNlZW0gdG8gYmUgc2luY2VyZSBkb3VidHMgYWJvdXQgd2hldGhlciBNdXNrLCBhIHN1Y2Nlc3NmdWwgYnV0IHNvbWV0aW1lcyBlcnJhdGljIGVudHJlcHJlbmV1ciB3aG8gZW5kZWQgdXAgaW4gaG90IHdhdGVyIHdpdGggcmVndWxhdG9ycyBpbiAyMDE4IGFmdGVyIGZhbHNlbHkgc3VnZ2VzdGluZyB0aGF0IGhlIGhhZCBzZWN1cmVkIGZ1bmRpbmcgdG8gdGFrZSBUZXNsYSBwcml2YXRlLCBpcyBzZXJpb3VzIGFib3V0IG1vdmluZyBmb3J3YXJkIHdpdGggdGhlIGRlYWwuIiwiLS0gQ05OIEJ1c2luZXNzJyBSaXNoaSBJeWVuZ2FyIGNvbnRyaWJ1dGVkIHRvIHRoaXMgcmVwb3J0LiJdLCJhcnRpY2xlX3RleHQiOiJOZXcgWW9yayAoQ05OIEJ1c2luZXNzKSBUd2l0dGVyJ3MgYm9hcmQgb2YgZGlyZWN0b3JzIGhhcyBhZG9wdGVkIGEgbGltaXRlZC10ZXJtIHNoYXJlaG9sZGVyIHJpZ2h0cyBwbGFuIGNhbGxlZCBhIFwicG9pc29uIHBpbGxcIiB0aGF0IGNvdWxkIG1ha2UgaXQgaGFyZGVyIGZvciBFbG9uIE11c2sgdG8gYWNxdWlyZSB0aGUgY29tcGFueSAuXG5cblRoZSBcInBvaXNvbiBwaWxsXCIgcHJvdmlzaW9uLCBhbm5vdW5jZWQgaW4gYSBwcmVzcyByZWxlYXNlIEZyaWRheSwgcHJlc2VydmVzIHRoZSByaWdodCBmb3IgVHdpdHRlciBzaGFyZWhvbGRlcnMgb3RoZXIgdGhhbiBNdXNrIHRvIGFjcXVpcmUgbW9yZSBzaGFyZXMgb2YgdGhlIGNvbXBhbnkgYXQgYSByZWxhdGl2ZWx5IGluZXhwZW5zaXZlIHByaWNlLCBlZmZlY3RpdmVseSBkaWx1dGluZyBNdXNrJ3Mgc3Rha2UuIFRoZSBwcm92aXNpb24gd2lsbCBiZSB0cmlnZ2VyZWQgaWYgTXVzayAob3IgYW55IG90aGVyIGludmVzdG9yKSBhY3F1aXJlcyBtb3JlIHRoYW4gMTUlIG9mIHRoZSBjb21wYW55J3Mgc2hhcmVzLiBNdXNrIGN1cnJlbnRseSBvd25zIGFyb3VuZCA5JSBvZiBUd2l0dGVyJ3Mgc2hhcmVzLlxuXG5UaGUgbW92ZSBtYXJrcyBhbiBlZmZvcnQgYnkgVHdpdHRlcidzIGJvYXJkIHRvIHdyZXN0IGJhY2sgc29tZSBjb250cm9sIGluIHRoZSBkZWFsIGFmdGVyIE11c2sncyBzdHVubmluZyBhY3F1aXNpdGlvbiBvZmZlci4gVGhlIHBvaXNvbiBwaWxsIOKAlCBhIGNvcnBvcmF0ZSBhbnRpLXRha2VvdmVyIGRlZmVuc2UgbWVjaGFuaXNtIOKAlCB3b24ndCBuZWNlc3NhcmlseSBzdG9wIE11c2sncyBiaWQgaW4gaXRzIHRyYWNrcywgYnV0IGl0IGNvdWxkIG1ha2UgYnV5aW5nIHRoZSBjb21wYW55IG1vcmUgZXhwZW5zaXZlIG9yIGZvcmNlIE11c2sgdG8gdGhlIG5lZ290aWF0aW5nIHRhYmxlIHdpdGggdGhlIGJvYXJkLlxuXG5cIlRoZSBSaWdodHMgUGxhbiB3aWxsIHJlZHVjZSB0aGUgbGlrZWxpaG9vZCB0aGF0IGFueSBlbnRpdHksIHBlcnNvbiBvciBncm91cCBnYWlucyBjb250cm9sIG9mIFR3aXR0ZXIgdGhyb3VnaCBvcGVuIG1hcmtldCBhY2N1bXVsYXRpb24gd2l0aG91dCBwYXlpbmcgYWxsIHNoYXJlaG9sZGVycyBhbiBhcHByb3ByaWF0ZSBjb250cm9sIHByZW1pdW0gb3Igd2l0aG91dCBwcm92aWRpbmcgdGhlIEJvYXJkIHN1ZmZpY2llbnQgdGltZSB0byBtYWtlIGluZm9ybWVkIGp1ZGdtZW50cyBhbmQgdGFrZSBhY3Rpb25zIHRoYXQgYXJlIGluIHRoZSBiZXN0IGludGVyZXN0cyBvZiBzaGFyZWhvbGRlcnMsXCIgdGhlIGNvbXBhbnkgc2FpZCBpbiBpdHMgc3RhdGVtZW50LlxuXG5NdXNrJ3MgZmlyc3QgcHVibGljIHN0YXRlbWVudCBhZnRlciBUd2l0dGVyJ3MgYW5ub3VuY2VtZW50IGNhbWUgRnJpZGF5IGFmdGVybm9vbiwgdGhyb3VnaCBhIHF1b3RlIHR3ZWV0IG9mIGEgVHdpdHRlciBwb2xsIGJ5IHRoZSBhY2NvdW50IEBCVENfQXJjaGl2ZSBhc2tpbmc6IFwiRG8geW91IHdhbnQgRWxvbiBNdXNrIHRvIGJ1eSBUd2l0dGVyP1wiXCJUaGFua3MgZm9yIHRoZSBzdXBwb3J0IVwiIHRoZSBiaWxsaW9uYWlyZSB3cm90ZSB3aGlsZSBzaGFyaW5nIHRoZSBwb2xsLCB3aGljaCBhdCB0aGUgdGltZSBvZiB3cml0aW5nIGhhZCBhIG1ham9yaXR5IG9mIHJlc3BvbmRlbnRzIHZvdGluZyBcIlllcy5cIiBNdXNrIGRpZCBub3QgcmVzcG9uZCB0byBhIHJlcXVlc3QgZm9yIGNvbW1lbnQgZnJvbSBDTk4gQnVzaW5lc3MuXG5cblRoZSBUZXNsYSBhbmQgU3BhY2VYIENFTyBvbiBUaHVyc2RheSBvZmZlcmVkIHRvIGFjcXVpcmUgYWxsIHRoZSBzaGFyZXMgaW4gVHdpdHRlciBoZSBkb2VzIG5vdCBvd24gZm9yICQ1NC4yMCBwZXIgc2hhcmUsIHZhbHVpbmcgdGhlIGNvbXBhbnkgYXQgJDQxLjQgYmlsbGlvbi4gVGhhdCByZXByZXNlbnRzIGEgMzglIHByZW1pdW0gb3ZlciB0aGUgY2xvc2luZyBwcmljZSBvbiBBcHJpbCAxLCB0aGUgbGFzdCB0cmFkaW5nIGRheSBiZWZvcmUgTXVzayBkaXNjbG9zZWQgdGhhdCBoZSBoYWQgYmVjb21lIFR3aXR0ZXIncyBiaWdnZXN0IHNoYXJlaG9sZGVyLCBhbmQgYW4gMTglIHByZW1pdW0gb3ZlciBpdHMgY2xvc2luZyBwcmljZSBXZWRuZXNkYXkuIFRoZSBkZWFsIG9mZmVyIGNhbWUgMTAgZGF5cyBhZnRlciBNdXNrIGZpcnN0IGRpc2Nsb3NlZCB0aGF0IGhlIGhhZCBiZWNvbWUgVHdpdHRlcidzIGxhcmdlc3Qgc2hhcmVob2xkZXIgKGhlIGhhcyBzaW5jZSBiZWVuIGVjbGlwc2VkIGJ5IFZhbmd1YXJkIEdyb3VwKS5cblxuVGhlIG9mZmVyIGNhcHBlZCBvZmYgYSB3aGlybHdpbmQgMTAtZGF5IHBlcmlvZCBkdXJpbmcgd2hpY2ggTXVzayByZXZlYWxlZCBoZSBoYWQgYmVjb21lIHRoZSBjb21wYW55J3MgbGFyZ2VzdCBzaGFyZWhvbGRlciwgYWNjZXB0ZWQgYSBwb3NpdGlvbiBvbiB0aGUgYm9hcmQgb25seSB0byBkaXRjaCBpdCwgYW5kIHR3ZWV0ZWQgdGhyb3VnaG91dCBhYm91dCBob3cgVHdpdHRlciBtYXkgYmUgZHlpbmcgYW5kIHNob3VsZCBjb25zaWRlciBlbGltaW5hdGluZyB0aGUgXCJ3XCIgZnJvbSBpdHMgbmFtZSwgYW1vbmcgb3RoZXIgc3VnZ2VzdGlvbnMuXG5cblRoZSBjb21wYW55IG5vdyBhcHBlYXJzIHRvIGJlIHByZXBwaW5nIGZvciB3aGF0IGNvdWxkIGJlIGEgZHJhd24tb3V0IGFjcXVpc2l0aW9uIGRyYW1hLlxuXG5XZWRidXNoIGFuYWx5c3QgRGFuIEl2ZXMgY2FsbGVkIHRoZSBwb2lzb24gcGlsbCBhIFwicHJlZGljdGFibGUgZGVmZW5zaXZlIG1lYXN1cmVcIiBieSBUd2l0dGVyJ3MgYm9hcmQgYW5kIGFkZGVkLCBcIndlIGJlbGlldmUgTXVzayBhbmQgaGlzIHRlYW0gZXhwZWN0ZWQgdGhpcyBwb2tlciBtb3ZlLlwiIEl2ZXMgYWxzbyBub3RlZCB0aGVyZSBpcyBhIHJpc2sgdGhhdCBUd2l0dGVyJ3MgcGxhbiBjb3VsZCBnZXQgY2hhbGxlbmdlZCBieSBNdXNrIG9yIG90aGVyIHNoYXJlaG9sZGVycyBpbiBjb3VydCwgd2hpY2ggY291bGQgcHV0IHRoZSBib2FyZCBpbiB0aGUgcG9zaXRpb24gb2YgZGVmZW5kaW5nIHRoYXQgdGhlIHBsYW4gd2FzIGluIHRoZSBiZXN0IGludGVyZXN0IG9mIHNoYXJlaG9sZGVycy5cblxuRXZlbiBzbywgdGhlcmUgc2VlbSB0byBiZSBzaW5jZXJlIGRvdWJ0cyBhYm91dCB3aGV0aGVyIE11c2ssIGEgc3VjY2Vzc2Z1bCBidXQgc29tZXRpbWVzIGVycmF0aWMgZW50cmVwcmVuZXVyIHdobyBlbmRlZCB1cCBpbiBob3Qgd2F0ZXIgd2l0aCByZWd1bGF0b3JzIGluIDIwMTggYWZ0ZXIgZmFsc2VseSBzdWdnZXN0aW5nIHRoYXQgaGUgaGFkIHNlY3VyZWQgZnVuZGluZyB0byB0YWtlIFRlc2xhIHByaXZhdGUsIGlzIHNlcmlvdXMgYWJvdXQgbW92aW5nIGZvcndhcmQgd2l0aCB0aGUgZGVhbC5cblxuRGVzcGl0ZSBiZWluZyB0aGUgcmljaGVzdCBtYW4gaW4gdGhlIHdvcmxkLCB0aGVyZSBhcmUgcXVlc3Rpb25zIGFib3V0IGhvdyBoZSB3b3VsZCBjb21lIHVwIHdpdGggdGhlIGNhc2ggdG8gZmluYW5jZSB0aGUgbmVhcmx5ICQ0MiBiaWxsaW9uIGRlYWwuIE11c2sgaGltc2VsZiBhZG1pdHRlZCBpbiBhbiBpbnRlcnZpZXcgVGh1cnNkYXkgdGhhdCBjbG9zaW5nIGEgZGVhbCB3b3VsZCBiZSBjaGFsbGVuZ2luZywgc2F5aW5nLCBcIkknbSBub3Qgc3VyZSBJJ2xsIGFjdHVhbGx5IGJlIGFibGUgdG8gYWNxdWlyZSBpdC5cIlxuXG5Ud2l0dGVyJ3Mgc3RvY2sgZmx1Y3R1YXRlZCBhIGJpdCBUaHVyc2RheSBidXQgcmVtYWluZWQgbW9zdGx5IGZsYXQsIGNsb3NpbmcgYXJvdW5kICQ0NSwgd2VsbCBiZWxvdyBNdXNrJ3Mgb2ZmZXIgcHJpY2Ugb2YgJDU0LjIwIHBlciBzaGFyZS4gVGhlIGxhY2sgb2YgZW50aHVzaWFzbSDigJQgdW51c3VhbCBhZnRlciBhIHRha2VvdmVyIG9mZmVyIOKAlCBzdWdnZXN0cyBpbnZlc3RvciBza2VwdGljaXNtIGFib3V0IHRoZSBkZWFsIGdvaW5nIHRocm91Z2guXG5cblR3aXR0ZXIncyBwb2lzb24gcGlsbCBwbGFuIHdpbGwgc3RheSBpbiBlZmZlY3QgZm9yIG9uZSB5ZWFyLCB0aGUgYm9hcmQgc2FpZC4gTW9yZSBkZXRhaWxzIGFib3V0IHRoZSBwbGFuIGFyZSBleHBlY3RlZCB0byBjb21lIGluIGEgZmlsaW5nIHdpdGggdGhlIFNlY3VyaXRpZXMgYW5kIEV4Y2hhbmdlIENvbW1pc3Npb24sIHdoaWNoIGlzIG5vdCB5ZXQgcHVibGljbHkgYXZhaWxhYmxlLlxuXG4tLSBDTk4gQnVzaW5lc3MnIFJpc2hpIEl5ZW5nYXIgY29udHJpYnV0ZWQgdG8gdGhpcyByZXBvcnQuIiwiYXJ0aWNsZV90aXRsZSI6IlR3aXR0ZXIgYWRvcHRzICdwb2lzb24gcGlsbCcgbWVhc3VyZSB0aGF0IGNvdWxkIHRod2FydCBFbG9uIE11c2sncyB0YWtlb3ZlciBiaWQiLCJhcnRpY2xlX2F1dGhvcnMiOlsiQ2xhcmUgRHVmZnkiLCJDbm4gQnVzaW5lc3MiXSwiYXJ0aWNsZV9pbWFnZSI6Imh0dHBzOi8vY2RuLmNubi5jb20vY25ubmV4dC9kYW0vYXNzZXRzLzIyMDQxNTA3MjEzNy0wNC1lbG9uLW11c2stdGVkLTA0MTQtc3VwZXItdGVhc2UuanBnIiwiYXJ0aWNsZV9wdWJfZGF0ZSI6IkFwciAxNSwgMjAyMiIsImFydGljbGVfdXJsIjoiaHR0cHM6Ly93d3cuY25uLmNvbS8yMDIyLzA0LzE1L3RlY2gvdHdpdHRlci1lbG9uLW11c2stcG9pc29uLXBpbGwvaW5kZXguaHRtbCIsImFydGljbGVfaHRtbCI6IjxkaXY+PHA+TmV3IFlvcmsgKENOTiBCdXNpbmVzcykgVHdpdHRlcidzIGJvYXJkIG9mIGRpcmVjdG9ycyBoYXMgYWRvcHRlZCBhIGxpbWl0ZWQtdGVybSBzaGFyZWhvbGRlciByaWdodHMgcGxhbiBjYWxsZWQgYSBcInBvaXNvbiBwaWxsXCIgdGhhdCBjb3VsZCBtYWtlIGl0IGhhcmRlciBmb3IgRWxvbiBNdXNrIHRvIGFjcXVpcmUgdGhlIGNvbXBhbnkgLjwvcD48cD5UaGUgXCJwb2lzb24gcGlsbFwiIHByb3Zpc2lvbiwgYW5ub3VuY2VkIGluIGEgcHJlc3MgcmVsZWFzZSBGcmlkYXksIHByZXNlcnZlcyB0aGUgcmlnaHQgZm9yIFR3aXR0ZXIgc2hhcmVob2xkZXJzIG90aGVyIHRoYW4gTXVzayB0byBhY3F1aXJlIG1vcmUgc2hhcmVzIG9mIHRoZSBjb21wYW55IGF0IGEgcmVsYXRpdmVseSBpbmV4cGVuc2l2ZSBwcmljZSwgZWZmZWN0aXZlbHkgZGlsdXRpbmcgTXVzaydzIHN0YWtlLiBUaGUgcHJvdmlzaW9uIHdpbGwgYmUgdHJpZ2dlcmVkIGlmIE11c2sgKG9yIGFueSBvdGhlciBpbnZlc3RvcikgYWNxdWlyZXMgbW9yZSB0aGFuIDE1JSBvZiB0aGUgY29tcGFueSdzIHNoYXJlcy4gTXVzayBjdXJyZW50bHkgb3ducyBhcm91bmQgOSUgb2YgVHdpdHRlcidzIHNoYXJlcy48L3A+PHA+VGhlIG1vdmUgbWFya3MgYW4gZWZmb3J0IGJ5IFR3aXR0ZXIncyBib2FyZCB0byB3cmVzdCBiYWNrIHNvbWUgY29udHJvbCBpbiB0aGUgZGVhbCBhZnRlciBNdXNrJ3Mgc3R1bm5pbmcgYWNxdWlzaXRpb24gb2ZmZXIuIFRoZSBwb2lzb24gcGlsbCAmIzgyMTI7IGEgY29ycG9yYXRlIGFudGktdGFrZW92ZXIgZGVmZW5zZSBtZWNoYW5pc20gJiM4MjEyOyB3b24ndCBuZWNlc3NhcmlseSBzdG9wIE11c2sncyBiaWQgaW4gaXRzIHRyYWNrcywgYnV0IGl0IGNvdWxkIG1ha2UgYnV5aW5nIHRoZSBjb21wYW55IG1vcmUgZXhwZW5zaXZlIG9yIGZvcmNlIE11c2sgdG8gdGhlIG5lZ290aWF0aW5nIHRhYmxlIHdpdGggdGhlIGJvYXJkLjwvcD48cCBjbGFzcz1cInpuLWJvZHlfX3BhcmFncmFwaFwiPlwiVGhlIFJpZ2h0cyBQbGFuIHdpbGwgcmVkdWNlIHRoZSBsaWtlbGlob29kIHRoYXQgYW55IGVudGl0eSwgcGVyc29uIG9yIGdyb3VwIGdhaW5zIGNvbnRyb2wgb2YgVHdpdHRlciB0aHJvdWdoIG9wZW4gbWFya2V0IGFjY3VtdWxhdGlvbiB3aXRob3V0IHBheWluZyBhbGwgc2hhcmVob2xkZXJzIGFuIGFwcHJvcHJpYXRlIGNvbnRyb2wgcHJlbWl1bSBvciB3aXRob3V0IHByb3ZpZGluZyB0aGUgQm9hcmQgc3VmZmljaWVudCB0aW1lIHRvIG1ha2UgaW5mb3JtZWQganVkZ21lbnRzIGFuZCB0YWtlIGFjdGlvbnMgdGhhdCBhcmUgaW4gdGhlIGJlc3QgaW50ZXJlc3RzIG9mIHNoYXJlaG9sZGVycyxcIiB0aGUgY29tcGFueSBzYWlkIGluIGl0cyBzdGF0ZW1lbnQuIDwvcD48cD5NdXNrJ3MgZmlyc3QgcHVibGljIHN0YXRlbWVudCBhZnRlciBUd2l0dGVyJ3MgYW5ub3VuY2VtZW50IGNhbWUgRnJpZGF5IGFmdGVybm9vbiwgdGhyb3VnaCBhIHF1b3RlIHR3ZWV0IG9mIGEgVHdpdHRlciBwb2xsIGJ5IHRoZSBhY2NvdW50IEBCVENfQXJjaGl2ZSBhc2tpbmc6IFwiRG8geW91IHdhbnQgRWxvbiBNdXNrIHRvIGJ1eSBUd2l0dGVyP1wiXCJUaGFua3MgZm9yIHRoZSBzdXBwb3J0IVwiIHRoZSBiaWxsaW9uYWlyZSB3cm90ZSB3aGlsZSBzaGFyaW5nIHRoZSBwb2xsLCB3aGljaCBhdCB0aGUgdGltZSBvZiB3cml0aW5nIGhhZCBhIG1ham9yaXR5IG9mIHJlc3BvbmRlbnRzIHZvdGluZyBcIlllcy5cIiBNdXNrIGRpZCBub3QgcmVzcG9uZCB0byBhIHJlcXVlc3QgZm9yIGNvbW1lbnQgZnJvbSBDTk4gQnVzaW5lc3MuPC9wPjxwIGNsYXNzPVwiem4tYm9keV9fcGFyYWdyYXBoXCI+VGhlIFRlc2xhIGFuZCBTcGFjZVggQ0VPIG9uIFRodXJzZGF5IG9mZmVyZWQgdG8gYWNxdWlyZSBhbGwgdGhlIHNoYXJlcyBpbiBUd2l0dGVyIGhlIGRvZXMgbm90IG93biBmb3IgJDU0LjIwIHBlciBzaGFyZSwgdmFsdWluZyB0aGUgY29tcGFueSBhdCAkNDEuNCBiaWxsaW9uLiBUaGF0IHJlcHJlc2VudHMgYSAzOCUgcHJlbWl1bSBvdmVyIHRoZSBjbG9zaW5nIHByaWNlIG9uIEFwcmlsIDEsIHRoZSBsYXN0IHRyYWRpbmcgZGF5IGJlZm9yZSBNdXNrIGRpc2Nsb3NlZCB0aGF0IGhlIGhhZCBiZWNvbWUgVHdpdHRlcidzIGJpZ2dlc3Qgc2hhcmVob2xkZXIsIGFuZCBhbiAxOCUgcHJlbWl1bSBvdmVyIGl0cyBjbG9zaW5nIHByaWNlIFdlZG5lc2RheS4gVGhlIGRlYWwgb2ZmZXIgY2FtZSAxMCBkYXlzIGFmdGVyIE11c2sgZmlyc3QgZGlzY2xvc2VkIHRoYXQgaGUgaGFkIGJlY29tZSBUd2l0dGVyJ3MgbGFyZ2VzdCBzaGFyZWhvbGRlciAoaGUgaGFzIHNpbmNlIGJlZW4gZWNsaXBzZWQgYnkgVmFuZ3VhcmQgR3JvdXApLjwvcD48cCBjbGFzcz1cInpuLWJvZHlfX3BhcmFncmFwaFwiPlRoZSBvZmZlciBjYXBwZWQgb2ZmIGEgd2hpcmx3aW5kIDEwLWRheSBwZXJpb2QgZHVyaW5nIHdoaWNoIE11c2sgcmV2ZWFsZWQgaGUgaGFkIGJlY29tZSB0aGUgY29tcGFueSdzIGxhcmdlc3Qgc2hhcmVob2xkZXIsIGFjY2VwdGVkIGEgcG9zaXRpb24gb24gdGhlIGJvYXJkIG9ubHkgdG8gZGl0Y2ggaXQsIGFuZCB0d2VldGVkIHRocm91Z2hvdXQgYWJvdXQgaG93IFR3aXR0ZXIgbWF5IGJlIGR5aW5nIGFuZCBzaG91bGQgY29uc2lkZXIgZWxpbWluYXRpbmcgdGhlIFwid1wiIGZyb20gaXRzIG5hbWUsIGFtb25nIG90aGVyIHN1Z2dlc3Rpb25zLiA8L3A+PHAgY2xhc3M9XCJ6bi1ib2R5X19wYXJhZ3JhcGhcIj5UaGUgY29tcGFueSBub3cgYXBwZWFycyB0byBiZSBwcmVwcGluZyBmb3Igd2hhdCBjb3VsZCBiZSBhIGRyYXduLW91dCBhY3F1aXNpdGlvbiBkcmFtYS4gPC9wPjxwIGlkPVwiY25uLWVuZC1vZi1jb250ZW50XCIgY2xhc3M9XCJteUZpbmFuY2Utd2lkZ2V0XCI+PC9wPjxwIGNsYXNzPVwiem4tYm9keV9fcGFyYWdyYXBoXCI+V2VkYnVzaCBhbmFseXN0IERhbiBJdmVzIGNhbGxlZCB0aGUgcG9pc29uIHBpbGwgYSBcInByZWRpY3RhYmxlIGRlZmVuc2l2ZSBtZWFzdXJlXCIgYnkgVHdpdHRlcidzIGJvYXJkIGFuZCBhZGRlZCwgXCJ3ZSBiZWxpZXZlIE11c2sgYW5kIGhpcyB0ZWFtIGV4cGVjdGVkIHRoaXMgcG9rZXIgbW92ZS5cIiBJdmVzIGFsc28gbm90ZWQgdGhlcmUgaXMgYSByaXNrIHRoYXQgVHdpdHRlcidzIHBsYW4gY291bGQgZ2V0IGNoYWxsZW5nZWQgYnkgTXVzayBvciBvdGhlciBzaGFyZWhvbGRlcnMgaW4gY291cnQsIHdoaWNoIGNvdWxkIHB1dCB0aGUgYm9hcmQgaW4gdGhlIHBvc2l0aW9uIG9mIGRlZmVuZGluZyB0aGF0IHRoZSBwbGFuIHdhcyBpbiB0aGUgYmVzdCBpbnRlcmVzdCBvZiBzaGFyZWhvbGRlcnMuIDwvcD48cCBjbGFzcz1cInpuLWJvZHlfX3BhcmFncmFwaFwiPkV2ZW4gc28sIHRoZXJlIHNlZW0gdG8gYmUgc2luY2VyZSBkb3VidHMgYWJvdXQgd2hldGhlciBNdXNrLCBhIHN1Y2Nlc3NmdWwgYnV0IHNvbWV0aW1lcyBlcnJhdGljIGVudHJlcHJlbmV1ciB3aG8gZW5kZWQgdXAgaW4gaG90IHdhdGVyIHdpdGggcmVndWxhdG9ycyBpbiAyMDE4IGFmdGVyIGZhbHNlbHkgc3VnZ2VzdGluZyB0aGF0IGhlIGhhZCBzZWN1cmVkIGZ1bmRpbmcgdG8gdGFrZSBUZXNsYSBwcml2YXRlLCBpcyBzZXJpb3VzIGFib3V0IG1vdmluZyBmb3J3YXJkIHdpdGggdGhlIGRlYWwuIDwvcD48cCBjbGFzcz1cInpuLWJvZHlfX3BhcmFncmFwaFwiPkRlc3BpdGUgYmVpbmcgdGhlIHJpY2hlc3QgbWFuIGluIHRoZSB3b3JsZCwgdGhlcmUgYXJlIHF1ZXN0aW9ucyBhYm91dCBob3cgaGUgd291bGQgY29tZSB1cCB3aXRoIHRoZSBjYXNoIHRvIGZpbmFuY2UgdGhlIG5lYXJseSAkNDIgYmlsbGlvbiBkZWFsLiBNdXNrIGhpbXNlbGYgYWRtaXR0ZWQgaW4gYW4gaW50ZXJ2aWV3IFRodXJzZGF5IHRoYXQgY2xvc2luZyBhIGRlYWwgd291bGQgYmUgY2hhbGxlbmdpbmcsIHNheWluZywgXCJJJ20gbm90IHN1cmUgSSdsbCBhY3R1YWxseSBiZSBhYmxlIHRvIGFjcXVpcmUgaXQuXCI8L3A+PHAgY2xhc3M9XCJ6bi1ib2R5X19wYXJhZ3JhcGhcIj5Ud2l0dGVyJ3Mgc3RvY2sgZmx1Y3R1YXRlZCBhIGJpdCBUaHVyc2RheSBidXQgcmVtYWluZWQgbW9zdGx5IGZsYXQsIGNsb3NpbmcgYXJvdW5kICQ0NSwgd2VsbCBiZWxvdyBNdXNrJ3Mgb2ZmZXIgcHJpY2Ugb2YgJDU0LjIwIHBlciBzaGFyZS4gVGhlIGxhY2sgb2YgZW50aHVzaWFzbSAmIzgyMTI7IHVudXN1YWwgYWZ0ZXIgYSB0YWtlb3ZlciBvZmZlciAmIzgyMTI7IHN1Z2dlc3RzIGludmVzdG9yIHNrZXB0aWNpc20gYWJvdXQgdGhlIGRlYWwgZ29pbmcgdGhyb3VnaC48L3A+PHA+PC9wPjx1bCBjbGFzcz1cImNuIGNuLWxpc3QtaGllcmFyY2hpY2FsLXhzIGNuLS1pZHgtMjAgY24tem9uZUFkQ29udGFpbmVyXCI+PC91bD48cCBjbGFzcz1cInpuLWJvZHlfX3BhcmFncmFwaFwiPlR3aXR0ZXIncyBwb2lzb24gcGlsbCBwbGFuIHdpbGwgc3RheSBpbiBlZmZlY3QgZm9yIG9uZSB5ZWFyLCB0aGUgYm9hcmQgc2FpZC4gTW9yZSBkZXRhaWxzIGFib3V0IHRoZSBwbGFuIGFyZSBleHBlY3RlZCB0byBjb21lIGluIGEgZmlsaW5nIHdpdGggdGhlIFNlY3VyaXRpZXMgYW5kIEV4Y2hhbmdlIENvbW1pc3Npb24sIHdoaWNoIGlzIG5vdCB5ZXQgcHVibGljbHkgYXZhaWxhYmxlLiA8L3A+PHAgY2xhc3M9XCJ6bi1ib2R5X19wYXJhZ3JhcGhcIj4tLSBDTk4gQnVzaW5lc3MnIFJpc2hpIEl5ZW5nYXIgY29udHJpYnV0ZWQgdG8gdGhpcyByZXBvcnQuPC9wPjwvZGl2PiIsImFydGljbGVfYWJzdHJhY3QiOm51bGx9
-  recorded_at: Sat, 16 Apr 2022 19:38:55 GMT
+  recorded_at: Sun, 17 Apr 2022 17:25:06 GMT
 recorded_with: VCR 6.1.0
