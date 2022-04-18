@@ -1,9 +1,10 @@
 require 'rails_helper'
 
-RSpec.describe Article do 
+RSpec.describe Article do
 
-  before(:each) do 
+  before(:each) do
     @article_data = {
+                      data: [
                       author: "Amanda Holpuch",
                       title: "What Is a ‘Poison Pill’ Defense?",
                       description: "Twitter has unveiled its plan to fight Elon Musk’s bid for the company. It’s a well-worn tactic to fend off corporate raiders and hostile takeovers.",
@@ -14,13 +15,12 @@ RSpec.describe Article do
                       language: "en",
                       country: "us",
                       published_at: "2022-04-15T20:16:16+00:00"
-                    }
+                    ]}
   end
 
-  it 'will create an Article object' do 
-    article = Article.new(@article_data, "left_bias")
-
-    expect(article.bias).to eq("left_bias")
+  it 'will create an Article object' do
+    article = Article.new(@article_data)
+    expect(article).to be_an Article
     expect(article.title).to eq("What Is a ‘Poison Pill’ Defense?")
     expect(article.url).to eq("https://www.nytimes.com/2022/04/15/business/twitter-poison-pill-explainer.html")
     expect(article.source).to eq("nytimes")
