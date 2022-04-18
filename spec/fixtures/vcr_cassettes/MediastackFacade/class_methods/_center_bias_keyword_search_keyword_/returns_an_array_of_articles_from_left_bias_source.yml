@@ -1,0 +1,69 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.mediastack.com/v1/news?access_key=<mediastack_key>&countries=us&keywords=Elon&languages=en&limit=1&sort=published_desc&sources=bloomberg,cnbc,forbes,npr-national-public-radio,reuters
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.2.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 17 Apr 2022 17:42:55 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - no-cache, private
+      X-Request-Time:
+      - '0.041'
+      - '0.064'
+      X-Apilayer-Transaction-Id:
+      - d9bd04e2-84d2-4c9b-8290-353abc53f2e0
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET, POST, HEAD, OPTIONS
+      Access-Control-Allow-Headers:
+      - "*"
+      X-Quota-Limit:
+      - '500'
+      X-Quota-Remaining:
+      - '222'
+      X-Increment-Usage:
+      - '1'
+      Cf-Cache-Status:
+      - DYNAMIC
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=hwYkiJYePiTqin%2BcpXNfKejH2xgkoCJe%2FePL3KQDMlPLW%2B6OHYun43kOzOQwnpSVHz6KObBJg2K9yE0%2BuAYyoGGouoqeN%2Fq9asM4tq5NVze%2F%2B66tfP1L5iZLlZ1sGWNvHvTt%2FJ4%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 6fd6f5c63a6b2c68-ORD
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"pagination":{"limit":1,"offset":0,"count":1,"total":117},"data":[{"author":null,"title":"Elon
+        Musk \u2018funding secured\u2019 tweets ruled false new court filing suggests","description":"A
+        court filing out Friday suggests a judge ruled that CEO Elon Musk knowingly
+        made false statements when he tweeted about a take-private deal for Tesla
+        in 2018.","url":"https:\/\/www.cnbc.com\/2022\/04\/16\/elon-musk-funding-secured-tweets-ruled-false-new-court-filing-suggests.html","source":"Cnbc
+        | World Business News Leader","image":null,"category":"business","language":"en","country":"us","published_at":"2022-04-16T21:47:00+00:00"}]}'
+  recorded_at: Sun, 17 Apr 2022 17:42:55 GMT
+recorded_with: VCR 6.1.0

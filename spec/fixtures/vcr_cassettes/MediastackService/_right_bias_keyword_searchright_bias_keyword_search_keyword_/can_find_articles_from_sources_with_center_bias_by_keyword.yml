@@ -1,0 +1,69 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.mediastack.com/v1/news?access_key=<mediastack_key>&countries=us&keywords=elon%20musk&languages=en&limit=1&sort=published_desc&sources=foxnews,breitbart
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.2.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Sun, 17 Apr 2022 17:46:28 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - no-cache, private
+      X-Request-Time:
+      - '0.070'
+      - '0.100'
+      X-Apilayer-Transaction-Id:
+      - 86cde401-5bcd-4ed7-8ade-2dbdb281f062
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET, POST, HEAD, OPTIONS
+      Access-Control-Allow-Headers:
+      - "*"
+      X-Quota-Limit:
+      - '500'
+      X-Quota-Remaining:
+      - '212'
+      X-Increment-Usage:
+      - '1'
+      Cf-Cache-Status:
+      - DYNAMIC
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=dj%2BrCpnLDDxTVbgD1Mk%2Bz3axvVwnvSldk0U16EGamrdo2FU6VjIRktBXAxglKkX2OUM6c8pHVV%2Bj65IT%2BD7x80f03ru6xNsVlf1FvI32O2QROuZ15noRRVCs2dIMHH11aWW3cIA%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 6fd6faf7bf752c58-ORD
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"pagination":{"limit":1,"offset":0,"count":1,"total":2},"data":[{"author":"Gary
+        Gastelu","title":"Tesla raising \u0026apos;Full Self-Driving\u0026apos; price
+        to $12,000","description":"Tesla is increasing the price of its Full Self-Driving
+        feature to $12,000 on January 17, Elon Musk has announced. The system remains
+        in development in beta.","url":"https:\/\/www.foxnews.com\/auto\/tesla-raising-full-self-driving-price-12000","source":"FOX
+        News - Lifestyle","image":"https:\/\/static.foxnews.com\/foxnews.com\/content\/uploads\/2021\/10\/SELF.jpg","category":"entertainment","language":"en","country":"us","published_at":"2022-01-10T12:17:03+00:00"}]}'
+  recorded_at: Sun, 17 Apr 2022 17:46:28 GMT
+recorded_with: VCR 6.1.0
