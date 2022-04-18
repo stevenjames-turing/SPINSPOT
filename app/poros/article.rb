@@ -1,5 +1,5 @@
 class Article
-  attr_reader :bias, :title, :url, :source, :photo_url, :published_at
+  attr_reader :title, :url, :source, :photo_url, :published_at
 
   def initialize(article_data)
     @title = article_data[:data][0][:title]

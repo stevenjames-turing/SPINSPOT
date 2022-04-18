@@ -14,4 +14,5 @@ class MediastackFacade
     data = MediastackService.right_bias_keyword_search(keyword)
     @article = Article.new(data)
   end
+
 end

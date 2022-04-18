@@ -1,14 +1,12 @@
 class TldrFacade
 
-  def self.advanced_article_summary(article_url, bias, source)
-    json = TldrService.advanced_article_summary(article_url)
-    
-    @tldr = Tldr.new(json, bias, source)
+  def self.advanced_article_summary(article_url)
+    data = TldrService.advanced_article_summary(article_url)
+    tldr = Tldr.new(data)
   end
 
-  def self.standard_article_summary(article_url, bias, source)
-    json = TldrService.standard_article_summary(article_url)
-    
-    @tldr = Tldr.new(json, bias, source)
+  def self.standard_article_summary(article_url)
+    data = TldrService.standard_article_summary(article_url)
+    tldr = Tldr.new(data)
   end
 end
