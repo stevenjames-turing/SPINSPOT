@@ -69,8 +69,6 @@ workflows:
           requires:
             - build 
       - heroku_deploy:
-          requires:
-            - build
           filters:
             branches:
               only: sequential-branch-filter
