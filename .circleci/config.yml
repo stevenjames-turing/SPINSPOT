@@ -68,7 +68,7 @@ workflows:
       - test:
           requires:
             - build 
-      - deploy:
+      - heroku_deploy:
           requires:
             - build
           filters:
