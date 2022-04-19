@@ -1,0 +1,411 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.mediastack.com/v1/news?access_key=<mediastack_key>&countries=us&keywords=Elon%20musk&languages=en&limit=1&sort=published_desc&sources=abc-news,cnn,guardian,nytimes
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.2.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 18 Apr 2022 22:45:30 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - no-cache, private
+      X-Request-Time:
+      - '0.049'
+      - '0.084'
+      X-Apilayer-Transaction-Id:
+      - cb292ab5-a7aa-4e8c-88a6-a16d03e19755
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET, POST, HEAD, OPTIONS
+      Access-Control-Allow-Headers:
+      - "*"
+      X-Quota-Limit:
+      - '500'
+      X-Quota-Remaining:
+      - '178'
+      X-Increment-Usage:
+      - '1'
+      Cf-Cache-Status:
+      - DYNAMIC
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=%2FvqoTRN4T9xgpBk%2FG8OznYW8g5YK%2BV9YjjeuzHaJnQIOtO8oy4nWvjZUEGpVbaaWoJps3dPVYl4IjMKO2WcS%2Fc24mAf%2BvJhTy59P%2BPW24aZOVsc674S2KzHSXD0gbfhCqhHnXoo%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 6fe0ee630bb2291f-ORD
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"pagination":{"limit":1,"offset":0,"count":1,"total":68},"data":[{"author":"Lauren
+        Hirsch","title":"Apollo Said to Be Weighing Participating in Twitter Bid","description":"Investors
+        have been skeptical that Elon Musk would be able to cobble together the funds
+        needed to buy Twitter.","url":"https:\/\/www.nytimes.com\/2022\/04\/18\/business\/apollo-twitter-bid-elon-musk.html","source":"The
+        New York Times","image":null,"category":"business","language":"en","country":"us","published_at":"2022-04-18T21:08:00+00:00"}]}'
+  recorded_at: Mon, 18 Apr 2022 22:45:30 GMT
+- request:
+    method: get
+    uri: http://api.mediastack.com/v1/news?access_key=<mediastack_key>&countries=us&keywords=Elon%20musk&languages=en&limit=1&sort=published_desc&sources=bloomberg,cnbc,forbes,npr-national-public-radio,reuters
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.2.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 18 Apr 2022 22:45:31 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - no-cache, private
+      X-Request-Time:
+      - '0.060'
+      - '0.091'
+      X-Apilayer-Transaction-Id:
+      - '019b842b-849e-4495-88c1-e8d95eeafd72'
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET, POST, HEAD, OPTIONS
+      Access-Control-Allow-Headers:
+      - "*"
+      X-Quota-Limit:
+      - '500'
+      X-Quota-Remaining:
+      - '177'
+      X-Increment-Usage:
+      - '1'
+      Cf-Cache-Status:
+      - DYNAMIC
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=4Wl2UVNS8KWrGU8Y1wL8CEx%2FxotIORiHBtyr7RX8OATQOqv5r3b3Nb6Rfc1QkVua2iUoKITYJ7xaNIYdGfRtkiNNOnIPEdqYEW7gRvS6xIZgCP%2F9L2vAr9wAqRqujsY7pVXCYWM%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 6fe0ee648e3b86cf-ORD
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"pagination":{"limit":1,"offset":0,"count":1,"total":170},"data":[{"author":null,"title":"Ex-CEO
+        Dorsey criticizes Twitter board, Musk says it \u0027owns almost no shares!\u0027","description":"The
+        board is currently considering a $43 billion bid from Tesla CEO Elon Musk
+        to buy the company and take it private.","url":"https:\/\/www.cnbc.com\/2022\/04\/18\/twitters-ex-ceo-criticizes-board-musk-says-they-own-almost-no-shares.html","source":"CNBC","image":null,"category":"general","language":"en","country":"us","published_at":"2022-04-18T14:00:12+00:00"}]}'
+  recorded_at: Mon, 18 Apr 2022 22:45:31 GMT
+- request:
+    method: get
+    uri: http://api.mediastack.com/v1/news?access_key=<mediastack_key>&countries=us&keywords=Elon%20musk&languages=en&limit=1&sort=published_desc&sources=foxnews,breitbart
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.2.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 18 Apr 2022 22:45:31 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - no-cache, private
+      X-Request-Time:
+      - '0.053'
+      - '0.077'
+      X-Apilayer-Transaction-Id:
+      - 5c0951e6-9e13-4917-ac5d-84f82a878977
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET, POST, HEAD, OPTIONS
+      Access-Control-Allow-Headers:
+      - "*"
+      X-Quota-Limit:
+      - '500'
+      X-Quota-Remaining:
+      - '176'
+      X-Increment-Usage:
+      - '1'
+      Cf-Cache-Status:
+      - DYNAMIC
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=fwqEJryUOXkmsF82KdXD%2Fi4GYdcZk%2BTYSNG%2BO2SyskjS5NSDEp%2FvIKogWZG6tziaVL5CRlwtWvAhy%2FhsF32CnsEjd9jB2AV7qolgT4Orcm20GLZoqTxcnh6h%2F31rOp1FXsU3DPc%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 6fe0ee65e87e8687-ORD
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"pagination":{"limit":1,"offset":0,"count":1,"total":2},"data":[{"author":"Gary
+        Gastelu","title":"Tesla raising \u0026apos;Full Self-Driving\u0026apos; price
+        to $12,000","description":"Tesla is increasing the price of its Full Self-Driving
+        feature to $12,000 on January 17, Elon Musk has announced. The system remains
+        in development in beta.","url":"https:\/\/www.foxnews.com\/auto\/tesla-raising-full-self-driving-price-12000","source":"FOX
+        News - Lifestyle","image":"https:\/\/static.foxnews.com\/foxnews.com\/content\/uploads\/2021\/10\/SELF.jpg","category":"entertainment","language":"en","country":"us","published_at":"2022-01-10T12:17:03+00:00"}]}'
+  recorded_at: Mon, 18 Apr 2022 22:45:31 GMT
+- request:
+    method: post
+    uri: https://tldrthis.p.rapidapi.com/v1/model/abstractive/summarize-url/
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+                                  "url": "https://www.nytimes.com/2022/04/18/business/apollo-twitter-bid-elon-musk.html",
+                                  "min_length": 100,
+                                  "max_length": 300,
+                                  "is_detailed": false
+                                  }
+    headers:
+      X-Rapidapi-Host:
+      - tldrthis.p.rapidapi.com
+      X-Rapidapi-Key:
+      - "<tldr_key>"
+      User-Agent:
+      - Faraday v2.2.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 18 Apr 2022 22:45:31 GMT
+      Server:
+      - RapidAPI-1.2.8
+      X-Rapidapi-Region:
+      - AWS - us-east-1
+      X-Rapidapi-Version:
+      - 1.2.8
+      X-Ratelimit-Requests-Limit:
+      - '100'
+      X-Ratelimit-Requests-Remaining:
+      - '66'
+      X-Ratelimit-Requests-Reset:
+      - '2486262'
+      Content-Length:
+      - '7971'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJzdW1tYXJ5IjpbIiBFbG9uIE11c2sgcHV0IGZvcndhcmQgYSByb3VnaGx5ICQ0MCBiaWxsaW9uIGJpZCB0byBidXkgVHdpdHRlciBsYXN0IHdlZWsuIFRoZSBUZXNsYSBjaGllZiBleGVjdXRpdmUgcmVjZW50bHkgYW1hc3NlZCBhIG1vcmUgdGhhbiA5IHBlcmNlbnQgc3Rha2UgaW4gdGhlIGNvbXBhbnkuIEFwb2xsbyBHbG9iYWwgTWFuYWdlbWVudCBpcyBjb25zaWRlcmluZyBvZmZlcmluZyBkZWJ0IGZpbmFuY2luZyB0byBwb3RlbnRpYWwgYnV5ZXJzLCBhIHNvdXJjZSBzYXlzLiBObyBkZWNpc2lvbnMgaGF2ZSB5ZXQgYmVlbiBtYWRlLCB0aGUgc291cmNlIHNheXMsIGJ1dCBNci4gTXVzayBpcyB1bmRldGVycmVkLCB0d2VldGluZyB0aGUgd29yZHMg4oCcTG92ZSBNZSBUZW5kZXLigJlz4oCdIGF0IHRoZSBlbmQgb2YgdGhlIGRheS4gTGFzdCB5ZWFyLCBBcG9sbG8gYWNxdWlyZWQgQU9MIGFuZCBZYWhvbyBpbiBhIGRlYWwgd29ydGggJDUgYmlsbGlvbi4iXSwiYXJ0aWNsZV90ZXh0IjoiVGhlIHByaXZhdGUgZXF1aXR5IGZpcm0gQXBvbGxvIEdsb2JhbCBNYW5hZ2VtZW50IGlzIGNvbnNpZGVyaW5nIHBhcnRpY2lwYXRpbmcgaW4gYSBiaWQgZm9yIFR3aXR0ZXIgYnkgb2ZmZXJpbmcgZGVidCBmaW5hbmNpbmcgdG8gcG90ZW50aWFsIGJ1eWVycywgaW5jbHVkaW5nIHRoZSBUZXNsYSBjaGllZiBleGVjdXRpdmUgRWxvbiBNdXNrLCBhY2NvcmRpbmcgdG8gYSBwZXJzb24gd2l0aCBrbm93bGVkZ2Ugb2YgdGhlIHNpdHVhdGlvbi5cbk5vIGRlY2lzaW9ucyBoYXZlIHlldCBiZWVuIG1hZGUsIHNhaWQgdGhlIHBlcnNvbiwgd2hvIHJlcXVlc3RlZCBhbm9ueW1pdHkgYmVjYXVzZSB0aGUgdGFsa3Mgd2VyZSBjb25maWRlbnRpYWwuXG5UaGUgV2FsbCBTdHJlZXQgSm91cm5hbCBlYXJsaWVyIHJlcG9ydGVkIEFwb2xsb+KAmXMgcG90ZW50aWFsIHBhcnRpY2lwYXRpb24gaW4gYSBiaWQuXG5Nci4gTXVzaywgdGhlIHdvcmxk4oCZcyB3ZWFsdGhpZXN0IG1hbiB3aG8gYWxzbyBsZWFkcyB0aGUgcm9ja2V0IG1ha2VyIFNwYWNlWCwgbGFzdCB3ZWVrIHB1dCBmb3J3YXJkIGEgcm91Z2hseSAkNDAgYmlsbGlvbiBiaWQgdG8gYnV5IFR3aXR0ZXIuIE1yLiBNdXNrLCB3aG9zZSB3ZWFsdGggaXMgbGFyZ2VseSB0aWVkIHVwIGluIHN0b2NrLCBkaWQgbm90IG9mZmVyIGFueSBkZXRhaWxzIGFib3V0IGZpbmFuY2luZyBzdWNoIGEgZGVhbC5cbkludmVzdG9ycyBoYXZlIGJlZW4gc2tlcHRpY2FsIHRoYXQgaGUgd291bGQgYmUgYWJsZSB0byBjb2JibGUgdG9nZXRoZXIgdGhlIGZ1bmRzIG5lZWRlZCB0byBidXkgVHdpdHRlci4gQW5hbHlzdHMgaGF2ZSBlc3RpbWF0ZWQgTXIuIE11c2sgd291bGQgbmVlZCAkMTUgYmlsbGlvbiB0byAkMjAgYmlsbGlvbiBpbiBkZWJ0IHRvIGZ1bmQgaGlzIGVmZm9ydHMuIEhlIHJlY2VudGx5IGFtYXNzZWQgYSBtb3JlIHRoYW4gOSBwZXJjZW50IHN0YWtlIGluIHRoZSBjb21wYW55LlxuTGFzdCB3ZWVrLCBUd2l0dGVyIGFubm91bmNlZCBpdCB3YXMgdXNpbmcgYSBtZXRob2QgY2FsbGVkIGEg4oCccG9pc29uIHBpbGws4oCdIHdoaWNoIHdvdWxkIG1ha2UgaXQgc2lnbmlmaWNhbnRseSBoYXJkZXIgZm9yIE1yLiBNdXNrIHRvIGFjcXVpcmUgbW9yZSB0aGFuIDE1IHBlcmNlbnQgb2YgdGhlIGNvbXBhbnkuIFR3aXR0ZXIgc2FpZCB0aGUgZGVmZW5zaXZlIG1hbmV1dmVyIHdvdWxkIG5vdCBzdG9wIHRoZSBjb21wYW55IGZyb20gaG9sZGluZyB0YWxrcyB3aXRoIGFueSBwb3RlbnRpYWwgYnV5ZXIsIGFuZCB3b3VsZCBnaXZlIGl0IG1vcmUgdGltZSB0byBuZWdvdGlhdGUgYSBkZWFsIHRoYXQgVHdpdHRlcuKAmXMgYm9hcmQgYmVsaWV2ZXMgYmVzdCByZWZsZWN0cyB0aGUgY29tcGFueeKAmXMgdmFsdWUuXG5Nci4gTXVza+KAmXMgYXBwcm9hY2ggYXBwZWFycyB0byBoYXZlIHN0aXJyZWQgb3RoZXIgcG90ZW50aWFsIGJ1eWVycy4gQXQgbGVhc3Qgb25lIG90aGVyIHByaXZhdGUgZXF1aXR5IGZpcm0sIFRob21hIEJyYXZvLCBoYXMgZXhwcmVzc2VkIGludGVyZXN0IGluIGFjcXVpcmluZyBUd2l0dGVyLCBUaGUgTmV3IFlvcmsgVGltZXMgcHJldmlvdXNseSByZXBvcnRlZC5cbk1yLiBNdXNrLCBmb3IgaGlzIHBhcnQsIGFwcGVhcnMgdW5kZXRlcnJlZC4gT24gU2F0dXJkYXksIGhlIHR3ZWV0ZWQgdGhlIHdvcmRzIOKAnExvdmUgTWUgVGVuZGVy4oCdIGFsb25nc2lkZSBtdXNpY2FsIG5vdGVzLCBhIHNlZW1pbmcgcmVmZXJlbmNlIHRvIGJvdGggdGhlIEVsdmlzIFByZXNsZXkgYmFsbGFkIGJ5IHRoZSBzYW1lIG5hbWUgYW5kIGEg4oCcdGVuZGVyIG9mZmVy4oCdIGluIHdoaWNoIE1yLiBNdXNrIHdvdWxkIHRha2UgaGlzIG9mZmVyIGRpcmVjdGx5IHRvIHNoYXJlaG9sZGVycy5cbkFwb2xsbyBoYXMgZXhwZXJpZW5jZSBpbiB0aGUgbWVkaWEgaW5kdXN0cnkuIExhc3QgeWVhciwgaXQgYWNxdWlyZWQgQU9MIGFuZCBZYWhvbyBpbiBhIGRlYWwgd29ydGggJDUgYmlsbGlvbi4iLCJhcnRpY2xlX3RpdGxlIjoiQXBvbGxvIGlzIHNhaWQgdG8gYmUgY29uc2lkZXJpbmcgcGFydGljaXBhdGluZyBpbiBhIGJpZCBmb3IgVHdpdHRlci4iLCJhcnRpY2xlX2F1dGhvcnMiOltdLCJhcnRpY2xlX2ltYWdlIjoiaHR0cHM6Ly9zdGF0aWMwMS5ueXQuY29tL2ltYWdlcy8yMDIyLzA0LzE4L211bHRpbWVkaWEvMThlY29uLWJyaWVmaW5nLW11c2svMThlY29uLWJyaWVmaW5nLW11c2stYXJ0aWNsZUxhcmdlLmpwZz9xdWFsaXR5PTc1JmF1dG89d2VicCZkaXNhYmxlPXVwc2NhbGUiLCJhcnRpY2xlX3B1Yl9kYXRlIjoiTW9uLCAxOCBBcHIgMjAyMiAyMTowNzowMCBHTVQiLCJhcnRpY2xlX3VybCI6Imh0dHBzOi8vd3d3Lm55dGltZXMuY29tLzIwMjIvMDQvMTgvYnVzaW5lc3MvYXBvbGxvLXR3aXR0ZXItYmlkLWVsb24tbXVzay5odG1sIiwiYXJ0aWNsZV9odG1sIjoiPGZpZ3VyZT48cGljdHVyZT48c291cmNlIG1lZGlhPVwiKG1heC13aWR0aDogNTk5cHgpIGFuZCAobWluLWRldmljZS1waXhlbC1yYXRpbzogMyksKG1heC13aWR0aDogNTk5cHgpIGFuZCAoLXdlYmtpdC1taW4tZGV2aWNlLXBpeGVsLXJhdGlvOiAzKSwobWF4LXdpZHRoOiA1OTlweCkgYW5kIChtaW4tcmVzb2x1dGlvbjogM2RwcHgpLChtYXgtd2lkdGg6IDU5OXB4KSBhbmQgKG1pbi1yZXNvbHV0aW9uOiAyODhkcGkpXCIgc3JjU2V0PVwiaHR0cHM6Ly9zdGF0aWMwMS5ueXQuY29tL2ltYWdlcy8yMDIyLzA0LzE4L211bHRpbWVkaWEvMThlY29uLWJyaWVmaW5nLW11c2svMThlY29uLWJyaWVmaW5nLW11c2stbW9iaWxlTWFzdGVyQXQzeC5qcGc/cXVhbGl0eT03NSZhdXRvPXdlYnAmZGlzYWJsZT11cHNjYWxlJndpZHRoPTYwMFwiPjwvc291cmNlPjxzb3VyY2UgbWVkaWE9XCIobWF4LXdpZHRoOiA1OTlweCkgYW5kIChtaW4tZGV2aWNlLXBpeGVsLXJhdGlvOiAyKSwobWF4LXdpZHRoOiA1OTlweCkgYW5kICgtd2Via2l0LW1pbi1kZXZpY2UtcGl4ZWwtcmF0aW86IDIpLChtYXgtd2lkdGg6IDU5OXB4KSBhbmQgKG1pbi1yZXNvbHV0aW9uOiAyZHBweCksKG1heC13aWR0aDogNTk5cHgpIGFuZCAobWluLXJlc29sdXRpb246IDE5MmRwaSlcIiBzcmNTZXQ9XCJodHRwczovL3N0YXRpYzAxLm55dC5jb20vaW1hZ2VzLzIwMjIvMDQvMTgvbXVsdGltZWRpYS8xOGVjb24tYnJpZWZpbmctbXVzay8xOGVjb24tYnJpZWZpbmctbXVzay1tb2JpbGVNYXN0ZXJBdDN4LmpwZz9xdWFsaXR5PTc1JmF1dG89d2VicCZkaXNhYmxlPXVwc2NhbGUmd2lkdGg9MTIwMFwiPjwvc291cmNlPjxzb3VyY2UgbWVkaWE9XCIobWF4LXdpZHRoOiA1OTlweCkgYW5kIChtaW4tZGV2aWNlLXBpeGVsLXJhdGlvOiAxKSwobWF4LXdpZHRoOiA1OTlweCkgYW5kICgtd2Via2l0LW1pbi1kZXZpY2UtcGl4ZWwtcmF0aW86IDEpLChtYXgtd2lkdGg6IDU5OXB4KSBhbmQgKG1pbi1yZXNvbHV0aW9uOiAxZHBweCksKG1heC13aWR0aDogNTk5cHgpIGFuZCAobWluLXJlc29sdXRpb246IDk2ZHBpKVwiIHNyY1NldD1cImh0dHBzOi8vc3RhdGljMDEubnl0LmNvbS9pbWFnZXMvMjAyMi8wNC8xOC9tdWx0aW1lZGlhLzE4ZWNvbi1icmllZmluZy1tdXNrLzE4ZWNvbi1icmllZmluZy1tdXNrLW1vYmlsZU1hc3RlckF0M3guanBnP3F1YWxpdHk9NzUmYXV0bz13ZWJwJmRpc2FibGU9dXBzY2FsZSZ3aWR0aD0xODAwXCI+PC9zb3VyY2U+PGltZyBhbHQ9XCJFbG9uIE11c2sgb2ZmZXJlZCB0byBidXkgVHdpdHRlciBsYXN0IHdlZWsgZm9yIHJvdWdobHkgJDQzIGJpbGxpb24uXCIgc2l6ZXM9XCIoKG1pbi13aWR0aDogNjAwcHgpIGFuZCAobWF4LXdpZHRoOiAxMDA0cHgpKSA4NHZ3LCAobWluLXdpZHRoOiAxMDA1cHgpIDYwdncsIDEwMHZ3XCIgc3JjPVwiaHR0cHM6Ly9zdGF0aWMwMS5ueXQuY29tL2ltYWdlcy8yMDIyLzA0LzE4L211bHRpbWVkaWEvMThlY29uLWJyaWVmaW5nLW11c2svMThlY29uLWJyaWVmaW5nLW11c2stYXJ0aWNsZUxhcmdlLmpwZz9xdWFsaXR5PTc1JmF1dG89d2VicCZkaXNhYmxlPXVwc2NhbGVcIiBzcmNTZXQ9XCJodHRwczovL3N0YXRpYzAxLm55dC5jb20vaW1hZ2VzLzIwMjIvMDQvMTgvbXVsdGltZWRpYS8xOGVjb24tYnJpZWZpbmctbXVzay8xOGVjb24tYnJpZWZpbmctbXVzay1hcnRpY2xlTGFyZ2UuanBnP3F1YWxpdHk9NzUmYXV0bz13ZWJwIDYwMHcsaHR0cHM6Ly9zdGF0aWMwMS5ueXQuY29tL2ltYWdlcy8yMDIyLzA0LzE4L211bHRpbWVkaWEvMThlY29uLWJyaWVmaW5nLW11c2svMThlY29uLWJyaWVmaW5nLW11c2stanVtYm8uanBnP3F1YWxpdHk9NzUmYXV0bz13ZWJwIDEwMjR3LGh0dHBzOi8vc3RhdGljMDEubnl0LmNvbS9pbWFnZXMvMjAyMi8wNC8xOC9tdWx0aW1lZGlhLzE4ZWNvbi1icmllZmluZy1tdXNrLzE4ZWNvbi1icmllZmluZy1tdXNrLXN1cGVySnVtYm8uanBnP3F1YWxpdHk9NzUmYXV0bz13ZWJwIDIwNDh3XCI+PC9pbWc+PC9waWN0dXJlPjxmaWdjYXB0aW9uPkVsb24gTXVzayBvZmZlcmVkIHRvIGJ1eSBUd2l0dGVyIGxhc3Qgd2VlayBmb3Igcm91Z2hseSAkNDMgYmlsbGlvbi5DcmVkaXQuLi5QYXRyaWNrIEZhbGxvbi9SZXV0ZXJzPC9maWdjYXB0aW9uPjwvZmlndXJlPlxuPHA+VGhlIHByaXZhdGUgZXF1aXR5IGZpcm0gQXBvbGxvIEdsb2JhbCBNYW5hZ2VtZW50IGlzIGNvbnNpZGVyaW5nIHBhcnRpY2lwYXRpbmcgaW4gYSBiaWQgZm9yIFR3aXR0ZXIgYnkgb2ZmZXJpbmcgZGVidCBmaW5hbmNpbmcgdG8gcG90ZW50aWFsIGJ1eWVycywgaW5jbHVkaW5nIHRoZSBUZXNsYSBjaGllZiBleGVjdXRpdmUgRWxvbiBNdXNrLCBhY2NvcmRpbmcgdG8gYSBwZXJzb24gd2l0aCBrbm93bGVkZ2Ugb2YgdGhlIHNpdHVhdGlvbi48L3A+XG48cD5ObyBkZWNpc2lvbnMgaGF2ZSB5ZXQgYmVlbiBtYWRlLCBzYWlkIHRoZSBwZXJzb24sIHdobyByZXF1ZXN0ZWQgYW5vbnltaXR5IGJlY2F1c2UgdGhlIHRhbGtzIHdlcmUgY29uZmlkZW50aWFsLjwvcD5cbjxwPlRoZSBXYWxsIFN0cmVldCBKb3VybmFsIGVhcmxpZXIgPGEgaHJlZj1cImh0dHBzOi8vd3d3Lndzai5jb20vYXJ0aWNsZXMvYXBvbGxvLWdsb2JhbC1jb25zaWRlcnMtcGFydGljaXBhdGluZy1pbi1iaWQtZm9yLXR3aXR0ZXItMTE2NTAzMTMwMTM/bW9kPWhwX2xlYWRfcG9zMVwiPnJlcG9ydGVkPC9hPiBBcG9sbG8mcnNxdW87cyBwb3RlbnRpYWwgcGFydGljaXBhdGlvbiBpbiBhIGJpZC48L3A+XG48cD5Nci4gTXVzaywgdGhlIHdvcmxkJnJzcXVvO3Mgd2VhbHRoaWVzdCBtYW4gd2hvIGFsc28gbGVhZHMgdGhlIHJvY2tldCBtYWtlciBTcGFjZVgsIGxhc3Qgd2VlayBwdXQgZm9yd2FyZCBhIHJvdWdobHkgJDQwIGJpbGxpb24gYmlkIHRvIGJ1eSBUd2l0dGVyLiBNci4gTXVzaywgd2hvc2Ugd2VhbHRoIGlzIGxhcmdlbHkgdGllZCB1cCBpbiBzdG9jaywgZGlkIG5vdCBvZmZlciBhbnkgZGV0YWlscyBhYm91dCBmaW5hbmNpbmcgc3VjaCBhIGRlYWwuPC9wPlxuPHA+SW52ZXN0b3JzIGhhdmUgYmVlbiA8YSBocmVmPVwiaHR0cHM6Ly93d3cubnl0aW1lcy5jb20vMjAyMi8wNC8xNC9idXNpbmVzcy9lbG9uLW11c2stdHdpdHRlci1maW5hbmNpbmcuaHRtbFwiPnNrZXB0aWNhbDwvYT4gdGhhdCBoZSB3b3VsZCBiZSBhYmxlIHRvIGNvYmJsZSB0b2dldGhlciB0aGUgZnVuZHMgbmVlZGVkIHRvIGJ1eSBUd2l0dGVyLiBBbmFseXN0cyBoYXZlIGVzdGltYXRlZCBNci4gTXVzayB3b3VsZCBuZWVkICQxNSBiaWxsaW9uIHRvICQyMCBiaWxsaW9uIGluIGRlYnQgdG8gZnVuZCBoaXMgZWZmb3J0cy4gSGUgcmVjZW50bHkgYW1hc3NlZCBhIG1vcmUgdGhhbiA5IHBlcmNlbnQgc3Rha2UgaW4gdGhlIGNvbXBhbnkuPC9wPlxuPHA+TGFzdCB3ZWVrLCBUd2l0dGVyIGFubm91bmNlZCBpdCB3YXMgdXNpbmcgYSBtZXRob2QgY2FsbGVkIGEgJmxkcXVvOzxhIGhyZWY9XCJodHRwczovL3d3dy5ueXRpbWVzLmNvbS8yMDIyLzA0LzE1L2J1c2luZXNzL3R3aXR0ZXItcG9pc29uLXBpbGwtZWxvbi1tdXNrLmh0bWxcIj5wb2lzb24gcGlsbCwmcmRxdW87PC9hPiB3aGljaCB3b3VsZCBtYWtlIGl0IHNpZ25pZmljYW50bHkgaGFyZGVyIGZvciBNci4gTXVzayB0byBhY3F1aXJlIG1vcmUgdGhhbiAxNSBwZXJjZW50IG9mIHRoZSBjb21wYW55LiBUd2l0dGVyIHNhaWQgdGhlIGRlZmVuc2l2ZSBtYW5ldXZlciB3b3VsZCBub3Qgc3RvcCB0aGUgY29tcGFueSBmcm9tIGhvbGRpbmcgdGFsa3Mgd2l0aCBhbnkgcG90ZW50aWFsIGJ1eWVyLCBhbmQgd291bGQgZ2l2ZSBpdCBtb3JlIHRpbWUgdG8gbmVnb3RpYXRlIGEgZGVhbCB0aGF0IFR3aXR0ZXImcnNxdW87cyBib2FyZCBiZWxpZXZlcyBiZXN0IHJlZmxlY3RzIHRoZSBjb21wYW55JnJzcXVvO3MgdmFsdWUuPC9wPlxuPHA+TXIuIE11c2smcnNxdW87cyBhcHByb2FjaCBhcHBlYXJzIHRvIGhhdmUgc3RpcnJlZCBvdGhlciBwb3RlbnRpYWwgYnV5ZXJzLiBBdCBsZWFzdCBvbmUgb3RoZXIgcHJpdmF0ZSBlcXVpdHkgZmlybSwgVGhvbWEgQnJhdm8sIGhhcyBleHByZXNzZWQgaW50ZXJlc3QgaW4gYWNxdWlyaW5nIFR3aXR0ZXIsIDxhIGhyZWY9XCJodHRwczovL3d3dy5ueXRpbWVzLmNvbS8yMDIyLzA0LzE4L2J1c2luZXNzL2RlYWxib29rL211c2stdHdpdHRlci10YWtlb3Zlci5odG1sXCI+VGhlIE5ldyBZb3JrIFRpbWVzIHByZXZpb3VzbHkgcmVwb3J0ZWQ8L2E+LjwvcD5cbjxwPk1yLiBNdXNrLCBmb3IgaGlzIHBhcnQsIGFwcGVhcnMgdW5kZXRlcnJlZC4gT24gU2F0dXJkYXksIGhlIHR3ZWV0ZWQgdGhlIHdvcmRzICZsZHF1bzs8YSBocmVmPVwiaHR0cHM6Ly90d2l0dGVyLmNvbS9lbG9ubXVzay9zdGF0dXMvMTUxNTQwNTI2NDc0MDEzNDkxOD9yZWZfc3JjPXR3c3JjJTVFdGZ3JTdDdHdjYW1wJTVFdHdlZXRlbWJlZCU3Q3R3dGVybSU1RTE1MTU0MDUyNjQ3NDAxMzQ5MTglN0N0d2dyJTVFJTdDdHdjb24lNUVzMV8mcmVmX3VybD1odHRwcyUzQSUyRiUyRnd3dy5jbmJjLmNvbSUyRjIwMjIlMkYwNCUyRjE4JTJGbXVzay10d2VldHMtbG92ZS1tZS10ZW5kZXItZGF5cy1hZnRlci10d2l0dGVyLXRha2VvdmVyLW9mZmVyLmh0bWxcIj5Mb3ZlIE1lIFRlbmRlcjwvYT4mcmRxdW87IGFsb25nc2lkZSBtdXNpY2FsIG5vdGVzLCBhIHNlZW1pbmcgcmVmZXJlbmNlIHRvIGJvdGggdGhlIEVsdmlzIFByZXNsZXkgYmFsbGFkIGJ5IHRoZSBzYW1lIG5hbWUgYW5kIGEgJmxkcXVvO3RlbmRlciBvZmZlciZyZHF1bzsgaW4gd2hpY2ggTXIuIE11c2sgd291bGQgdGFrZSBoaXMgb2ZmZXIgZGlyZWN0bHkgdG8gc2hhcmVob2xkZXJzLjwvcD5cbjxwPkFwb2xsbyBoYXMgZXhwZXJpZW5jZSBpbiB0aGUgbWVkaWEgaW5kdXN0cnkuIExhc3QgeWVhciwgPGEgaHJlZj1cImh0dHBzOi8vd3d3Lm55dGltZXMuY29tLzIwMjEvMDUvMDMvYnVzaW5lc3MvdmVyaXpvbi1hb2wteWFob28tc2FsZS5odG1sXCI+aXQgYWNxdWlyZWQgQU9MIGFuZCBZYWhvbyBpPC9hPm4gYSBkZWFsIHdvcnRoICQ1IGJpbGxpb24uPC9wPiIsImFydGljbGVfYWJzdHJhY3QiOm51bGx9
+  recorded_at: Mon, 18 Apr 2022 22:45:31 GMT
+- request:
+    method: post
+    uri: https://tldrthis.p.rapidapi.com/v1/model/abstractive/summarize-url/
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+                                  "url": "https://www.cnbc.com/2022/04/18/twitters-ex-ceo-criticizes-board-musk-says-they-own-almost-no-shares.html",
+                                  "min_length": 100,
+                                  "max_length": 300,
+                                  "is_detailed": false
+                                  }
+    headers:
+      X-Rapidapi-Host:
+      - tldrthis.p.rapidapi.com
+      X-Rapidapi-Key:
+      - "<tldr_key>"
+      User-Agent:
+      - Faraday v2.2.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 18 Apr 2022 22:45:31 GMT
+      Server:
+      - RapidAPI-1.2.8
+      X-Rapidapi-Region:
+      - AWS - us-east-1
+      X-Rapidapi-Version:
+      - 1.2.8
+      X-Ratelimit-Requests-Limit:
+      - '100'
+      X-Ratelimit-Requests-Remaining:
+      - '65'
+      X-Ratelimit-Requests-Reset:
+      - '2486262'
+      Content-Length:
+      - '8242'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJzdW1tYXJ5IjpbIiBGb3JtZXIgVHdpdHRlciBDRU8gSmFjayBEb3JzZXkgY3JpdGljaXplcyB0aGUgY29tcGFueSdzIGJvYXJkIGluIGEgc2VyaWVzIG9mIHR3ZWV0cyBvbiBTdW5kYXkuIERvcnNleSBzdGlsbCBzaXRzIG9uIFR3aXR0ZXIncyBib2FyZCBidXQgcGxhbnMgdG8gbGVhdmUgb25jZSBoaXMgdGVybSBleHBpcmVzIGF0IHRoZSAyMDIyIG1lZXRpbmcgb2Ygc2hhcmVob2xkZXJzLiBUaGUgYm9hcmQgaXMgY3VycmVudGx5IGNvbnNpZGVyaW5nIGEgJDQzIGJpbGxpb24gdGFrZW92ZXIgYmlkIGZyb20gYmlsbGlvbmFpcmUgRWxvbiBNdXNrLiBNdXNrIHJlY2VudGx5IHJldmVhbGVkIGEgbW9yZSB0aGFuIDklIHN0YWtlIGluIFR3aXR0ZXIgYmVmb3JlIGhpcyB0YWtlb3ZlciBiaWQuIFR3aXR0ZXIgZGlkIG5vdCBpbW1lZGlhdGVseSByZXNwb25kIHRvIGEgcmVxdWVzdCBmb3IgY29tbWVudCBmcm9tIERvcnNleSBvciBvdGhlciBUd2l0dGVyIGJvYXJkIG1lbWJlcnMgb24gdGhlIG1hdHRlciBvZiBoaXMgY29tbWVudHMuIl0sImFydGljbGVfdGV4dCI6IkZvcm1lciBUd2l0dGVyIENFTyBKYWNrIERvcnNleSBjcml0aWNpemVkIHRoZSBjb21wYW55J3MgYm9hcmQgaW4gYSBzZXJpZXMgb2YgdHdlZXRzIG9uIFN1bmRheSBhcyB0aGUgZ3JvdXAgaXMgbm93IHRhc2tlZCB3aXRoIGV2YWx1YXRpbmcgYSB0YWtlb3ZlciBiaWQgZnJvbSBiaWxsaW9uYWlyZSBFbG9uIE11c2suXG5cblJlc3BvbmRpbmcgdG8gYW5vdGhlciBUd2l0dGVyIHVzZXIgZGVzY3JpYmluZyB0aGUgXCJwbG90cyBhbmQgY291cHNcIiB0aGF0IHBsYXllZCBvdXQgZWFybHkgb24gaW4gdGhlIGhpc3Rvcnkgb2YgVHdpdHRlcidzIGJvYXJkLCBEb3JzZXkgcmVwbGllZCwgXCJpdCdzIGNvbnNpc3RlbnRseSBiZWVuIHRoZSBkeXNmdW5jdGlvbiBvZiB0aGUgY29tcGFueS5cIlxuXG5FYXJsaWVyLCBoZSByZXNwb25kZWQgdG8gYW5vdGhlciB0d2VldCBpbiB0aGUgc2FtZSB0aHJlYWQuIEl0IHF1b3RlZCB2ZW50dXJlIGNhcGl0YWxpc3QgRnJlZCBEZXN0aW4gY2l0aW5nIHdoYXQgaGUgY2FsbGVkIGEgXCJTaWxpY29uIFZhbGxleSBwcm92ZXJiXCI6IFwiR29vZCBib2FyZHMgZG9uJ3QgY3JlYXRlIGdvb2QgY29tcGFuaWVzLCBidXQgYSBiYWQgYm9hcmQgd2lsbCBraWxsIGEgY29tcGFueSBldmVyeSB0aW1lLlwiXG5cbkRvcnNleSByZXNwb25kZWQsIFwiYmlnIGZhY3RzLlwiXG5cbkRvcnNleSBzdGlsbCBzaXRzIG9uIFR3aXR0ZXIncyBib2FyZCBidXQgcGxhbnMgdG8gbGVhdmUgb25jZSBoaXMgdGVybSBleHBpcmVzIGF0IHRoZSAyMDIyIG1lZXRpbmcgb2Ygc2hhcmVob2xkZXJzLCB3aGljaCBpcyBzY2hlZHVsZWQgZm9yIGxhdGUgTWF5LlxuXG5UaGUgYm9hcmQgaXMgY3VycmVudGx5IGNvbnNpZGVyaW5nIFRlc2xhIENFTyBNdXNrJ3MgJDQzIGJpbGxpb24gb2ZmZXIgdG8gYnV5IHRoZSBjb21wYW55IGFuZCB0YWtlIGl0IHByaXZhdGUuIEl0J3MgYWxzbyByZXBvcnRlZGx5IGZpZWxkaW5nIGFkZGl0aW9uYWwgaW50ZXJlc3QuIE9uIEZyaWRheSwgVHdpdHRlcidzIGJvYXJkIGFkb3B0ZWQgYSBzby1jYWxsZWQgcG9pc29uIHBpbGwg4oCUIGEgbGltaXRlZCBkdXJhdGlvbiBzaGFyZWhvbGRlciByaWdodHMgcGxhbiB0aGF0IHdvdWxkIGFsbG93IHNoYXJlaG9sZGVycyB0byBidXkgc3RvY2sgYXQgYSBkaXNjb3VudCBpZiBhbnkgb25lIHBlcnNvbiBvciBlbnRpdHkgYW1hc3NlcyBhdCBsZWFzdCAxNSUgb2Ygb3V0c3RhbmRpbmcgY29tbW9uIHN0b2NrIHdpdGhvdXQgdGhlIGJvYXJkJ3MgcHJpb3IgYXBwcm92YWwuIE11c2sgcmVjZW50bHkgcmV2ZWFsZWQgYSBtb3JlIHRoYW4gOSUgc3Rha2UgaW4gdGhlIGNvbXBhbnkgYmVmb3JlIGhpcyB0YWtlb3ZlciBiaWQuXG5cblRoZSBib2FyZCBzYWlkIHRoZSBwbGFuIHdvdWxkIG5vdCBwcmV2ZW50IGl0IGZyb20gdGFraW5nIGEgZGVhbCBpbiB0aGUgYmVzdCBpbnRlcmVzdCBvZiB0aGUgY29tcGFueSBhbmQgaXRzIHNoYXJlaG9sZGVycywgYnV0IGl0IHdvdWxkIFwicmVkdWNlIHRoZSBsaWtlbGlob29kIHRoYXQgYW55IGVudGl0eSwgcGVyc29uIG9yIGdyb3VwIGdhaW5zIGNvbnRyb2wgb2YgVHdpdHRlciB0aHJvdWdoIG9wZW4gbWFya2V0IGFjY3VtdWxhdGlvbiB3aXRob3V0IHBheWluZyBhbGwgc2hhcmVob2xkZXJzIGFuIGFwcHJvcHJpYXRlIGNvbnRyb2wgcHJlbWl1bSBvciB3aXRob3V0IHByb3ZpZGluZyB0aGUgQm9hcmQgc3VmZmljaWVudCB0aW1lIHRvIG1ha2UgaW5mb3JtZWQganVkZ21lbnRzIGFuZCB0YWtlIGFjdGlvbnMgdGhhdCBhcmUgaW4gdGhlIGJlc3QgaW50ZXJlc3RzIG9mIHNoYXJlaG9sZGVycy5cIlxuXG5Eb3JzZXksIHdobyBhbHNvIGNvLWZvdW5kZWQgdGhlIGNvbXBhbnksIHNlcnZlZCBhbiBlYXJsaWVyIHN0aW50IGFzIGl0cyBDRU8gYnV0IHdhcyBmaXJlZCBmcm9tIHRoZSByb2xlIGluIDIwMDggYW5kIHJlcGxhY2VkIHdpdGggYW5vdGhlciBvbmUgb2YgaGlzIGNvLWZvdW5kZXJzLiBIZSByZXR1cm5lZCB0byBsZWFkIHRoZSBjb21wYW55IGluIDIwMTUuXG5cbk11c2sgdHdlZXRlZCBTYXR1cmRheSB0aGF0LCB3aXRoIERvcnNleSBsZWF2aW5nIHRoZSBib2FyZCwgXCJ0aGUgVHdpdHRlciBib2FyZCBjb2xsZWN0aXZlbHkgb3ducyBhbG1vc3Qgbm8gc2hhcmVzISBPYmplY3RpdmVseSwgdGhlaXIgZWNvbm9taWMgaW50ZXJlc3RzIGFyZSBzaW1wbHkgbm90IGFsaWduZWQgd2l0aCBzaGFyZWhvbGRlcnMuXCJcblxuRG9yc2V5IHJlY2VudGx5IG5vdGVkIHRoYXQgaGUgXCJlbmRlZCB1cCB3aXRoIHZlcnkgbGl0dGxlIG9mIHRoZSBjb21wYW55XCIgYmVjYXVzZSBpdCB0b29rIG1hbnkgb2YgaGlzIHNoYXJlcyB3aGVuIGhlIHdhcyBmaXJlZCBpbiAyMDA4LiBIZSBzYWlkIGhlIGFsc28gZ2F2ZSAxJSBvZiB0aGUgY29tcGFueSBiYWNrIHRvIGVtcGxveWVlcyBpbiAyMDE1LiBTdGlsbCwgRG9yc2V5IHJlbWFpbnMgdGhlIGxhcmdlc3QgaW5zaWRlciBzdGFrZWhvbGRlciBvZiB0aGUgY29tcGFueSBhZnRlciBNdXNrJ3MgOS4xJSwgd2l0aCBhYm91dCAyLjI1JSBvZiBzaGFyZXMsIGFjY29yZGluZyB0byBGYWN0U2V0LiBBZnRlciB0aGF0LCBTaWx2ZXIgTGFrZSwgd2hvc2UgQ0VPIEVnb24gRHVyYmFuIGlzIGEgVHdpdHRlciBib2FyZCBtZW1iZXIsIG93bnMgMC4yNiUsIGFjY29yZGluZyB0byBGYWN0U2V0LiBUaGUgVmFuZ3VhcmQgR3JvdXAgaXMgdGhlIGxhcmdlc3QgaW5zdGl0dXRpb25hbCBzaGFyZWhvbGRlciwgd2l0aCBhIDEwLjI5JSBzdGFrZSBpbiB0aGUgY29tcGFueSwgYWNjb3JkaW5nIHRvIEZhY3RTZXQuXG5cblR3aXR0ZXIgZGlkIG5vdCBpbW1lZGlhdGVseSByZXNwb25kIHRvIGEgcmVxdWVzdCBmb3IgY29tbWVudC5cblxuU3Vic2NyaWJlIHRvIENOQkMgb24gWW91VHViZS5cblxuV0FUQ0g6IEhvdyBjYW4gRWxvbiBNdXNrIGFmZm9yZCAkNDMgYmlsbGlvbiBmb3IgVHdpdHRlcj8gVHdvIGV4cGVydHMgd2VpZ2ggaW4iLCJhcnRpY2xlX3RpdGxlIjoiRXgtQ0VPIERvcnNleSBjcml0aWNpemVzIFR3aXR0ZXIgYm9hcmQ7IE11c2sgc2F5cyBpdCAnb3ducyBhbG1vc3Qgbm8gc2hhcmVzISciLCJhcnRpY2xlX2F1dGhvcnMiOlsiTGF1cmVuIEZlaW5lciJdLCJhcnRpY2xlX2ltYWdlIjoiaHR0cHM6Ly9pbWFnZS5jbmJjZm0uY29tL2FwaS92MS9pbWFnZS8xMDY4NTE0MDYtMTYxNTMxMDkxNDM4MS1kb3IuanBnP3Y9MTYxNTMxMDkyOCZ3PTE5MjAmaD0xMDgwIiwiYXJ0aWNsZV9wdWJfZGF0ZSI6IkFwciAxOCwgMjAyMiIsImFydGljbGVfdXJsIjoiaHR0cHM6Ly93d3cuY25iYy5jb20vMjAyMi8wNC8xOC90d2l0dGVycy1leC1jZW8tY3JpdGljaXplcy1ib2FyZC1tdXNrLXNheXMtdGhleS1vd24tYWxtb3N0LW5vLXNoYXJlcy5odG1sIiwiYXJ0aWNsZV9odG1sIjoiPGRpdj48cD5Gb3JtZXIgPGEgaHJlZj1cIi8vd3d3LmNuYmMuY29tL3F1b3Rlcy9UV1RSXCIgdGFyZ2V0PVwiX2JsYW5rXCI+VHdpdHRlcjwvYT4gQ0VPIDxhIGhyZWY9XCJodHRwczovL3d3dy5jbmJjLmNvbS9qYWNrLWRvcnNleS9cIj5KYWNrIERvcnNleTwvYT4gY3JpdGljaXplZCB0aGUgY29tcGFueSdzIGJvYXJkIGluIGEgc2VyaWVzIG9mIHR3ZWV0cyBvbiBTdW5kYXkgYXMgdGhlIGdyb3VwIGlzIG5vdyB0YXNrZWQgd2l0aCBldmFsdWF0aW5nIGEgdGFrZW92ZXIgYmlkIGZyb20gYmlsbGlvbmFpcmUgPGEgaHJlZj1cImh0dHBzOi8vd3d3LmNuYmMuY29tL2Vsb24tbXVzay9cIj5FbG9uIE11c2s8L2E+LjwvcD48cD5SZXNwb25kaW5nIHRvIGFub3RoZXIgVHdpdHRlciB1c2VyIGRlc2NyaWJpbmcgdGhlIFwicGxvdHMgYW5kIGNvdXBzXCIgdGhhdCBwbGF5ZWQgb3V0IGVhcmx5IG9uIGluIHRoZSBoaXN0b3J5IG9mIFR3aXR0ZXIncyBib2FyZCwgRG9yc2V5IDxhIGhyZWY9XCJodHRwczovL3R3aXR0ZXIuY29tL2phY2svc3RhdHVzLzE1MTU1NDk1NzczNTI1NjQ3NDBcIiB0YXJnZXQ9XCJfYmxhbmtcIj5yZXBsaWVkPC9hPiwgXCJpdCdzIGNvbnNpc3RlbnRseSBiZWVuIHRoZSBkeXNmdW5jdGlvbiBvZiB0aGUgY29tcGFueS5cIjwvcD48cCBjbGFzcz1cImxhenlsb2FkLXBsYWNlaG9sZGVyXCI+PC9wPjxwPkVhcmxpZXIsIGhlIHJlc3BvbmRlZCB0byBhbm90aGVyIHR3ZWV0IGluIHRoZSBzYW1lIHRocmVhZC4gSXQgcXVvdGVkIHZlbnR1cmUgY2FwaXRhbGlzdCBGcmVkIERlc3RpbiBjaXRpbmcgd2hhdCBoZSBjYWxsZWQgYSBcIlNpbGljb24gVmFsbGV5IHByb3ZlcmJcIjogXCJHb29kIGJvYXJkcyBkb24ndCBjcmVhdGUgZ29vZCBjb21wYW5pZXMsIGJ1dCBhIGJhZCBib2FyZCB3aWxsIGtpbGwgYSBjb21wYW55IGV2ZXJ5IHRpbWUuXCI8L3A+PHA+RG9yc2V5IHJlc3BvbmRlZCwgXCJiaWcgZmFjdHMuXCI8L3A+PHA+RG9yc2V5IHN0aWxsIHNpdHMgb24gVHdpdHRlcidzIGJvYXJkIGJ1dCBwbGFucyB0byBsZWF2ZSBvbmNlIGhpcyB0ZXJtIGV4cGlyZXMgYXQgdGhlIDIwMjIgbWVldGluZyBvZiBzaGFyZWhvbGRlcnMsIHdoaWNoIGlzIHNjaGVkdWxlZCBmb3IgbGF0ZSBNYXkuPC9wPjxwPlRoZSBib2FyZCBpcyBjdXJyZW50bHkgY29uc2lkZXJpbmcgPGEgaHJlZj1cIi8vd3d3LmNuYmMuY29tL3F1b3Rlcy9UU0xBXCIgdGFyZ2V0PVwiX2JsYW5rXCI+VGVzbGE8L2E+IENFTyBNdXNrJ3MgJDQzIGJpbGxpb24gb2ZmZXIgdG8gYnV5IHRoZSBjb21wYW55IGFuZCB0YWtlIGl0IHByaXZhdGUuIDxhIGhyZWY9XCJodHRwczovL3d3dy5jbmJjLmNvbS8yMDIyLzA0LzE1L2J1eW91dC1maXJtLXRob21hLWJyYXZvLWFwcHJvYWNoZXMtdHdpdHRlci13aXRoLWFjcXVpc2l0aW9uLWludGVyZXN0Lmh0bWw/JmFtcDthbXA7YW1wO3FzZWFyY2h0ZXJtPXRob21hJTIwYnJhdm8lMjB0d2l0dGVyXCI+SXQncyBhbHNvIHJlcG9ydGVkbHkgZmllbGRpbmcgYWRkaXRpb25hbCBpbnRlcmVzdDwvYT4uIE9uIEZyaWRheSwgVHdpdHRlcidzIGJvYXJkIDxhIGhyZWY9XCJodHRwczovL3d3dy5jbmJjLmNvbS8yMDIyLzA0LzE1L3R3aXR0ZXItYm9hcmQtYWRvcHRzLXBvaXNvbi1waWxsLWFmdGVyLW11c2tzLTQzLWJpbGxpb24tb2ZmZXItdG8tYnV5LWNvbXBhbnkuaHRtbFwiPmFkb3B0ZWQgYSBzby1jYWxsZWQgcG9pc29uIHBpbGw8L2E+ICYjODIxMjsgYSBsaW1pdGVkIGR1cmF0aW9uIHNoYXJlaG9sZGVyIHJpZ2h0cyBwbGFuIHRoYXQgd291bGQgYWxsb3cgc2hhcmVob2xkZXJzIHRvIGJ1eSBzdG9jayBhdCBhIGRpc2NvdW50IGlmIGFueSBvbmUgcGVyc29uIG9yIGVudGl0eSBhbWFzc2VzIGF0IGxlYXN0IDE1JSBvZiBvdXRzdGFuZGluZyBjb21tb24gc3RvY2sgd2l0aG91dCB0aGUgYm9hcmQncyBwcmlvciBhcHByb3ZhbC4gTXVzayByZWNlbnRseSByZXZlYWxlZCBhIG1vcmUgdGhhbiA5JSBzdGFrZSBpbiB0aGUgY29tcGFueSBiZWZvcmUgaGlzIHRha2VvdmVyIGJpZC48L3A+PHA+VGhlIGJvYXJkIHNhaWQgdGhlIHBsYW4gd291bGQgbm90IHByZXZlbnQgaXQgZnJvbSB0YWtpbmcgYSBkZWFsIGluIHRoZSBiZXN0IGludGVyZXN0IG9mIHRoZSBjb21wYW55IGFuZCBpdHMgc2hhcmVob2xkZXJzLCBidXQgaXQgd291bGQgXCJyZWR1Y2UgdGhlIGxpa2VsaWhvb2QgdGhhdCBhbnkgZW50aXR5LCBwZXJzb24gb3IgZ3JvdXAgZ2FpbnMgY29udHJvbCBvZiBUd2l0dGVyIHRocm91Z2ggb3BlbiBtYXJrZXQgYWNjdW11bGF0aW9uIHdpdGhvdXQgcGF5aW5nIGFsbCBzaGFyZWhvbGRlcnMgYW4gYXBwcm9wcmlhdGUgY29udHJvbCBwcmVtaXVtIG9yIHdpdGhvdXQgcHJvdmlkaW5nIHRoZSBCb2FyZCBzdWZmaWNpZW50IHRpbWUgdG8gbWFrZSBpbmZvcm1lZCBqdWRnbWVudHMgYW5kIHRha2UgYWN0aW9ucyB0aGF0IGFyZSBpbiB0aGUgYmVzdCBpbnRlcmVzdHMgb2Ygc2hhcmVob2xkZXJzLlwiPC9wPjxwIGNsYXNzPVwibGF6eWxvYWQtcGxhY2Vob2xkZXJcIj48L3A+PHA+RG9yc2V5LCB3aG8gYWxzbyBjby1mb3VuZGVkIHRoZSBjb21wYW55LCBzZXJ2ZWQgYW4gZWFybGllciBzdGludCBhcyBpdHMgQ0VPIGJ1dCB3YXMgPGEgaHJlZj1cImh0dHBzOi8vYml0cy5ibG9ncy5ueXRpbWVzLmNvbS8yMDA4LzEwLzE2L3R0d2l0dGVyLXNpZGVsaW5lcy1vbmUtZm91bmRlci1hbmQtcHJvbW90ZXMtYW5vdGhlci9cIiB0YXJnZXQ9XCJfYmxhbmtcIj5maXJlZCBmcm9tIHRoZSByb2xlIGluIDIwMDg8L2E+IGFuZCByZXBsYWNlZCB3aXRoIGFub3RoZXIgb25lIG9mIGhpcyBjby1mb3VuZGVycy4gSGUgPGEgaHJlZj1cImh0dHBzOi8vd3d3Lm55dGltZXMuY29tLzIwMTUvMDYvMTMvdGVjaG5vbG9neS9qYWNrLWRvcnNleS1yZXR1cm5zLXRvLXR3aXR0ZXItYXMtY2hpZWYtdG8tc2hydWdzLWFuZC1xdWlwcy5odG1sXCIgdGFyZ2V0PVwiX2JsYW5rXCI+cmV0dXJuZWQ8L2E+IHRvIGxlYWQgdGhlIGNvbXBhbnkgaW4gMjAxNS48L3A+PHA+TXVzayB0d2VldGVkIFNhdHVyZGF5IHRoYXQsIHdpdGggRG9yc2V5IGxlYXZpbmcgdGhlIGJvYXJkLCBcInRoZSBUd2l0dGVyIGJvYXJkIGNvbGxlY3RpdmVseSBvd25zIGFsbW9zdCBubyBzaGFyZXMhIE9iamVjdGl2ZWx5LCB0aGVpciBlY29ub21pYyBpbnRlcmVzdHMgYXJlIHNpbXBseSBub3QgYWxpZ25lZCB3aXRoIHNoYXJlaG9sZGVycy5cIjwvcD48cD5Eb3JzZXkgPGEgaHJlZj1cImh0dHBzOi8vdHdpdHRlci5jb20vamFjay9zdGF0dXMvMTUxNTQ0MzU2NDk1OTkxMTk0MlwiIHRhcmdldD1cIl9ibGFua1wiPnJlY2VudGx5IG5vdGVkPC9hPiB0aGF0IGhlIFwiZW5kZWQgdXAgd2l0aCB2ZXJ5IGxpdHRsZSBvZiB0aGUgY29tcGFueVwiIGJlY2F1c2UgaXQgdG9vayBtYW55IG9mIGhpcyBzaGFyZXMgd2hlbiBoZSB3YXMgZmlyZWQgaW4gMjAwOC4gSGUgc2FpZCBoZSBhbHNvIGdhdmUgMSUgb2YgdGhlIGNvbXBhbnkgYmFjayB0byBlbXBsb3llZXMgaW4gMjAxNS4gU3RpbGwsIERvcnNleSByZW1haW5zIHRoZSBsYXJnZXN0IGluc2lkZXIgc3Rha2Vob2xkZXIgb2YgdGhlIGNvbXBhbnkgYWZ0ZXIgTXVzaydzIDkuMSUsIHdpdGggYWJvdXQgMi4yNSUgb2Ygc2hhcmVzLCBhY2NvcmRpbmcgdG8gRmFjdFNldC4gQWZ0ZXIgdGhhdCwgU2lsdmVyIExha2UsIHdob3NlIENFTyBFZ29uIER1cmJhbiBpcyBhIFR3aXR0ZXIgYm9hcmQgbWVtYmVyLCBvd25zIDAuMjYlLCBhY2NvcmRpbmcgdG8gRmFjdFNldC4gVGhlIFZhbmd1YXJkIEdyb3VwIGlzIHRoZSBsYXJnZXN0IGluc3RpdHV0aW9uYWwgc2hhcmVob2xkZXIsIHdpdGggYSAxMC4yOSUgc3Rha2UgaW4gdGhlIGNvbXBhbnksIGFjY29yZGluZyB0byBGYWN0U2V0LjwvcD48cD5Ud2l0dGVyIGRpZCBub3QgaW1tZWRpYXRlbHkgcmVzcG9uZCB0byBhIHJlcXVlc3QgZm9yIGNvbW1lbnQuPC9wPjxwPjxhIGhyZWY9XCJodHRwczovL3d3dy55b3V0dWJlLmNvbS9jL0NOQkM/c3ViX2NvbmZpcm1hdGlvbj0xXCIgdGFyZ2V0PVwiX2JsYW5rXCI+PHN0cm9uZz5TdWJzY3JpYmUgdG8gQ05CQyBvbiBZb3VUdWJlLjwvc3Ryb25nPjwvYT48L3A+PHA+PGEgaHJlZj1cImh0dHBzOi8vd3d3LmNuYmMuY29tL3ZpZGVvLzIwMjIvMDQvMTgvaG93LWNhbi1lbG9uLW11c2stYWZmb3JkLTQzLWJpbGxpb24tZm9yLXR3aXR0ZXItdHdvLWV4cGVydHMtd2VpZ2gtaW4uaHRtbFwiPldBVENIOiBIb3cgY2FuIEVsb24gTXVzayBhZmZvcmQgJDQzIGJpbGxpb24gZm9yIFR3aXR0ZXI/IFR3byBleHBlcnRzIHdlaWdoIGluPC9hPjwvcD48L2Rpdj4iLCJhcnRpY2xlX2Fic3RyYWN0IjpudWxsfQ==
+  recorded_at: Mon, 18 Apr 2022 22:45:31 GMT
+- request:
+    method: post
+    uri: https://tldrthis.p.rapidapi.com/v1/model/abstractive/summarize-url/
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+                                  "url": "https://www.foxnews.com/auto/tesla-raising-full-self-driving-price-12000",
+                                  "min_length": 100,
+                                  "max_length": 300,
+                                  "is_detailed": false
+                                  }
+    headers:
+      X-Rapidapi-Host:
+      - tldrthis.p.rapidapi.com
+      X-Rapidapi-Key:
+      - "<tldr_key>"
+      User-Agent:
+      - Faraday v2.2.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json
+      Date:
+      - Mon, 18 Apr 2022 22:45:31 GMT
+      Server:
+      - RapidAPI-1.2.8
+      X-Rapidapi-Region:
+      - AWS - us-east-1
+      X-Rapidapi-Version:
+      - 1.2.8
+      X-Ratelimit-Requests-Limit:
+      - '100'
+      X-Ratelimit-Requests-Remaining:
+      - '64'
+      X-Ratelimit-Requests-Reset:
+      - '2486262'
+      Content-Length:
+      - '4888'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"summary":[" Tesla is increasing the price of its Full Self-Driving
+        system from $10,000 to $12,000 on January 17. CEO Elon Musk tweeted that the
+        price will rise as we get closer to FSD production code release. The feature
+        offers limited semi-automated driving features and its name has been called
+        \"misleading\" and \"irresponsible\" by the National Transportation and Safety
+        Board Chair Jennifer Homendy. Musk has previously insisted that the feature
+        will \"probably\" be worth $100,000 when it is fully functional."],"article_text":"NEW
+        You can now listen to Fox News articles!\n\nYou can''t say he didn''t warn
+        you.\n\nTesla is increasing the price of its Full Self-Driving system from
+        $10,000 to $12,000 on January 17, CEO Elon Musk has announced on Twitter.\n\nThe
+        feature offers limited semi-automated driving features and its name has been
+        called \"misleading\" and \"irresponsible\" by National Transportation and
+        Safety Board Chair Jennifer Homendy.\n\nCertain Tesla owners with cars that
+        have the feature activated are also granted access to a beta testing program
+        that unlocks additional capability, but still requires active driver participation
+        when it is activated.\n\nThe price of Full Self-Driving (FSD) was last raised
+        from $8,000 to $10,000 in October 2022, and Musk has said it will continue
+        to go up its capabilities are increased, a point he reiterated with the recent
+        announcement, saying, \"FSD price will rise as we get closer to FSD production
+        code release.\"\n\nTesla also offers Full Self-Driving as a $199 monthly subscription,
+        but Musk didn''t say if that would be increased alongside the purchase price.\n\nCLICK
+        HERE TO GET THE FOX NEWS APP\n\nMusk has previously insisted that the feature
+        will \"probably\" be worth $100,000 when it is fully functional, arguing that
+        Tesla owners will be able to deploy their vehicles in a rideshare service
+        when they''re not using them.","article_title":"Tesla raising ''Full Self-Driving''
+        price to $12,000","article_authors":["Gary Gastelu"],"article_image":"https://static.foxnews.com/foxnews.com/content/uploads/2021/10/SELF.jpg","article_pub_date":null,"article_url":"https://www.foxnews.com/auto/tesla-raising-full-self-driving-price-12000","article_html":"<div><p
+        class=\"info\"><p class=\"label-bg\">NEW</p>You can now listen to Fox News
+        articles!\n  </p><p class=\"speakable\">You can''t say <a href=\"https://www.foxbusiness.com/lifestyle/tesla-raising-full-self-driving-price\"
+        target=\"_blank\">he didn''t warn you</a>.</p><p class=\"ad gam\"></p><p class=\"ad
+        gam\"></p> <img src=\"https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2021/10/640/320/SELF.jpg?ve=1&amp;tl=1\"
+        alt=\"Full Self-Driving is capable of limited semi-automated control of a
+        vehicle under driver supervision.\"><p class=\"speakable\"><a href=\"https://www.foxnews.com/category/auto/make/tesla\"
+        target=\"_blank\">Tesla</a> is increasing the price of its Full Self-Driving
+        system from $10,000 to $12,000 on January 17, CEO Elon Musk has announced
+        on Twitter.</p><p>The feature offers limited semi-automated driving features
+        and its name has been called \"misleading\" and \"irresponsible\" by National
+        Transportation and Safety Board Chair Jennifer Homendy.</p><p class=\"ad gam\"></p>
+        <img src=\"https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2021/12/640/320/yoke-tesla.jpg?ve=1&amp;tl=1\"
+        alt=\"Tesla''s yoke steering wheel was designed with future automation in
+        mind.&#160;\"><p>Certain Tesla owners with cars that have the feature activated
+        are also granted access to a beta testing program that unlocks additional
+        capability, but still requires active driver participation when it is activated.</p><p
+        class=\"ad gam\"></p><p>The price of Full Self-Driving (FSD) was last raised
+        from $8,000 to $10,000 in October 2022, and Musk has said it will continue
+        to go up its capabilities are increased, a point he reiterated with the recent
+        announcement, saying, \"FSD price will rise as we get closer to FSD production
+        code release.\"</p><p class=\"ad gam\"></p> <img src=\"https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2021/06/640/320/tesla-plaid-2.jpg?ve=1&amp;tl=1\"
+        alt=\"Full Self-Driving is available across Tesla''s lineup.\"><p>Tesla also
+        offers Full Self-Driving as a $199 monthly subscription, but Musk didn''t
+        say if that would be increased alongside the purchase price.</p><p><a href=\"https://www.foxnews.com/apps-products\"
+        target=\"_blank\">CLICK HERE TO GET THE FOX NEWS APP</a></p><p class=\"ad
+        gam\"></p><p>Musk has previously insisted that the feature will \"probably\"
+        be worth <a href=\"https://www.foxnews.com/auto/elon-musk-tesla-worth-100000\"
+        target=\"_blank\">$100,000</a> when it is fully functional, arguing that Tesla
+        owners will be able to deploy their vehicles in a rideshare service when they''re
+        not using them.</p> </div>","article_abstract":null}'
+  recorded_at: Mon, 18 Apr 2022 22:45:31 GMT
+recorded_with: VCR 6.1.0
