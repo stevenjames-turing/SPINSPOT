@@ -1,0 +1,67 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.mediastack.com/v1/news?access_key=<mediastack_key>&countries=us&keywords=Elon&languages=en&limit=1&sort=published_desc&sources=bloomberg,cnbc,forbes,npr-national-public-radio,reuters
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.2.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 20 Apr 2022 20:22:27 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - no-cache, private
+      X-Request-Time:
+      - '0.070'
+      - '0.100'
+      X-Apilayer-Transaction-Id:
+      - 9c4a43c1-170a-4d03-8b76-7196dc7d3445
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET, POST, HEAD, OPTIONS
+      Access-Control-Allow-Headers:
+      - "*"
+      X-Quota-Limit:
+      - '500'
+      X-Quota-Remaining:
+      - '350'
+      X-Increment-Usage:
+      - '1'
+      Cf-Cache-Status:
+      - DYNAMIC
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=mMtgBDjEeH6GK3zTuYOlYl2mZAZ1HmROwMQ%2BL%2B0foCsTu1d8WUU%2BOsq8tjCGEK8Qb1c6la2vpFCCQowGFMG%2FTVnZ58c1RZ2fT1v1OGEGREjElFJUbr7A8hx338SNwde%2BLWhLlRw%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 6ff0979329896363-ORD
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"pagination":{"limit":1,"offset":0,"count":1,"total":127},"data":[{"author":"Dani
+        Di Placido, Senior Contributor","title":"Elon Musk Dismisses Netflix As \u2018Woke\u2019
+        And \u2018Unwatchable\u2019","description":"Following Netflix\u2019s subscriber
+        loss, Elon Musk trolled the streaming giant on Twitter.","url":"https:\/\/www.forbes.com\/sites\/danidiplacido\/2022\/04\/20\/elon-musk-dismisses-netflix-as-woke-and-unwatchable\/","source":"Forbes","image":"https:\/\/thumbor.forbes.com\/thumbor\/fit-in\/0x0\/filters%3Aformat%28jpg%29\/https:\/\/specials-images.forbesimg.com\/imageserve\/5ec2be2dbe5e8b00064d7e12\/0x0.jpg","category":"general","language":"en","country":"us","published_at":"2022-04-20T18:32:22+00:00"}]}'
+  recorded_at: Wed, 20 Apr 2022 20:22:27 GMT
+recorded_with: VCR 6.1.0
