@@ -75,8 +75,12 @@
       - Extractive Article Summarization: `post https://tldrthis.p.rapidapi.com/v1/model/extractive/summarize-url/`
 
   ### Exposed:
-  - News
-    - <b> I NEED TO PUT INFO ON OUR EXPOSED ENPOINTS HERE </b>
+  - SPINSPOT
+    - Available Endpoints: 
+      - `get: /api/v1/news?keyword=<search_params>`
+    - Example Response:
+
+      - <img src="https://user-images.githubusercontent.com/91357724/164321651-108608a6-ecd4-4173-9c86-5912f10fcd6e.png" alt="Example Response">
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
