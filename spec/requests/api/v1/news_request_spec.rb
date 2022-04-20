@@ -2,7 +2,7 @@ require 'rails_helper'
 
 describe 'News API', :vcr do
   context 'news#index' do
-    xit 'sends a hash of Tldr summaries' do
+    it 'sends a hash of Tldr summaries' do
       get '/api/v1/news?keyword=Elon musk'
       
       expect(response).to be_successful
@@ -16,13 +16,17 @@ describe 'News API', :vcr do
       expect(json[:topic]).to eq("Elon musk")
     end
     
-    xit 'gives a 400 error code if keyword param is empty' do 
+    it 'gives a 400 error code if keyword param is empty' do 
       get '/api/v1/news?keyword='
       
       expect(response).to have_http_status(400)
     end
     
-    
+    it 'gives a 400 error code if keyword param is missing' do 
+      get '/api/v1/news?'
+
+      expect(response).to have_http_status(400)
+    end
     
   end
 end 
