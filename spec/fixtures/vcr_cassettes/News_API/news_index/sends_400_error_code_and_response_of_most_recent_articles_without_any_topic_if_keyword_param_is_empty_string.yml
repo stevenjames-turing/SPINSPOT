@@ -1,0 +1,544 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.mediastack.com/v1/news?access_key=<mediastack_key>&countries=us&keywords=&languages=en&limit=1&sort=published_desc&sources=abc-news,cnn,guardian,nytimes
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.2.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 20 Apr 2022 18:58:33 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - no-cache, private
+      X-Request-Time:
+      - '0.060'
+      - '0.083'
+      X-Apilayer-Transaction-Id:
+      - d4f17904-bd6e-478c-975f-4d80a2ea239a
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET, POST, HEAD, OPTIONS
+      Access-Control-Allow-Headers:
+      - "*"
+      X-Quota-Limit:
+      - '500'
+      X-Quota-Remaining:
+      - '393'
+      X-Increment-Usage:
+      - '1'
+      Cf-Cache-Status:
+      - DYNAMIC
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=H3QmX3y1U7ld1jS3nqO8MsTTZHl%2B%2F4UiBxa0WCQtrpXzWDAodpC9PJqKqQCDyWP%2FkSicTn6Z6FRcMnJJaUCOgECt%2F%2B5ocj6ZA13BwB3B2IUQW5e2KUUFp8rp8dsktWB1kulNrjk%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 6ff01cabcef62c7c-ORD
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"pagination":{"limit":1,"offset":0,"count":1,"total":10000},"data":[{"author":null,"title":"US
+        Treasury secretary and other finance ministers walk out of G20 meeting with
+        Russia","description":"Finance ministers from multiple nations walked out
+        of a closed-door G20 session in Washington on Wednesday when the Russian delegate
+        began his prepared remarks, a person familiar with the session said.","url":"https:\/\/www.cnn.com\/2022\/04\/20\/politics\/janet-yellen-g20-finance-ministerial-protest\/index.html","source":"CNN","image":"https:\/\/cdn.cnn.com\/cnnnext\/dam\/assets\/220413091323-janet-yellen-0407-super-169.jpg","category":"general","language":"en","country":"us","published_at":"2022-04-20T18:27:29+00:00"}]}'
+  recorded_at: Wed, 20 Apr 2022 18:58:33 GMT
+- request:
+    method: get
+    uri: http://api.mediastack.com/v1/news?access_key=<mediastack_key>&countries=us&keywords=&languages=en&limit=1&sort=published_desc&sources=bloomberg,cnbc,forbes,npr-national-public-radio,reuters
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.2.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 20 Apr 2022 18:58:33 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - no-cache, private
+      X-Request-Time:
+      - '0.062'
+      - '0.091'
+      X-Apilayer-Transaction-Id:
+      - b58e5a1f-455b-48ef-8fb7-e2670c31a3ab
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET, POST, HEAD, OPTIONS
+      Access-Control-Allow-Headers:
+      - "*"
+      X-Quota-Limit:
+      - '500'
+      X-Quota-Remaining:
+      - '392'
+      X-Increment-Usage:
+      - '1'
+      Cf-Cache-Status:
+      - DYNAMIC
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=pUkRb%2FAiAa6QfxTqIhb59%2Bps6cJD6JJBRGAbLC1aKJxxlAnl0BluZbfE%2BXeKBh4ChxgMGKuj6jscSNbMH%2FGJppy%2F1Ro5agfrG2Xb4R5NGQ5pIN00Lj7PTPahrzlztlTGPeOcwD4%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 6ff01cad1b792b14-ORD
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"pagination":{"limit":1,"offset":0,"count":1,"total":10000},"data":[{"author":null,"title":"IBM
+        stock on pace for best day since April 2020 as analysts raise estimates","description":"Analysts
+        are feeling positive about IBM in the current market climate after the software
+        and consulting company slightly raised its full-year growth view.","url":"https:\/\/www.cnbc.com\/2022\/04\/20\/ibm-stock-on-pace-for-best-day-since-april-2020-as-estimates-go-higher.html","source":"CNBC","image":null,"category":"general","language":"en","country":"us","published_at":"2022-04-20T18:19:49+00:00"}]}'
+  recorded_at: Wed, 20 Apr 2022 18:58:33 GMT
+- request:
+    method: get
+    uri: http://api.mediastack.com/v1/news?access_key=<mediastack_key>&countries=us&keywords=&languages=en&limit=1&sort=published_desc&sources=foxnews,breitbart
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.2.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 20 Apr 2022 18:58:33 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - no-cache, private
+      X-Request-Time:
+      - '0.043'
+      - '0.068'
+      X-Apilayer-Transaction-Id:
+      - bd0fd5cf-29e3-4b7e-90cf-28ccd51c9eb8
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET, POST, HEAD, OPTIONS
+      Access-Control-Allow-Headers:
+      - "*"
+      X-Quota-Limit:
+      - '500'
+      X-Quota-Remaining:
+      - '391'
+      X-Increment-Usage:
+      - '1'
+      Cf-Cache-Status:
+      - DYNAMIC
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=N1fpVXg%2BaQpVnE0gy6WzXa6mkO3tWgLYQo25kE9U2U1ECmNcLNW%2FYRNXhBPmJQ%2FQ6MeRhyZL8heMCTZW0P%2FPtnSqHHDlcs0hdot8y6HCcAHSAA35G2QlhYhbr69V4nsier9TS4Q%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 6ff01cae6a1c2da2-ORD
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"pagination":{"limit":1,"offset":0,"count":1,"total":3002},"data":[{"author":"Danielle
+        Wallace","title":"NYC \u0027Diamond\u0027 mob boss of underground gambling
+        parlors sentenced to 4 years","description":"New York City \u201cDiamond Enterprise\u201d
+        boss Abduraman Iseni who pleaded guilty to running an organized crime network
+        of illegal gambling parlors across Brooklyn was sentenced to 55 months in
+        prison, which will be his third time in federal lockup following past convictions
+        stretching back decades.","url":"https:\/\/www.foxnews.com\/us\/nyc-diamond-brooklyn-gambling-boss-sentenced-4-years","source":"FOX
+        News - Most Popular","image":"https:\/\/static.foxnews.com\/foxnews.com\/content\/uploads\/2022\/04\/GettyImages-1237988109.jpg","category":"general","language":"en","country":"us","published_at":"2022-04-20T17:35:48+00:00"}]}'
+  recorded_at: Wed, 20 Apr 2022 18:58:33 GMT
+- request:
+    method: post
+    uri: https://tldrthis.p.rapidapi.com/v1/model/abstractive/summarize-url/
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+                                  "url": "https://www.cnn.com/2022/04/20/politics/janet-yellen-g20-finance-ministerial-protest/index.html",
+                                  "min_length": 100,
+                                  "max_length": 300,
+                                  "is_detailed": false
+                                  }
+    headers:
+      X-Rapidapi-Host:
+      - tldrthis.p.rapidapi.com
+      X-Rapidapi-Key:
+      - "<tldr_key>"
+      User-Agent:
+      - Faraday v2.2.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json
+      Date:
+      - Wed, 20 Apr 2022 18:58:34 GMT
+      Server:
+      - RapidAPI-1.2.8
+      X-Rapidapi-Region:
+      - AWS - us-east-1
+      X-Rapidapi-Version:
+      - 1.2.8
+      X-Ratelimit-Requests-Limit:
+      - '100'
+      X-Ratelimit-Requests-Remaining:
+      - '33'
+      X-Ratelimit-Requests-Reset:
+      - '2530060'
+      Content-Length:
+      - '8277'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"summary":[" Canada''s Chrystia Freeland tweeted a photo of officials
+        who walked out of the G20 meeting. US Treasury Secretary Janet Yellen and
+        other officials also walked out during Russia''s presentation. US officials
+        had said Yellen would not participate in certain sessions of the gathering
+        that included Russia. The walkout was a show of protest against Moscow for
+        its invasion of Ukraine, which has been blamed for the crisis in the country''s
+        eastern Crimea, Russia''s annexation of Crimea and other Western nations."],"article_text":"(CNN)
+        Finance ministers from multiple nations walked out of a closed-door G20 session
+        in Washington on Wednesday when the Russian delegate began his prepared remarks,
+        a show of protest against Moscow for its invasion of Ukraine.\n\nUS Treasury
+        Secretary Janet Yellen participated in the walkout, as did European and other
+        Western officials who were participating in the meeting.\n\nCanada''s finance
+        minister Chrystia Freeland wrote on Twitter, \"The world''s democracies will
+        not stand idly by in the face of continued Russian aggression and war crimes.\"
+        She tweeted a photo of officials who left meeting, including Yellen, US Federal
+        Reserve Chairman Jerome Powell and European Central Bank President Christine
+        Lagarde.\n\nChrystia Freeland, Canada''s deputy prime minister and finance
+        minister, tweeted this photo on Wednesday, April 20. \"The world''s democracies
+        will not stand idly by in the face of continued Russian aggression and war
+        crimes,\" she wrote. \"Today Canada and a number of our democratic partners
+        walked out of the G20 plenary when Russia sought to intervene.\"\n\nAhead
+        of the meeting, US officials had said Yellen would not participate in certain
+        sessions of the gathering that included Russia.\n\nUkrainian officials also
+        spoke at the session as invited guests, and also walked out during Russia''s
+        presentation. Yellen and other officials attended the session during those
+        remarks, but departed when Russian Finance Minister Anton Siluanov began speaking
+        virtually.\n\nRead More","article_title":"US Treasury secretary and other
+        finance ministers walk out of G20 meeting with Russia","article_authors":["Kevin
+        Liptak","Sam Fossum"],"article_image":"https://cdn.cnn.com/cnnnext/dam/assets/220413091323-janet-yellen-0407-super-tease.jpg","article_pub_date":"Apr
+        20, 2022","article_url":"https://www.cnn.com/2022/04/20/politics/janet-yellen-g20-finance-ministerial-protest/index.html","article_html":"<div><p
+        class=\"zn-body__paragraph speakable\"> (CNN)Finance ministers from multiple
+        nations walked out of a closed-door G20 session in Washington on Wednesday
+        when the Russian delegate began his prepared remarks, a show of protest against
+        Moscow for its invasion of Ukraine.</p><a></a><span><a></a><span><a href=\"https://www.cnn.com/2022/04/13/economy/yellen-russian-ukraine-atlantic-council/index.html\"
+        target=\"_blank\">US Treasury Secretary Janet Yellen</a> participated in the
+        walkout, as did European and other Western officials who were participating
+        in the meeting.</span></span><a></a><p>Canada''s finance minister <a href=\"https://twitter.com/cafreeland/status/1516821378288308225\"
+        target=\"_blank\">Chrystia Freeland wrote on Twitter,</a> \"The world''s democracies
+        will not stand idly by in the face of continued Russian aggression and war
+        crimes.\" She tweeted a photo of officials who left meeting, including Yellen,
+        US Federal Reserve Chairman Jerome Powell and European Central Bank President
+        Christine Lagarde.</p><p id=\"ad_nat_btf_01\" class=\"ad-ad_nat_btf_01 ad-refresh-default\"></p><ul
+        class=\"cn cn-list-hierarchical-xs cn--idx-4 cn-zoneAdContainer\"></ul><img
+        class=\"media__image media__image--responsive\" alt=\"Chrystia Freeland, Canada&amp;#39;s
+        deputy prime minister and finance minister, tweeted this photo on Wednesday,
+        April 20. &amp;quot;The world&amp;#39;s democracies will not stand idly by
+        in the face of continued Russian aggression and war crimes,&amp;quot; she
+        wrote. &amp;quot;Today Canada and a number of our democratic partners walked
+        out of the G20 plenary when Russia sought to intervene.&amp;quot;\" src=\"data:image/gif;base64,R0lGODlhEAAJAJEAAAAAAP///////wAAACH5BAEAAAIALAAAAAAQAAkAAAIKlI+py+0Po5yUFQA7\"><p
+        class=\"img__preloader\"></p><img alt=\"Chrystia Freeland, Canada&amp;#39;s
+        deputy prime minister and finance minister, tweeted this photo on Wednesday,
+        April 20. &amp;quot;The world&amp;#39;s democracies will not stand idly by
+        in the face of continued Russian aggression and war crimes,&amp;quot; she
+        wrote. &amp;quot;Today Canada and a number of our democratic partners walked
+        out of the G20 plenary when Russia sought to intervene.&amp;quot;\" class=\"media__image\"
+        src=\"//cdn.cnn.com/cnnnext/dam/assets/220420142518-g20-finance-minister-walkout-large-169.jpg\"><p
+        class=\"element-raw appearance-fullwidth\">Chrystia Freeland, Canada''s deputy
+        prime minister and finance minister, tweeted this photo on Wednesday, April
+        20. \"The world''s democracies will not stand idly by in the face of continued
+        Russian aggression and war crimes,\" she wrote. \"Today Canada and a number
+        of our democratic partners walked out of the G20 plenary when Russia sought
+        to intervene.\"</p><p class=\"zn-body__paragraph\"></p><p class=\"zn-body__paragraph\">Ahead
+        of the meeting, US officials had said Yellen would not participate in certain
+        sessions of the gathering that included Russia.</p><p></p><p></p><ul class=\"cn
+        cn-list-hierarchical-xs cn--idx-8 cn-zoneAdContainer\"></ul><p class=\"zn-body__paragraph\">Ukrainian
+        officials also spoke at the session as invited guests, and also walked out
+        during Russia''s presentation. Yellen and other officials attended the session
+        during those remarks, but departed when Russian Finance Minister Anton Siluanov
+        began speaking virtually.</p><p id=\"ad_rect_atf_01\" class=\"ad-ad_rect_atf_01
+        ad-refresh-default\"></p><ul class=\"cn cn-list-hierarchical-xs cn--idx-10
+        cn-zoneAdContainer\"></ul><p class=\"read-more-gradient\"></p><p class=\"read-more-link\"
+        id=\"js-body-read-more\">Read More</p><p class=\"zn-body__paragraph\">A separate
+        official said finance ministers had discussed plans to boycott Russia''s participation
+        ahead of time.</p><a></a><a></a><p>Yellen <a href=\"https://thehill.com/news/3260780-yellen-says-us-will-not-participate-in-g20-meetings-if-russia-present/\"
+        target=\"_blank\"> said earlier this month </a> she had informed this year''s
+        G20 host, Indonesia, that she wouldn''t participate in sessions that included
+        Russia. The G20 finance ministers are gathered in Washington this week to
+        coincide with the annual meetings <a href=\"https://www.cnn.com/2022/04/14/americas/russia-asks-brazil-support-imf-intl-latam/index.html\"
+        target=\"_blank\"> of the World Bank and International Monetary Fund.</a>
+        </p><p id=\"ad_rect_atf_02\" class=\"ad-ad_rect_atf_02 ad-refresh-default\"></p><ul
+        class=\"cn cn-list-hierarchical-xs cn--idx-14 cn-zoneAdContainer\"></ul><p
+        class=\"zn-body__paragraph\">Ahead of Wednesday''s walkout, Treasury officials
+        made clear it would not be business as usual when it came to Yellen''s interactions
+        with Russian officials during this week''s big gathering of global economic
+        leaders.</p><p class=\"zn-body__paragraph\">While Yellen will attend some
+        sessions of the G20 Finance Ministers and Central Bank Governor meeting with
+        Russian officials present, including the opening session, she will not be
+        participating in all of them if the Russians are there, according to a senior
+        US Treasury Official. </p><p></p><ul class=\"cn cn-list-hierarchical-xs cn--idx-17
+        cn-zoneAdContainer\"></ul><p class=\"zn-body__paragraph\">\"President Biden''s
+        made clear and I certainly agree with him that it cannot be business as usual
+        for Russia in any of the financial institutions,\" Yellen told the House Financial
+        Services Committee. \"He''s asked that Russia be removed from the G20 and
+        I''ve made clear to my colleagues in Indonesia that we will not be participating
+        in a number of meetings if the Russians are there.\"</p><p class=\"zn-body__paragraph\">While
+        President Biden has said Russia should no longer be in the G20, ejecting Moscow
+        would require the support of all members. That is considered unlikely, as
+        China has said it would not back kicking Russia out.</p></div>","article_abstract":null}'
+  recorded_at: Wed, 20 Apr 2022 18:58:34 GMT
+- request:
+    method: post
+    uri: https://tldrthis.p.rapidapi.com/v1/model/abstractive/summarize-url/
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+                                  "url": "https://www.cnbc.com/2022/04/20/ibm-stock-on-pace-for-best-day-since-april-2020-as-estimates-go-higher.html",
+                                  "min_length": 100,
+                                  "max_length": 300,
+                                  "is_detailed": false
+                                  }
+    headers:
+      X-Rapidapi-Host:
+      - tldrthis.p.rapidapi.com
+      X-Rapidapi-Key:
+      - "<tldr_key>"
+      User-Agent:
+      - Faraday v2.2.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json
+      Date:
+      - Wed, 20 Apr 2022 18:58:37 GMT
+      Server:
+      - RapidAPI-1.2.8
+      X-Rapidapi-Region:
+      - AWS - us-east-1
+      X-Rapidapi-Version:
+      - 1.2.8
+      X-Ratelimit-Requests-Limit:
+      - '100'
+      X-Ratelimit-Requests-Remaining:
+      - '32'
+      X-Ratelimit-Requests-Reset:
+      - '2530057'
+      Content-Length:
+      - '7354'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"summary":[" IBM shares rose as much as 8% on Wednesday after the
+        company reported stronger-than-expected first-quarter results. Morgan Stanley
+        analyst Erik Woodring: \"We''re incrementally more constructive after two
+        consecutive Q''s of outperformance\" Analysts polled by Refinitiv now see
+        IBM growing 6% in 2022, up from under 4% last year. The 110-year-old technology
+        company has become more favorable to investors this year as central banks
+        have sought to combat inflation with higher interest rates."],"article_text":"Wired
+        senior staff writer Cade Metz and Arvind Krishna, IBM CEO and then senior
+        vice president and director at IBM Research, speak onstage at the Wired Business
+        Conference in New York on June 16, 2016.\n\nIBM shares rose as much as 8%
+        on Wednesday after the hardware, software and consulting provider reported
+        stronger-than-expected first-quarter results, inspiring analysts to raise
+        price targets and estimates.\n\nThe 110-year-old technology company has become
+        more favorable to investors this year as central banks have sought to combat
+        inflation with higher interest rates. Although it''s not growing as fast as
+        many of its enterprise software competitors, it generates income and continues
+        to pay dividends, which can serve as a hedge against market uncertainty.\n\nExecutives
+        said on Tuesday that it will cost more to add talent in the months to come,
+        but the company plans to charge higher prices for consulting engagements.
+        It also plans expects to bring out a new mainframe computer, which could help
+        growth. Analysts polled by Refinitiv now see IBM growing 6% in 2022, up from
+        under 4% last year.\n\n\"We''re incrementally more constructive after two
+        consecutive Q''s of outperformance,\" Morgan Stanley analyst Erik Woodring,
+        who has the equivalent of a buy rating on IBM stock, wrote in a note to clients.
+        The firm''s 12-month price target moved to $157 from $150, and it''s expecting
+        IBM''s revenue to grow 5% in constant currency in 2022, compared with about
+        4% growth earlier.\n\nVolatility and uncertainty are driving market conditions
+        at the moment, and now that over half of IBM''s revenue is recurring rather
+        than based on one-time transactions, it stands to perform better in the current
+        environment than other hardware companies Morgan Stanley is tracking, Woodring
+        wrote. That includes Apple, Dell Technologies, HP Inc. and Xerox.\n\nBank
+        of America analysts led by Wamsi Mohan, with a buy rating on IBM stock, raised
+        revenue and earnings expectations for 2022, 2023 and 2024. \"With the benefits
+        of the Mainframe cycle yet to accrue in 2022/2023, we view the portfolio as
+        defensive (outperforms in a difficult macro environment) and expect sustained
+        revenue growth beyond 2022,\" they wrote.\n\nCredit Suisse analysts Sami Badri
+        and George Engroff, who also rate IBM stock as a buy, pushed up their estimates
+        for this year and next year and increased their target price on IBM stock
+        by $1 to $166.\n\nNot everyone was feeling better about IBM after the report.
+        Toni Sacconaghi Jr. of Bernstein Research, with the equivalent of a hold rating
+        on IBM stock, mentioned in a note that while IBM raised its full-year expectations
+        \"modestly,\" margins were narrower than expected, and any move higher could
+        be temporary, because 2023 will be a more difficult year for the company.\n\nWATCH:
+        We don''t own IBM, but it''s not unreasonable, says Karen Firestone","article_title":"IBM
+        stock on pace for best day since April 2020 as analysts raise estimates","article_authors":["Jordan
+        Novet"],"article_image":"https://image.cnbcfm.com/api/v1/image/106497070-1587399655476gettyimages-540691782.jpeg?v=1650477800&w=1920&h=1080","article_pub_date":"Apr
+        20, 2022","article_url":"https://www.cnbc.com/2022/04/20/ibm-stock-on-pace-for-best-day-since-april-2020-as-estimates-go-higher.html","article_html":"<div><p>Wired
+        senior staff writer Cade Metz and Arvind Krishna, IBM CEO and then senior
+        vice president and director at IBM Research, speak onstage at the Wired Business
+        Conference in New York on June 16, 2016.</p><p><a href=\"//www.cnbc.com/quotes/IBM\"
+        target=\"_blank\">IBM</a> shares rose as much as 8% on Wednesday after the
+        hardware, software and consulting provider reported stronger-than-expected
+        first-quarter results, inspiring analysts to raise price targets and estimates.</p><p>The
+        110-year-old technology company has become more favorable to investors this
+        year as central banks have sought to combat inflation with higher interest
+        rates. Although it''s not growing as fast as many of its enterprise software
+        competitors, it generates income and continues to pay dividends, which can
+        serve as a hedge against market uncertainty.</p><p class=\"lazyload-placeholder\"></p><p><a
+        href=\"https://www.cnbc.com/2022/04/19/ibm-earnings-q1-2022.html\">Executives
+        said</a> on Tuesday that it will cost more to add talent in the months to
+        come, but the company plans to charge higher prices for consulting engagements.
+        It also plans expects to bring out a new mainframe computer, which could help
+        growth. Analysts polled by Refinitiv now see IBM growing 6% in 2022, up from
+        under 4% last year.</p><p>\"We''re incrementally more constructive after two
+        consecutive Q''s of outperformance,\" Morgan Stanley analyst Erik Woodring,
+        who has the equivalent of a buy rating on IBM stock, wrote in a note to clients.
+        The firm''s 12-month price target moved to $157 from $150, and it''s expecting
+        IBM''s revenue to grow 5% in constant currency in 2022, compared with about
+        4% growth earlier.</p><p>Volatility and uncertainty are driving market conditions
+        at the moment, and now that over half of IBM''s revenue is recurring rather
+        than based on one-time transactions, it stands to perform better in the current
+        environment than other hardware companies Morgan Stanley is tracking, Woodring
+        wrote. That includes <a href=\"//www.cnbc.com/quotes/AAPL\" target=\"_blank\">Apple</a>,
+        <a href=\"//www.cnbc.com/quotes/DELL\" target=\"_blank\">Dell Technologies</a>,
+        <a href=\"//www.cnbc.com/quotes/HPQ\" target=\"_blank\">HP Inc.</a> and <a
+        href=\"//www.cnbc.com/quotes/XRX\" target=\"_blank\">Xerox</a>.</p><p>Bank
+        of America analysts led by Wamsi Mohan, with a buy rating on IBM stock, raised
+        revenue and earnings expectations for 2022, 2023 and 2024. \"With the benefits
+        of the Mainframe cycle yet to accrue in 2022/2023, we view the portfolio as
+        defensive (outperforms in a difficult macro environment) and expect sustained
+        revenue growth beyond 2022,\" they wrote.</p><p>Credit Suisse analysts Sami
+        Badri and George Engroff, who also rate IBM stock as a buy, pushed up their
+        estimates for this year and next year and increased their target price on
+        IBM stock by $1 to $166.</p><p class=\"lazyload-placeholder\"></p><p>Not everyone
+        was feeling better about IBM after the report. Toni Sacconaghi Jr. of Bernstein
+        Research, with the equivalent of a hold rating on IBM stock, mentioned in
+        a note that while IBM raised its full-year expectations \"modestly,\" margins
+        were narrower than expected, and any move higher could be temporary, because
+        2023 will be a more difficult year for the company.</p><p><strong>WATCH:</strong>
+        <a href=\"https://www.cnbc.com/video/2022/04/20/we-dont-own-ibm-but-its-not-unreasonable-says-karen-firestone.html\">We
+        don''t own IBM, but it''s not unreasonable, says Karen Firestone</a></p></div>","article_abstract":null}'
+  recorded_at: Wed, 20 Apr 2022 18:58:37 GMT
+- request:
+    method: post
+    uri: https://tldrthis.p.rapidapi.com/v1/model/abstractive/summarize-url/
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+                                  "url": "https://www.foxnews.com/us/nyc-diamond-brooklyn-gambling-boss-sentenced-4-years",
+                                  "min_length": 100,
+                                  "max_length": 300,
+                                  "is_detailed": false
+                                  }
+    headers:
+      X-Rapidapi-Host:
+      - tldrthis.p.rapidapi.com
+      X-Rapidapi-Key:
+      - "<tldr_key>"
+      User-Agent:
+      - Faraday v2.2.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json
+      Date:
+      - Wed, 20 Apr 2022 18:58:37 GMT
+      Server:
+      - RapidAPI-1.2.8
+      X-Rapidapi-Region:
+      - AWS - us-east-1
+      X-Rapidapi-Version:
+      - 1.2.8
+      X-Ratelimit-Requests-Limit:
+      - '100'
+      X-Ratelimit-Requests-Remaining:
+      - '31'
+      X-Ratelimit-Requests-Reset:
+      - '2530057'
+      Content-Length:
+      - '7045'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJzdW1tYXJ5IjpbIiBBYmR1cmFtYW4gXCJEaWFtb25kXCIgSXNlbmksIDU2LCBvZiBTdGF0ZW4gSXNsYW5kLCB3YXMgdHdpY2UgY29udmljdGVkIGluIDE5OTYgZm9yIHJhY2tldGVlcmluZyBhbmQgMjAxMiBmb3IgbW9uZXkgbGF1bmRlcmluZy4gVGhlIGZvcm1lciBPbHltcGljIGhvcGVmdWwgcHJldmlvdXNseSBwbGVhZGVkIGd1aWx0eSB0byBuZXcgZmVkZXJhbCBjaGFyZ2VzIGluIGNvbm5lY3Rpb24gdG8gaGltIHJ1bm5pbmcgYW4gb3JnYW5pemVkIGNyaW1pbmFsIGdyb3VwIGNhbGxlZCB0aGUgRGlhbW9uZCBFbnRlcnByaXNlLiBIZSBvcGVyYXRlZCBhIG5ldHdvcmsgb2YgaWxsZWdhbCBnYW1ibGluZyBwYXJsb3JzIHRocm91Z2hvdXQgQnJvb2tseW4gYW5kIGhvc3RlZCB1bmRlcmdyb3VuZCBwb2tlciBnYW1lcyBhbmQgaWxsZWdhbCBzcG9ydHMgYm9va3MuIElzZW5pIHdhcyBzZW50ZW5jZWQgdG8gNTEgbW9udGhzIGluIHByaXNvbiwgYXMgd2VsbCBhcyB0aHJlZSB5ZWFycyBvZiBzdXBlcnZpc2VkIHJlbGVhc2UsIGFuZCBvcmRlcmVkIHRvIGZvcmZlaXQgJDM0OSwwMDAgYW5kIHRvIHBheSBhICQ1LDAwMCBmaW5lLiJdLCJhcnRpY2xlX3RleHQiOiJORVcgWW91IGNhbiBub3cgbGlzdGVuIHRvIEZveCBOZXdzIGFydGljbGVzIVxuXG5OZXcgWW9yayBDaXR5IFwiRGlhbW9uZCBFbnRlcnByaXNlXCIgYm9zcyBjb252aWN0ZWQgb2YgcnVubmluZyBCcm9va2x5biB1bmRlcmdyb3VuZCBnYW1ibGluZyBwYXJsb3JzIHdpdGggdGllcyB0byB0aGUgTWFmaWEgd2FzIHNlbnRlbmNlZCB0byBhbm90aGVyIGZvdXIgeWVhcnMgaW4gcHJpc29uIG9uIFR1ZXNkYXkuXG5cbkFiZHVyYW1hbiBcIkRpYW1vbmRcIiBJc2VuaSwgNTYsIG9mIFN0YXRlbiBJc2xhbmQsIHdhcyB0d2ljZSBjb252aWN0ZWQgaW4gMTk5NiBmb3IgcmFja2V0ZWVyaW5nIGFuZCAyMDEyIGZvciBtb25leSBsYXVuZGVyaW5nIGFuZCBoYXMgYWxyZWFkeSBzZXJ2ZWQgbW9yZSB0aGFuIGEgZGVjYWRlIGluIGZlZGVyYWwgcHJpc29uLiBCdXQgYWZ0ZXIgaGlzIG1vc3QgcmVjZW50IHJlbGVhc2UsIHRoYXQgZGlkIG5vdCBkaXNjb3VyYWdlIGhpbSBmcm9tIHdpZWxkaW5nIGNvbnRyb2wgb3ZlciBhIG11bHRpLXllYXIgcmFja2V0ZWVyaW5nIGVudGVycHJpc2UgZnJvbSBpbiBvciBhYm91dCAyMDE3IHRocm91Z2ggMjAyMCwgVS5TLiBBdHRvcm5leSBEYW1pYW4gV2lsbGlhbXMgYW5ub3VuY2VkIFR1ZXNkYXkuXG5cbkRPSiBUSFJFQVRFTlMgVEFLRU9WRVIgT0YgUklLRVJTIElTTEFORCwgT1RIRVIgSkFJTFMgQU1JRCDigJhFWFRSQU9SRElOQVJZIExFVkVMIE9GIFZJT0xFTkNFIEFORCBESVNPUkRFUuKAmVxuXG5UaGUgZm9ybWVyIE9seW1waWMgaG9wZWZ1bCBwcmV2aW91c2x5IHBsZWFkZWQgZ3VpbHR5IHRvIG5ldyBmZWRlcmFsIGNoYXJnZXMgaW4gY29ubmVjdGlvbiB0byBoaW0gcnVubmluZyBhbiBvcmdhbml6ZWQgY3JpbWluYWwgZ3JvdXAgY2FsbGVkIHRoZSBEaWFtb25kIEVudGVycHJpc2UgdGhhdCBvcGVyYXRlZCBhIG5ldHdvcmsgb2YgaWxsZWdhbCBnYW1ibGluZyBwYXJsb3JzIHRocm91Z2hvdXQgQnJvb2tseW4gYW5kIGhvc3RlZCB1bmRlcmdyb3VuZCBwb2tlciBnYW1lcyBhbmQgaWxsZWdhbCBzcG9ydHMgYm9va3MuXG5cblRoZSBmZWRlcmFsIGluZGljdG1lbnQgc2F5cyBJc2VuaSBvZmZlcmVkIGhpcyBwcm90ZWN0aW9uLCBjb25uZWN0aW9ucywgYW5kIHN1YnN0YW50aWFsIGluZmx1ZW5jZSBpbiB0aGUgY3JpbWluYWwgdW5kZXJ3b3JsZCB0byBvdGhlciBtZW1iZXJzIG9mIHRoZSByYWNrZXRlZXJpbmcgZW50ZXJwcmlzZSwgaW4gZXhjaGFuZ2UgZm9yIGEgc2hhcmUgb2YgdGhlaXIgaWxsZWdhbCBwcm9maXRzLiBSZXZlbnVlIGdlbmVyYXRlZCBmcm9tIHRoZSBnYW1ibGluZyBwYXJsb3JzLCBpbiB0dXJuLCB3ZXJlIGxhdW5kZXJlZCB0aHJvdWdoIGEgc2VyaWVzIG9mIGJhbmsgYWNjb3VudHMgaW4gYW4gZWZmb3J0IHRvIGNvbmNlYWwgYW5kIGZhY2lsaXRhdGUgdGhlIERpYW1vbmQgRW50ZXJwcmlzZeKAmXMgY29udGludWVkIG9wZXJhdGlvbnMuXG5cblUuUy4gRGlzdHJpY3QgSnVkZ2UgQW5kcmV3IEwuIENhcnRlciBvbiBUdWVzZGF5IHNlbnRlbmNlZCBJc2VuaSB0byA1MSBtb250aHMgaW4gcHJpc29uLCBhcyB3ZWxsIGFzIHRocmVlIHllYXJzIG9mIHN1cGVydmlzZWQgcmVsZWFzZS4gSGUgd2FzIGFsc28gb3JkZXJlZCB0byBmb3JmZWl0ICQzNDksMDAwIGFuZCB0byBwYXkgYSAkNSwwMDAgZmluZS5cblxuXCJTZXJ2aW5nIG1vcmUgdGhhbiBhIGRlY2FkZSBpbiBmZWRlcmFsIHByaXNvbiBzaG91bGQgaGF2ZSBkZW1vbnN0cmF0ZWQgdG8gQWJkdXJhbWFuIElzZW5pIHRoZSBjb25zZXF1ZW5jZXMgb2Ygc2VyaW91cyBjcmltZXMuIEJ1dCBpbnN0ZWFkLCBhZnRlciBoaXMgcmVsZWFzZSBoZSB3ZW50IGJhY2sgdG8gcmFja2V0ZWVyaW5nLCB0aHJlYXRzLCBtb25leSBsYXVuZGVyaW5nLCBhbmQgb3RoZXIgb2ZmZW5zZXMsXCIgV2lsbGlhbXMgc2FpZCBpbiBhIHN0YXRlbWVudC4gVG9kYXnigJlzIHNlbnRlbmNlIHNob3VsZCBzZW5kIGEgbWVzc2FnZSB0aGF0IHRoaXMgT2ZmaWNlIHdpbGwgbWFrZSBldmVyeSBlZmZvcnQgdG8gaG9sZCBkYW5nZXJvdXMsIHJlY2lkaXZpc3QgZmVsb25zIHRvIGFjY291bnQuXCJcblxuQ0xJQ0sgSEVSRSBUTyBHRVQgVEhFIEZPWCBORVdTIEFQUFxuXG5JbiBhZGRpdGlvbiB0byB0aGUgRGlhbW9uZCBFbnRlcnByaXNl4oCZcyBvcGVyYXRpb25zLCBJc2VuaSBzZXBhcmF0ZWx5IGFkbWl0dGVkIHRvIHRocmVhdGVuaW5nIGEgdmljdGltIHdpdGggcGh5c2ljYWwgdmlvbGVuY2UsIGluY2x1ZGluZyBhbiBpbmNpZGVudCB3aGVyZSBoZSBoZWxkIGEgZm9yayBjbG9zZSB0byBhIGNvLWRlZmVuZGFudOKAmXMgZXllIGFuZCB0aHJlYXRlbmVkIHRvIGphYiBpdCBpbiwgYW5kIGEgaG9zdCBvZiBhZGRpdGlvbmFsIGNyaW1lcywgaW5jbHVkaW5nIG1vbmV5IGxhdW5kZXJpbmcsIGJhbmsgZnJhdWQgY29uc3BpcmFjeSwgYW5kIG1ha2luZyBmYWxzZSBzdGF0ZW1lbnRzIHRvIGEgYmFuayBmb3IgdGhlIHB1cnBvc2Ugb2YgaW5kdWNpbmcgdGhlIGJhbmsgdG8gcmVsZWFzZSBmdW5kcyB0byB3aGljaCBoZSB3YXMgbm90IGVudGl0bGVkLCBhY2NvcmRpbmcgdG8gZmVkZXJhbCBwcm9zZWN1dG9ycy4iLCJhcnRpY2xlX3RpdGxlIjoiTllDICdEaWFtb25kJyBtb2IgYm9zcyBvZiB1bmRlcmdyb3VuZCBnYW1ibGluZyBwYXJsb3JzIHNlbnRlbmNlZCB0byA0IHllYXJzIiwiYXJ0aWNsZV9hdXRob3JzIjpbIkRhbmllbGxlIFdhbGxhY2UiXSwiYXJ0aWNsZV9pbWFnZSI6Imh0dHBzOi8vc3RhdGljLmZveG5ld3MuY29tL2ZveG5ld3MuY29tL2NvbnRlbnQvdXBsb2Fkcy8yMDIyLzA0L0dldHR5SW1hZ2VzLTEyMzc5ODgxMDkuanBnIiwiYXJ0aWNsZV9wdWJfZGF0ZSI6bnVsbCwiYXJ0aWNsZV91cmwiOiJodHRwczovL3d3dy5mb3huZXdzLmNvbS91cy9ueWMtZGlhbW9uZC1icm9va2x5bi1nYW1ibGluZy1ib3NzLXNlbnRlbmNlZC00LXllYXJzIiwiYXJ0aWNsZV9odG1sIjoiPGRpdj48cCBjbGFzcz1cImluZm9cIj48cCBjbGFzcz1cImxhYmVsLWJnXCI+TkVXPC9wPllvdSBjYW4gbm93IGxpc3RlbiB0byBGb3ggTmV3cyBhcnRpY2xlcyFcbiAgPC9wPjxwIGNsYXNzPVwic3BlYWthYmxlXCI+PGEgaHJlZj1cImh0dHBzOi8vd3d3LmZveG5ld3MuY29tL2NhdGVnb3J5L3VzL25ldy15b3JrLWNpdHlcIiB0YXJnZXQ9XCJfYmxhbmtcIj5OZXcgWW9yayBDaXR5PC9hPiBcIkRpYW1vbmQgRW50ZXJwcmlzZVwiIGJvc3MgY29udmljdGVkIG9mIHJ1bm5pbmcgQnJvb2tseW4gdW5kZXJncm91bmQgZ2FtYmxpbmcgcGFybG9ycyB3aXRoIHRpZXMgdG8gdGhlIE1hZmlhIHdhcyBzZW50ZW5jZWQgdG8gYW5vdGhlciBmb3VyIHllYXJzIGluIHByaXNvbiBvbiBUdWVzZGF5LiYjMTYwOzwvcD48cCBjbGFzcz1cImFkIGdhbVwiPjwvcD48cCBjbGFzcz1cImFkIGdhbVwiPjwvcD48cCBjbGFzcz1cInNwZWFrYWJsZVwiPkFiZHVyYW1hbiBcIkRpYW1vbmRcIiBJc2VuaSwgNTYsIG9mIFN0YXRlbiBJc2xhbmQsIHdhcyB0d2ljZSBjb252aWN0ZWQgaW4gMTk5NiBmb3IgcmFja2V0ZWVyaW5nIGFuZCAyMDEyIGZvciBtb25leSBsYXVuZGVyaW5nIGFuZCBoYXMgYWxyZWFkeSBzZXJ2ZWQgbW9yZSB0aGFuIGEgZGVjYWRlIGluIGZlZGVyYWwgcHJpc29uLiBCdXQgYWZ0ZXIgaGlzIG1vc3QgcmVjZW50IHJlbGVhc2UsIHRoYXQgZGlkIG5vdCBkaXNjb3VyYWdlIGhpbSBmcm9tIHdpZWxkaW5nIGNvbnRyb2wgb3ZlciBhIG11bHRpLXllYXIgcmFja2V0ZWVyaW5nIGVudGVycHJpc2UgZnJvbSBpbiBvciBhYm91dCAyMDE3IHRocm91Z2ggMjAyMCwgVS5TLiBBdHRvcm5leSBEYW1pYW4gV2lsbGlhbXMgYW5ub3VuY2VkIFR1ZXNkYXkuJiMxNjA7PC9wPjxwPjxhIGhyZWY9XCJodHRwczovL3d3dy5mb3huZXdzLmNvbS91cy9ueWMtcmlrZXJzLWlzbGFuZC1kb2otdGFrZW92ZXJcIiB0YXJnZXQ9XCJfYmxhbmtcIj48c3Ryb25nPkRPSiBUSFJFQVRFTlMgVEFLRU9WRVIgT0YgUklLRVJTIElTTEFORCwgT1RIRVIgSkFJTFMgQU1JRCAmIzgyMTY7RVhUUkFPUkRJTkFSWSBMRVZFTCBPRiBWSU9MRU5DRSBBTkQgRElTT1JERVImIzgyMTc7PC9zdHJvbmc+PC9hPjwvcD48cCBjbGFzcz1cImFkIGdhbVwiPjwvcD48cD5UaGUgZm9ybWVyIE9seW1waWMgaG9wZWZ1bCBwcmV2aW91c2x5IHBsZWFkZWQgZ3VpbHR5IHRvIG5ldyBmZWRlcmFsIGNoYXJnZXMgaW4gY29ubmVjdGlvbiB0byBoaW0gcnVubmluZyBhbiBvcmdhbml6ZWQgY3JpbWluYWwgZ3JvdXAgY2FsbGVkIHRoZSBEaWFtb25kIEVudGVycHJpc2UgdGhhdCBvcGVyYXRlZCBhIG5ldHdvcmsgb2YgaWxsZWdhbCBnYW1ibGluZyBwYXJsb3JzIHRocm91Z2hvdXQgQnJvb2tseW4gYW5kIGhvc3RlZCB1bmRlcmdyb3VuZCBwb2tlciBnYW1lcyBhbmQgaWxsZWdhbCBzcG9ydHMgYm9va3MuJiMxNjA7PC9wPjxwIGNsYXNzPVwiYWQgZ2FtXCI+PC9wPiA8aW1nIHNyYz1cImh0dHBzOi8vYTU3LmZveG5ld3MuY29tL3N0YXRpYy5mb3huZXdzLmNvbS9mb3huZXdzLmNvbS9jb250ZW50L3VwbG9hZHMvMjAyMi8wNC82NDAvMzIwL0dldHR5SW1hZ2VzLTEyMzc5ODgxMDkuanBnP3ZlPTEmYW1wO3RsPTFcIiBhbHQ9XCJBIHBlcnNvbiBpcyBob2xkaW5nIHR3byBkZXVjZXMgaW4gaGlzIGhhbmQgd2hpbGUgcGxheWluZyBwb2tlci4mIzE2MDtcIj48cD5UaGUgZmVkZXJhbCBpbmRpY3RtZW50IHNheXMgSXNlbmkgb2ZmZXJlZCBoaXMgcHJvdGVjdGlvbiwgY29ubmVjdGlvbnMsIGFuZCBzdWJzdGFudGlhbCBpbmZsdWVuY2UgaW4gdGhlIGNyaW1pbmFsIHVuZGVyd29ybGQgdG8gb3RoZXIgbWVtYmVycyBvZiB0aGUgcmFja2V0ZWVyaW5nIGVudGVycHJpc2UsIGluIGV4Y2hhbmdlIGZvciBhIHNoYXJlIG9mIHRoZWlyIGlsbGVnYWwgcHJvZml0cy4gUmV2ZW51ZSBnZW5lcmF0ZWQgZnJvbSB0aGUgZ2FtYmxpbmcgcGFybG9ycywgaW4gdHVybiwgd2VyZSBsYXVuZGVyZWQgdGhyb3VnaCBhIHNlcmllcyBvZiBiYW5rIGFjY291bnRzIGluIGFuIGVmZm9ydCB0byBjb25jZWFsIGFuZCBmYWNpbGl0YXRlIHRoZSBEaWFtb25kIEVudGVycHJpc2UmIzgyMTc7cyBjb250aW51ZWQgb3BlcmF0aW9ucy48L3A+PHAgY2xhc3M9XCJhZCBnYW1cIj48L3A+PHA+VS5TLiBEaXN0cmljdCBKdWRnZSBBbmRyZXcgTC4gQ2FydGVyIG9uIFR1ZXNkYXkgc2VudGVuY2VkIElzZW5pIHRvIDUxIG1vbnRocyBpbiBwcmlzb24sIGFzIHdlbGwgYXMgdGhyZWUgeWVhcnMgb2Ygc3VwZXJ2aXNlZCByZWxlYXNlLiBIZSB3YXMgYWxzbyBvcmRlcmVkIHRvIGZvcmZlaXQgJDM0OSwwMDAgYW5kIHRvIHBheSBhICQ1LDAwMCBmaW5lLjwvcD48cD4mIzE2MDtcIlNlcnZpbmcgbW9yZSB0aGFuIGEgZGVjYWRlIGluIGZlZGVyYWwgcHJpc29uIHNob3VsZCBoYXZlIGRlbW9uc3RyYXRlZCB0byBBYmR1cmFtYW4gSXNlbmkgdGhlIGNvbnNlcXVlbmNlcyBvZiBzZXJpb3VzIGNyaW1lcy4mIzE2MDsgQnV0IGluc3RlYWQsIGFmdGVyIGhpcyByZWxlYXNlIGhlIHdlbnQgYmFjayB0byByYWNrZXRlZXJpbmcsIHRocmVhdHMsIG1vbmV5IGxhdW5kZXJpbmcsIGFuZCBvdGhlciBvZmZlbnNlcyxcIiBXaWxsaWFtcyBzYWlkIGluIGEgc3RhdGVtZW50LiYjMTYwOyBUb2RheSYjODIxNztzIHNlbnRlbmNlIHNob3VsZCBzZW5kIGEgbWVzc2FnZSB0aGF0IHRoaXMgT2ZmaWNlIHdpbGwgbWFrZSBldmVyeSBlZmZvcnQgdG8gaG9sZCBkYW5nZXJvdXMsIHJlY2lkaXZpc3QgZmVsb25zIHRvIGFjY291bnQuXCI8L3A+PHAgY2xhc3M9XCJhZCBnYW1cIj48L3A+PHA+PGEgaHJlZj1cImh0dHBzOi8vd3d3LmZveG5ld3MuY29tL2FwcHMtcHJvZHVjdHM/cGlkPUFwcEFydGljbGVMaW5rXCIgdGFyZ2V0PVwiX2JsYW5rXCI+PHN0cm9uZz5DTElDSyBIRVJFIFRPIEdFVCBUSEUgRk9YIE5FV1MgQVBQPC9zdHJvbmc+PC9hPjwvcD48cD5JbiBhZGRpdGlvbiB0byB0aGUgRGlhbW9uZCBFbnRlcnByaXNlJiM4MjE3O3Mgb3BlcmF0aW9ucywgSXNlbmkgc2VwYXJhdGVseSBhZG1pdHRlZCB0byB0aHJlYXRlbmluZyBhIHZpY3RpbSB3aXRoIHBoeXNpY2FsIHZpb2xlbmNlLCBpbmNsdWRpbmcgYW4gaW5jaWRlbnQgd2hlcmUgaGUgaGVsZCBhIGZvcmsgY2xvc2UgdG8gYSBjby1kZWZlbmRhbnQmIzgyMTc7cyBleWUgYW5kIHRocmVhdGVuZWQgdG8gamFiIGl0IGluLCBhbmQgYSBob3N0IG9mIGFkZGl0aW9uYWwgY3JpbWVzLCBpbmNsdWRpbmcgbW9uZXkgbGF1bmRlcmluZywgYmFuayBmcmF1ZCBjb25zcGlyYWN5LCBhbmQgbWFraW5nIGZhbHNlIHN0YXRlbWVudHMgdG8gYSBiYW5rIGZvciB0aGUgcHVycG9zZSBvZiBpbmR1Y2luZyB0aGUgYmFuayB0byByZWxlYXNlIGZ1bmRzIHRvIHdoaWNoIGhlIHdhcyBub3QgZW50aXRsZWQsIGFjY29yZGluZyB0byBmZWRlcmFsIHByb3NlY3V0b3JzLiYjMTYwOzwvcD48cCBjbGFzcz1cImFkIGdhbVwiPjwvcD48L2Rpdj4iLCJhcnRpY2xlX2Fic3RyYWN0IjpudWxsfQ==
+  recorded_at: Wed, 20 Apr 2022 18:58:37 GMT
+recorded_with: VCR 6.1.0
