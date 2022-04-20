@@ -1,0 +1,347 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.mediastack.com/v1/news?access_key=<mediastack_key>&countries=us&keywords=&languages=en&limit=1&sort=published_desc&sources=abc-news,cnn,guardian,nytimes
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.2.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 20 Apr 2022 19:25:53 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - no-cache, private
+      X-Request-Time:
+      - '0.057'
+      - '0.085'
+      X-Apilayer-Transaction-Id:
+      - f517f45a-c142-41c3-901d-38dc4788fcba
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET, POST, HEAD, OPTIONS
+      Access-Control-Allow-Headers:
+      - "*"
+      X-Quota-Limit:
+      - '500'
+      X-Quota-Remaining:
+      - '375'
+      X-Increment-Usage:
+      - '1'
+      Cf-Cache-Status:
+      - DYNAMIC
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=dGK4inOpV5hd4kQp6KpuIQVP2m5DE36bjOy9Fa6zQEWDQ2IzugISE1nUZRXhRRAW8CbgC%2FeHZaKzUAGX5h18XcwP5ZK5lawdkTuD%2FZvmWbDhgvoE4%2BhVpy0WelOlTiwj%2FRwLXsE%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 6ff044b5ce092d4c-ORD
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"pagination":{"limit":1,"offset":0,"count":1,"total":10000},"data":[{"author":"Brian
+        X. Chen","title":"Three Ways to Cut Your Tech Spending, as Prices Rise Everywhere","description":"Here\u2019s
+        how to be mindful about the tech subscriptions, phone bills and upgrades that
+        drain our budgets.","url":"https:\/\/www.nytimes.com\/2022\/04\/20\/technology\/personaltech\/phone-bills-online-subscription-cuts.html","source":"The
+        New York Times","image":"https:\/\/static01.nyt.com\/images\/2022\/04\/21\/business\/21techfix-illo\/21techfix-illo-moth.jpg","category":"technology","language":"en","country":"us","published_at":"2022-04-20T18:52:35+00:00"}]}'
+  recorded_at: Wed, 20 Apr 2022 19:25:53 GMT
+- request:
+    method: get
+    uri: http://api.mediastack.com/v1/news?access_key=<mediastack_key>&countries=us&keywords=&languages=en&limit=1&sort=published_desc&sources=bloomberg,cnbc,forbes,npr-national-public-radio,reuters
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.2.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 20 Apr 2022 19:25:53 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - no-cache, private
+      X-Request-Time:
+      - '0.051'
+      - '0.077'
+      X-Apilayer-Transaction-Id:
+      - f91a8422-48b3-426f-8fc1-af82f0fc31d5
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET, POST, HEAD, OPTIONS
+      Access-Control-Allow-Headers:
+      - "*"
+      X-Quota-Limit:
+      - '500'
+      X-Quota-Remaining:
+      - '374'
+      X-Increment-Usage:
+      - '1'
+      Cf-Cache-Status:
+      - DYNAMIC
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=XFTl8XuvBVbdvSiiQfJ3VE8zwOzxAt45OUyqzWC84EDcXVCigStWCkwD%2B1ZNaLQ7dW%2Bw5ya1lIfp7zDj8IG91l8NjK4Pk49s2EwWsOf%2FRp4CTSfxKSgkYKtxlNvHF%2BwTcS%2BcyVw%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 6ff044b7296029a9-ORD
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"pagination":{"limit":1,"offset":0,"count":1,"total":10000},"data":[{"author":"Alison
+        Durkee, Forbes Staff","title":"Tony Awards Issues \u2018Strict No Violence
+        Policy\u2019 After Will Smith Slap","description":"Anyone who commits an act
+        of violence will be \u201cremoved from the event immediately.\u201d","url":"https:\/\/www.forbes.com\/sites\/alisondurkee\/2022\/04\/20\/tony-awards-issues-strict-no-violence-policy-after-will-smith-slap\/","source":"Forbes","image":"https:\/\/thumbor.forbes.com\/thumbor\/fit-in\/0x0\/filters%3Aformat%28jpg%29\/https:\/\/specials-images.forbesimg.com\/imageserve\/62470a34a137b23faa503f2d\/0x0.jpg?cropX1=0\u0026cropX2=2916\u0026cropY1=51\u0026cropY2=1691","category":"general","language":"en","country":"us","published_at":"2022-04-20T18:50:09+00:00"}]}'
+  recorded_at: Wed, 20 Apr 2022 19:25:53 GMT
+- request:
+    method: get
+    uri: http://api.mediastack.com/v1/news?access_key=<mediastack_key>&countries=us&keywords=&languages=en&limit=1&sort=published_desc&sources=foxnews,breitbart
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.2.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 20 Apr 2022 19:25:53 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - no-cache, private
+      X-Request-Time:
+      - '0.043'
+      - '0.070'
+      X-Apilayer-Transaction-Id:
+      - afeeb16e-dbb4-4b4a-9f95-ea0bc0ed50f3
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET, POST, HEAD, OPTIONS
+      Access-Control-Allow-Headers:
+      - "*"
+      X-Quota-Limit:
+      - '500'
+      X-Quota-Remaining:
+      - '373'
+      X-Increment-Usage:
+      - '1'
+      Cf-Cache-Status:
+      - DYNAMIC
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=qmHSLr%2FX8%2F6e3KG1SPxGumHSiUiqGLEveYs4LrjIFv9PRsr6NeSMBXAocyd2euQjntuQJskQnJPZII4vDqpMRg8LMvoCrbp2L%2BK8JcmS9vj5hXIgyeR4rt%2BtLUW9%2BddtrOUI4vQ%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 6ff044b8f9312d76-ORD
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"pagination":{"limit":1,"offset":0,"count":1,"total":3002},"data":[{"author":"Danielle
+        Wallace","title":"NYC \u0027Diamond\u0027 mob boss of underground gambling
+        parlors sentenced to 4 years","description":"New York City \u201cDiamond Enterprise\u201d
+        boss Abduraman Iseni who pleaded guilty to running an organized crime network
+        of illegal gambling parlors across Brooklyn was sentenced to 55 months in
+        prison, which will be his third time in federal lockup following past convictions
+        stretching back decades.","url":"https:\/\/www.foxnews.com\/us\/nyc-diamond-brooklyn-gambling-boss-sentenced-4-years","source":"FOX
+        News - Most Popular","image":"https:\/\/static.foxnews.com\/foxnews.com\/content\/uploads\/2022\/04\/GettyImages-1237988109.jpg","category":"general","language":"en","country":"us","published_at":"2022-04-20T17:35:48+00:00"}]}'
+  recorded_at: Wed, 20 Apr 2022 19:25:53 GMT
+- request:
+    method: post
+    uri: https://tldrthis.p.rapidapi.com/v1/model/abstractive/summarize-url/
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+                                  "url": "https://www.nytimes.com/2022/04/20/technology/personaltech/phone-bills-online-subscription-cuts.html",
+                                  "min_length": 100,
+                                  "max_length": 300,
+                                  "is_detailed": false
+                                  }
+    headers:
+      X-Rapidapi-Host:
+      - tldrthis.p.rapidapi.com
+      X-Rapidapi-Key:
+      - "<tldr_key>"
+      User-Agent:
+      - Faraday v2.2.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 429
+      message: Too Many Requests
+    headers:
+      Content-Type:
+      - application/json
+      Date:
+      - Wed, 20 Apr 2022 19:25:53 GMT
+      Server:
+      - RapidAPI-1.2.8
+      X-Rapidapi-Proxy-Response:
+      - 'true'
+      X-Rapidapi-Region:
+      - AWS - us-east-1
+      X-Rapidapi-Version:
+      - 1.2.8
+      Content-Length:
+      - '99'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"message":"You have exceeded the rate limit per minute for your plan,
+        BASIC, by the API provider"}'
+  recorded_at: Wed, 20 Apr 2022 19:25:53 GMT
+- request:
+    method: post
+    uri: https://tldrthis.p.rapidapi.com/v1/model/abstractive/summarize-url/
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+                                  "url": "https://www.forbes.com/sites/alisondurkee/2022/04/20/tony-awards-issues-strict-no-violence-policy-after-will-smith-slap/",
+                                  "min_length": 100,
+                                  "max_length": 300,
+                                  "is_detailed": false
+                                  }
+    headers:
+      X-Rapidapi-Host:
+      - tldrthis.p.rapidapi.com
+      X-Rapidapi-Key:
+      - "<tldr_key>"
+      User-Agent:
+      - Faraday v2.2.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 429
+      message: Too Many Requests
+    headers:
+      Content-Type:
+      - application/json
+      Date:
+      - Wed, 20 Apr 2022 19:25:53 GMT
+      Server:
+      - RapidAPI-1.2.8
+      X-Rapidapi-Proxy-Response:
+      - 'true'
+      X-Rapidapi-Region:
+      - AWS - us-east-1
+      X-Rapidapi-Version:
+      - 1.2.8
+      Content-Length:
+      - '99'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"message":"You have exceeded the rate limit per minute for your plan,
+        BASIC, by the API provider"}'
+  recorded_at: Wed, 20 Apr 2022 19:25:53 GMT
+- request:
+    method: post
+    uri: https://tldrthis.p.rapidapi.com/v1/model/abstractive/summarize-url/
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+                                  "url": "https://www.foxnews.com/us/nyc-diamond-brooklyn-gambling-boss-sentenced-4-years",
+                                  "min_length": 100,
+                                  "max_length": 300,
+                                  "is_detailed": false
+                                  }
+    headers:
+      X-Rapidapi-Host:
+      - tldrthis.p.rapidapi.com
+      X-Rapidapi-Key:
+      - "<tldr_key>"
+      User-Agent:
+      - Faraday v2.2.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 429
+      message: Too Many Requests
+    headers:
+      Content-Type:
+      - application/json
+      Date:
+      - Wed, 20 Apr 2022 19:25:54 GMT
+      Server:
+      - RapidAPI-1.2.8
+      X-Rapidapi-Proxy-Response:
+      - 'true'
+      X-Rapidapi-Region:
+      - AWS - us-east-1
+      X-Rapidapi-Version:
+      - 1.2.8
+      Content-Length:
+      - '99'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"message":"You have exceeded the rate limit per minute for your plan,
+        BASIC, by the API provider"}'
+  recorded_at: Wed, 20 Apr 2022 19:25:54 GMT
+recorded_with: VCR 6.1.0
