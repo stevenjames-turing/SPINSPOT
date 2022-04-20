@@ -5,7 +5,7 @@ class Tldr
     @bias = bias
     @source = source
     @title = tldr_data[:article_title]
-    @summary = single_string_summary(tldr_data[:summary])
+    @summary = !tldr_data[:summary].nil? ? single_string_summary(tldr_data[:summary]) : tldr_data[:summary]
     @url = tldr_data[:article_url]
     @photo_url = tldr_data[:article_image]
     @pub_date = tldr_data[:article_pub_date]
