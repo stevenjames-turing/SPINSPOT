@@ -35,6 +35,21 @@ describe 'News API', :vcr do
       end
     end
     
-    
+    context 'keyword param is missing' do 
+      it 'gives a 400 error code if keyword param is missing' do 
+        get '/api/v1/news?'
+        
+        expect(response).to have_http_status(400)
+      end
+      
+      it 'returns error message "invalid parameters"' do
+        get '/api/v1/news?'
+        expect(response).to have_http_status(400)
+        
+        json = JSON.parse(response.body, symbolize_names: true)
+        
+        expect(json[:error]).to eq({:message=>"invalid parameters"})  
+      end 
+    end
   end
 end 
