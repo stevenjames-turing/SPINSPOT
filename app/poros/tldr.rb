@@ -14,8 +14,8 @@ class Tldr
   def single_string_summary(summary)
     summary_string = ""
     summary.each do |string|
-      summary_string << (string += " ")
+      summary_string << "#{string.lstrip} "
     end
-    summary_string
+    summary_string.gsub('\n', '')
   end
 end
