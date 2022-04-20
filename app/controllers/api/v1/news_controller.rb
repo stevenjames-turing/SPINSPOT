@@ -1,20 +1,17 @@
 class Api::V1::NewsController < ApplicationController
 
   def index
-    @left_bias_articles = MediastackFacade.keyword_search(params[:keyword], "left_bias")
-    @center_bias_articles = MediastackFacade.keyword_search(params[:keyword], "center_bias")
-    @right_bias_articles = MediastackFacade.keyword_search(params[:keyword], "right_bias")
+    # Passes keyword param to the Mediastack Facade to create an Article poro for each bias
+    left_bias_article = MediastackFacade.keyword_search(params[:keyword], "left_bias")
+    center_bias_article = MediastackFacade.keyword_search(params[:keyword], "center_bias")
+    right_bias_article = MediastackFacade.keyword_search(params[:keyword], "right_bias")
     
-    @left_bias_tldr = @left_bias_articles.map do |article|
-      TldrFacade.advanced_article_summary(article.url, article.bias, article.source)
-    end
-    @center_bias_tldr = @center_bias_articles.map do |article|
-      TldrFacade.advanced_article_summary(article.url, article.bias, article.source)
-    end
-    @right_bias_tldr = @right_bias_articles.map do |article|
-      TldrFacade.advanced_article_summary(article.url, article.bias, article.source)
-    end
+    # Uses Article poro created above to pass data to the Tldr Facade to create Tldr poro for each bias. 
+    left_bias_tldr = TldrFacade.advanced_article_summary(left_bias_article.url, left_bias_article.bias, left_bias_article.source)
+    center_bias_tldr = TldrFacade.advanced_article_summary(center_bias_article.url, center_bias_article.bias, center_bias_article.source)
+    right_bias_tldr = TldrFacade.advanced_article_summary(right_bias_article.url, right_bias_article.bias, right_bias_article.source)
 
-    json_response(ArticleSummarySerializer.article_summary_json(params[:keyword], @left_bias_tldr[0], @center_bias_tldr[0], @right_bias_tldr[0]))
+    # Passes Tldr poros into Serializer to render JSON response to match JSON contract with Front-End client
+    json_response(ArticleSummarySerializer.article_summary_json(params[:keyword], left_bias_tldr, center_bias_tldr, right_bias_tldr))
   end
 end
