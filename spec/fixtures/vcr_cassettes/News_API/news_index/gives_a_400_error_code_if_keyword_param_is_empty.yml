@@ -1,0 +1,470 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.mediastack.com/v1/news?access_key=<mediastack_key>&countries=us&keywords=&languages=en&limit=1&sort=published_desc&sources=abc-news,cnn,guardian,nytimes
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.2.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 20 Apr 2022 18:44:08 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - no-cache, private
+      X-Request-Time:
+      - '0.088'
+      - '0.115'
+      X-Apilayer-Transaction-Id:
+      - 7c2a0ed1-b7d5-4da8-912b-d8f84c7e37b7
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET, POST, HEAD, OPTIONS
+      Access-Control-Allow-Headers:
+      - "*"
+      X-Quota-Limit:
+      - '500'
+      X-Quota-Remaining:
+      - '405'
+      X-Increment-Usage:
+      - '1'
+      Cf-Cache-Status:
+      - DYNAMIC
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=oqcS5ECc88vsyKHWZxhevVWr3QPFuew%2FAAFfpr90BccDHTPOMjdUeWqhEm4PPIM%2B%2BgcdSNtIj4F0R6sPeXgSTrnGLoLaNKSJcRToRwgQAvyuvuTIM9sShKH9aOXfMpr9AfUrreQ%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 6ff007921d386303-ORD
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"pagination":{"limit":1,"offset":0,"count":1,"total":10000},"data":[{"author":null,"title":"Trump
+        says he has no records subpoenaed by New York AG","description":"Former President
+        Donald Trump does not have any documents subpoenaed by the New York attorney
+        general\u0027s office as part of its civil investigation into the Trump Organization\u0027s
+        finances and shouldn\u0027t be held in contempt, he told a state court.","url":"https:\/\/www.cnn.com\/2022\/04\/20\/politics\/trump-subpoena-new-york-attorney-general\/index.html","source":"CNN","image":"https:\/\/cdn.cnn.com\/cnnnext\/dam\/assets\/220324183113-02-trump-congress-tax-returns-super-169.jpg","category":"general","language":"en","country":"us","published_at":"2022-04-20T18:07:53+00:00"}]}'
+  recorded_at: Wed, 20 Apr 2022 18:44:08 GMT
+- request:
+    method: get
+    uri: http://api.mediastack.com/v1/news?access_key=<mediastack_key>&countries=us&keywords=&languages=en&limit=1&sort=published_desc&sources=bloomberg,cnbc,forbes,npr-national-public-radio,reuters
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.2.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 20 Apr 2022 18:44:09 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - no-cache, private
+      X-Request-Time:
+      - '0.064'
+      - '0.095'
+      X-Apilayer-Transaction-Id:
+      - 5943b6d1-2063-4114-a138-9dd92893c11b
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET, POST, HEAD, OPTIONS
+      Access-Control-Allow-Headers:
+      - "*"
+      X-Quota-Limit:
+      - '500'
+      X-Quota-Remaining:
+      - '404'
+      X-Increment-Usage:
+      - '1'
+      Cf-Cache-Status:
+      - DYNAMIC
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=9rVRdVS400HUUWhZWZJPvNwVAAfRu8W4kmYWhJBKhAiwcxnlBUPZz6FHwtFxdizOCWVuuWGsSeu8iwVqdS4wloF7S9sGEThEbapEGUav93DHV%2Frs5aV0k6h9dJJxp9TTQkr0Ud4%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 6ff00793dd182c3c-ORD
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"pagination":{"limit":1,"offset":0,"count":1,"total":10000},"data":[{"author":"Alexander
+        Weber","title":"ECB\u2019s Nagel Says a Rate Hike Early in the Third Quarter
+        Is Possible","description":"ECB\u2019s Nagel Says a Rate Hike Early in the
+        Third Quarter Is Possible","url":"https:\/\/www.bloombergquint.com\/global-economics\/ecb-s-nagel-says-rate-hike-early-in-third-quarter-is-possible","source":"Bloomberg
+        | Latest And Live Business","image":null,"category":"business","language":"en","country":"us","published_at":"2022-04-20T18:06:57+00:00"}]}'
+  recorded_at: Wed, 20 Apr 2022 18:44:09 GMT
+- request:
+    method: get
+    uri: http://api.mediastack.com/v1/news?access_key=<mediastack_key>&countries=us&keywords=&languages=en&limit=1&sort=published_desc&sources=foxnews,breitbart
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.2.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 20 Apr 2022 18:44:09 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - no-cache, private
+      X-Request-Time:
+      - '0.047'
+      - '0.079'
+      X-Apilayer-Transaction-Id:
+      - 24a7ca9e-044a-4539-9c54-894010cfaf60
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET, POST, HEAD, OPTIONS
+      Access-Control-Allow-Headers:
+      - "*"
+      X-Quota-Limit:
+      - '500'
+      X-Quota-Remaining:
+      - '403'
+      X-Increment-Usage:
+      - '1'
+      Cf-Cache-Status:
+      - DYNAMIC
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=cJO5fP4sVqT%2BhwykD4fpvBLjhwvZJ9%2BaKjjpiL9PRTfjQNsM5hl6ZG3YTjIkkBSq%2FLVsUQwEuolKxeuT8xTOTxJhkOwSVaTwhbLZKu%2FX9lJIg3WbmwyB1QAYxNxHav3oNjBSVCw%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 6ff0079578e2874f-ORD
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"pagination":{"limit":1,"offset":0,"count":1,"total":3002},"data":[{"author":"Danielle
+        Wallace","title":"NYC \u0027Diamond\u0027 mob boss of underground gambling
+        parlors sentenced to 4 years","description":"New York City \u201cDiamond Enterprise\u201d
+        boss Abduraman Iseni who pleaded guilty to running an organized crime network
+        of illegal gambling parlors across Brooklyn was sentenced to 55 months in
+        prison, which will be his third time in federal lockup following past convictions
+        stretching back decades.","url":"https:\/\/www.foxnews.com\/us\/nyc-diamond-brooklyn-gambling-boss-sentenced-4-years","source":"FOX
+        News - Most Popular","image":"https:\/\/static.foxnews.com\/foxnews.com\/content\/uploads\/2022\/04\/GettyImages-1237988109.jpg","category":"general","language":"en","country":"us","published_at":"2022-04-20T17:35:48+00:00"}]}'
+  recorded_at: Wed, 20 Apr 2022 18:44:09 GMT
+- request:
+    method: post
+    uri: https://tldrthis.p.rapidapi.com/v1/model/abstractive/summarize-url/
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+                                  "url": "https://www.cnn.com/2022/04/20/politics/trump-subpoena-new-york-attorney-general/index.html",
+                                  "min_length": 100,
+                                  "max_length": 300,
+                                  "is_detailed": false
+                                  }
+    headers:
+      X-Rapidapi-Host:
+      - tldrthis.p.rapidapi.com
+      X-Rapidapi-Key:
+      - "<tldr_key>"
+      User-Agent:
+      - Faraday v2.2.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json
+      Date:
+      - Wed, 20 Apr 2022 18:44:11 GMT
+      Server:
+      - RapidAPI-1.2.8
+      X-Rapidapi-Region:
+      - AWS - us-east-1
+      X-Rapidapi-Version:
+      - 1.2.8
+      X-Ratelimit-Requests-Limit:
+      - '100'
+      X-Ratelimit-Requests-Remaining:
+      - '42'
+      X-Ratelimit-Requests-Reset:
+      - '2530923'
+      Content-Length:
+      - '8867'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"summary":[" New York attorney general seeks to hold Trump in contempt
+        and fine him $10,000 a day for failing to comply with a subpoena sent in December.
+        Investigators are seeking documents and communications related to Trump''s
+        statements of financial condition, valuation of assets on the statements,
+        and records used to prepare the statements. Trump has denied wrongdoing, and
+        a spokesperson for the Trump Organization said the \"allegations are baseless
+        and will be vigorously defended\" James'' office has increased pressure to
+        force compliance with subpoenas as it heads toward end-of-April deadline."],"article_text":"(CNN)
+        Former President Donald Trump does not have any documents subpoenaed by the
+        New York attorney general''s office as part of its civil investigation into
+        the Trump Organization''s finances and shouldn''t be held in contempt, he
+        told a state court .\n\n\"After conducting a diligent search and review, Respondent''s
+        counsel determined that Respondent was not in possession of any documents
+        responsive to the Subpoena and that all potentially responsive documents were
+        in the possession, custody or control of the Trump Organization,\" Trump attorney
+        Alina Habba said in a court filing Tuesday.\n\nNew York Attorney General Letitia
+        James is seeking to hold Trump in contempt and fine him $10,000 a day for
+        failing to comply with a subpoena sent in December for documents. Investigators
+        are seeking documents and communications related to Trump''s statements of
+        financial condition, valuation of assets on the statements, and records used
+        to prepare the statements, according to the subpoena.\n\nJames'' subpoena
+        also seeks records relating to the financing of the Trump International Hotel
+        & Tower Chicago, conservation easements, planned development at the Trump
+        family estate known as Seven Springs, insurance coverage, and records about
+        his wealth that were provided to reporters with Forbes magazine.\n\nTrump''s
+        lawyer called the proposed fine \"grossly excessive.\"\n\nJames'' office has
+        increased pressure to force the compliance with subpoenas as it heads toward
+        an end-of-April deadline when a tolling agreement with the Trump Organization
+        expires. Last month, at its request, New York state Judge Arthur Engoron set
+        a deadline requiring the Trump Organization to comply in full with subpoenas
+        for documents by April 29. James'' office also put pressure on Trump personally
+        to respond to the document requests by moving to hold him in civil contempt.\n\nJames
+        has alleged that since initiating the investigation in 2019 that her office
+        has uncovered \"significant\" evidence \"indicating that the Trump Organization
+        used fraudulent or misleading asset valuations to obtain a host of economic
+        benefits, including loans, insurance coverage, and tax deductions.\"\n\nTrump
+        has denied wrongdoing, and a spokesperson for the Trump Organization said
+        in a statement that the \"allegations are baseless and will be vigorously
+        defended.\"\n\nThe dispute over Trump''s records was previewed in a January
+        court filing when James'' office said they learned from witnesses that Trump
+        kept hard copies of documents and used sticky notes to communicate with employees.
+        It said a file cabinet pertaining to Trump''s records was never searched to
+        comply with a subpoena.\n\n\"This file was never searched because the Trump
+        Organization determined, improbably, that Mr. Trump was not involved in the
+        preparation of his own financial statements,\" the AG''s office wrote.\n\nAt
+        the court hearing last month, a lawyer for the attorney general''s office
+        said it was \"unbelievable\" that the Trump Organization had identified only
+        10 documents that it said came from Trump''s office files.\n\nInvestigators
+        have also sought to hold the Trump Organization''s longtime appraiser Cushman
+        & Wakefield in contempt for failing to comply with subpoenas. The attorney
+        general''s office said it is looking into the potential culpability of the
+        appraisers in preparing the financial statements. Cushman has said it is \"fundamentally
+        untrue\" that it hasn''t responded to the attorney general''s office and that
+        it stands by its appraisers.\n\nEngoron has scheduled a hearing for Monday
+        to consider the attorney general''s contempt motion.","article_title":"Trump
+        says he has no records subpoenaed by New York''s attorney general","article_authors":["Kara
+        Scannell"],"article_image":"https://cdn.cnn.com/cnnnext/dam/assets/220324183113-02-trump-congress-tax-returns-super-tease.jpg","article_pub_date":"Apr
+        20, 2022","article_url":"https://www.cnn.com/2022/04/20/politics/trump-subpoena-new-york-attorney-general/index.html","article_html":"<div><p>(CNN)
+        Former President Donald Trump does not have any documents subpoenaed by the
+        New York attorney general''s office as part of its civil investigation into
+        the Trump Organization''s finances and shouldn''t be held in contempt, he
+        told a state court .</p><p class=\"zn-body__paragraph\">\"After conducting
+        a diligent search and review, Respondent''s counsel determined that Respondent
+        was not in possession of any documents responsive to the Subpoena and that
+        all potentially responsive documents were in the possession, custody or control
+        of the Trump Organization,\" Trump attorney Alina Habba said in a court filing
+        Tuesday.</p><p>New York Attorney General Letitia James is seeking to hold
+        Trump in contempt and fine him $10,000 a day for failing to comply with a
+        subpoena sent in December for documents. Investigators are seeking documents
+        and communications related to Trump''s statements of financial condition,
+        valuation of assets on the statements, and records used to prepare the statements,
+        according to the subpoena.</p><p class=\"zn-body__paragraph\">James'' subpoena
+        also seeks records relating to the financing of the Trump International Hotel
+        &amp; Tower Chicago, conservation easements, planned development at the Trump
+        family estate known as Seven Springs, insurance coverage, and records about
+        his wealth that were provided to reporters with Forbes magazine.</p><p class=\"zn-body__paragraph\">Trump''s
+        lawyer called the proposed fine \"grossly excessive.\"</p><p class=\"zn-body__paragraph\">James''
+        office has increased pressure to force the compliance with subpoenas as it
+        heads toward an end-of-April deadline when a tolling agreement with the Trump
+        Organization expires. Last month, at its request, New York state Judge Arthur
+        Engoron set a deadline requiring the Trump Organization to comply in full
+        with subpoenas for documents by April 29. James'' office also put pressure
+        on Trump personally to respond to the document requests by moving to hold
+        him in civil contempt.</p><p class=\"zn-body__paragraph\">James has alleged
+        that since initiating the investigation in 2019 that her office has uncovered
+        \"significant\" evidence \"indicating that the Trump Organization used fraudulent
+        or misleading asset valuations to obtain a host of economic benefits, including
+        loans, insurance coverage, and tax deductions.\"</p><p id=\"ad_rect_atf_02\"
+        class=\"ad-ad_rect_atf_02 ad-refresh-default\"></p><ul class=\"cn cn-list-hierarchical-xs
+        cn--idx-14 cn-zoneAdContainer\"></ul><p class=\"zn-body__paragraph\">Trump
+        has denied wrongdoing, and a spokesperson for the Trump Organization said
+        in a statement that the \"allegations are baseless and will be vigorously
+        defended.\"</p><p class=\"zn-body__paragraph\">The dispute over Trump''s records
+        was previewed in a January court filing when James'' office said they learned
+        from witnesses that Trump kept hard copies of documents and used sticky notes
+        to communicate with employees. It said a file cabinet pertaining to Trump''s
+        records was never searched to comply with a subpoena.</p><p class=\"zn-body__paragraph\">\"This
+        file was never searched because the Trump Organization determined, improbably,
+        that Mr. Trump was not involved in the preparation of his own financial statements,\"
+        the AG''s office wrote. </p><p class=\"zn-body__paragraph\">At the court hearing
+        last month, a lawyer for the attorney general''s office said it was \"unbelievable\"
+        that the Trump Organization had identified only 10 documents that it said
+        came from Trump''s office files.</p><p></p><ul class=\"cn cn-list-hierarchical-xs
+        cn--idx-20 cn-zoneAdContainer\"></ul><p class=\"zn-body__paragraph\">Investigators
+        have also sought to hold the Trump Organization''s longtime appraiser Cushman
+        &amp; Wakefield in contempt for failing to comply with subpoenas. The attorney
+        general''s office said it is looking into the potential culpability of the
+        appraisers in preparing the financial statements. Cushman has said it is \"fundamentally
+        untrue\" that it hasn''t responded to the attorney general''s office and that
+        it stands by its appraisers.</p><p class=\"zn-body__paragraph\">Engoron has
+        scheduled a hearing for Monday to consider the attorney general''s contempt
+        motion. </p></div>","article_abstract":null}'
+  recorded_at: Wed, 20 Apr 2022 18:44:11 GMT
+- request:
+    method: post
+    uri: https://tldrthis.p.rapidapi.com/v1/model/abstractive/summarize-url/
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+                                  "url": "https://www.bloombergquint.com/global-economics/ecb-s-nagel-says-rate-hike-early-in-third-quarter-is-possible",
+                                  "min_length": 100,
+                                  "max_length": 300,
+                                  "is_detailed": false
+                                  }
+    headers:
+      X-Rapidapi-Host:
+      - tldrthis.p.rapidapi.com
+      X-Rapidapi-Key:
+      - "<tldr_key>"
+      User-Agent:
+      - Faraday v2.2.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json
+      Date:
+      - Wed, 20 Apr 2022 18:44:16 GMT
+      Server:
+      - RapidAPI-1.2.8
+      X-Rapidapi-Region:
+      - AWS - us-east-1
+      X-Rapidapi-Version:
+      - 1.2.8
+      X-Ratelimit-Requests-Limit:
+      - '100'
+      X-Ratelimit-Requests-Remaining:
+      - '41'
+      X-Ratelimit-Requests-Reset:
+      - '2530918'
+      Content-Length:
+      - '3869'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJzdW1tYXJ5IjpbIiBKb2FjaGltIE5hZ2VsIHNheXMgdGhlIEVDQiBtYXkgbGlmdCBpbnRlcmVzdCByYXRlcyBlYXJseSBpbiB0aGUgdGhpcmQgcXVhcnRlciBpZiBpdCBkZWNpZGVzIHRvIGVuZCBib25kIHB1cmNoYXNlcyBhdCB0aGUgZW5kIG9mIEp1bmUuIFRoZSBmcmVxdWVuY3kgb2YgcmF0ZSBoaWtlcyBpbiB0aGUgc2Vjb25kIGhhbGYgb2YgdGhlIHllYXIgd2lsbCBkZXBlbmQgb24gZWNvbm9taWMgZGF0YSwgTmFnZWwgc2FpZC4gSGlzIExhdHZpYW4gY29sbGVhZ3VlIGluIHRoZSBHb3Zlcm5pbmcgQ291bmNpbCwgTWFydGlucyBLYXpha3MsIHNhaWQgaW4gYW4gaW50ZXJ2aWV3IHRoYXQgYSByYXRlIGluY3JlYXNlIGluIEp1bHkgaXMgcG9zc2libGUuIFRoZSBjZW50cmFsIGJhbmsgaXMgZXhwZWN0ZWQgdG8gdGFrZSBmdXJ0aGVyIGRlY2lzaW9ucyBhdCBpdHMgSnVuZSBtZWV0aW5nLCB3aGVyZSBuZXcgZWNvbm9taWMgZm9yZWNhc3RzIHdpbGwgZ2l2ZSBhbiB1cGRhdGVkIHZpZXcgb24gaG93IGluZmxhdGlvbiBhbmQgZ3Jvd3RoIHdpbGwgYmUgaW1wYWN0ZWQgYnkgdGhlIHdhciBpbiBVa3JhaW5lLiJdLCJhcnRpY2xlX3RleHQiOiIoQmxvb21iZXJnKSAtLSBUaGUgRXVyb3BlYW4gQ2VudHJhbCBCYW5rIG1heSBsaWZ0IGludGVyZXN0IHJhdGVzIGVhcmx5IGluIHRoZSB0aGlyZCBxdWFydGVyIGlmIGl0IGRlY2lkZXMgdG8gZW5kIGJvbmQgcHVyY2hhc2VzIGF0IHRoZSBlbmQgb2YgSnVuZSwgYWNjb3JkaW5nIHRvIEdvdmVybmluZyBDb3VuY2lsIG1lbWJlciBKb2FjaGltIE5hZ2VsLlxu4oCcSXQgc2VlbXMgdGhhdCB3ZeKAmWxsIGJlIGFibGUgdG8gY29uY2x1ZGUgbmV0IHB1cmNoYXNlcywgcG9zc2libHkgYWxyZWFkeSBhdCB0aGUgZW5kIG9mIHRoZSBzZWNvbmQgcXVhcnRlcizigJ0gTmFnZWwgdG9sZCBqb3VybmFsaXN0cyBpbiBXYXNoaW5ndG9uLCB3aGVyZSBoZSBwYXJ0aWNpcGF0ZXMgaW4gdGhlIHNwcmluZyBtZWV0aW5ncyBieSB0aGUgV29ybGQgQmFuayBhbmQgdGhlIEludGVybmF0aW9uYWwgTW9uZXRhcnkgRnVuZC4gQSBmaXJzdCBpbnRlcmVzdC1yYXRlIGluY3JlYXNlIGNvdWxkIHRoZW4gaGFwcGVuIOKAnGF0IHRoZSBiZWdpbm5pbmcgb2YgdGhlIHRoaXJkIHF1YXJ0ZXIsIGlmIHlvdSBzdGljayB0byB0aGUgc2VxdWVuY2UgdGhhdCB3ZSBhZ3JlZWQgb24u4oCdXG5IZSBhZGRlZCB0aGF0IHN1Y2ggYSBzY2VuYXJpbyB3b3VsZCBiZSBpbiBsaW5lIHdpdGggZXhwZWN0YXRpb25zIGZyb20gaW52ZXN0b3JzLCB3aG/igJlyZSBiZXR0aW5nIHRoYXQgdGhlIEVDQuKAmXMgZGVwb3NpdCByYXRlIC0tIGN1cnJlbnRseSBhdCBhIHJlY29yZC1sb3cgLTAuNSUgLS0gd2lsbCBpbmNyZWFzZSB0byB6ZXJvIHRoaXMgeWVhciB0byBjb250YWluIHJlY29yZCBpbmZsYXRpb24gcmF0ZXMuIFRoZSBmcmVxdWVuY3kgb2YgcmF0ZSBoaWtlcyBpbiB0aGUgc2Vjb25kIGhhbGYgb2YgdGhlIHllYXIgd2lsbCBkZXBlbmQgb24gZWNvbm9taWMgZGF0YSwgTmFnZWwgc2FpZC5cbkhpcyBMYXR2aWFuIGNvbGxlYWd1ZSBpbiB0aGUgR292ZXJuaW5nIENvdW5jaWwsIE1hcnRpbnMgS2F6YWtzLCBzYWlkIGluIGFuIGludGVydmlldyBXZWRuZXNkYXkgdGhhdCBhIHJhdGUgaW5jcmVhc2UgaW4gSnVseSBpcyBwb3NzaWJsZSBhbmQgdGhhdCB0aGUgRUNCIGlzIG9uIOKAnGEgc29saWQgcGF0aCBvZiBwb2xpY3kgbm9ybWFsaXphdGlvbi7igJ0gVGhlIGNlbnRyYWwgYmFuayBpcyBleHBlY3RlZCB0byB0YWtlIGZ1cnRoZXIgZGVjaXNpb25zIGF0IGl0cyBKdW5lIG1lZXRpbmcsIHdoZXJlIG5ldyBlY29ub21pYyBmb3JlY2FzdHMgd2lsbCBnaXZlIGFuIHVwZGF0ZWQgdmlldyBvbiBob3cgaW5mbGF0aW9uIGFuZCBncm93dGggd2lsbCBiZSBpbXBhY3RlZCBieSB0aGUgd2FyIGluIFVrcmFpbmUuIiwiYXJ0aWNsZV90aXRsZSI6IkVDQuKAmXMgTmFnZWwgU2F5cyBhIFJhdGUgSGlrZSBFYXJseSBpbiB0aGUgVGhpcmQgUXVhcnRlciBJcyBQb3NzaWJsZSIsImFydGljbGVfYXV0aG9ycyI6WyJBbGV4YW5kZXIgV2ViZXIiXSwiYXJ0aWNsZV9pbWFnZSI6Imh0dHBzOi8vZ3VtbGV0LmFzc2V0dHlwZS5jb20vYmxvb21iZXJncXVpbnQlMkYyMDIyLTA0JTJGMzU3YTU2NTctNmFlYi00ZTQxLWE4OTMtYjIzZDNlNmE3ZGQ4JTJGMzgyMTkyNjE3X18xXy5qcGc/cmVjdD0wJTJDMCUyQzQwMDAlMkMyMTAwJnc9MTIwMCZhdXRvPWZvcm1hdCUyQ2NvbXByZXNzJm9nSW1hZ2U9dHJ1ZSIsImFydGljbGVfcHViX2RhdGUiOiJXZWQsIDIwIEFwciAyMDIyIDIyOjM2OjAwIEdNVCIsImFydGljbGVfdXJsIjoiaHR0cHM6Ly93d3cuYmxvb21iZXJncXVpbnQuY29tL2dsb2JhbC1lY29ub21pY3MvZWNiLXMtbmFnZWwtc2F5cy1yYXRlLWhpa2UtZWFybHktaW4tdGhpcmQtcXVhcnRlci1pcy1wb3NzaWJsZSIsImFydGljbGVfaHRtbCI6IjxwPihCbG9vbWJlcmcpIC0tIFRoZSBFdXJvcGVhbiBDZW50cmFsIEJhbmsgbWF5IGxpZnQgaW50ZXJlc3QgcmF0ZXMgZWFybHkgaW4gdGhlIHRoaXJkIHF1YXJ0ZXIgaWYgaXQgZGVjaWRlcyB0byBlbmQgYm9uZCBwdXJjaGFzZXMgYXQgdGhlIGVuZCBvZiBKdW5lLCBhY2NvcmRpbmcgdG8gR292ZXJuaW5nIENvdW5jaWwgbWVtYmVyIEpvYWNoaW0gTmFnZWwuPC9wPlxuPHA+JmxkcXVvO0l0IHNlZW1zIHRoYXQgd2UmcnNxdW87bGwgYmUgYWJsZSB0byBjb25jbHVkZSBuZXQgcHVyY2hhc2VzLCBwb3NzaWJseSBhbHJlYWR5IGF0IHRoZSBlbmQgb2YgdGhlIHNlY29uZCBxdWFydGVyLCZyZHF1bzsgTmFnZWwgdG9sZCBqb3VybmFsaXN0cyBpbiBXYXNoaW5ndG9uLCB3aGVyZSBoZSBwYXJ0aWNpcGF0ZXMgaW4gdGhlIHNwcmluZyBtZWV0aW5ncyBieSB0aGUgV29ybGQgQmFuayBhbmQgdGhlIEludGVybmF0aW9uYWwgTW9uZXRhcnkgRnVuZC4gQSBmaXJzdCBpbnRlcmVzdC1yYXRlIGluY3JlYXNlIGNvdWxkIHRoZW4gaGFwcGVuICZsZHF1bzthdCB0aGUgYmVnaW5uaW5nIG9mIHRoZSB0aGlyZCBxdWFydGVyLCBpZiB5b3Ugc3RpY2sgdG8gdGhlIHNlcXVlbmNlIHRoYXQgd2UgYWdyZWVkIG9uLiZyZHF1bzs8L3A+XG48cD5IZSBhZGRlZCB0aGF0IHN1Y2ggYSBzY2VuYXJpbyB3b3VsZCBiZSBpbiBsaW5lIHdpdGggZXhwZWN0YXRpb25zIGZyb20gaW52ZXN0b3JzLCB3aG8mcnNxdW87cmUgYmV0dGluZyB0aGF0IHRoZSBFQ0ImcnNxdW87cyBkZXBvc2l0IHJhdGUgLS0gY3VycmVudGx5IGF0IGEgcmVjb3JkLWxvdyAtMC41JSAtLSB3aWxsIGluY3JlYXNlIHRvIHplcm8gdGhpcyB5ZWFyIHRvIGNvbnRhaW4gcmVjb3JkIGluZmxhdGlvbiByYXRlcy4gVGhlIGZyZXF1ZW5jeSBvZiByYXRlIGhpa2VzIGluIHRoZSBzZWNvbmQgaGFsZiBvZiB0aGUgeWVhciB3aWxsIGRlcGVuZCBvbiBlY29ub21pYyBkYXRhLCBOYWdlbCBzYWlkLjwvcD5cbjxwPkhpcyBMYXR2aWFuIGNvbGxlYWd1ZSBpbiB0aGUgR292ZXJuaW5nIENvdW5jaWwsIE1hcnRpbnMgS2F6YWtzLCBzYWlkIGluIGFuIGludGVydmlldyBXZWRuZXNkYXkgdGhhdCBhIHJhdGUgaW5jcmVhc2UgaW4gSnVseSBpcyBwb3NzaWJsZSBhbmQgdGhhdCB0aGUgRUNCIGlzIG9uICZsZHF1bzthIHNvbGlkIHBhdGggb2YgcG9saWN5IG5vcm1hbGl6YXRpb24uJnJkcXVvOyBUaGUgY2VudHJhbCBiYW5rIGlzIGV4cGVjdGVkIHRvIHRha2UgZnVydGhlciBkZWNpc2lvbnMgYXQgaXRzIEp1bmUgbWVldGluZywgd2hlcmUgbmV3IGVjb25vbWljIGZvcmVjYXN0cyB3aWxsIGdpdmUgYW4gdXBkYXRlZCB2aWV3IG9uIGhvdyBpbmZsYXRpb24gYW5kIGdyb3d0aCB3aWxsIGJlIGltcGFjdGVkIGJ5IHRoZSB3YXIgaW4gVWtyYWluZS48L3A+IiwiYXJ0aWNsZV9hYnN0cmFjdCI6bnVsbH0=
+  recorded_at: Wed, 20 Apr 2022 18:44:16 GMT
+- request:
+    method: post
+    uri: https://tldrthis.p.rapidapi.com/v1/model/abstractive/summarize-url/
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+                                  "url": "https://www.foxnews.com/us/nyc-diamond-brooklyn-gambling-boss-sentenced-4-years",
+                                  "min_length": 100,
+                                  "max_length": 300,
+                                  "is_detailed": false
+                                  }
+    headers:
+      X-Rapidapi-Host:
+      - tldrthis.p.rapidapi.com
+      X-Rapidapi-Key:
+      - "<tldr_key>"
+      User-Agent:
+      - Faraday v2.2.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json
+      Date:
+      - Wed, 20 Apr 2022 18:44:17 GMT
+      Server:
+      - RapidAPI-1.2.8
+      X-Rapidapi-Region:
+      - AWS - us-east-1
+      X-Rapidapi-Version:
+      - 1.2.8
+      X-Ratelimit-Requests-Limit:
+      - '100'
+      X-Ratelimit-Requests-Remaining:
+      - '40'
+      X-Ratelimit-Requests-Reset:
+      - '2530917'
+      Content-Length:
+      - '7045'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJzdW1tYXJ5IjpbIiBBYmR1cmFtYW4gXCJEaWFtb25kXCIgSXNlbmksIDU2LCBvZiBTdGF0ZW4gSXNsYW5kLCB3YXMgdHdpY2UgY29udmljdGVkIGluIDE5OTYgZm9yIHJhY2tldGVlcmluZyBhbmQgMjAxMiBmb3IgbW9uZXkgbGF1bmRlcmluZy4gVGhlIGZvcm1lciBPbHltcGljIGhvcGVmdWwgcHJldmlvdXNseSBwbGVhZGVkIGd1aWx0eSB0byBuZXcgZmVkZXJhbCBjaGFyZ2VzIGluIGNvbm5lY3Rpb24gdG8gaGltIHJ1bm5pbmcgYW4gb3JnYW5pemVkIGNyaW1pbmFsIGdyb3VwIGNhbGxlZCB0aGUgRGlhbW9uZCBFbnRlcnByaXNlLiBIZSBvcGVyYXRlZCBhIG5ldHdvcmsgb2YgaWxsZWdhbCBnYW1ibGluZyBwYXJsb3JzIHRocm91Z2hvdXQgQnJvb2tseW4gYW5kIGhvc3RlZCB1bmRlcmdyb3VuZCBwb2tlciBnYW1lcyBhbmQgaWxsZWdhbCBzcG9ydHMgYm9va3MuIElzZW5pIHdhcyBzZW50ZW5jZWQgdG8gNTEgbW9udGhzIGluIHByaXNvbiwgYXMgd2VsbCBhcyB0aHJlZSB5ZWFycyBvZiBzdXBlcnZpc2VkIHJlbGVhc2UsIGFuZCBvcmRlcmVkIHRvIGZvcmZlaXQgJDM0OSwwMDAgYW5kIHRvIHBheSBhICQ1LDAwMCBmaW5lLiJdLCJhcnRpY2xlX3RleHQiOiJORVcgWW91IGNhbiBub3cgbGlzdGVuIHRvIEZveCBOZXdzIGFydGljbGVzIVxuXG5OZXcgWW9yayBDaXR5IFwiRGlhbW9uZCBFbnRlcnByaXNlXCIgYm9zcyBjb252aWN0ZWQgb2YgcnVubmluZyBCcm9va2x5biB1bmRlcmdyb3VuZCBnYW1ibGluZyBwYXJsb3JzIHdpdGggdGllcyB0byB0aGUgTWFmaWEgd2FzIHNlbnRlbmNlZCB0byBhbm90aGVyIGZvdXIgeWVhcnMgaW4gcHJpc29uIG9uIFR1ZXNkYXkuXG5cbkFiZHVyYW1hbiBcIkRpYW1vbmRcIiBJc2VuaSwgNTYsIG9mIFN0YXRlbiBJc2xhbmQsIHdhcyB0d2ljZSBjb252aWN0ZWQgaW4gMTk5NiBmb3IgcmFja2V0ZWVyaW5nIGFuZCAyMDEyIGZvciBtb25leSBsYXVuZGVyaW5nIGFuZCBoYXMgYWxyZWFkeSBzZXJ2ZWQgbW9yZSB0aGFuIGEgZGVjYWRlIGluIGZlZGVyYWwgcHJpc29uLiBCdXQgYWZ0ZXIgaGlzIG1vc3QgcmVjZW50IHJlbGVhc2UsIHRoYXQgZGlkIG5vdCBkaXNjb3VyYWdlIGhpbSBmcm9tIHdpZWxkaW5nIGNvbnRyb2wgb3ZlciBhIG11bHRpLXllYXIgcmFja2V0ZWVyaW5nIGVudGVycHJpc2UgZnJvbSBpbiBvciBhYm91dCAyMDE3IHRocm91Z2ggMjAyMCwgVS5TLiBBdHRvcm5leSBEYW1pYW4gV2lsbGlhbXMgYW5ub3VuY2VkIFR1ZXNkYXkuXG5cbkRPSiBUSFJFQVRFTlMgVEFLRU9WRVIgT0YgUklLRVJTIElTTEFORCwgT1RIRVIgSkFJTFMgQU1JRCDigJhFWFRSQU9SRElOQVJZIExFVkVMIE9GIFZJT0xFTkNFIEFORCBESVNPUkRFUuKAmVxuXG5UaGUgZm9ybWVyIE9seW1waWMgaG9wZWZ1bCBwcmV2aW91c2x5IHBsZWFkZWQgZ3VpbHR5IHRvIG5ldyBmZWRlcmFsIGNoYXJnZXMgaW4gY29ubmVjdGlvbiB0byBoaW0gcnVubmluZyBhbiBvcmdhbml6ZWQgY3JpbWluYWwgZ3JvdXAgY2FsbGVkIHRoZSBEaWFtb25kIEVudGVycHJpc2UgdGhhdCBvcGVyYXRlZCBhIG5ldHdvcmsgb2YgaWxsZWdhbCBnYW1ibGluZyBwYXJsb3JzIHRocm91Z2hvdXQgQnJvb2tseW4gYW5kIGhvc3RlZCB1bmRlcmdyb3VuZCBwb2tlciBnYW1lcyBhbmQgaWxsZWdhbCBzcG9ydHMgYm9va3MuXG5cblRoZSBmZWRlcmFsIGluZGljdG1lbnQgc2F5cyBJc2VuaSBvZmZlcmVkIGhpcyBwcm90ZWN0aW9uLCBjb25uZWN0aW9ucywgYW5kIHN1YnN0YW50aWFsIGluZmx1ZW5jZSBpbiB0aGUgY3JpbWluYWwgdW5kZXJ3b3JsZCB0byBvdGhlciBtZW1iZXJzIG9mIHRoZSByYWNrZXRlZXJpbmcgZW50ZXJwcmlzZSwgaW4gZXhjaGFuZ2UgZm9yIGEgc2hhcmUgb2YgdGhlaXIgaWxsZWdhbCBwcm9maXRzLiBSZXZlbnVlIGdlbmVyYXRlZCBmcm9tIHRoZSBnYW1ibGluZyBwYXJsb3JzLCBpbiB0dXJuLCB3ZXJlIGxhdW5kZXJlZCB0aHJvdWdoIGEgc2VyaWVzIG9mIGJhbmsgYWNjb3VudHMgaW4gYW4gZWZmb3J0IHRvIGNvbmNlYWwgYW5kIGZhY2lsaXRhdGUgdGhlIERpYW1vbmQgRW50ZXJwcmlzZeKAmXMgY29udGludWVkIG9wZXJhdGlvbnMuXG5cblUuUy4gRGlzdHJpY3QgSnVkZ2UgQW5kcmV3IEwuIENhcnRlciBvbiBUdWVzZGF5IHNlbnRlbmNlZCBJc2VuaSB0byA1MSBtb250aHMgaW4gcHJpc29uLCBhcyB3ZWxsIGFzIHRocmVlIHllYXJzIG9mIHN1cGVydmlzZWQgcmVsZWFzZS4gSGUgd2FzIGFsc28gb3JkZXJlZCB0byBmb3JmZWl0ICQzNDksMDAwIGFuZCB0byBwYXkgYSAkNSwwMDAgZmluZS5cblxuXCJTZXJ2aW5nIG1vcmUgdGhhbiBhIGRlY2FkZSBpbiBmZWRlcmFsIHByaXNvbiBzaG91bGQgaGF2ZSBkZW1vbnN0cmF0ZWQgdG8gQWJkdXJhbWFuIElzZW5pIHRoZSBjb25zZXF1ZW5jZXMgb2Ygc2VyaW91cyBjcmltZXMuIEJ1dCBpbnN0ZWFkLCBhZnRlciBoaXMgcmVsZWFzZSBoZSB3ZW50IGJhY2sgdG8gcmFja2V0ZWVyaW5nLCB0aHJlYXRzLCBtb25leSBsYXVuZGVyaW5nLCBhbmQgb3RoZXIgb2ZmZW5zZXMsXCIgV2lsbGlhbXMgc2FpZCBpbiBhIHN0YXRlbWVudC4gVG9kYXnigJlzIHNlbnRlbmNlIHNob3VsZCBzZW5kIGEgbWVzc2FnZSB0aGF0IHRoaXMgT2ZmaWNlIHdpbGwgbWFrZSBldmVyeSBlZmZvcnQgdG8gaG9sZCBkYW5nZXJvdXMsIHJlY2lkaXZpc3QgZmVsb25zIHRvIGFjY291bnQuXCJcblxuQ0xJQ0sgSEVSRSBUTyBHRVQgVEhFIEZPWCBORVdTIEFQUFxuXG5JbiBhZGRpdGlvbiB0byB0aGUgRGlhbW9uZCBFbnRlcnByaXNl4oCZcyBvcGVyYXRpb25zLCBJc2VuaSBzZXBhcmF0ZWx5IGFkbWl0dGVkIHRvIHRocmVhdGVuaW5nIGEgdmljdGltIHdpdGggcGh5c2ljYWwgdmlvbGVuY2UsIGluY2x1ZGluZyBhbiBpbmNpZGVudCB3aGVyZSBoZSBoZWxkIGEgZm9yayBjbG9zZSB0byBhIGNvLWRlZmVuZGFudOKAmXMgZXllIGFuZCB0aHJlYXRlbmVkIHRvIGphYiBpdCBpbiwgYW5kIGEgaG9zdCBvZiBhZGRpdGlvbmFsIGNyaW1lcywgaW5jbHVkaW5nIG1vbmV5IGxhdW5kZXJpbmcsIGJhbmsgZnJhdWQgY29uc3BpcmFjeSwgYW5kIG1ha2luZyBmYWxzZSBzdGF0ZW1lbnRzIHRvIGEgYmFuayBmb3IgdGhlIHB1cnBvc2Ugb2YgaW5kdWNpbmcgdGhlIGJhbmsgdG8gcmVsZWFzZSBmdW5kcyB0byB3aGljaCBoZSB3YXMgbm90IGVudGl0bGVkLCBhY2NvcmRpbmcgdG8gZmVkZXJhbCBwcm9zZWN1dG9ycy4iLCJhcnRpY2xlX3RpdGxlIjoiTllDICdEaWFtb25kJyBtb2IgYm9zcyBvZiB1bmRlcmdyb3VuZCBnYW1ibGluZyBwYXJsb3JzIHNlbnRlbmNlZCB0byA0IHllYXJzIiwiYXJ0aWNsZV9hdXRob3JzIjpbIkRhbmllbGxlIFdhbGxhY2UiXSwiYXJ0aWNsZV9pbWFnZSI6Imh0dHBzOi8vc3RhdGljLmZveG5ld3MuY29tL2ZveG5ld3MuY29tL2NvbnRlbnQvdXBsb2Fkcy8yMDIyLzA0L0dldHR5SW1hZ2VzLTEyMzc5ODgxMDkuanBnIiwiYXJ0aWNsZV9wdWJfZGF0ZSI6bnVsbCwiYXJ0aWNsZV91cmwiOiJodHRwczovL3d3dy5mb3huZXdzLmNvbS91cy9ueWMtZGlhbW9uZC1icm9va2x5bi1nYW1ibGluZy1ib3NzLXNlbnRlbmNlZC00LXllYXJzIiwiYXJ0aWNsZV9odG1sIjoiPGRpdj48cCBjbGFzcz1cImluZm9cIj48cCBjbGFzcz1cImxhYmVsLWJnXCI+TkVXPC9wPllvdSBjYW4gbm93IGxpc3RlbiB0byBGb3ggTmV3cyBhcnRpY2xlcyFcbiAgPC9wPjxwIGNsYXNzPVwic3BlYWthYmxlXCI+PGEgaHJlZj1cImh0dHBzOi8vd3d3LmZveG5ld3MuY29tL2NhdGVnb3J5L3VzL25ldy15b3JrLWNpdHlcIiB0YXJnZXQ9XCJfYmxhbmtcIj5OZXcgWW9yayBDaXR5PC9hPiBcIkRpYW1vbmQgRW50ZXJwcmlzZVwiIGJvc3MgY29udmljdGVkIG9mIHJ1bm5pbmcgQnJvb2tseW4gdW5kZXJncm91bmQgZ2FtYmxpbmcgcGFybG9ycyB3aXRoIHRpZXMgdG8gdGhlIE1hZmlhIHdhcyBzZW50ZW5jZWQgdG8gYW5vdGhlciBmb3VyIHllYXJzIGluIHByaXNvbiBvbiBUdWVzZGF5LiYjMTYwOzwvcD48cCBjbGFzcz1cImFkIGdhbVwiPjwvcD48cCBjbGFzcz1cImFkIGdhbVwiPjwvcD48cCBjbGFzcz1cInNwZWFrYWJsZVwiPkFiZHVyYW1hbiBcIkRpYW1vbmRcIiBJc2VuaSwgNTYsIG9mIFN0YXRlbiBJc2xhbmQsIHdhcyB0d2ljZSBjb252aWN0ZWQgaW4gMTk5NiBmb3IgcmFja2V0ZWVyaW5nIGFuZCAyMDEyIGZvciBtb25leSBsYXVuZGVyaW5nIGFuZCBoYXMgYWxyZWFkeSBzZXJ2ZWQgbW9yZSB0aGFuIGEgZGVjYWRlIGluIGZlZGVyYWwgcHJpc29uLiBCdXQgYWZ0ZXIgaGlzIG1vc3QgcmVjZW50IHJlbGVhc2UsIHRoYXQgZGlkIG5vdCBkaXNjb3VyYWdlIGhpbSBmcm9tIHdpZWxkaW5nIGNvbnRyb2wgb3ZlciBhIG11bHRpLXllYXIgcmFja2V0ZWVyaW5nIGVudGVycHJpc2UgZnJvbSBpbiBvciBhYm91dCAyMDE3IHRocm91Z2ggMjAyMCwgVS5TLiBBdHRvcm5leSBEYW1pYW4gV2lsbGlhbXMgYW5ub3VuY2VkIFR1ZXNkYXkuJiMxNjA7PC9wPjxwPjxhIGhyZWY9XCJodHRwczovL3d3dy5mb3huZXdzLmNvbS91cy9ueWMtcmlrZXJzLWlzbGFuZC1kb2otdGFrZW92ZXJcIiB0YXJnZXQ9XCJfYmxhbmtcIj48c3Ryb25nPkRPSiBUSFJFQVRFTlMgVEFLRU9WRVIgT0YgUklLRVJTIElTTEFORCwgT1RIRVIgSkFJTFMgQU1JRCAmIzgyMTY7RVhUUkFPUkRJTkFSWSBMRVZFTCBPRiBWSU9MRU5DRSBBTkQgRElTT1JERVImIzgyMTc7PC9zdHJvbmc+PC9hPjwvcD48cCBjbGFzcz1cImFkIGdhbVwiPjwvcD48cD5UaGUgZm9ybWVyIE9seW1waWMgaG9wZWZ1bCBwcmV2aW91c2x5IHBsZWFkZWQgZ3VpbHR5IHRvIG5ldyBmZWRlcmFsIGNoYXJnZXMgaW4gY29ubmVjdGlvbiB0byBoaW0gcnVubmluZyBhbiBvcmdhbml6ZWQgY3JpbWluYWwgZ3JvdXAgY2FsbGVkIHRoZSBEaWFtb25kIEVudGVycHJpc2UgdGhhdCBvcGVyYXRlZCBhIG5ldHdvcmsgb2YgaWxsZWdhbCBnYW1ibGluZyBwYXJsb3JzIHRocm91Z2hvdXQgQnJvb2tseW4gYW5kIGhvc3RlZCB1bmRlcmdyb3VuZCBwb2tlciBnYW1lcyBhbmQgaWxsZWdhbCBzcG9ydHMgYm9va3MuJiMxNjA7PC9wPjxwIGNsYXNzPVwiYWQgZ2FtXCI+PC9wPiA8aW1nIHNyYz1cImh0dHBzOi8vYTU3LmZveG5ld3MuY29tL3N0YXRpYy5mb3huZXdzLmNvbS9mb3huZXdzLmNvbS9jb250ZW50L3VwbG9hZHMvMjAyMi8wNC82NDAvMzIwL0dldHR5SW1hZ2VzLTEyMzc5ODgxMDkuanBnP3ZlPTEmYW1wO3RsPTFcIiBhbHQ9XCJBIHBlcnNvbiBpcyBob2xkaW5nIHR3byBkZXVjZXMgaW4gaGlzIGhhbmQgd2hpbGUgcGxheWluZyBwb2tlci4mIzE2MDtcIj48cD5UaGUgZmVkZXJhbCBpbmRpY3RtZW50IHNheXMgSXNlbmkgb2ZmZXJlZCBoaXMgcHJvdGVjdGlvbiwgY29ubmVjdGlvbnMsIGFuZCBzdWJzdGFudGlhbCBpbmZsdWVuY2UgaW4gdGhlIGNyaW1pbmFsIHVuZGVyd29ybGQgdG8gb3RoZXIgbWVtYmVycyBvZiB0aGUgcmFja2V0ZWVyaW5nIGVudGVycHJpc2UsIGluIGV4Y2hhbmdlIGZvciBhIHNoYXJlIG9mIHRoZWlyIGlsbGVnYWwgcHJvZml0cy4gUmV2ZW51ZSBnZW5lcmF0ZWQgZnJvbSB0aGUgZ2FtYmxpbmcgcGFybG9ycywgaW4gdHVybiwgd2VyZSBsYXVuZGVyZWQgdGhyb3VnaCBhIHNlcmllcyBvZiBiYW5rIGFjY291bnRzIGluIGFuIGVmZm9ydCB0byBjb25jZWFsIGFuZCBmYWNpbGl0YXRlIHRoZSBEaWFtb25kIEVudGVycHJpc2UmIzgyMTc7cyBjb250aW51ZWQgb3BlcmF0aW9ucy48L3A+PHAgY2xhc3M9XCJhZCBnYW1cIj48L3A+PHA+VS5TLiBEaXN0cmljdCBKdWRnZSBBbmRyZXcgTC4gQ2FydGVyIG9uIFR1ZXNkYXkgc2VudGVuY2VkIElzZW5pIHRvIDUxIG1vbnRocyBpbiBwcmlzb24sIGFzIHdlbGwgYXMgdGhyZWUgeWVhcnMgb2Ygc3VwZXJ2aXNlZCByZWxlYXNlLiBIZSB3YXMgYWxzbyBvcmRlcmVkIHRvIGZvcmZlaXQgJDM0OSwwMDAgYW5kIHRvIHBheSBhICQ1LDAwMCBmaW5lLjwvcD48cD4mIzE2MDtcIlNlcnZpbmcgbW9yZSB0aGFuIGEgZGVjYWRlIGluIGZlZGVyYWwgcHJpc29uIHNob3VsZCBoYXZlIGRlbW9uc3RyYXRlZCB0byBBYmR1cmFtYW4gSXNlbmkgdGhlIGNvbnNlcXVlbmNlcyBvZiBzZXJpb3VzIGNyaW1lcy4mIzE2MDsgQnV0IGluc3RlYWQsIGFmdGVyIGhpcyByZWxlYXNlIGhlIHdlbnQgYmFjayB0byByYWNrZXRlZXJpbmcsIHRocmVhdHMsIG1vbmV5IGxhdW5kZXJpbmcsIGFuZCBvdGhlciBvZmZlbnNlcyxcIiBXaWxsaWFtcyBzYWlkIGluIGEgc3RhdGVtZW50LiYjMTYwOyBUb2RheSYjODIxNztzIHNlbnRlbmNlIHNob3VsZCBzZW5kIGEgbWVzc2FnZSB0aGF0IHRoaXMgT2ZmaWNlIHdpbGwgbWFrZSBldmVyeSBlZmZvcnQgdG8gaG9sZCBkYW5nZXJvdXMsIHJlY2lkaXZpc3QgZmVsb25zIHRvIGFjY291bnQuXCI8L3A+PHAgY2xhc3M9XCJhZCBnYW1cIj48L3A+PHA+PGEgaHJlZj1cImh0dHBzOi8vd3d3LmZveG5ld3MuY29tL2FwcHMtcHJvZHVjdHM/cGlkPUFwcEFydGljbGVMaW5rXCIgdGFyZ2V0PVwiX2JsYW5rXCI+PHN0cm9uZz5DTElDSyBIRVJFIFRPIEdFVCBUSEUgRk9YIE5FV1MgQVBQPC9zdHJvbmc+PC9hPjwvcD48cD5JbiBhZGRpdGlvbiB0byB0aGUgRGlhbW9uZCBFbnRlcnByaXNlJiM4MjE3O3Mgb3BlcmF0aW9ucywgSXNlbmkgc2VwYXJhdGVseSBhZG1pdHRlZCB0byB0aHJlYXRlbmluZyBhIHZpY3RpbSB3aXRoIHBoeXNpY2FsIHZpb2xlbmNlLCBpbmNsdWRpbmcgYW4gaW5jaWRlbnQgd2hlcmUgaGUgaGVsZCBhIGZvcmsgY2xvc2UgdG8gYSBjby1kZWZlbmRhbnQmIzgyMTc7cyBleWUgYW5kIHRocmVhdGVuZWQgdG8gamFiIGl0IGluLCBhbmQgYSBob3N0IG9mIGFkZGl0aW9uYWwgY3JpbWVzLCBpbmNsdWRpbmcgbW9uZXkgbGF1bmRlcmluZywgYmFuayBmcmF1ZCBjb25zcGlyYWN5LCBhbmQgbWFraW5nIGZhbHNlIHN0YXRlbWVudHMgdG8gYSBiYW5rIGZvciB0aGUgcHVycG9zZSBvZiBpbmR1Y2luZyB0aGUgYmFuayB0byByZWxlYXNlIGZ1bmRzIHRvIHdoaWNoIGhlIHdhcyBub3QgZW50aXRsZWQsIGFjY29yZGluZyB0byBmZWRlcmFsIHByb3NlY3V0b3JzLiYjMTYwOzwvcD48cCBjbGFzcz1cImFkIGdhbVwiPjwvcD48L2Rpdj4iLCJhcnRpY2xlX2Fic3RyYWN0IjpudWxsfQ==
+  recorded_at: Wed, 20 Apr 2022 18:44:17 GMT
+recorded_with: VCR 6.1.0
