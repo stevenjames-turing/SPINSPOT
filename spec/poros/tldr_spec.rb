@@ -26,8 +26,7 @@ RSpec.describe Tldr do
 
     expect(tldr.bias).to eq("left_bias")
     expect(tldr.title).to eq("What Is a ‘Poison Pill’ Defense?")
-    expect(tldr.summary[0]).to eq("The pizza chain Papa John’s adopted a poison pill in July 2018 in a rare instance of a company trying to block its founder from taking over.")
-    expect(tldr.summary[-1]).to eq("Boards often implement poison pills on a temporary basis so that they can consider their options with more time.")
+    expect(tldr.summary).to include("The pizza chain Papa John’s adopted a poison pill in July 2018 in a rare instance of a company trying to block its founder from taking over.")
     expect(tldr.url).to eq("https://www.nytimes.com/2022/04/15/business/twitter-poison-pill-explainer.html")
     expect(tldr.source).to eq("nytimes")
     expect(tldr.photo_url).to eq("https://static01.nyt.com/images/2022/04/15/business/15xp-poisonpill1/15xp-poisonpill1-facebookJumbo.jpg")
