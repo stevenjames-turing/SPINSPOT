@@ -1,0 +1,523 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.mediastack.com/v1/news?access_key=<mediastack_key>&countries=us&keywords=Elon%20musk&languages=en&limit=1&sort=published_desc&sources=abc-news,cnn,guardian,nytimes
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.2.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 20 Apr 2022 19:36:42 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - no-cache, private
+      X-Request-Time:
+      - '0.059'
+      - '0.088'
+      X-Apilayer-Transaction-Id:
+      - 74e59e1b-ed68-4d7f-a1b0-c2d1edfd85ef
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET, POST, HEAD, OPTIONS
+      Access-Control-Allow-Headers:
+      - "*"
+      X-Quota-Limit:
+      - '500'
+      X-Quota-Remaining:
+      - '366'
+      X-Increment-Usage:
+      - '1'
+      Cf-Cache-Status:
+      - DYNAMIC
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=zfJJdRP7zC4oT4rhPDvM96MjxmMsnE0CJXCud%2FcqvS%2BO2Fusu2eXyGWumnmVrKBVJY2a0%2FtoXITpiDefFnlQmAAAcaO8Slc6fL8sbFKzswcQ9Ni8R4adSYcp3%2BjoUVswUxDSrYA%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 6ff05490d95dc560-ORD
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"pagination":{"limit":1,"offset":0,"count":1,"total":71},"data":[{"author":null,"title":"Tesla
+        shareholders try to get Elon Musk to just stop","description":"Elon Musk wants
+        everyone to believe he really did have the money secured to take Tesla private
+        back in 2018. But a group suing him over that claim say he didn\u0027t have
+        it, and that the SEC and a federal judge agree.","url":"https:\/\/www.cnn.com\/2022\/04\/19\/business\/elon-musk-judge-tweets\/index.html","source":"CNN","image":"https:\/\/cdn.cnn.com\/cnnnext\/dam\/assets\/220417134850-elon-musk-judge-tweets-false-super-169.jpg","category":"general","language":"en","country":"us","published_at":"2022-04-20T02:00:57+00:00"}]}'
+  recorded_at: Wed, 20 Apr 2022 19:36:42 GMT
+- request:
+    method: get
+    uri: http://api.mediastack.com/v1/news?access_key=<mediastack_key>&countries=us&keywords=Elon%20musk&languages=en&limit=1&sort=published_desc&sources=bloomberg,cnbc,forbes,npr-national-public-radio,reuters
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.2.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 20 Apr 2022 19:36:42 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - no-cache, private
+      X-Request-Time:
+      - '0.052'
+      - '0.081'
+      X-Apilayer-Transaction-Id:
+      - a84bb319-65b9-47b0-8174-e904851f76eb
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET, POST, HEAD, OPTIONS
+      Access-Control-Allow-Headers:
+      - "*"
+      X-Quota-Limit:
+      - '500'
+      X-Quota-Remaining:
+      - '365'
+      X-Increment-Usage:
+      - '1'
+      Cf-Cache-Status:
+      - DYNAMIC
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=UWILky0FQZlJQsoRS3ZUZThnr%2BF4lBzMz%2F0ffZ6mNSWzj754UqqwSw9JpRiSGWyCAkKs9iIgEZcS96prkwQBiFb7yTZbkS4yM%2BJ8Q2VS7r19JBuWr%2FB%2FqOIZ4kwG85MPAyXMHP4%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 6ff054926bd72cad-ORD
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"pagination":{"limit":1,"offset":0,"count":1,"total":179},"data":[{"author":"Dani
+        Di Placido, Senior Contributor","title":"Elon Musk Dismisses Netflix As \u2018Woke\u2019
+        And \u2018Unwatchable\u2019","description":"Following Netflix\u2019s subscriber
+        loss, Elon Musk trolled the streaming giant on Twitter.","url":"https:\/\/www.forbes.com\/sites\/danidiplacido\/2022\/04\/20\/elon-musk-dismisses-netflix-as-woke-and-unwatchable\/","source":"Forbes","image":"https:\/\/thumbor.forbes.com\/thumbor\/fit-in\/0x0\/filters%3Aformat%28jpg%29\/https:\/\/specials-images.forbesimg.com\/imageserve\/5ec2be2dbe5e8b00064d7e12\/0x0.jpg","category":"general","language":"en","country":"us","published_at":"2022-04-20T18:32:22+00:00"}]}'
+  recorded_at: Wed, 20 Apr 2022 19:36:42 GMT
+- request:
+    method: get
+    uri: http://api.mediastack.com/v1/news?access_key=<mediastack_key>&countries=us&keywords=Elon%20musk&languages=en&limit=1&sort=published_desc&sources=foxnews,breitbart
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.2.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 20 Apr 2022 19:36:42 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - no-cache, private
+      X-Request-Time:
+      - '0.054'
+      - '0.077'
+      X-Apilayer-Transaction-Id:
+      - f3d4ba37-c05d-41cf-9114-c7049349b06f
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET, POST, HEAD, OPTIONS
+      Access-Control-Allow-Headers:
+      - "*"
+      X-Quota-Limit:
+      - '500'
+      X-Quota-Remaining:
+      - '364'
+      X-Increment-Usage:
+      - '1'
+      Cf-Cache-Status:
+      - DYNAMIC
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=UPG1tyiWytV9aseNUYEuVBkft8o%2BXgokG8GAtrBSMBN8tQXhb7G6WwiDTi9FER3EodTwPa3trBH1Eq2Ij3EFCU464ymFQnM1hWKHXH3YM%2BG4WSG9vi1SNnbzG4kgXbFOzPkhOW0%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 6ff05493ac4a6378-ORD
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"pagination":{"limit":1,"offset":0,"count":1,"total":2},"data":[{"author":"Gary
+        Gastelu","title":"Tesla raising \u0026apos;Full Self-Driving\u0026apos; price
+        to $12,000","description":"Tesla is increasing the price of its Full Self-Driving
+        feature to $12,000 on January 17, Elon Musk has announced. The system remains
+        in development in beta.","url":"https:\/\/www.foxnews.com\/auto\/tesla-raising-full-self-driving-price-12000","source":"FOX
+        News - Lifestyle","image":"https:\/\/static.foxnews.com\/foxnews.com\/content\/uploads\/2021\/10\/SELF.jpg","category":"entertainment","language":"en","country":"us","published_at":"2022-01-10T12:17:03+00:00"}]}'
+  recorded_at: Wed, 20 Apr 2022 19:36:42 GMT
+- request:
+    method: post
+    uri: https://tldrthis.p.rapidapi.com/v1/model/abstractive/summarize-url/
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+                                  "url": "https://www.cnn.com/2022/04/19/business/elon-musk-judge-tweets/index.html",
+                                  "min_length": 100,
+                                  "max_length": 300,
+                                  "is_detailed": false
+                                  }
+    headers:
+      X-Rapidapi-Host:
+      - tldrthis.p.rapidapi.com
+      X-Rapidapi-Key:
+      - "<tldr_key>"
+      User-Agent:
+      - Faraday v2.2.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json
+      Date:
+      - Wed, 20 Apr 2022 19:36:44 GMT
+      Server:
+      - RapidAPI-1.2.8
+      X-Rapidapi-Region:
+      - AWS - us-east-1
+      X-Rapidapi-Version:
+      - 1.2.8
+      X-Ratelimit-Requests-Limit:
+      - '100'
+      X-Ratelimit-Requests-Remaining:
+      - '60'
+      X-Ratelimit-Requests-Reset:
+      - '2092173'
+      Content-Length:
+      - '9823'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"summary":[" Elon Musk said he had \"funding secured\" to take Tesla
+        private in 2018. But a group suing him says he didn''t have it, and that a
+        federal judge agreed. The group wants the judge in their case to muzzle the
+        tweet-happy CEO. Musk is also bidding to take another tech company, Twitter,
+        private, with a source of funds he has yet to disclose. He settled with the
+        SEC over the tweets, stepping down as chairman and agreeing to oversight of
+        his social media posts."],"article_text":"New York (CNN) Elon Musk wants everyone
+        to believe he really did have the money secured to take Tesla (TSLA) private
+        back in 2018. But a group suing him over that claim say he didn''t have it,
+        and that the SEC and a federal judge agree.\n\nMusk is making the claim as
+        he faces a shareholder lawsuit about a now infamous tweet in which he said
+        he had \"funding secured.\" At the same time, he''s also bidding to take another
+        tech company , Twitter, private, with a source of funds he has yet to disclose.\n\nThe
+        Tesla shareholders who are suing Musk for fraud aren''t happy about his comments.
+        In a court filing on Friday they asked the judge in their case to muzzle the
+        tweet-happy CEO.\n\nThe shareholders also said a federal judge found that
+        Musk''s 2018 tweets in which he claimed to have the funding to take Tesla
+        private were false and misleading. Musk eventually settled with the US Securities
+        and Exchange Commission over the tweets, stepping down as Tesla chairman and
+        agreeing to oversight of his social media use.\n\n\"I was forced [to lie]
+        to save Tesla''s life and that''s the only reason,\" Musk said at the TED
+        conference in Vancouver Thursday. He went on to compare the experience to
+        having someone point a gun to his child''s head.\n\nRead More","article_title":"Tesla
+        shareholders try to get Elon Musk to just stop","article_authors":["Ramishah
+        Maruf"],"article_image":"https://cdn.cnn.com/cnnnext/dam/assets/220417134850-elon-musk-judge-tweets-false-super-tease.jpg","article_pub_date":"Apr
+        19, 2022","article_url":"https://www.cnn.com/2022/04/19/business/elon-musk-judge-tweets/index.html","article_html":"<div><p
+        class=\"zn-body__paragraph speakable\">New York (CNN)Elon Musk wants everyone
+        to believe he really did have the money secured to take Tesla (<a href=\"https://money.cnn.com/quote/quote.html?symb=TSLA&amp;source=story_quote_link\"
+        class=\"inlink\">TSLA</a>) private back in 2018. But a group suing him over
+        that claim say he didn''t have it, and that <a href=\"https://www.cnn.com/2018/10/17/tech/elon-musk-tesla-share-purchase/index.html\"
+        target=\"_blank\">the SEC</a> and a federal judge agree. </p><a></a><a></a><p>Musk
+        is making the claim as he faces a shareholder lawsuit about a now infamous
+        tweet in which he <a href=\"https://money.cnn.com/2018/08/07/news/companies/elon-musk-tesla-private/index.html\"
+        target=\"_blank\">said he had \"funding secured.\"</a> At the same time, he''s
+        also <a href=\"https://www.cnn.com/2022/04/15/tech/twitter-elon-musk-poison-pill/index.html\"
+        target=\"_blank\">bidding to take another tech company</a> , Twitter, private,
+        with a source of funds he has yet to disclose.</p><p class=\"zn-body__paragraph\">The
+        Tesla shareholders who are suing Musk for fraud aren''t happy about his comments.
+        In a court filing on Friday they asked the judge in their case to muzzle the
+        tweet-happy CEO.</p><p id=\"ad_nat_btf_01\" class=\"ad-ad_nat_btf_01 ad-refresh-default\"></p><ul
+        class=\"cn cn-list-hierarchical-xs cn--idx-4 cn-zoneAdContainer\"></ul><a></a><a></a><p>The
+        shareholders also said a federal judge found that Musk''s <a href=\"https://twitter.com/elonmusk/status/1026872652290379776?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1026872652290379776&amp;ref_url=https%3A%2F%2Fpublish.twitter.com%2F%3Fquery%3Dhttps%253A%252F%252Ftwitter.com%252Felonmusk%252Fstatus%252F1026872652290379776%26widget%3DTweet\"
+        target=\"_blank\">2018 tweets</a> in which he claimed to have the funding
+        to take Tesla private were false and misleading. Musk <a href=\"https://www.cnn.com/2019/04/26/tech/elon-musk-sec-settlement/index.html\"
+        target=\"_blank\">eventually settled with the US Securities and Exchange Commission</a>
+        over the tweets, stepping down as Tesla chairman and agreeing to oversight
+        of his social media use.</p><p></p><p></p><ul class=\"cn cn-list-hierarchical-xs
+        cn--idx-6 cn-zoneAdContainer\"></ul><p class=\"zn-body__paragraph\"></p><p
+        class=\"zn-body__paragraph\">\"I was forced [to lie] to save Tesla''s life
+        and that''s the only reason,\" Musk said at the TED conference in Vancouver
+        Thursday. He went on to compare the experience to having someone point a gun
+        to his child''s head. </p><p id=\"ad_rect_atf_01\" class=\"ad-ad_rect_atf_01
+        ad-refresh-default\"></p><ul class=\"cn cn-list-hierarchical-xs cn--idx-10
+        cn-zoneAdContainer\"></ul><p id=\"ad_rect_atf_02\" class=\"ad-ad_rect_atf_02
+        ad-refresh-default\"></p><ul class=\"cn cn-list-hierarchical-xs cn--idx-11
+        cn-zoneAdContainer\"></ul><p class=\"read-more-gradient\"></p><p class=\"read-more-link\"
+        id=\"js-body-read-more\">Read More</p><a></a><p>In the 2018 tweets, the Tesla
+        CEO said he was considering taking Tesla private at $420 a share, and that
+        he had secured the funding to do so. After his tweet, Tesla stock <a href=\"https://www.sec.gov/news/press-release/2018-226\"
+        target=\"_blank\">jumped more than six percent</a> , before dropping over
+        the next week. Investors sued the billionaire, alleging Musk''s tweets \"caused
+        significant confusion and disruption in the market for Tesla''s stock and
+        resulting harm to investors.\"</p><p class=\"zn-body__paragraph\">In the court
+        filing Friday, the Tesla investors who are suing Musk asserted that the judge
+        in the case had agreed with their contention that Musk knowingly made false
+        statements when he tweeted about having funding secured for such a transaction.
+        </p><p id=\"cnn-end-of-content\" class=\"myFinance-widget\"></p><p class=\"zn-body__paragraph\">The
+        filing refers to an April 1 order by US District Judge Edward M. Chen that
+        does not appear on the docket. </p><a href=\"/2022/04/15/tech/twitter-elon-musk-poison-pill/index.html\"><img
+        class=\"media__image media__image--responsive\" alt=\"Twitter adopts &amp;#39;poison
+        pill&amp;#39; measure that could thwart Elon Musk&amp;#39;s takeover bid\"
+        src=\"data:image/gif;base64,R0lGODlhEAAJAJEAAAAAAP///////wAAACH5BAEAAAIALAAAAAAQAAkAAAIKlI+py+0Po5yUFQA7\"><p
+        class=\"img__preloader\"></p><img alt=\"Twitter adopts &amp;#39;poison pill&amp;#39;
+        measure that could thwart Elon Musk&amp;#39;s takeover bid\" class=\"media__image\"
+        src=\"//cdn.cnn.com/cnnnext/dam/assets/220415072137-04-elon-musk-ted-0414-large-169.jpg\"></a><span
+        class=\"el__storyelement__header\"><a href=\"/2022/04/15/tech/twitter-elon-musk-poison-pill/index.html\">Twitter
+        adopts ''poison pill'' measure that could thwart Elon Musk''s takeover bid</a></span><p
+        class=\"zn-body__paragraph\"></p><a></a><p>According to the investors'' filing,
+        which was first reported by <a href=\"https://www.bloomberg.com/news/articles/2022-04-16/musk-go-private-tweet-ruled-false-by-judge-tesla-investors-say\"
+        target=\"_blank\">Bloomberg</a> , Chen agreed that \"no reasonable jury could
+        find Musk''s tweets on August 7, 2018 accurate or not misleading.\"</p><p
+        class=\"zn-body__paragraph\">Friday''s filing by investors is a motion for
+        a temporary restraining order to prohibit Musk from speaking publicly about
+        the case until after the trial. Lawyers claim that Musk''s public comments
+        can influence potential jurors as he makes an \"unsubtle attempt to absolve
+        himself in the court of public opinion.\"</p><p class=\"zn-body__paragraph\">\"Despite
+        the findings by this Court, the SEC, and his own written consent, Musk has
+        engaged in a high-profile public campaign to present a contradictory and false
+        narrative,\" according to the filing. </p><p class=\"zn-body__paragraph\">The
+        motion for the restraining order comes after Musk said publicly at a TED Conference
+        that he did not lie in his 2018 tweet. </p><p class=\"zn-body__paragraph\">At
+        the TED Conference in Vancouver, Musk called the SEC \"bastards\" with regard
+        to the security fraud settlement he reached with the agency related to the
+        same August 7, 2018 tweet. He doubled down to say that he did have funding
+        secured, and that he only agreed to the settlement because if he hadn''t,
+        banks would have stopped providing capital and bankrupt Tesla. </p><a></a><p>The
+        updates to the shareholder''s case come after Musk''s shocking bid for Twitter,
+        in which he currently holds a roughly 9.6% stake. Twitter''s board of directors
+        enacted a <a href=\"http://www.cnn.com/2022/04/15/tech/twitter-elon-musk-poison-pill/index.html\"
+        target=\"_blank\">\"poison pill\" plan</a> that could make it harder for Musk
+        to take control of the company.</p><p class=\"zn-body__paragraph\">A lawyer
+        for the investors, Adam Apton, told CNN he anticipates the judge''s order
+        will be published soon. </p><p class=\"zn-body__paragraph\"> \"We look forward
+        to proving the rest of our case at trial and recovering damages on behalf
+        of the class,\" Apton said in a statement to CNN Business. </p><p class=\"zn-body__paragraph\">
+        A lawyer for Musk insisted that the Tesla CEO could have taken the company
+        private. </p><p></p><ul class=\"cn cn-list-hierarchical-xs cn--idx-28 cn-zoneAdContainer\"></ul><p
+        class=\"zn-body__paragraph\">\"Nothing will ever change the truth, which is
+        that Elon Musk was considering taking Tesla private and could have,\" Alex
+        Spiro said in a statement to CNN Business. \"All that''s left some half decade
+        later is random plaintiffs lawyers trying to make a buck and others trying
+        to block that truth from coming to light, all to the detriment of free speech.\"</p><p
+        class=\"zn-body__paragraph\">-- CNN Business'' Chris Isidore contributed to
+        this report. </p></div>","article_abstract":null}'
+  recorded_at: Wed, 20 Apr 2022 19:36:44 GMT
+- request:
+    method: post
+    uri: https://tldrthis.p.rapidapi.com/v1/model/abstractive/summarize-url/
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+                                  "url": "https://www.forbes.com/sites/danidiplacido/2022/04/20/elon-musk-dismisses-netflix-as-woke-and-unwatchable/",
+                                  "min_length": 100,
+                                  "max_length": 300,
+                                  "is_detailed": false
+                                  }
+    headers:
+      X-Rapidapi-Host:
+      - tldrthis.p.rapidapi.com
+      X-Rapidapi-Key:
+      - "<tldr_key>"
+      User-Agent:
+      - Faraday v2.2.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json
+      Date:
+      - Wed, 20 Apr 2022 19:36:46 GMT
+      Server:
+      - RapidAPI-1.2.8
+      X-Rapidapi-Region:
+      - AWS - us-east-1
+      X-Rapidapi-Version:
+      - 1.2.8
+      X-Ratelimit-Requests-Limit:
+      - '100'
+      X-Ratelimit-Requests-Remaining:
+      - '59'
+      X-Ratelimit-Requests-Reset:
+      - '2092171'
+      Content-Length:
+      - '9829'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJzdW1tYXJ5IjpbIiBCaWxsaW9uYWlyZSBFbG9uIE11c2sgdG9vayB0byBUd2l0dGVyIHRvIGluZmx1ZW5jZSB0aGUgbmFycmF0aXZlIHN1cnJvdW5kaW5nIE5ldGZsaXjigJlzIHNoYXJlIHByaWNlIGRyb3AuIEhlIGFwcGVhcmVkIHRvIGVuZG9yc2UgdGhlIOKAnGdvIHdva2UsIGdvIGJyb2tl4oCdIG5hcnJhdGl2ZSBvZnRlbiBwdXNoZWQgYnkgcmlnaHQtd2luZyBjcml0aWNzLiBUaGUgc2xvZ2FuIHdhcyB1c2VkIGR1cmluZyB0aGUgb25saW5lIGN1bHR1cmUgd2FycyBmb3VnaHQgb3ZlciBUaGUgTGFzdCBKZWRpIGFuZCBDYXB0YWluIE1hcnZlbCwgd2hpY2ggZGlkbuKAmXQgc2VlbSB0byBhZmZlY3QgdGhlIGJveCBvZmZpY2UgcmVzdWx0cyBvZiBlaXRoZXIgZmlsbS4gTXVzayBoYXMgcHJldmlvdXNseSBwb3N0ZWQgYSBtZW1lIG9uIFR3aXR0ZXIgbW9ja2luZyBOZXRmbGl4J3MgZGl2ZXJzaXR5IGluaXRpYXRpdmVzLiBIZSBkb2Vzbid0IHNlZW0gdG8gdW5kZXJzdGFuZCB0aGF0IHNldmVyYWwgb2YgdGhlIG1vc3QgaWNvbmljIHNjaS1maSBzdG9yaWVzIGFyZSBleHRyZW1lbHkgc29jaWFsbHkgY29uc2Npb3VzIGFuZCBmb3J3YXJkLXRoaW5raW5nLiJdLCJhcnRpY2xlX3RleHQiOiJFbG9uIE11c2ssIGZvdW5kZXIgYW5kIGNoaWVmIGVuZ2luZWVyIG9mIFNwYWNlWCBzcGVha3MgYXQgdGhlIDIwMjAgU2F0ZWxsaXRlIENvbmZlcmVuY2UgYW5kIC4uLiBbK10gRXhoaWJpdGlvbiBNYXJjaCA5LCAyMDIwIGluIFdhc2hpbmd0b24sIERDLiBNdXNrIGFuc3dlcmVkIGEgcmFuZ2Ugb2YgcXVlc3Rpb25zIHJlbGF0aW5nIHRvIFNwYWNlWCBwcm9qZWN0cyBkdXJpbmcgaGlzIGFwcGVhcmFuY2UgYXQgdGhlIGNvbmZlcmVuY2UuIChQaG90byBieSBXaW4gTWNOYW1lZS9HZXR0eSBJbWFnZXMpIEdldHR5IEltYWdlc1xuXG5OZXRmbGl4IHN0b2NrIGhhcyB0YWtlbiBhIG1hc3NpdmUgaGl0LCBmb2xsb3dpbmcgYW4gZWFybmluZ3MgcmVwb3J0IHRoYXQgc2hvd2VkIHRoZSBzdHJlYW1pbmcgZ2lhbnQgaXMgZmluYWxseSBiZWdpbm5pbmcgdG8gbG9zZSBzdWJzY3JpYmVycyBhZnRlciBhIGRlY2FkZSBvZiByZWxlbnRsZXNzIGdyb3d0aC5cblxuTmV0ZmxpeOKAmXMgY28tQ0VPIFJlZWQgSGFzdGluZ3MgYmxhbWVkIHRoZSBzdWJzY3JpYmVyIGxvc3Mgb24g4oCcZ3JlYXQgY29tcGV0aXRpb27igJ0gYW5kIHBhc3N3b3JkLXNoYXJpbmcgYmV0d2VlbiBob3VzZWhvbGRzLCBidXQgYmlsbGlvbmFpcmUgRWxvbiBNdXNrIHRvb2sgdG8gVHdpdHRlciB0byBpbmZsdWVuY2UgdGhlIG5hcnJhdGl2ZSwgc2VlbWluZ2x5IGJsYW1pbmcgZGl2ZXJzaXR5IGFuZCBpbmNsdXNpb24gaW5pdGlhdGl2ZXMgZm9yIHRoZSBzdHJlYW1pbmcgZ2lhbnTigJlzIHN1ZGRlbiBkcm9wLlxuXG5SZXNwb25kaW5nIHRvIG5ld3Mgb2YgTmV0ZmxpeOKAmXMgc2hhcmUgY3Jhc2gsIE11c2sgdHdlZXRlZDog4oCcVGhlIHdva2UgbWluZCB2aXJ1cyBpcyBtYWtpbmcgTmV0ZmxpeCB1bndhdGNoYWJsZS7igJ1cblxuV2hpbGUgTXVzayBkaWRu4oCZdCBlbGFib3JhdGUsIGhlIGRpZCByZXNwb25kIHRvIGEgY291cGxlIG9mIGZhbnMgd2hvIGFncmVlZCB3aXRoIGhpbS4gT25lIG9mIGhpcyBmb2xsb3dlcnMgc3VnZ2VzdGVkIHRoYXQgdGhlIOKAnHdva2UgbWluZCB2aXJ1cyBpcyB0aGUgYmlnZ2VzdCB0aHJlYXQgdG8gdGhlIGNpdmlsaXphdGlvbizigJ0gdG8gd2hpY2ggTXVzayByZXBsaWVkLCDigJxZZXMu4oCdXG5cbk11c2sgYXBwZWFycyB0byBiZSBlbmRvcnNpbmcgdGhlIOKAnGdvIHdva2UsIGdvIGJyb2tl4oCdIG5hcnJhdGl2ZSBvZnRlbiBwdXNoZWQgYnkgcmlnaHQtd2luZyBjcml0aWNzLCB3aG8gY29uc2lzdGVudGx5IGJsYW1lIGRpdmVyc2UgY2FzdGluZyBhbmQgc29jaWFsbHkgY29uc2Npb3VzIHdyaXRpbmcgZm9yIHRoZSBmaW5hbmNpYWwgZmFpbHVyZSwgb3IgcG9vciBhdWRpZW5jZSByZWNlcHRpb24gb2YgYmxvY2tidXN0ZXJzIGFuZCB2aWRlbyBnYW1lcy4gVGhlIHNsb2dhbiB3YXMgdXRpbGl6ZWQgZHVyaW5nIHRoZSBleHRyZW1lbHkgb25saW5lIGN1bHR1cmUgd2FycyBmb3VnaHQgb3ZlciBUaGUgTGFzdCBKZWRpIGFuZCBDYXB0YWluIE1hcnZlbCwgd2hpY2ggZGlkbuKAmXQgc2VlbSB0byBhZmZlY3QgdGhlIGJveCBvZmZpY2UgcmVzdWx0cyBvZiBlaXRoZXIgZmlsbS5cblxuTXVzayBoYXMgcHJldmlvdXNseSBwb3N0ZWQgYSBtZW1lIG9uIFR3aXR0ZXIgbW9ja2luZyBOZXRmbGl44oCZcyBkaXZlcnNpdHkgaW5pdGlhdGl2ZXMuXG5cbkFuYWx5c3RzIGhhdmUgb2ZmZXJlZCBzZXZlcmFsIGV4cGxhbmF0aW9ucyBmb3IgTmV0ZmxpeOKAmXMgd29lcywgYWxsIG9mIHdoaWNoIGFyZSBmYXIgbW9yZSBjb21wbGljYXRlZCB0aGFuIHRoZSBjYXN0aW5nIG9mIG5vbi13aGl0ZSBhY3RvcnMuXG5cbkFub3RoZXIgb2YgTXVza+KAmXMgZm9sbG93ZXJzIHJlc3BvbmRlZCB0byBNdXNrLCB3cml0aW5nIGEgcGFyYWdyYXBoIGRlc2NyaWJpbmcgdG9kYXnigJlzIG1lZGlhIGFzIOKAnGluZmVzdGVkIHdpdGggY3VycmVudCB5ZWFyIHRyZW5kIHdva2UgZ2FyYmFnZSBmb3IgZmVhciBvZiBvZmZlbmRpbmcgYSBncmVlbiBoYWlyZWQgZnJlYWsgbmV4dCB0byB0aGUgYmFuIGJ1dHRvbizigJ0gdG8gd2hpY2ggTXVzayByZXBsaWVkOiDigJxDYW4gdGhleSBwbGVhc2UganVzdCBtYWtlIHNjaS1maS9mYW50YXN5IGF0IGxlYXN0ICptb3N0bHkqIGFib3V0IHNjaS1maS9mYW50YXN5P+KAnVxuXG5cblxuXG5cbldoaWxlIE11c2sgaWRlbnRpZmllcyBhcyBhIG1hc3NpdmUgc2NpLWZpIGZhbiwgYW5kIGNsYWltcyB0byBoYXZlIGJlZW4gaGVhdmlseSBpbmZsdWVuY2VkIGFuZCBpbnNwaXJlZCBieSB0aGUgZ2VucmUsIGhlIGRvZXNu4oCZdCBzZWVtIHRvIHVuZGVyc3RhbmQgdGhhdCBzZXZlcmFsIG9mIHRoZSBtb3N0IGljb25pYyBzY2ktZmkgc3RvcmllcyBhcmUgZXh0cmVtZWx5IHNvY2lhbGx5IGNvbnNjaW91cywgYW5kIHVzZSB0aGVpciBmYW50YXN0aWMgc2V0dGluZ3MgYW5kIHRlY2hub2xvZ3kgdG8gZXhwbG9yZSB0aGVtZXMgdGhhdCB3b3VsZCBoYXZlIGJlZW4gY29uc2lkZXJlZCDigJx3b2tl4oCdIGR1cmluZyB0aGVpciB0aW1lLlxuXG5Gb3IgZXhhbXBsZSwgRHVuZSBkZWNvbnN0cnVjdHMgdGhlIGlkZWEgb2YgYSBoZXJvaWMgY2hvc2VuIG9uZSwgd2hpbGUgU3RhciBXYXJzIHdhcyBpbnNwaXJlZCBieSB0aGUgVmlldG5hbSB3YXIsIHdpdGggdGhlIFVTIHJlcHJlc2VudGVkIGJ5IHRoZSBldmlsIEVtcGlyZS4gU3RhciBUcmVrIG9mZmVycyBhIHV0b3BpYW4gdmlzaW9uIG9mIGEgcG9zdC1zY2FyY2l0eSBzb2NpZXR5IHRoYXQgaGFzIHRyYW5zY2VuZGVkIGJleW9uZCB0aGUgbGltaXRzIG9mIGNhcGl0YWxpc20sIGFuZCBldmVuIGZlYXR1cmVkIG9uZSBvZiB0aGUgZmlyc3QgaW50ZXJyYWNpYWwga2lzc2VzIG9uIHRlbGV2aXNpb24uXG5cblVyc3VsYSBMZSBHdWluIGZhbW91c2x5IHVzZWQgc2NpZW5jZSBmaWN0aW9uIGFuZCBmYW50YXN5IHRvIGV4cGxvcmUgaWRlYXMgdGhhdCB3b3VsZCBiZSBjb25zaWRlcmVkIHJhZGljYWxseSBwcm9ncmVzc2l2ZSBhbmQgZm9yd2FyZC10aGlua2luZyBldmVuIHRvZGF5LCB3aGlsZSBjeWJlcnB1bmsgYXV0aG9ycyBsaWtlIFBoaWxpcCBLLiBEaWNrIGFuZCBXaWxsaWFtIEdpYnNvbiBmb3Jlc2F3IHRoZSBkYW5nZXJzIG9mIGEgZHlzdG9waWFuIGZ1dHVyZSBkb21pbmF0ZWQgYnkgbWVnYWNvcnBvcmF0aW9ucywgZW1ib2xkZW5lZCBieSB0ZWNobm9sb2d5LlxuXG5PZiBjb3Vyc2UsIGFzIGZvcndhcmQtdGhpbmtpbmcgYXMgdGhlc2UgY3JlYXRpdmVzIHdlcmUsIG5vbmUgb2YgdGhlbSBtYW5hZ2VkIHRvIHByZWRpY3QgdGhlIGluZmx1ZW5jZSBvZiBhIGJpbGxpb25haXJlIG1hbmNoaWxkIHBvc3Rpbmcgc3RhbGUgUmVkZGl0IG1lbWVzIG9uIFR3aXR0ZXIuIiwiYXJ0aWNsZV90aXRsZSI6IkVsb24gTXVzayBEaXNtaXNzZXMgTmV0ZmxpeCBBcyDigJhXb2tl4oCZIEFuZCDigJhVbndhdGNoYWJsZeKAmSIsImFydGljbGVfYXV0aG9ycyI6WyJEYW5pIERpIFBsYWNpZG8iLCJTZW5pb3IgQ29udHJpYnV0b3IiXSwiYXJ0aWNsZV9pbWFnZSI6Imh0dHBzOi8vaW1hZ2Vpby5mb3JiZXMuY29tL3NwZWNpYWxzLWltYWdlcy9pbWFnZXNlcnZlLzVlYzJiZTJkYmU1ZThiMDAwNjRkN2UxMi8weDAuanBnP2Zvcm1hdD1qcGcmd2lkdGg9MTIwMCIsImFydGljbGVfcHViX2RhdGUiOiJBcHIgMjAsIDIwMjIiLCJhcnRpY2xlX3VybCI6Imh0dHBzOi8vd3d3LmZvcmJlcy5jb20vc2l0ZXMvZGFuaWRpcGxhY2lkby8yMDIyLzA0LzIwL2Vsb24tbXVzay1kaXNtaXNzZXMtbmV0ZmxpeC1hcy13b2tlLWFuZC11bndhdGNoYWJsZS8iLCJhcnRpY2xlX2h0bWwiOiI8ZGl2PiBcbiA8cCBjbGFzcz1cImltYWdlLWVtYmVkX19wbGFjZWhvbGRlclwiPiBcbiAgIFxuIDwvcD4gXG4gIFxuICAgXG4gICA8cCBjbGFzcz1cImNvbG9yLWJvZHkgbGlnaHQtdGV4dFwiPkVsb24gTXVzaywgZm91bmRlciBhbmQgY2hpZWYgZW5naW5lZXIgb2YgU3BhY2VYIHNwZWFrcyBhdCB0aGUgMjAyMCBTYXRlbGxpdGUgQ29uZmVyZW5jZSBhbmQgLi4uIFsrXSBFeGhpYml0aW9uIE1hcmNoIDksIDIwMjAgaW4gV2FzaGluZ3RvbiwgREMuIE11c2sgYW5zd2VyZWQgYSByYW5nZSBvZiBxdWVzdGlvbnMgcmVsYXRpbmcgdG8gU3BhY2VYIHByb2plY3RzIGR1cmluZyBoaXMgYXBwZWFyYW5jZSBhdCB0aGUgY29uZmVyZW5jZS4gKFBob3RvIGJ5IFdpbiBNY05hbWVlL0dldHR5IEltYWdlcyk8L3A+IFxuICAgXG4gIEdldHR5IEltYWdlcyBcbiAgXG4gXG48cD5OZXRmbGl4IHN0b2NrIGhhcyB0YWtlbiBhIDxhIGhyZWY9XCJodHRwczovL3d3dy5mdC5jb20vY29udGVudC83MGEyODM1OC04NzIwLTRmMzYtYTViNC0yNGRjMGYzYmU5YTNcIiB0YXJnZXQ9XCJfYmxhbmtcIiBjbGFzcz1cImNvbG9yLWxpbmtcIiB0aXRsZT1cImh0dHBzOi8vd3d3LmZ0LmNvbS9jb250ZW50LzcwYTI4MzU4LTg3MjAtNGYzNi1hNWI0LTI0ZGMwZjNiZTlhM1wiIHJlbD1cIm5vZm9sbG93IG5vb3BlbmVyIG5vcmVmZXJyZXJcIj5tYXNzaXZlIGhpdDwvYT4sIGZvbGxvd2luZyBhbiBlYXJuaW5ncyByZXBvcnQgdGhhdCBzaG93ZWQgdGhlIHN0cmVhbWluZyBnaWFudCBpcyBmaW5hbGx5IGJlZ2lubmluZyB0byBsb3NlIHN1YnNjcmliZXJzIGFmdGVyIGEgZGVjYWRlIG9mIHJlbGVudGxlc3MgZ3Jvd3RoLjwvcD4gXG48cCBpZD1cImhhbGZ3YXlfaGFyZHdhbGxfMVwiPjwvcD4gXG48cCBjbGFzcz1cImFydGljbGVfcGFyYWdyYXBoXzJcIj48L3A+IFxuPHA+TmV0ZmxpeCYjODIxNztzIGNvLUNFTyBSZWVkIEhhc3RpbmdzIGJsYW1lZCB0aGUgc3Vic2NyaWJlciBsb3NzIG9uICYjODIyMDtncmVhdCBjb21wZXRpdGlvbiYjODIyMTsgYW5kIHBhc3N3b3JkLXNoYXJpbmcgYmV0d2VlbiBob3VzZWhvbGRzLCBidXQgYmlsbGlvbmFpcmUgRWxvbiBNdXNrIHRvb2sgdG8gVHdpdHRlciB0byBpbmZsdWVuY2UgdGhlIG5hcnJhdGl2ZSwgc2VlbWluZ2x5IGJsYW1pbmcgZGl2ZXJzaXR5IGFuZCBpbmNsdXNpb24gaW5pdGlhdGl2ZXMgZm9yIHRoZSBzdHJlYW1pbmcgZ2lhbnQmIzgyMTc7cyBzdWRkZW4gZHJvcC48L3A+IFxuPHAgaWQ9XCJoYWxmd2F5X2hhcmR3YWxsXzJcIj48L3A+IFxuPHA+UmVzcG9uZGluZyB0byBuZXdzIG9mIE5ldGZsaXgmIzgyMTc7cyBzaGFyZSBjcmFzaCwgTXVzayA8YSBocmVmPVwiaHR0cHM6Ly90d2l0dGVyLmNvbS9lbG9ubXVzay9zdGF0dXMvMTUxNjYwMDI2OTg5OTAyNjQzMlwiIHRhcmdldD1cIl9ibGFua1wiIGNsYXNzPVwiY29sb3ItbGlua1wiIHRpdGxlPVwiaHR0cHM6Ly90d2l0dGVyLmNvbS9lbG9ubXVzay9zdGF0dXMvMTUxNjYwMDI2OTg5OTAyNjQzMlwiIHJlbD1cIm5vZm9sbG93IG5vb3BlbmVyIG5vcmVmZXJyZXJcIj50d2VldGVkPC9hPjogJiM4MjIwO1RoZSB3b2tlIG1pbmQgdmlydXMgaXMgbWFraW5nIE5ldGZsaXggdW53YXRjaGFibGUuJiM4MjIxOzwvcD4gXG48cCBpZD1cImhhbGZ3YXlfaGFyZHdhbGxfM1wiPjwvcD4gXG48cCBjbGFzcz1cInZlc3Rwb2NrZXRcIj48L3A+IFxuPHAgY2xhc3M9XCJlbWJlZC1iYXNlIGVtYmVkbHktYWxpZ24gXCI+IFxuICBcbjwvcD4gXG4gXG48cD5XaGlsZSBNdXNrIGRpZG4mIzgyMTc7dCBlbGFib3JhdGUsIGhlIGRpZCByZXNwb25kIHRvIGEgY291cGxlIG9mIGZhbnMgd2hvIGFncmVlZCB3aXRoIGhpbS4gT25lIG9mIGhpcyBmb2xsb3dlcnMgPGEgaHJlZj1cImh0dHBzOi8vdHdpdHRlci5jb20vZWxvbm11c2svc3RhdHVzLzE1MTY2MDE2MTIxMTQwNTUxNzBcIiB0YXJnZXQ9XCJfYmxhbmtcIiBjbGFzcz1cImNvbG9yLWxpbmtcIiB0aXRsZT1cImh0dHBzOi8vdHdpdHRlci5jb20vZWxvbm11c2svc3RhdHVzLzE1MTY2MDE2MTIxMTQwNTUxNzBcIiByZWw9XCJub2ZvbGxvdyBub29wZW5lciBub3JlZmVycmVyXCI+c3VnZ2VzdGVkPC9hPiB0aGF0IHRoZSAmIzgyMjA7d29rZSBtaW5kIHZpcnVzIGlzIHRoZSBiaWdnZXN0IHRocmVhdCB0byB0aGUgY2l2aWxpemF0aW9uLCYjODIyMTsgdG8gd2hpY2ggTXVzayByZXBsaWVkLCAmIzgyMjA7WWVzLiYjODIyMTs8L3A+IFxuPHAgaWQ9XCJoYWxmd2F5X2hhcmR3YWxsXzRcIj48L3A+IFxuPHA+TXVzayBhcHBlYXJzIHRvIGJlIGVuZG9yc2luZyB0aGUgJiM4MjIwO2dvIHdva2UsIGdvIGJyb2tlJiM4MjIxOyBuYXJyYXRpdmUgb2Z0ZW4gcHVzaGVkIGJ5IHJpZ2h0LXdpbmcgY3JpdGljcywgd2hvIGNvbnNpc3RlbnRseSBibGFtZSBkaXZlcnNlIGNhc3RpbmcgYW5kIHNvY2lhbGx5IGNvbnNjaW91cyB3cml0aW5nIGZvciB0aGUgZmluYW5jaWFsIGZhaWx1cmUsIG9yIHBvb3IgYXVkaWVuY2UgcmVjZXB0aW9uIG9mIGJsb2NrYnVzdGVycyBhbmQgdmlkZW8gZ2FtZXMuIFRoZSBzbG9nYW4gd2FzIHV0aWxpemVkIGR1cmluZyB0aGUgZXh0cmVtZWx5IG9ubGluZSBjdWx0dXJlIHdhcnMgZm91Z2h0IG92ZXIgVGhlIExhc3QgSmVkaSBhbmQgQ2FwdGFpbiBNYXJ2ZWwsIHdoaWNoIGRpZG4mIzgyMTc7dCBzZWVtIHRvIGFmZmVjdCB0aGUgYm94IG9mZmljZSByZXN1bHRzIG9mIGVpdGhlciBmaWxtLjwvcD4gXG48cCBjbGFzcz1cImFydGljbGVfcGFyYWdyYXBoXzdcIj48L3A+IFxuPHA+TXVzayBoYXMgcHJldmlvdXNseSBwb3N0ZWQgYSBtZW1lIG9uIFR3aXR0ZXIgbW9ja2luZyBOZXRmbGl4JiM4MjE3O3MgZGl2ZXJzaXR5IGluaXRpYXRpdmVzLjwvcD4gXG48cCBjbGFzcz1cImVtYmVkLWJhc2UgZW1iZWRseS1hbGlnbiBcIj4gXG4gIFxuPC9wPiBcbiAgXG4gIFxuPHA+QW5hbHlzdHMgaGF2ZSBvZmZlcmVkIDxhIGhyZWY9XCJodHRwczovL3d3dy50aGVndWFyZGlhbi5jb20vbWVkaWEvMjAyMi9hcHIvMjAvd2h5LWlzLW5ldGZsaXgtbG9zaW5nLXNvLW1hbnktc3Vic2NyaWJlcnMtYW5kLXdoYXQtY2FuLWl0LWRvLWFib3V0LWl0XCIgdGFyZ2V0PVwiX2JsYW5rXCIgY2xhc3M9XCJjb2xvci1saW5rXCIgdGl0bGU9XCJodHRwczovL3d3dy50aGVndWFyZGlhbi5jb20vbWVkaWEvMjAyMi9hcHIvMjAvd2h5LWlzLW5ldGZsaXgtbG9zaW5nLXNvLW1hbnktc3Vic2NyaWJlcnMtYW5kLXdoYXQtY2FuLWl0LWRvLWFib3V0LWl0XCIgcmVsPVwibm9mb2xsb3cgbm9vcGVuZXIgbm9yZWZlcnJlclwiPnNldmVyYWwgZXhwbGFuYXRpb25zPC9hPiBmb3IgTmV0ZmxpeCYjODIxNztzIHdvZXMsIGFsbCBvZiB3aGljaCBhcmUgZmFyIG1vcmUgY29tcGxpY2F0ZWQgdGhhbiB0aGUgY2FzdGluZyBvZiBub24td2hpdGUgYWN0b3JzLjwvcD4gXG48cD5Bbm90aGVyIG9mIE11c2smIzgyMTc7cyBmb2xsb3dlcnMgcmVzcG9uZGVkIHRvIE11c2ssIHdyaXRpbmcgYSBwYXJhZ3JhcGggZGVzY3JpYmluZyB0b2RheSYjODIxNztzIG1lZGlhIGFzICYjODIyMDtpbmZlc3RlZCB3aXRoIGN1cnJlbnQgeWVhciB0cmVuZCB3b2tlIGdhcmJhZ2UgZm9yIGZlYXIgb2Ygb2ZmZW5kaW5nIGEgZ3JlZW4gaGFpcmVkIGZyZWFrIG5leHQgdG8gdGhlIGJhbiBidXR0b24sJiM4MjIxOyB0byB3aGljaCBNdXNrIHJlcGxpZWQ6ICYjODIyMDtDYW4gdGhleSBwbGVhc2UganVzdCBtYWtlIHNjaS1maS9mYW50YXN5IGF0IGxlYXN0ICptb3N0bHkqIGFib3V0IHNjaS1maS9mYW50YXN5PyYjODIyMTs8L3A+IFxuPHAgY2xhc3M9XCJlbWJlZC1iYXNlIGVtYmVkbHktYWxpZ24gXCI+IFxuICBcbjwvcD4gXG48cD48YnI+PC9wPiBcbjxwIGNsYXNzPVwiZW1iZWQtYmFzZSBlbWJlZGx5LWFsaWduIFwiPiBcbiAgXG48L3A+IFxuPHA+V2hpbGUgTXVzayBpZGVudGlmaWVzIGFzIGEgbWFzc2l2ZSBzY2ktZmkgZmFuLCBhbmQgY2xhaW1zIHRvIGhhdmUgYmVlbiBoZWF2aWx5IGluZmx1ZW5jZWQgYW5kIGluc3BpcmVkIGJ5IHRoZSBnZW5yZSwgaGUgZG9lc24mIzgyMTc7dCBzZWVtIHRvIHVuZGVyc3RhbmQgdGhhdCBzZXZlcmFsIG9mIHRoZSBtb3N0IGljb25pYyBzY2ktZmkgc3RvcmllcyBhcmUgZXh0cmVtZWx5IHNvY2lhbGx5IGNvbnNjaW91cywgYW5kIHVzZSB0aGVpciBmYW50YXN0aWMgc2V0dGluZ3MgYW5kIHRlY2hub2xvZ3kgdG8gZXhwbG9yZSB0aGVtZXMgdGhhdCB3b3VsZCBoYXZlIGJlZW4gY29uc2lkZXJlZCAmIzgyMjA7d29rZSYjODIyMTsgZHVyaW5nIHRoZWlyIHRpbWUuPC9wPiBcbjxwPkZvciBleGFtcGxlLCBEdW5lIGRlY29uc3RydWN0cyB0aGUgaWRlYSBvZiBhIGhlcm9pYyBjaG9zZW4gb25lLCB3aGlsZSBTdGFyIFdhcnMgd2FzIDxhIGhyZWY9XCJodHRwczovL3d3dy5jYnIuY29tL2dlb3JnZS1sdWNhcy12aWV0bmFtLXdhci1zdGFyLXdhcnMtaW5zcGlyYXRpb24vXCIgdGFyZ2V0PVwiX2JsYW5rXCIgY2xhc3M9XCJjb2xvci1saW5rXCIgdGl0bGU9XCJodHRwczovL3d3dy5jYnIuY29tL2dlb3JnZS1sdWNhcy12aWV0bmFtLXdhci1zdGFyLXdhcnMtaW5zcGlyYXRpb24vXCIgcmVsPVwibm9mb2xsb3cgbm9vcGVuZXIgbm9yZWZlcnJlclwiPmluc3BpcmVkIGJ5PC9hPiB0aGUgVmlldG5hbSB3YXIsIHdpdGggdGhlIFVTIHJlcHJlc2VudGVkIGJ5IHRoZSBldmlsIEVtcGlyZS4gU3RhciBUcmVrIG9mZmVycyBhIHV0b3BpYW4gdmlzaW9uIG9mIGEgcG9zdC1zY2FyY2l0eSBzb2NpZXR5IHRoYXQgaGFzIHRyYW5zY2VuZGVkIGJleW9uZCB0aGUgbGltaXRzIG9mIGNhcGl0YWxpc20sIGFuZCBldmVuIGZlYXR1cmVkIG9uZSBvZiB0aGUgZmlyc3QgaW50ZXJyYWNpYWwga2lzc2VzIG9uIHRlbGV2aXNpb24uPC9wPiBcbjxwPlVyc3VsYSBMZSBHdWluIGZhbW91c2x5IHVzZWQgc2NpZW5jZSBmaWN0aW9uIGFuZCBmYW50YXN5IHRvIGV4cGxvcmUgaWRlYXMgdGhhdCB3b3VsZCBiZSBjb25zaWRlcmVkIHJhZGljYWxseSBwcm9ncmVzc2l2ZSBhbmQgZm9yd2FyZC10aGlua2luZyBldmVuIHRvZGF5LCB3aGlsZSBjeWJlcnB1bmsgYXV0aG9ycyBsaWtlIFBoaWxpcCBLLiBEaWNrIGFuZCBXaWxsaWFtIEdpYnNvbiBmb3Jlc2F3IHRoZSBkYW5nZXJzIG9mIGEgZHlzdG9waWFuIGZ1dHVyZSBkb21pbmF0ZWQgYnkgbWVnYWNvcnBvcmF0aW9ucywgZW1ib2xkZW5lZCBieSB0ZWNobm9sb2d5LjwvcD4gXG48cD5PZiBjb3Vyc2UsIGFzIGZvcndhcmQtdGhpbmtpbmcgYXMgdGhlc2UgY3JlYXRpdmVzIHdlcmUsIG5vbmUgb2YgdGhlbSBtYW5hZ2VkIHRvIHByZWRpY3QgdGhlIGluZmx1ZW5jZSBvZiBhIGJpbGxpb25haXJlIG1hbmNoaWxkIHBvc3Rpbmcgc3RhbGUgUmVkZGl0IG1lbWVzIG9uIFR3aXR0ZXIuPC9wPiBcbjxwIGNsYXNzPVwibmV3c2xldHRlcl9zaWdudXBfYXJ0aWNsZVwiPjwvcD48L2Rpdj4iLCJhcnRpY2xlX2Fic3RyYWN0IjpudWxsfQ==
+  recorded_at: Wed, 20 Apr 2022 19:36:46 GMT
+- request:
+    method: post
+    uri: https://tldrthis.p.rapidapi.com/v1/model/abstractive/summarize-url/
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+                                  "url": "https://www.foxnews.com/auto/tesla-raising-full-self-driving-price-12000",
+                                  "min_length": 100,
+                                  "max_length": 300,
+                                  "is_detailed": false
+                                  }
+    headers:
+      X-Rapidapi-Host:
+      - tldrthis.p.rapidapi.com
+      X-Rapidapi-Key:
+      - "<tldr_key>"
+      User-Agent:
+      - Faraday v2.2.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json
+      Date:
+      - Wed, 20 Apr 2022 19:36:46 GMT
+      Server:
+      - RapidAPI-1.2.8
+      X-Rapidapi-Region:
+      - AWS - us-east-1
+      X-Rapidapi-Version:
+      - 1.2.8
+      X-Ratelimit-Requests-Limit:
+      - '100'
+      X-Ratelimit-Requests-Remaining:
+      - '58'
+      X-Ratelimit-Requests-Reset:
+      - '2092171'
+      Content-Length:
+      - '4888'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"summary":[" Tesla is increasing the price of its Full Self-Driving
+        system from $10,000 to $12,000 on January 17. CEO Elon Musk tweeted that the
+        price will rise as we get closer to FSD production code release. The feature
+        offers limited semi-automated driving features and its name has been called
+        \"misleading\" and \"irresponsible\" by the National Transportation and Safety
+        Board Chair Jennifer Homendy. Musk has previously insisted that the feature
+        will \"probably\" be worth $100,000 when it is fully functional."],"article_text":"NEW
+        You can now listen to Fox News articles!\n\nYou can''t say he didn''t warn
+        you.\n\nTesla is increasing the price of its Full Self-Driving system from
+        $10,000 to $12,000 on January 17, CEO Elon Musk has announced on Twitter.\n\nThe
+        feature offers limited semi-automated driving features and its name has been
+        called \"misleading\" and \"irresponsible\" by National Transportation and
+        Safety Board Chair Jennifer Homendy.\n\nCertain Tesla owners with cars that
+        have the feature activated are also granted access to a beta testing program
+        that unlocks additional capability, but still requires active driver participation
+        when it is activated.\n\nThe price of Full Self-Driving (FSD) was last raised
+        from $8,000 to $10,000 in October 2022, and Musk has said it will continue
+        to go up its capabilities are increased, a point he reiterated with the recent
+        announcement, saying, \"FSD price will rise as we get closer to FSD production
+        code release.\"\n\nTesla also offers Full Self-Driving as a $199 monthly subscription,
+        but Musk didn''t say if that would be increased alongside the purchase price.\n\nCLICK
+        HERE TO GET THE FOX NEWS APP\n\nMusk has previously insisted that the feature
+        will \"probably\" be worth $100,000 when it is fully functional, arguing that
+        Tesla owners will be able to deploy their vehicles in a rideshare service
+        when they''re not using them.","article_title":"Tesla raising ''Full Self-Driving''
+        price to $12,000","article_authors":["Gary Gastelu"],"article_image":"https://static.foxnews.com/foxnews.com/content/uploads/2021/10/SELF.jpg","article_pub_date":null,"article_url":"https://www.foxnews.com/auto/tesla-raising-full-self-driving-price-12000","article_html":"<div><p
+        class=\"info\"><p class=\"label-bg\">NEW</p>You can now listen to Fox News
+        articles!\n  </p><p class=\"speakable\">You can''t say <a href=\"https://www.foxbusiness.com/lifestyle/tesla-raising-full-self-driving-price\"
+        target=\"_blank\">he didn''t warn you</a>.</p><p class=\"ad gam\"></p><p class=\"ad
+        gam\"></p> <img src=\"https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2021/10/640/320/SELF.jpg?ve=1&amp;tl=1\"
+        alt=\"Full Self-Driving is capable of limited semi-automated control of a
+        vehicle under driver supervision.\"><p class=\"speakable\"><a href=\"https://www.foxnews.com/category/auto/make/tesla\"
+        target=\"_blank\">Tesla</a> is increasing the price of its Full Self-Driving
+        system from $10,000 to $12,000 on January 17, CEO Elon Musk has announced
+        on Twitter.</p><p>The feature offers limited semi-automated driving features
+        and its name has been called \"misleading\" and \"irresponsible\" by National
+        Transportation and Safety Board Chair Jennifer Homendy.</p><p class=\"ad gam\"></p>
+        <img src=\"https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2021/12/640/320/yoke-tesla.jpg?ve=1&amp;tl=1\"
+        alt=\"Tesla''s yoke steering wheel was designed with future automation in
+        mind.&#160;\"><p>Certain Tesla owners with cars that have the feature activated
+        are also granted access to a beta testing program that unlocks additional
+        capability, but still requires active driver participation when it is activated.</p><p
+        class=\"ad gam\"></p><p>The price of Full Self-Driving (FSD) was last raised
+        from $8,000 to $10,000 in October 2022, and Musk has said it will continue
+        to go up its capabilities are increased, a point he reiterated with the recent
+        announcement, saying, \"FSD price will rise as we get closer to FSD production
+        code release.\"</p><p class=\"ad gam\"></p> <img src=\"https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2021/06/640/320/tesla-plaid-2.jpg?ve=1&amp;tl=1\"
+        alt=\"Full Self-Driving is available across Tesla''s lineup.\"><p>Tesla also
+        offers Full Self-Driving as a $199 monthly subscription, but Musk didn''t
+        say if that would be increased alongside the purchase price.</p><p><a href=\"https://www.foxnews.com/apps-products\"
+        target=\"_blank\">CLICK HERE TO GET THE FOX NEWS APP</a></p><p class=\"ad
+        gam\"></p><p>Musk has previously insisted that the feature will \"probably\"
+        be worth <a href=\"https://www.foxnews.com/auto/elon-musk-tesla-worth-100000\"
+        target=\"_blank\">$100,000</a> when it is fully functional, arguing that Tesla
+        owners will be able to deploy their vehicles in a rideshare service when they''re
+        not using them.</p> </div>","article_abstract":null}'
+  recorded_at: Wed, 20 Apr 2022 19:36:46 GMT
+recorded_with: VCR 6.1.0
