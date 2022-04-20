@@ -22,7 +22,7 @@
 
 ## About The Project
 
-- In an age of information overload, it's getting harder to trust the news. ANY news. A story breaking halfway around the world passes through reporters, editors, network executivesk, CEOs and other stakeholders before it ever reaches your eyeballs. We may never know the whole truth, but learning to spot the motives behind the way a story is told can help us to get closer to it. We're not saying one news outlet is "beter" or "worse" than any other; that's for you to decide. SPINSPOT is here for one thing: To show the differences in reporting, empowering readers to make up their own mind about the news. We are here for you to SPOT the SPIN in your daily news. 
+- In an age of information overload, it's getting harder to trust the news. ANY news. A story breaking halfway around the world passes through reporters, editors, network executives, CEOs, and other stakeholders before it ever reaches your eyeballs. We may never know the whole truth, but learning to spot the motives behind the way a story is told can help us to get closer to it. We're not saying one news outlet is "better" or "worse" than any other; that's for you to decide. SPINSPOT is here for one thing: To show the differences in reporting, empowering readers to make up their own mind about the news. We are here for you to SPOT the SPIN in your daily news. 
 - This project mimics a service-oriented architecture where the back-end is responsible for consuming external API's and making the information avaiable by request to users through our front-end through our own API. 
 - Check out the Front-End at the [SPINSPOT Front-End Repo](https://github.com/markertmer/news_app_fe)
 - Both repositories are accessible through Heroku: 
