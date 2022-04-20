@@ -1,0 +1,362 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.mediastack.com/v1/news?access_key=<mediastack_key>&countries=us&keywords=&languages=en&limit=1&sort=published_desc&sources=abc-news,cnn,guardian,nytimes
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.2.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 20 Apr 2022 19:41:16 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - no-cache, private
+      X-Request-Time:
+      - '0.490'
+      - '0.521'
+      X-Apilayer-Transaction-Id:
+      - 9f8ef008-f242-454a-9951-843325fc89b8
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET, POST, HEAD, OPTIONS
+      Access-Control-Allow-Headers:
+      - "*"
+      X-Quota-Limit:
+      - '500'
+      X-Quota-Remaining:
+      - '360'
+      X-Increment-Usage:
+      - '1'
+      Cf-Cache-Status:
+      - DYNAMIC
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=yTMjVxERGppUt89Zn8PZEWNcbUQLsW%2BQATfgNcrDYebx%2BFHSQRLv0aL9YWPCXp6xk9mPFONlnNgj%2FxYSGHj7fAIStKpBO0908EKVpqSI0I0%2BsvX0aVM3ymYIE1ejgXJGprnQic0%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 6ff05b40afc662e2-ORD
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"pagination":{"limit":1,"offset":0,"count":1,"total":10000},"data":[{"author":"Emily
+        Anthes","title":"How Nature Becomes a Casualty of War","description":"Research
+        on past conflicts suggests that the war in Ukraine could have a profound environmental
+        impact.","url":"https:\/\/www.nytimes.com\/2022\/04\/13\/science\/war-environmental-impact-ukraine.html","source":"The
+        New York Times","image":"https:\/\/static01.nyt.com\/images\/2022\/04\/19\/science\/00war-environment1\/merlin_204706851_7f6840d8-61ac-4daf-bf23-448b36c0ef9c-moth.jpg","category":"science","language":"en","country":"us","published_at":"2022-04-20T19:10:50+00:00"}]}'
+  recorded_at: Wed, 20 Apr 2022 19:41:17 GMT
+- request:
+    method: get
+    uri: http://api.mediastack.com/v1/news?access_key=<mediastack_key>&countries=us&keywords=&languages=en&limit=1&sort=published_desc&sources=bloomberg,cnbc,forbes,npr-national-public-radio,reuters
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.2.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 20 Apr 2022 19:41:17 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - no-cache, private
+      X-Request-Time:
+      - '0.058'
+      - '0.090'
+      X-Apilayer-Transaction-Id:
+      - 90206bcc-b0b5-4877-94a9-bcf863df3bc0
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET, POST, HEAD, OPTIONS
+      Access-Control-Allow-Headers:
+      - "*"
+      X-Quota-Limit:
+      - '500'
+      X-Quota-Remaining:
+      - '359'
+      X-Increment-Usage:
+      - '1'
+      Cf-Cache-Status:
+      - DYNAMIC
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=50%2Bmvh%2FVFmPoL7rq4Kfk9Gnlq3Hz%2Bk9iWPePqXjVkd1AphVKaYVqnxMjTeBsK6JV2lIoBa4OExNmBNIFGAh9fflreMMhUsEqkF6%2BSL5E2ZpBm2XtUiyqj9c4KwoFd4HcgRRboHI%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 6ff05b463f118737-ORD
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"pagination":{"limit":1,"offset":0,"count":1,"total":10000},"data":[{"author":"Iris
+        Dorbian, Contributor","title":"Majority Of Heavy Cannabis Users Are Parents
+        With Minor Children, Says New Study","description":"Just in time for 4\/20,
+        a day where the cannabis community celebrates its love of the plant, a new
+        survey finds that one in five Americans consider themselves \u0022heavy users.\u0022
+        Many do not fall into the young male \u0022stoner\u0022 stereotype. In fact,
+        the majority are parents with minor children.","url":"https:\/\/www.forbes.com\/sites\/irisdorbian\/2022\/04\/20\/majority-of-heavy-cannabis-users-are-parents-with-minor-children-says-new-study\/","source":"Forbes","image":"https:\/\/thumbor.forbes.com\/thumbor\/fit-in\/0x0\/filters%3Aformat%28jpg%29\/https:\/\/specials-images.forbesimg.com\/imageserve\/5f63ae130fb7efbe8ba67b21\/0x0.jpg","category":"general","language":"en","country":"us","published_at":"2022-04-20T19:09:50+00:00"}]}'
+  recorded_at: Wed, 20 Apr 2022 19:41:17 GMT
+- request:
+    method: get
+    uri: http://api.mediastack.com/v1/news?access_key=<mediastack_key>&countries=us&keywords=&languages=en&limit=1&sort=published_desc&sources=foxnews,breitbart
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.2.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 20 Apr 2022 19:41:17 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - no-cache, private
+      X-Request-Time:
+      - '0.048'
+      - '0.075'
+      X-Apilayer-Transaction-Id:
+      - 4840175c-8991-4428-b1aa-167ec79f8122
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET, POST, HEAD, OPTIONS
+      Access-Control-Allow-Headers:
+      - "*"
+      X-Quota-Limit:
+      - '500'
+      X-Quota-Remaining:
+      - '358'
+      X-Increment-Usage:
+      - '1'
+      Cf-Cache-Status:
+      - DYNAMIC
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=5zS9F2AbJqgOsxUmfzUl2jeqMufJoxtVWLKPCWtIlKpn9P4k4fDnB4DBbYc7D%2BKiVpFN5nYzUil9F7jz6GeYdBQN6jVrRhV3aRpndCHsU3DTSUG6xeU%2FCkYM2r%2FFuQXqguyRw8I%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 6ff05b47a98e2aa8-ORD
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"pagination":{"limit":1,"offset":0,"count":1,"total":3002},"data":[{"author":"Danielle
+        Wallace","title":"NYC \u0027Diamond\u0027 mob boss of underground gambling
+        parlors sentenced to 4 years","description":"New York City \u201cDiamond Enterprise\u201d
+        boss Abduraman Iseni who pleaded guilty to running an organized crime network
+        of illegal gambling parlors across Brooklyn was sentenced to 55 months in
+        prison, which will be his third time in federal lockup following past convictions
+        stretching back decades.","url":"https:\/\/www.foxnews.com\/us\/nyc-diamond-brooklyn-gambling-boss-sentenced-4-years","source":"FOX
+        News - Most Popular","image":"https:\/\/static.foxnews.com\/foxnews.com\/content\/uploads\/2022\/04\/GettyImages-1237988109.jpg","category":"general","language":"en","country":"us","published_at":"2022-04-20T17:35:48+00:00"}]}'
+  recorded_at: Wed, 20 Apr 2022 19:41:17 GMT
+- request:
+    method: post
+    uri: https://tldrthis.p.rapidapi.com/v1/model/abstractive/summarize-url/
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+                                  "url": "https://www.nytimes.com/2022/04/13/science/war-environmental-impact-ukraine.html",
+                                  "min_length": 100,
+                                  "max_length": 300,
+                                  "is_detailed": false
+                                  }
+    headers:
+      X-Rapidapi-Host:
+      - tldrthis.p.rapidapi.com
+      X-Rapidapi-Key:
+      - "<tldr_key>"
+      User-Agent:
+      - Faraday v2.2.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json
+      Date:
+      - Wed, 20 Apr 2022 19:41:19 GMT
+      Server:
+      - RapidAPI-1.2.8
+      X-Rapidapi-Region:
+      - AWS - us-east-1
+      X-Rapidapi-Version:
+      - 1.2.8
+      X-Ratelimit-Requests-Limit:
+      - '100'
+      X-Ratelimit-Requests-Remaining:
+      - '54'
+      X-Ratelimit-Requests-Reset:
+      - '2091898'
+      Content-Length:
+      - '7300'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJzdW1tYXJ5IjpbIiBVa3JhaW5lIGhhcyAxNSBudWNsZWFyIHJlYWN0b3JzIGF0IGZvdXIgcG93ZXIgcGxhbnRzOyB0aGUgbGFyZ2VzdCBoYXMgYWxyZWFkeSBiZWVuIHRoZSBzaXRlIG9mIGludGVuc2UgZmlnaHRpbmcuIFNjaWVudGlzdHMgaGF2ZSBsZWFybmVkIGEgbG90IGFib3V0IHRoZSBsb25nLXRlcm0gZWZmZWN0cyBvZiByYWRpYXRpb24gb24gYW5pbWFscyBhbmQgZWNvc3lzdGVtcyBmcm9tIHN0dWRpZXMgY29uZHVjdGVkIGluIFVrcmFpbmXigJlzIENoZXJub2J5bCBFeGNsdXNpb24gWm9uZS4gUmVzZWFyY2ggYXQgdGhlIHNpdGUgcmV2ZWFsZWQgdGhhdCBub3Qgb25seSBkaWQgcmFkaWF0aW9uIGNhdXNlIGRlZm9ybWl0aWVzIGluIGluZGl2aWR1YWwgYW5pbWFscywgaXQgYWZmZWN0ZWQgZW50aXJlIHBvcHVsYXRpb25zLiBUaGUgUnVzc2lhbiBtaWxpdGFyeSBhY3Rpdml0eSBpbiB0aGUgQ2hlcm5vYnlsIGV4Y2x1c2lvbiB6b25lIG1heSBoYXZlIHdvcnNlbmVkIGNvbmRpdGlvbnMgdGhlcmUsIGV4cGVydHMgc2FpZC4gVGhlIG1pbGl0YXJ5IGFjdGl2aXR5IG1heSBoYXZlIGFsc28gdGhyZWF0ZW5lZCB0aGUgcmVjb3ZlcnkgdGhhdCB3aWxkbGlmZSBoYXMgbWFkZSBpbiB0aGUgZXhjbHVzaW9uIHpvbmUuIl0sImFydGljbGVfdGV4dCI6IuKAnFRoaXMgY291bGQgcmVhbGx5IGJlIGNvbXBhcmVkIHRvIHVzaW5nIGNoZW1pY2FsIHdlYXBvbnMs4oCdIHNhaWQgT2xla3NpaSBWYXN5bGl1aywgYSBiaW9sb2dpc3QgaW4gVmFzeWxraXYsIFVrcmFpbmUsIGFuZCBhIGNvLWZvdW5kZXIgb2YgdGhlIFVrcmFpbmlhbiBOYXR1cmUgQ29uc2VydmF0aW9uIEdyb3VwLiBUaGUgUnVzc2lhbnMg4oCcZGlkbuKAmXQgYnJpbmcgdG94aWMgc3Vic3RhbmNlcyBoZXJlLCBidXQgdGhleSBoYXZlIHJlbGVhc2VkIG9uZXMgdGhhdCB3ZXJlIGFscmVhZHkgb24gdGhlIHRlcnJpdG9yeSBvZiBVa3JhaW5lIGludG8gdGhlIGVudmlyb25tZW50LuKAnVxuXG5BbmQgdGhlbiB0aGVyZSBpcyB0aGUgbnVjbGVhciBmZWFyLiBVa3JhaW5lIGhhcyAxNSBudWNsZWFyIHJlYWN0b3JzIGF0IGZvdXIgcG93ZXIgcGxhbnRzOyB0aGUgbGFyZ2VzdCBoYXMgYWxyZWFkeSBiZWVuIHRoZSBzaXRlIG9mIGludGVuc2UgZmlnaHRpbmcuIOKAnE1pbGl0YXJ5IGFjdGlvbnMgbmVhciB0aGUgbnVjbGVhciBwb3dlciBwbGFudHMgY2FuIGxlYWQgdG8gdGhlIGxhcmdlLXNjYWxlIHJhZGlvYWN0aXZlIGNvbnRhbWluYXRpb24gb2YgdmFzdCBhcmVhcyBub3Qgb25seSBpbiBVa3JhaW5lIGJ1dCBhbHNvIGZhciBiZXlvbmQgaXRzIGJvcmRlcnMs4oCdIHNhaWQgTXIuIEtyYXNub2x1dHNreWksIHRoZSBkZXB1dHkgbWluaXN0ZXIuIERhbWFnZSB0byBudWNsZWFyIHdhc3RlIHN0b3JhZ2Ugc2l0ZXMgY291bGQgYWxzbyBwcm9kdWNlIHNpZ25pZmljYW50IGNvbnRhbWluYXRpb24uXG5cblNjaWVudGlzdHMgaGF2ZSBsZWFybmVkIGEgbG90IGFib3V0IHRoZSBsb25nLXRlcm0gZWZmZWN0cyBvZiByYWRpYXRpb24gb24gYW5pbWFscyBhbmQgZWNvc3lzdGVtcyBmcm9tIHN0dWRpZXMgY29uZHVjdGVkIGluIFVrcmFpbmXigJlzIENoZXJub2J5bCBFeGNsdXNpb24gWm9uZSwgd2hpY2ggaGFzIGJlZW4gbGFyZ2VseSBhYmFuZG9uZWQgc2luY2UgdGhlIGNhdGFzdHJvcGhlIGF0IHRoZSBDaGVybm9ieWwgbnVjbGVhciBwb3dlciBwbGFudCBpbiAxOTg2LlxuXG5SZXNlYXJjaCBhdCB0aGUgc2l0ZSByZXZlYWxlZCB0aGF0IG5vdCBvbmx5IGRpZCByYWRpYXRpb24gY2F1c2UgZGVmb3JtaXRpZXMgaW4gaW5kaXZpZHVhbCBhbmltYWxzLCBpdCBhZmZlY3RlZCBlbnRpcmUgcG9wdWxhdGlvbnMuIOKAnFdlIHNlZSBkcmFtYXRpYyBkZWNsaW5lcyBpbiBhYnVuZGFuY2VzIGFuZCBsb3dlciBkaXZlcnNpdHkgb2Ygb3JnYW5pc21zIGluIHRoZSBtb3JlIHJhZGlvYWN0aXZlIGFyZWFzLOKAnSBzYWlkIFRpbW90aHkgTW91c3NlYXUsIGEgYmlvbG9naXN0IGF0IHRoZSBVbml2ZXJzaXR5IG9mIFNvdXRoIENhcm9saW5hLlxuXG5UaGUgUnVzc2lhbiBtaWxpdGFyeSBhY3Rpdml0eSBpbiB0aGUgQ2hlcm5vYnlsIGV4Y2x1c2lvbiB6b25lIG1heSBoYXZlIHdvcnNlbmVkIGNvbmRpdGlvbnMgdGhlcmUsIGV4cGVydHMgc2FpZC4gRmlyZXMgbWF5IGhhdmUgcmVsZWFzZWQgcmFkaW9hY3RpdmUgcGFydGljbGVzIHRoYXQgaGFkIGJlZW4gY2FwdHVyZWQgaW4gdGhlIGxvY2FsIGZsb3JhLCBhbmQgZHJpdmluZyB0aHJvdWdoIHRoZSBtb3N0IGNvbnRhbWluYXRlZCBhcmVhcyBtaWdodCBoYXZlIGtpY2tlZCB1cCBjbG91ZHMgb2YgcmFkaW9hY3RpdmUgZHVzdC5cblxuVGhlIG1pbGl0YXJ5IGFjdGl2aXR5IG1heSBoYXZlIGFsc28gdGhyZWF0ZW5lZCB0aGUgcmVjb3ZlcnkgdGhhdCB3aWxkbGlmZSBoYXMgbWFkZSBpbiB0aGUgZXhjbHVzaW9uIHpvbmUuIEFzIGh1bWFucyBoYXZlIGxhcmdlbHkga2VwdCB0aGVpciBkaXN0YW5jZSwg4oCcbGFyZ2Ugc3BlY2llcyB0aGF0IGRvbuKAmXQgcmVhbGx5IGhhdmUgYSBob21lIG5lYXJieSBpbiB0aGUgcmVnaW9uIGhhdmUgc3RhcnRlZCB0byBjb21lIGJhY2ss4oCdIHNhaWQgQnJ1Y2UgQnllcnMsIGFuIGluZGVwZW5kZW50IGVjb2xvZ2ljYWwgY29uc3VsdGFudCB3aG8gaGFzIGxlZCBiaW9kaXZlcnNpdHkgYXNzZXNzbWVudHMgb2YgVWtyYWluZSBmb3IgdGhlIFVuaXRlZCBTdGF0ZXMgQWdlbmN5IGZvciBJbnRlcm5hdGlvbmFsIERldmVsb3BtZW50LlxuXG5HcmF5IHdvbHZlcywgcmVkIGZveGVzLCByYWNjb29uIGRvZ3MsIGx5bnggYW5kIGJvYXJzIGFsbCByZXNpZGUgaW4gdGhlIGV4Y2x1c2lvbiB6b25lLCBhcyBkbyBlbmRhbmdlcmVkIFByemV3YWxza2nigJlzIGhvcnNlcywgd2hpY2ggd2VyZSBpbnRyb2R1Y2VkIHRvIHRoZSBhcmVhIGFib3V0IHR3byBkZWNhZGVzIGFnby4iLCJhcnRpY2xlX3RpdGxlIjoiQSDigJhTaWxlbnQgVmljdGlt4oCZOiBIb3cgTmF0dXJlIEJlY29tZXMgYSBDYXN1YWx0eSBvZiBXYXIiLCJhcnRpY2xlX2F1dGhvcnMiOlsiRW1pbHkgQW50aGVzIl0sImFydGljbGVfaW1hZ2UiOiJodHRwczovL3N0YXRpYzAxLm55dC5jb20vaW1hZ2VzLzIwMjIvMDQvMTkvc2NpZW5jZS8wMHdhci1lbnZpcm9ubWVudDEvbWVybGluXzIwNDcwNjg1MV83ZjY4NDBkOC02MWFjLTRkYWYtYmYyMy00NDhiMzZjMGVmOWMtZmFjZWJvb2tKdW1iby5qcGciLCJhcnRpY2xlX3B1Yl9kYXRlIjoiQXByIDEzLCAyMDIyIiwiYXJ0aWNsZV91cmwiOiJodHRwczovL3d3dy5ueXRpbWVzLmNvbS8yMDIyLzA0LzEzL3NjaWVuY2Uvd2FyLWVudmlyb25tZW50YWwtaW1wYWN0LXVrcmFpbmUuaHRtbCIsImFydGljbGVfaHRtbCI6IjxkaXY+PHAgY2xhc3M9XCJjc3MtZzVwaWF6IGV2eXMxYmswXCI+JiM4MjIwO1RoaXMgY291bGQgcmVhbGx5IGJlIGNvbXBhcmVkIHRvIHVzaW5nIGNoZW1pY2FsIHdlYXBvbnMsJiM4MjIxOyBzYWlkIE9sZWtzaWkgVmFzeWxpdWssIGEgYmlvbG9naXN0IGluIFZhc3lsa2l2LCBVa3JhaW5lLCBhbmQgYSBjby1mb3VuZGVyIG9mIHRoZSA8YSBjbGFzcz1cImNzcy0xZzdtMHRrXCIgaHJlZj1cImh0dHBzOi8vdW5jZy5vcmcudWEvZW4vXCIgdGl0bGU9XCJcIiByZWw9XCJub29wZW5lciBub3JlZmVycmVyXCIgdGFyZ2V0PVwiX2JsYW5rXCI+VWtyYWluaWFuIE5hdHVyZSBDb25zZXJ2YXRpb24gR3JvdXA8L2E+LiBUaGUgUnVzc2lhbnMgJiM4MjIwO2RpZG4mIzgyMTc7dCBicmluZyB0b3hpYyBzdWJzdGFuY2VzIGhlcmUsIGJ1dCB0aGV5IGhhdmUgcmVsZWFzZWQgb25lcyB0aGF0IHdlcmUgYWxyZWFkeSBvbiB0aGUgdGVycml0b3J5IG9mIFVrcmFpbmUgaW50byB0aGUgZW52aXJvbm1lbnQuJiM4MjIxOzwvcD48cCBjbGFzcz1cImNzcy1nNXBpYXogZXZ5czFiazBcIj5BbmQgdGhlbiB0aGVyZSBpcyB0aGUgbnVjbGVhciBmZWFyLiBVa3JhaW5lIGhhcyAxNSBudWNsZWFyIHJlYWN0b3JzIGF0IGZvdXIgcG93ZXIgcGxhbnRzOyB0aGUgbGFyZ2VzdCBoYXMgPGEgY2xhc3M9XCJjc3MtMWc3bTB0a1wiIGhyZWY9XCJodHRwczovL3d3dy5ueXRpbWVzLmNvbS8yMDIyLzAzLzA0L3NjaWVuY2UvdWtyYWluZS1udWNsZWFyLXBvd2VyLXBsYW50Lmh0bWxcIiB0aXRsZT1cIlwiPmFscmVhZHkgYmVlbiB0aGUgc2l0ZTwvYT4gb2YgaW50ZW5zZSBmaWdodGluZy4gJiM4MjIwO01pbGl0YXJ5IGFjdGlvbnMgbmVhciB0aGUgbnVjbGVhciBwb3dlciBwbGFudHMgY2FuIGxlYWQgdG8gdGhlIGxhcmdlLXNjYWxlIHJhZGlvYWN0aXZlIGNvbnRhbWluYXRpb24gb2YgdmFzdCBhcmVhcyBub3Qgb25seSBpbiBVa3JhaW5lIGJ1dCBhbHNvIGZhciBiZXlvbmQgaXRzIGJvcmRlcnMsJiM4MjIxOyBzYWlkIE1yLiBLcmFzbm9sdXRza3lpLCB0aGUgZGVwdXR5IG1pbmlzdGVyLiBEYW1hZ2UgdG8gPGEgY2xhc3M9XCJjc3MtMWc3bTB0a1wiIGhyZWY9XCJodHRwczovL3d3dy5pYWVhLm9yZy9uZXdzY2VudGVyL3ByZXNzcmVsZWFzZXMvdXBkYXRlLTMtaWFlYS1kaXJlY3Rvci1nZW5lcmFsLXN0YXRlbWVudC1vbi1zaXR1YXRpb24taW4tdWtyYWluZVwiIHRpdGxlPVwiXCIgcmVsPVwibm9vcGVuZXIgbm9yZWZlcnJlclwiIHRhcmdldD1cIl9ibGFua1wiPm51Y2xlYXIgd2FzdGUgc3RvcmFnZSBzaXRlczwvYT4gY291bGQgYWxzbyBwcm9kdWNlIHNpZ25pZmljYW50IGNvbnRhbWluYXRpb24uPC9wPjxwIGNsYXNzPVwiY3NzLWc1cGlheiBldnlzMWJrMFwiPlNjaWVudGlzdHMgaGF2ZSBsZWFybmVkIGEgbG90IGFib3V0IHRoZSBsb25nLXRlcm0gZWZmZWN0cyBvZiByYWRpYXRpb24gb24gYW5pbWFscyBhbmQgZWNvc3lzdGVtcyBmcm9tIDxhIGNsYXNzPVwiY3NzLTFnN20wdGtcIiBocmVmPVwiaHR0cHM6Ly93d3cubnl0aW1lcy5jb20vMjAxNC8wNS8wNi9zY2llbmNlL25hdHVyZS1hZGFwdHMtdG8tY2hlcm5vYnlsLmh0bWxcIiB0aXRsZT1cIlwiPnN0dWRpZXMgY29uZHVjdGVkIGluIFVrcmFpbmUmIzgyMTc7cyBDaGVybm9ieWwgRXhjbHVzaW9uIFpvbmU8L2E+LCB3aGljaCBoYXMgYmVlbiBsYXJnZWx5IGFiYW5kb25lZCBzaW5jZSB0aGUgY2F0YXN0cm9waGUgYXQgdGhlIENoZXJub2J5bCBudWNsZWFyIHBvd2VyIHBsYW50IGluIDE5ODYuPC9wPjxwIGNsYXNzPVwiY3NzLWc1cGlheiBldnlzMWJrMFwiPlJlc2VhcmNoIGF0IHRoZSBzaXRlIHJldmVhbGVkIHRoYXQgbm90IG9ubHkgZGlkIHJhZGlhdGlvbiBjYXVzZSBkZWZvcm1pdGllcyBpbiBpbmRpdmlkdWFsIGFuaW1hbHMsIDxhIGNsYXNzPVwiY3NzLTFnN20wdGtcIiBocmVmPVwiaHR0cHM6Ly93d3cubmNiaS5ubG0ubmloLmdvdi9wbWMvYXJ0aWNsZXMvUE1DMjM5NDUzOS9cIiB0aXRsZT1cIlwiIHJlbD1cIm5vb3BlbmVyIG5vcmVmZXJyZXJcIiB0YXJnZXQ9XCJfYmxhbmtcIj5pdCBhZmZlY3RlZDwvYT4gPGEgY2xhc3M9XCJjc3MtMWc3bTB0a1wiIGhyZWY9XCJodHRwczovL3d3dy5uY2JpLm5sbS5uaWguZ292L3BtYy9hcnRpY2xlcy9QTUMyNjc5OTE2L1wiIHRpdGxlPVwiXCIgcmVsPVwibm9vcGVuZXIgbm9yZWZlcnJlclwiIHRhcmdldD1cIl9ibGFua1wiPmVudGlyZSBwb3B1bGF0aW9uczwvYT4uICYjODIyMDtXZSBzZWUgZHJhbWF0aWMgZGVjbGluZXMgaW4gYWJ1bmRhbmNlcyBhbmQgbG93ZXIgZGl2ZXJzaXR5IG9mIG9yZ2FuaXNtcyBpbiB0aGUgbW9yZSByYWRpb2FjdGl2ZSBhcmVhcywmIzgyMjE7IHNhaWQgVGltb3RoeSBNb3Vzc2VhdSwgYSBiaW9sb2dpc3QgYXQgdGhlIFVuaXZlcnNpdHkgb2YgU291dGggQ2Fyb2xpbmEuPC9wPjxwIGNsYXNzPVwiY3NzLWc1cGlheiBldnlzMWJrMFwiPlRoZSBSdXNzaWFuIG1pbGl0YXJ5IGFjdGl2aXR5IGluIHRoZSBDaGVybm9ieWwgZXhjbHVzaW9uIHpvbmUgbWF5IGhhdmUgd29yc2VuZWQgY29uZGl0aW9ucyB0aGVyZSwgZXhwZXJ0cyBzYWlkLiBGaXJlcyBtYXkgaGF2ZTxzdHJvbmcgY2xhc3M9XCJjc3MtOHFndnN6IGVieXA1bjEwXCI+IDwvc3Ryb25nPjxhIGNsYXNzPVwiY3NzLTFnN20wdGtcIiBocmVmPVwiaHR0cHM6Ly93d3cubnl0aW1lcy5jb20vMjAxNS8wNC8wNy9zY2llbmNlL2ZvcmVzdC1maXJlcy10aHJlYXRlbi1uZXctZmFsbG91dC1mcm9tLWNoZXJub2J5bC5odG1sXCIgdGl0bGU9XCJcIj5yZWxlYXNlZCByYWRpb2FjdGl2ZSBwYXJ0aWNsZXM8L2E+IHRoYXQgaGFkIGJlZW4gY2FwdHVyZWQgaW4gdGhlIGxvY2FsIGZsb3JhLCBhbmQgZHJpdmluZyB0aHJvdWdoIHRoZSBtb3N0IGNvbnRhbWluYXRlZCBhcmVhcyBtaWdodCBoYXZlIGtpY2tlZCB1cCBjbG91ZHMgb2YgcmFkaW9hY3RpdmUgZHVzdC48L3A+PHAgY2xhc3M9XCJjc3MtZzVwaWF6IGV2eXMxYmswXCI+VGhlIG1pbGl0YXJ5IGFjdGl2aXR5IG1heSBoYXZlIGFsc28gdGhyZWF0ZW5lZCB0aGUgcmVjb3ZlcnkgdGhhdCB3aWxkbGlmZSBoYXMgbWFkZSBpbiB0aGUgZXhjbHVzaW9uIHpvbmUuIEFzIGh1bWFucyBoYXZlIGxhcmdlbHkga2VwdCB0aGVpciBkaXN0YW5jZSwgJiM4MjIwO2xhcmdlIHNwZWNpZXMgdGhhdCBkb24mIzgyMTc7dCByZWFsbHkgaGF2ZSBhIGhvbWUgbmVhcmJ5IGluIHRoZSByZWdpb24gaGF2ZSBzdGFydGVkIHRvIGNvbWUgYmFjaywmIzgyMjE7IHNhaWQgQnJ1Y2UgQnllcnMsIGFuIGluZGVwZW5kZW50IGVjb2xvZ2ljYWwgY29uc3VsdGFudCB3aG8gaGFzIGxlZCA8YSBjbGFzcz1cImNzcy0xZzdtMHRrXCIgaHJlZj1cImh0dHBzOi8vcGRmLnVzYWlkLmdvdi9wZGZfZG9jcy9QQTAwTVQ2Wi5wZGZcIiB0aXRsZT1cIlwiIHJlbD1cIm5vb3BlbmVyIG5vcmVmZXJyZXJcIiB0YXJnZXQ9XCJfYmxhbmtcIj5iaW9kaXZlcnNpdHkgYXNzZXNzbWVudHMgb2YgVWtyYWluZTwvYT4gZm9yIHRoZSBVbml0ZWQgU3RhdGVzIEFnZW5jeSBmb3IgSW50ZXJuYXRpb25hbCBEZXZlbG9wbWVudC48L3A+PHAgY2xhc3M9XCJjc3MtZzVwaWF6IGV2eXMxYmswXCI+R3JheSB3b2x2ZXMsIHJlZCBmb3hlcywgcmFjY29vbiBkb2dzLCBseW54IGFuZCBib2FycyBhbGwgcmVzaWRlIGluIHRoZSBleGNsdXNpb24gem9uZSwgYXMgZG8gZW5kYW5nZXJlZCA8YSBjbGFzcz1cImNzcy0xZzdtMHRrXCIgaHJlZj1cImh0dHBzOi8vd3d3Lm55dGltZXMuY29tLzIwMDUvMTAvMTEvc2NpZW5jZS9mb2FsLWJ5LWZvYWwtdGhlLXdpbGRlc3Qtb2YtaG9yc2VzLWlzLWNvbWluZy1iYWNrLmh0bWxcIiB0aXRsZT1cIlwiPlByemV3YWxza2kmIzgyMTc7cyBob3JzZXM8L2E+LCB3aGljaCB3ZXJlIGludHJvZHVjZWQgdG8gdGhlIGFyZWEgYWJvdXQgdHdvIGRlY2FkZXMgYWdvLjwvcD48L2Rpdj4iLCJhcnRpY2xlX2Fic3RyYWN0IjpudWxsfQ==
+  recorded_at: Wed, 20 Apr 2022 19:41:19 GMT
+- request:
+    method: post
+    uri: https://tldrthis.p.rapidapi.com/v1/model/abstractive/summarize-url/
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+                                  "url": "https://www.forbes.com/sites/irisdorbian/2022/04/20/majority-of-heavy-cannabis-users-are-parents-with-minor-children-says-new-study/",
+                                  "min_length": 100,
+                                  "max_length": 300,
+                                  "is_detailed": false
+                                  }
+    headers:
+      X-Rapidapi-Host:
+      - tldrthis.p.rapidapi.com
+      X-Rapidapi-Key:
+      - "<tldr_key>"
+      User-Agent:
+      - Faraday v2.2.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json
+      Date:
+      - Wed, 20 Apr 2022 19:41:20 GMT
+      Server:
+      - RapidAPI-1.2.8
+      X-Rapidapi-Region:
+      - AWS - us-east-1
+      X-Rapidapi-Version:
+      - 1.2.8
+      X-Ratelimit-Requests-Limit:
+      - '100'
+      X-Ratelimit-Requests-Remaining:
+      - '53'
+      X-Ratelimit-Requests-Reset:
+      - '2091897'
+      Content-Length:
+      - '6415'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJzdW1tYXJ5IjpbIiBBIG5ldyBzdXJ2ZXkgZmluZHMgdGhhdCBvbmUgaW4gZml2ZSBBbWVyaWNhbnMgY29uc2lkZXIgdGhlbXNlbHZlcyBcImhlYXZ5IHVzZXJzXCIgVGhpcyBtZWFucyB0aGV5IHNtb2tlIHRocmVlIG9yIG1vcmUgdGltZXMgYSB3ZWVrLiA0MyUgb2YgdGhlbSBzZWxmLWlkZW50aWZ5IGFzIGZlbWFsZSwgNTQlIGFyZSBvdmVyIDM1LCBhbmQgNTUlIGFyZSBwYXJlbnRzIG9mIGNoaWxkcmVuIHVuZGVyIDE4LiBSb3VnaGx5IG9uZSBpbiBlaWdodCAoMTIlKSBBbWVyaWNhbnMgY29uc3VtZSBjYW5uYWJpcyBkYWlseSBvciBtdWx0aXBsZSB0aW1lcyBhIGRheTsgMzMlIHBlcmNlbnQgb2YgZGFpbHkgY2FubmFiaXMgdXNlcnMgaW5jcmVhc2VkIHRoZWlyIGNvbnN1bXB0aW9uIHRvIHRoaXMgcmF0ZSB3aXRoaW4gdGhlIGxhc3QgMTIgbW9udGhzLiBXaGlsZSB0aGUgbWFqb3JpdHkgb2YgaGVhdnkgdXNlcnMgKDUxJSkgcHVyY2hhc2UgZnJvbSBhIGxlZ2FsIGRpc3BlbnNhcnksIDM4JSBzb3VyY2UgdGhlaXIgY2FubmFiaXMgaWxsaWNpdGx5LiJdLCJhcnRpY2xlX3RleHQiOiJBIHdvbWFuIGxpZ2h0cyB1cCBhIG1hcmlqdWFuYSBqb2ludCBnZXR0eVxuXG5KdXN0IGluIHRpbWUgZm9yIDQvMjAsIGEgZGF5IHdoZW4gdGhlIGNhbm5hYmlzIGNvbW11bml0eSBjZWxlYnJhdGVzIGl0cyBsb3ZlIG9mIHRoZSBwbGFudCwgYSBuZXcgc3VydmV5IGZpbmRzIHRoYXQgb25lIGluIGZpdmUgQW1lcmljYW5zIGNvbnNpZGVyIHRoZW1zZWx2ZXMgXCJoZWF2eSB1c2Vycy5cIiBUaGlzIG1lYW5zIHRoZXkgc21va2UgdGhyZWUgb3IgbW9yZSB0aW1lcyBhIHdlZWsuIEFuZCwgdG8gZGlzcGVsIHRoZSBvbGQgXCJzdG9uZXJcIiBzdGVyZW90eXBlIHRoYXQgbW9zdCBoZWF2eSBjYW5uYWJpcyB1c2VycyBhcmUgeW91bmcgbWVuLCB0aGUgc3R1ZHksIGNvbmR1Y3RlZCBieSBSZWNlcHRvciBCcmFuZHMsIGEgY2FubmFiaXMtZm9jdXNlZCBjcmVhdGl2ZSBzZXJ2aWNlcyBmaXJtLCBTaXN0ZXIgTWVyY2ksIGEgQ2FuYWRpYW4gY2FubmFiaXMgbWFya2V0aW5nIGZpcm0gYW5kIFlvdUdvdiwgYSBnbG9iYWwgb3BpbmlvbiBhbmQgZGF0YSBjb21wYW55LCBhbHNvIGNvbmNsdWRlcyB0aGF0IDQzJSBvZiB0aGVtIHNlbGYtaWRlbnRpZnkgYXMgZmVtYWxlLCA1NCUgYXJlIG92ZXIgMzUsIGFuZCA1NSUgYXJlIHBhcmVudHMgb2YgY2hpbGRyZW4gdW5kZXIgMTguXG5cbk90aGVyIGZpbmRpbmdzIGluY2x1ZGU6XG5cbuKXjyBSb3VnaGx5IG9uZSBpbiBlaWdodCAoMTIlKSBBbWVyaWNhbnMgY29uc3VtZSBjYW5uYWJpcyBkYWlseSBvciBtdWx0aXBsZSB0aW1lcyBhIGRheTtcblxu4pePIDMzJSBwZXJjZW50IG9mIGRhaWx5IGNhbm5hYmlzIHVzZXJzIGluY3JlYXNlZCB0aGVpciBjb25zdW1wdGlvbiB0byB0aGlzIHJhdGUgd2l0aGluIHRoZSBsYXN0IDEyIG1vbnRocztcblxu4pePIDUwJSBhcmUgaW4gYSBjb21taXR0ZWQgcm9tYW50aWMgcmVsYXRpb25zaGlwLCBpbmNsdWRpbmcgMzIlIHdobyBhcmUgbWFycmllZDtcblxu4pePIDQ2JSBhcmUgMTgtMzQgeWVhcnMgb2xkOyBhbmQsXG5cbuKXjyA1NCUgYXJlIDM1LTU1KyB5ZWFycyBvbGQuXG5cbkRpc2N1c3NpbmcgdGhlc2UgZmluZGluZ3MsIEFsbGlzb24gRGlzbmV5IG5vdGVkIGluIGEgcHVibGljIHN0YXRlbWVudCB0aGUgY291bnRlcmludHVpdGl2ZSBlbGVtZW50IHRvIHRoZXNlIGZpbmRpbmdzIGFzIG1vc3Qgb2YgdGhlc2UgaGVhdnkgdXNlcnMgZGlkIG5vdCB2aWV3IHRoZW1zZWx2ZXMgYXMgdGhlIHByb3RvdHlwaWNhbCBcInN0b25lcnNcIiBub3IgZGlkIHRoZXkgYXNzb2NpYXRlIHRoZWlyIGJlaGF2aW9yIHdpdGggdGhhdCB0cm9wZS4gXCJUaGVzZSBjb25zdW1lcnMgaW5kaWNhdGUgdGhleeKAmXJlIHVzaW5nIGNhbm5hYmlzIHdlZWtseSBvciBkYWlseSBmb3IgaXRzIGZ1bmN0aW9uYWwgYmVuZWZpdHMsIHN1Y2ggYXMgcmVsYXhhdGlvbiBvciBzbGVlcCAsIGFuZCBtYW55IG9mIHRoZW3igJRlc3BlY2lhbGx5IHBhcmVudHMgb2YgeW91bmcgY2hpbGRyZW7igJRzdGVwcGVkIHVwIHRoZWlyIGNvbnN1bXB0aW9uIHdpdGhpbiB0aGUgcGFzdCB5ZWFyLOKAnSBzYWlkIERpc25leS5cblxuSW4gYWRkaXRpb24gdG8gY29uc3VtcHRpb24gZnJlcXVlbmN5LCB0aGUgc3R1ZHkgYWxzbyBmb2N1c2VkIG9uIHRoZSBoZWF2eSB1c2Vy4oCZcyBwcmVmZXJlbmNlcyBmb3IgcHJvY3VyaW5nIGNhbm5hYmlzLCBhcyB3ZWxsIGFzIHRoZSB0eXBlcyBvZiBjYW5uYWJpcyB0aGV5IHJvdXRpbmVseSBjb25zdW1lLiBGb2xsb3dpbmcgaXMgYSBzYW1wbGluZyBvZiB0aGUgZmluZGluZ3M6XG5cbuKXjyBXaGlsZSB0aGUgbWFqb3JpdHkgb2YgaGVhdnkgdXNlcnMgKDUxJSkgcHVyY2hhc2UgZnJvbSBhIGxlZ2FsIGRpc3BlbnNhcnksIDM4JSBzb3VyY2UgdGhlaXIgY2FubmFiaXMgaWxsaWNpdGx5IChpLmUuLCB1bnJlZ3VsYXRlZCBkaXNwZW5zYXJ5LCBtYWlsIG9yZGVyLCBvciBkZWFsZXIpO1xuXG7il48gMjYlIG9mIGhlYXZ5IHVzZXJzIHByb2N1cmUgY2FubmFiaXMgZnJvbSBhIGZyaWVuZCBvciBmYW1pbHkgbWVtYmVy4oCZcyBob21lIGdyb3c7XG5cbuKXjyA1MyUgb2YgaGVhdnkgdXNlcnMgcHJlZmVyIHRvIGNvbnN1bWUgZmxvd2VyO1xuXG7il48gMzklIG9mIGhlYXZ5IHVzZXJzIHByZWZlciB0byBjb25zdW1lIGVkaWJsZXM7IGFuZCxcblxu4pePIEJvdGggaGVhdnkgdXNlcnMgYW5kIGxpZ2h0ZXIgdXNlcnMgKHRob3NlIGNvbnN1bWluZyB0d2ljZSBhIG1vbnRoIG9yIGxlc3MpIGFyZSBsaWtlbHkgdG8gdHJ5IG5ldyBwcm9kdWN0cyB3aGVuIHNob3BwaW5nIGZvciBjYW5uYWJpcywgYXQgNzclIGFuZCA2MyUgcmVzcGVjdGl2ZWx5LlxuXG5UaGUgc3R1ZHkgcG9sbGVkIG5lYXJseSAyLDgwMCBhZHVsdCBBbWVyaWNhbnMgaW4gTWFyY2ggMjAyMi4iLCJhcnRpY2xlX3RpdGxlIjoiTWFqb3JpdHkgT2YgSGVhdnkgQ2FubmFiaXMgVXNlcnMgQXJlIFBhcmVudHMgV2l0aCBNaW5vciBDaGlsZHJlbiwgU2F5cyBOZXcgU3R1ZHkiLCJhcnRpY2xlX2F1dGhvcnMiOlsiSXJpcyBEb3JiaWFuIl0sImFydGljbGVfaW1hZ2UiOiJodHRwczovL2ltYWdlaW8uZm9yYmVzLmNvbS9zcGVjaWFscy1pbWFnZXMvaW1hZ2VzZXJ2ZS81ZjYzYWUxMzBmYjdlZmJlOGJhNjdiMjEvMHgwLmpwZz9mb3JtYXQ9anBnJndpZHRoPTEyMDAiLCJhcnRpY2xlX3B1Yl9kYXRlIjoiQXByIDIwLCAyMDIyIiwiYXJ0aWNsZV91cmwiOiJodHRwczovL3d3dy5mb3JiZXMuY29tL3NpdGVzL2lyaXNkb3JiaWFuLzIwMjIvMDQvMjAvbWFqb3JpdHktb2YtaGVhdnktY2FubmFiaXMtdXNlcnMtYXJlLXBhcmVudHMtd2l0aC1taW5vci1jaGlsZHJlbi1zYXlzLW5ldy1zdHVkeS8iLCJhcnRpY2xlX2h0bWwiOiI8ZGl2PiBcbiA8cCBjbGFzcz1cImltYWdlLWVtYmVkX19wbGFjZWhvbGRlclwiPiBcbiAgIFxuIDwvcD4gXG4gIFxuICAgXG4gICA8cCBjbGFzcz1cImNvbG9yLWJvZHkgbGlnaHQtdGV4dFwiPkEgd29tYW4gbGlnaHRzIHVwIGEgbWFyaWp1YW5hIGpvaW50PC9wPiBcbiAgIFxuICBnZXR0eSBcbiAgXG4gXG48cD5KdXN0IGluIHRpbWUgZm9yIDQvMjAsIGEgZGF5IHdoZW4gdGhlIGNhbm5hYmlzIGNvbW11bml0eSBjZWxlYnJhdGVzIGl0cyBsb3ZlIG9mIHRoZSBwbGFudCwgYSBuZXcgc3VydmV5IGZpbmRzIHRoYXQgb25lIGluIGZpdmUgQW1lcmljYW5zIGNvbnNpZGVyIHRoZW1zZWx2ZXMgXCJoZWF2eSB1c2Vycy5cIiBUaGlzIG1lYW5zIHRoZXkgc21va2UgdGhyZWUgb3IgbW9yZSB0aW1lcyBhIHdlZWsuIEFuZCwgdG8gZGlzcGVsIHRoZSBvbGQgXCJzdG9uZXJcIiBzdGVyZW90eXBlIHRoYXQgbW9zdCBoZWF2eSBjYW5uYWJpcyB1c2VycyBhcmUgeW91bmcgbWVuLCB0aGUgc3R1ZHksIGNvbmR1Y3RlZCBieSBSZWNlcHRvciBCcmFuZHMsIGEgY2FubmFiaXMtZm9jdXNlZCBjcmVhdGl2ZSBzZXJ2aWNlcyBmaXJtLCBTaXN0ZXIgTWVyY2ksIGEgQ2FuYWRpYW4gY2FubmFiaXMgbWFya2V0aW5nIGZpcm0gYW5kIFlvdUdvdiwgYSBnbG9iYWwgb3BpbmlvbiBhbmQgZGF0YSBjb21wYW55LCBhbHNvIGNvbmNsdWRlcyB0aGF0IDQzJSBvZiB0aGVtIHNlbGYtaWRlbnRpZnkgYXMgZmVtYWxlLCA1NCUgYXJlIG92ZXIgMzUsIGFuZCA1NSUgYXJlIHBhcmVudHMgb2YgY2hpbGRyZW4gdW5kZXIgMTguIDwvcD4gXG48cCBpZD1cImhhbGZ3YXlfaGFyZHdhbGxfMVwiPjwvcD4gXG48cCBjbGFzcz1cImFydGljbGVfcGFyYWdyYXBoXzJcIj48L3A+IFxuPHA+T3RoZXIgZmluZGluZ3MgaW5jbHVkZTogPC9wPiBcbjxwIGlkPVwiaGFsZndheV9oYXJkd2FsbF8yXCI+PC9wPiBcbjxwPiYjOTY3OTsgUm91Z2hseSBvbmUgaW4gZWlnaHQgKDEyJSkgQW1lcmljYW5zIGNvbnN1bWUgY2FubmFiaXMgZGFpbHkgb3IgbXVsdGlwbGUgdGltZXMgYSBkYXk7IDwvcD4gXG48cCBpZD1cImhhbGZ3YXlfaGFyZHdhbGxfM1wiPjwvcD4gXG48cD4mIzk2Nzk7IDMzJSBwZXJjZW50IG9mIGRhaWx5IGNhbm5hYmlzIHVzZXJzIGluY3JlYXNlZCB0aGVpciBjb25zdW1wdGlvbiB0byB0aGlzIHJhdGUgd2l0aGluIHRoZSBsYXN0IDEyIG1vbnRoczsgPC9wPiBcbjxwIGlkPVwiaGFsZndheV9oYXJkd2FsbF80XCI+PC9wPiBcbjxwPiYjOTY3OTsgNTAlIGFyZSBpbiBhIGNvbW1pdHRlZCByb21hbnRpYyByZWxhdGlvbnNoaXAsIGluY2x1ZGluZyAzMiUgd2hvIGFyZSBtYXJyaWVkOyA8L3A+IFxuPHAgY2xhc3M9XCJ2ZXN0cG9ja2V0XCI+PC9wPiBcbjxwPiYjOTY3OTsgNDYlIGFyZSAxOC0zNCB5ZWFycyBvbGQ7IGFuZCwgPC9wPiBcbjxwPiYjOTY3OTsgNTQlIGFyZSAzNS01NSsgeWVhcnMgb2xkLiA8L3A+IFxuIFxuPHA+RGlzY3Vzc2luZyB0aGVzZSBmaW5kaW5ncywgQWxsaXNvbiBEaXNuZXkgbm90ZWQgaW4gYSBwdWJsaWMgc3RhdGVtZW50IHRoZSBjb3VudGVyaW50dWl0aXZlIGVsZW1lbnQgdG8gdGhlc2UgZmluZGluZ3MgYXMgbW9zdCBvZiB0aGVzZSBoZWF2eSB1c2VycyBkaWQgbm90IHZpZXcgdGhlbXNlbHZlcyBhcyB0aGUgcHJvdG90eXBpY2FsIFwic3RvbmVyc1wiIG5vciBkaWQgdGhleSBhc3NvY2lhdGUgdGhlaXIgYmVoYXZpb3Igd2l0aCB0aGF0IHRyb3BlLiBcIlRoZXNlIGNvbnN1bWVycyBpbmRpY2F0ZSB0aGV5JiM4MjE3O3JlIHVzaW5nIGNhbm5hYmlzIHdlZWtseSBvciBkYWlseSBmb3IgaXRzIGZ1bmN0aW9uYWwgYmVuZWZpdHMsIHN1Y2ggYXMgcmVsYXhhdGlvbiBvciBzbGVlcCAsIGFuZCBtYW55IG9mIHRoZW0mIzgyMTI7ZXNwZWNpYWxseSBwYXJlbnRzIG9mIHlvdW5nIGNoaWxkcmVuJiM4MjEyO3N0ZXBwZWQgdXAgdGhlaXIgY29uc3VtcHRpb24gd2l0aGluIHRoZSBwYXN0IHllYXIsJiM4MjIxOyBzYWlkIERpc25leS48L3A+IFxuPHA+SW4gYWRkaXRpb24gdG8gY29uc3VtcHRpb24gZnJlcXVlbmN5LCB0aGUgc3R1ZHkgYWxzbyBmb2N1c2VkIG9uIHRoZSBoZWF2eSB1c2VyJiM4MjE3O3MgcHJlZmVyZW5jZXMgZm9yIHByb2N1cmluZyBjYW5uYWJpcywgYXMgd2VsbCBhcyB0aGUgdHlwZXMgb2YgY2FubmFiaXMgdGhleSByb3V0aW5lbHkgY29uc3VtZS4gRm9sbG93aW5nIGlzIGEgc2FtcGxpbmcgb2YgdGhlIGZpbmRpbmdzOiA8L3A+IFxuPHAgY2xhc3M9XCJhcnRpY2xlX3BhcmFncmFwaF83XCI+PC9wPiBcbjxwPiYjOTY3OTsgV2hpbGUgdGhlIG1ham9yaXR5IG9mIGhlYXZ5IHVzZXJzICg1MSUpIHB1cmNoYXNlIGZyb20gYSBsZWdhbCBkaXNwZW5zYXJ5LCAzOCUgc291cmNlIHRoZWlyIGNhbm5hYmlzIGlsbGljaXRseSAoaS5lLiwgdW5yZWd1bGF0ZWQgZGlzcGVuc2FyeSwgbWFpbCBvcmRlciwgb3IgZGVhbGVyKTsgPC9wPiBcbjxwPiYjOTY3OTsgMjYlIG9mIGhlYXZ5IHVzZXJzIHByb2N1cmUgY2FubmFiaXMgZnJvbSBhIGZyaWVuZCBvciBmYW1pbHkgbWVtYmVyJiM4MjE3O3MgaG9tZSBncm93OyA8L3A+IFxuICBcbiAgXG48cD4mIzk2Nzk7IDUzJSBvZiBoZWF2eSB1c2VycyBwcmVmZXIgdG8gY29uc3VtZSBmbG93ZXI7IDwvcD4gXG48cD4mIzk2Nzk7IDM5JSBvZiBoZWF2eSB1c2VycyBwcmVmZXIgdG8gY29uc3VtZSBlZGlibGVzOyBhbmQsIDwvcD4gXG48cD4mIzk2Nzk7IEJvdGggaGVhdnkgdXNlcnMgYW5kIGxpZ2h0ZXIgdXNlcnMgKHRob3NlIGNvbnN1bWluZyB0d2ljZSBhIG1vbnRoIG9yIGxlc3MpIGFyZSBsaWtlbHkgdG8gdHJ5IG5ldyBwcm9kdWN0cyB3aGVuIHNob3BwaW5nIGZvciBjYW5uYWJpcywgYXQgNzclIGFuZCA2MyUgcmVzcGVjdGl2ZWx5LiA8L3A+IFxuPHA+VGhlIHN0dWR5IHBvbGxlZCBuZWFybHkgMiw4MDAgYWR1bHQgQW1lcmljYW5zIGluIE1hcmNoIDIwMjIuPC9wPiBcbjxwIGNsYXNzPVwibmV3c2xldHRlcl9zaWdudXBfYXJ0aWNsZVwiPjwvcD48L2Rpdj4iLCJhcnRpY2xlX2Fic3RyYWN0IjpudWxsfQ==
+  recorded_at: Wed, 20 Apr 2022 19:41:20 GMT
+- request:
+    method: post
+    uri: https://tldrthis.p.rapidapi.com/v1/model/abstractive/summarize-url/
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+                                  "url": "https://www.foxnews.com/us/nyc-diamond-brooklyn-gambling-boss-sentenced-4-years",
+                                  "min_length": 100,
+                                  "max_length": 300,
+                                  "is_detailed": false
+                                  }
+    headers:
+      X-Rapidapi-Host:
+      - tldrthis.p.rapidapi.com
+      X-Rapidapi-Key:
+      - "<tldr_key>"
+      User-Agent:
+      - Faraday v2.2.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json
+      Date:
+      - Wed, 20 Apr 2022 19:41:20 GMT
+      Server:
+      - RapidAPI-1.2.8
+      X-Rapidapi-Region:
+      - AWS - us-east-1
+      X-Rapidapi-Version:
+      - 1.2.8
+      X-Ratelimit-Requests-Limit:
+      - '100'
+      X-Ratelimit-Requests-Remaining:
+      - '52'
+      X-Ratelimit-Requests-Reset:
+      - '2091897'
+      Content-Length:
+      - '7045'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJzdW1tYXJ5IjpbIiBBYmR1cmFtYW4gXCJEaWFtb25kXCIgSXNlbmksIDU2LCBvZiBTdGF0ZW4gSXNsYW5kLCB3YXMgdHdpY2UgY29udmljdGVkIGluIDE5OTYgZm9yIHJhY2tldGVlcmluZyBhbmQgMjAxMiBmb3IgbW9uZXkgbGF1bmRlcmluZy4gVGhlIGZvcm1lciBPbHltcGljIGhvcGVmdWwgcHJldmlvdXNseSBwbGVhZGVkIGd1aWx0eSB0byBuZXcgZmVkZXJhbCBjaGFyZ2VzIGluIGNvbm5lY3Rpb24gdG8gaGltIHJ1bm5pbmcgYW4gb3JnYW5pemVkIGNyaW1pbmFsIGdyb3VwIGNhbGxlZCB0aGUgRGlhbW9uZCBFbnRlcnByaXNlLiBIZSBvcGVyYXRlZCBhIG5ldHdvcmsgb2YgaWxsZWdhbCBnYW1ibGluZyBwYXJsb3JzIHRocm91Z2hvdXQgQnJvb2tseW4gYW5kIGhvc3RlZCB1bmRlcmdyb3VuZCBwb2tlciBnYW1lcyBhbmQgaWxsZWdhbCBzcG9ydHMgYm9va3MuIElzZW5pIHdhcyBzZW50ZW5jZWQgdG8gNTEgbW9udGhzIGluIHByaXNvbiwgYXMgd2VsbCBhcyB0aHJlZSB5ZWFycyBvZiBzdXBlcnZpc2VkIHJlbGVhc2UsIGFuZCBvcmRlcmVkIHRvIGZvcmZlaXQgJDM0OSwwMDAgYW5kIHRvIHBheSBhICQ1LDAwMCBmaW5lLiJdLCJhcnRpY2xlX3RleHQiOiJORVcgWW91IGNhbiBub3cgbGlzdGVuIHRvIEZveCBOZXdzIGFydGljbGVzIVxuXG5OZXcgWW9yayBDaXR5IFwiRGlhbW9uZCBFbnRlcnByaXNlXCIgYm9zcyBjb252aWN0ZWQgb2YgcnVubmluZyBCcm9va2x5biB1bmRlcmdyb3VuZCBnYW1ibGluZyBwYXJsb3JzIHdpdGggdGllcyB0byB0aGUgTWFmaWEgd2FzIHNlbnRlbmNlZCB0byBhbm90aGVyIGZvdXIgeWVhcnMgaW4gcHJpc29uIG9uIFR1ZXNkYXkuXG5cbkFiZHVyYW1hbiBcIkRpYW1vbmRcIiBJc2VuaSwgNTYsIG9mIFN0YXRlbiBJc2xhbmQsIHdhcyB0d2ljZSBjb252aWN0ZWQgaW4gMTk5NiBmb3IgcmFja2V0ZWVyaW5nIGFuZCAyMDEyIGZvciBtb25leSBsYXVuZGVyaW5nIGFuZCBoYXMgYWxyZWFkeSBzZXJ2ZWQgbW9yZSB0aGFuIGEgZGVjYWRlIGluIGZlZGVyYWwgcHJpc29uLiBCdXQgYWZ0ZXIgaGlzIG1vc3QgcmVjZW50IHJlbGVhc2UsIHRoYXQgZGlkIG5vdCBkaXNjb3VyYWdlIGhpbSBmcm9tIHdpZWxkaW5nIGNvbnRyb2wgb3ZlciBhIG11bHRpLXllYXIgcmFja2V0ZWVyaW5nIGVudGVycHJpc2UgZnJvbSBpbiBvciBhYm91dCAyMDE3IHRocm91Z2ggMjAyMCwgVS5TLiBBdHRvcm5leSBEYW1pYW4gV2lsbGlhbXMgYW5ub3VuY2VkIFR1ZXNkYXkuXG5cbkRPSiBUSFJFQVRFTlMgVEFLRU9WRVIgT0YgUklLRVJTIElTTEFORCwgT1RIRVIgSkFJTFMgQU1JRCDigJhFWFRSQU9SRElOQVJZIExFVkVMIE9GIFZJT0xFTkNFIEFORCBESVNPUkRFUuKAmVxuXG5UaGUgZm9ybWVyIE9seW1waWMgaG9wZWZ1bCBwcmV2aW91c2x5IHBsZWFkZWQgZ3VpbHR5IHRvIG5ldyBmZWRlcmFsIGNoYXJnZXMgaW4gY29ubmVjdGlvbiB0byBoaW0gcnVubmluZyBhbiBvcmdhbml6ZWQgY3JpbWluYWwgZ3JvdXAgY2FsbGVkIHRoZSBEaWFtb25kIEVudGVycHJpc2UgdGhhdCBvcGVyYXRlZCBhIG5ldHdvcmsgb2YgaWxsZWdhbCBnYW1ibGluZyBwYXJsb3JzIHRocm91Z2hvdXQgQnJvb2tseW4gYW5kIGhvc3RlZCB1bmRlcmdyb3VuZCBwb2tlciBnYW1lcyBhbmQgaWxsZWdhbCBzcG9ydHMgYm9va3MuXG5cblRoZSBmZWRlcmFsIGluZGljdG1lbnQgc2F5cyBJc2VuaSBvZmZlcmVkIGhpcyBwcm90ZWN0aW9uLCBjb25uZWN0aW9ucywgYW5kIHN1YnN0YW50aWFsIGluZmx1ZW5jZSBpbiB0aGUgY3JpbWluYWwgdW5kZXJ3b3JsZCB0byBvdGhlciBtZW1iZXJzIG9mIHRoZSByYWNrZXRlZXJpbmcgZW50ZXJwcmlzZSwgaW4gZXhjaGFuZ2UgZm9yIGEgc2hhcmUgb2YgdGhlaXIgaWxsZWdhbCBwcm9maXRzLiBSZXZlbnVlIGdlbmVyYXRlZCBmcm9tIHRoZSBnYW1ibGluZyBwYXJsb3JzLCBpbiB0dXJuLCB3ZXJlIGxhdW5kZXJlZCB0aHJvdWdoIGEgc2VyaWVzIG9mIGJhbmsgYWNjb3VudHMgaW4gYW4gZWZmb3J0IHRvIGNvbmNlYWwgYW5kIGZhY2lsaXRhdGUgdGhlIERpYW1vbmQgRW50ZXJwcmlzZeKAmXMgY29udGludWVkIG9wZXJhdGlvbnMuXG5cblUuUy4gRGlzdHJpY3QgSnVkZ2UgQW5kcmV3IEwuIENhcnRlciBvbiBUdWVzZGF5IHNlbnRlbmNlZCBJc2VuaSB0byA1MSBtb250aHMgaW4gcHJpc29uLCBhcyB3ZWxsIGFzIHRocmVlIHllYXJzIG9mIHN1cGVydmlzZWQgcmVsZWFzZS4gSGUgd2FzIGFsc28gb3JkZXJlZCB0byBmb3JmZWl0ICQzNDksMDAwIGFuZCB0byBwYXkgYSAkNSwwMDAgZmluZS5cblxuXCJTZXJ2aW5nIG1vcmUgdGhhbiBhIGRlY2FkZSBpbiBmZWRlcmFsIHByaXNvbiBzaG91bGQgaGF2ZSBkZW1vbnN0cmF0ZWQgdG8gQWJkdXJhbWFuIElzZW5pIHRoZSBjb25zZXF1ZW5jZXMgb2Ygc2VyaW91cyBjcmltZXMuIEJ1dCBpbnN0ZWFkLCBhZnRlciBoaXMgcmVsZWFzZSBoZSB3ZW50IGJhY2sgdG8gcmFja2V0ZWVyaW5nLCB0aHJlYXRzLCBtb25leSBsYXVuZGVyaW5nLCBhbmQgb3RoZXIgb2ZmZW5zZXMsXCIgV2lsbGlhbXMgc2FpZCBpbiBhIHN0YXRlbWVudC4gVG9kYXnigJlzIHNlbnRlbmNlIHNob3VsZCBzZW5kIGEgbWVzc2FnZSB0aGF0IHRoaXMgT2ZmaWNlIHdpbGwgbWFrZSBldmVyeSBlZmZvcnQgdG8gaG9sZCBkYW5nZXJvdXMsIHJlY2lkaXZpc3QgZmVsb25zIHRvIGFjY291bnQuXCJcblxuQ0xJQ0sgSEVSRSBUTyBHRVQgVEhFIEZPWCBORVdTIEFQUFxuXG5JbiBhZGRpdGlvbiB0byB0aGUgRGlhbW9uZCBFbnRlcnByaXNl4oCZcyBvcGVyYXRpb25zLCBJc2VuaSBzZXBhcmF0ZWx5IGFkbWl0dGVkIHRvIHRocmVhdGVuaW5nIGEgdmljdGltIHdpdGggcGh5c2ljYWwgdmlvbGVuY2UsIGluY2x1ZGluZyBhbiBpbmNpZGVudCB3aGVyZSBoZSBoZWxkIGEgZm9yayBjbG9zZSB0byBhIGNvLWRlZmVuZGFudOKAmXMgZXllIGFuZCB0aHJlYXRlbmVkIHRvIGphYiBpdCBpbiwgYW5kIGEgaG9zdCBvZiBhZGRpdGlvbmFsIGNyaW1lcywgaW5jbHVkaW5nIG1vbmV5IGxhdW5kZXJpbmcsIGJhbmsgZnJhdWQgY29uc3BpcmFjeSwgYW5kIG1ha2luZyBmYWxzZSBzdGF0ZW1lbnRzIHRvIGEgYmFuayBmb3IgdGhlIHB1cnBvc2Ugb2YgaW5kdWNpbmcgdGhlIGJhbmsgdG8gcmVsZWFzZSBmdW5kcyB0byB3aGljaCBoZSB3YXMgbm90IGVudGl0bGVkLCBhY2NvcmRpbmcgdG8gZmVkZXJhbCBwcm9zZWN1dG9ycy4iLCJhcnRpY2xlX3RpdGxlIjoiTllDICdEaWFtb25kJyBtb2IgYm9zcyBvZiB1bmRlcmdyb3VuZCBnYW1ibGluZyBwYXJsb3JzIHNlbnRlbmNlZCB0byA0IHllYXJzIiwiYXJ0aWNsZV9hdXRob3JzIjpbIkRhbmllbGxlIFdhbGxhY2UiXSwiYXJ0aWNsZV9pbWFnZSI6Imh0dHBzOi8vc3RhdGljLmZveG5ld3MuY29tL2ZveG5ld3MuY29tL2NvbnRlbnQvdXBsb2Fkcy8yMDIyLzA0L0dldHR5SW1hZ2VzLTEyMzc5ODgxMDkuanBnIiwiYXJ0aWNsZV9wdWJfZGF0ZSI6bnVsbCwiYXJ0aWNsZV91cmwiOiJodHRwczovL3d3dy5mb3huZXdzLmNvbS91cy9ueWMtZGlhbW9uZC1icm9va2x5bi1nYW1ibGluZy1ib3NzLXNlbnRlbmNlZC00LXllYXJzIiwiYXJ0aWNsZV9odG1sIjoiPGRpdj48cCBjbGFzcz1cImluZm9cIj48cCBjbGFzcz1cImxhYmVsLWJnXCI+TkVXPC9wPllvdSBjYW4gbm93IGxpc3RlbiB0byBGb3ggTmV3cyBhcnRpY2xlcyFcbiAgPC9wPjxwIGNsYXNzPVwic3BlYWthYmxlXCI+PGEgaHJlZj1cImh0dHBzOi8vd3d3LmZveG5ld3MuY29tL2NhdGVnb3J5L3VzL25ldy15b3JrLWNpdHlcIiB0YXJnZXQ9XCJfYmxhbmtcIj5OZXcgWW9yayBDaXR5PC9hPiBcIkRpYW1vbmQgRW50ZXJwcmlzZVwiIGJvc3MgY29udmljdGVkIG9mIHJ1bm5pbmcgQnJvb2tseW4gdW5kZXJncm91bmQgZ2FtYmxpbmcgcGFybG9ycyB3aXRoIHRpZXMgdG8gdGhlIE1hZmlhIHdhcyBzZW50ZW5jZWQgdG8gYW5vdGhlciBmb3VyIHllYXJzIGluIHByaXNvbiBvbiBUdWVzZGF5LiYjMTYwOzwvcD48cCBjbGFzcz1cImFkIGdhbVwiPjwvcD48cCBjbGFzcz1cImFkIGdhbVwiPjwvcD48cCBjbGFzcz1cInNwZWFrYWJsZVwiPkFiZHVyYW1hbiBcIkRpYW1vbmRcIiBJc2VuaSwgNTYsIG9mIFN0YXRlbiBJc2xhbmQsIHdhcyB0d2ljZSBjb252aWN0ZWQgaW4gMTk5NiBmb3IgcmFja2V0ZWVyaW5nIGFuZCAyMDEyIGZvciBtb25leSBsYXVuZGVyaW5nIGFuZCBoYXMgYWxyZWFkeSBzZXJ2ZWQgbW9yZSB0aGFuIGEgZGVjYWRlIGluIGZlZGVyYWwgcHJpc29uLiBCdXQgYWZ0ZXIgaGlzIG1vc3QgcmVjZW50IHJlbGVhc2UsIHRoYXQgZGlkIG5vdCBkaXNjb3VyYWdlIGhpbSBmcm9tIHdpZWxkaW5nIGNvbnRyb2wgb3ZlciBhIG11bHRpLXllYXIgcmFja2V0ZWVyaW5nIGVudGVycHJpc2UgZnJvbSBpbiBvciBhYm91dCAyMDE3IHRocm91Z2ggMjAyMCwgVS5TLiBBdHRvcm5leSBEYW1pYW4gV2lsbGlhbXMgYW5ub3VuY2VkIFR1ZXNkYXkuJiMxNjA7PC9wPjxwPjxhIGhyZWY9XCJodHRwczovL3d3dy5mb3huZXdzLmNvbS91cy9ueWMtcmlrZXJzLWlzbGFuZC1kb2otdGFrZW92ZXJcIiB0YXJnZXQ9XCJfYmxhbmtcIj48c3Ryb25nPkRPSiBUSFJFQVRFTlMgVEFLRU9WRVIgT0YgUklLRVJTIElTTEFORCwgT1RIRVIgSkFJTFMgQU1JRCAmIzgyMTY7RVhUUkFPUkRJTkFSWSBMRVZFTCBPRiBWSU9MRU5DRSBBTkQgRElTT1JERVImIzgyMTc7PC9zdHJvbmc+PC9hPjwvcD48cCBjbGFzcz1cImFkIGdhbVwiPjwvcD48cD5UaGUgZm9ybWVyIE9seW1waWMgaG9wZWZ1bCBwcmV2aW91c2x5IHBsZWFkZWQgZ3VpbHR5IHRvIG5ldyBmZWRlcmFsIGNoYXJnZXMgaW4gY29ubmVjdGlvbiB0byBoaW0gcnVubmluZyBhbiBvcmdhbml6ZWQgY3JpbWluYWwgZ3JvdXAgY2FsbGVkIHRoZSBEaWFtb25kIEVudGVycHJpc2UgdGhhdCBvcGVyYXRlZCBhIG5ldHdvcmsgb2YgaWxsZWdhbCBnYW1ibGluZyBwYXJsb3JzIHRocm91Z2hvdXQgQnJvb2tseW4gYW5kIGhvc3RlZCB1bmRlcmdyb3VuZCBwb2tlciBnYW1lcyBhbmQgaWxsZWdhbCBzcG9ydHMgYm9va3MuJiMxNjA7PC9wPjxwIGNsYXNzPVwiYWQgZ2FtXCI+PC9wPiA8aW1nIHNyYz1cImh0dHBzOi8vYTU3LmZveG5ld3MuY29tL3N0YXRpYy5mb3huZXdzLmNvbS9mb3huZXdzLmNvbS9jb250ZW50L3VwbG9hZHMvMjAyMi8wNC82NDAvMzIwL0dldHR5SW1hZ2VzLTEyMzc5ODgxMDkuanBnP3ZlPTEmYW1wO3RsPTFcIiBhbHQ9XCJBIHBlcnNvbiBpcyBob2xkaW5nIHR3byBkZXVjZXMgaW4gaGlzIGhhbmQgd2hpbGUgcGxheWluZyBwb2tlci4mIzE2MDtcIj48cD5UaGUgZmVkZXJhbCBpbmRpY3RtZW50IHNheXMgSXNlbmkgb2ZmZXJlZCBoaXMgcHJvdGVjdGlvbiwgY29ubmVjdGlvbnMsIGFuZCBzdWJzdGFudGlhbCBpbmZsdWVuY2UgaW4gdGhlIGNyaW1pbmFsIHVuZGVyd29ybGQgdG8gb3RoZXIgbWVtYmVycyBvZiB0aGUgcmFja2V0ZWVyaW5nIGVudGVycHJpc2UsIGluIGV4Y2hhbmdlIGZvciBhIHNoYXJlIG9mIHRoZWlyIGlsbGVnYWwgcHJvZml0cy4gUmV2ZW51ZSBnZW5lcmF0ZWQgZnJvbSB0aGUgZ2FtYmxpbmcgcGFybG9ycywgaW4gdHVybiwgd2VyZSBsYXVuZGVyZWQgdGhyb3VnaCBhIHNlcmllcyBvZiBiYW5rIGFjY291bnRzIGluIGFuIGVmZm9ydCB0byBjb25jZWFsIGFuZCBmYWNpbGl0YXRlIHRoZSBEaWFtb25kIEVudGVycHJpc2UmIzgyMTc7cyBjb250aW51ZWQgb3BlcmF0aW9ucy48L3A+PHAgY2xhc3M9XCJhZCBnYW1cIj48L3A+PHA+VS5TLiBEaXN0cmljdCBKdWRnZSBBbmRyZXcgTC4gQ2FydGVyIG9uIFR1ZXNkYXkgc2VudGVuY2VkIElzZW5pIHRvIDUxIG1vbnRocyBpbiBwcmlzb24sIGFzIHdlbGwgYXMgdGhyZWUgeWVhcnMgb2Ygc3VwZXJ2aXNlZCByZWxlYXNlLiBIZSB3YXMgYWxzbyBvcmRlcmVkIHRvIGZvcmZlaXQgJDM0OSwwMDAgYW5kIHRvIHBheSBhICQ1LDAwMCBmaW5lLjwvcD48cD4mIzE2MDtcIlNlcnZpbmcgbW9yZSB0aGFuIGEgZGVjYWRlIGluIGZlZGVyYWwgcHJpc29uIHNob3VsZCBoYXZlIGRlbW9uc3RyYXRlZCB0byBBYmR1cmFtYW4gSXNlbmkgdGhlIGNvbnNlcXVlbmNlcyBvZiBzZXJpb3VzIGNyaW1lcy4mIzE2MDsgQnV0IGluc3RlYWQsIGFmdGVyIGhpcyByZWxlYXNlIGhlIHdlbnQgYmFjayB0byByYWNrZXRlZXJpbmcsIHRocmVhdHMsIG1vbmV5IGxhdW5kZXJpbmcsIGFuZCBvdGhlciBvZmZlbnNlcyxcIiBXaWxsaWFtcyBzYWlkIGluIGEgc3RhdGVtZW50LiYjMTYwOyBUb2RheSYjODIxNztzIHNlbnRlbmNlIHNob3VsZCBzZW5kIGEgbWVzc2FnZSB0aGF0IHRoaXMgT2ZmaWNlIHdpbGwgbWFrZSBldmVyeSBlZmZvcnQgdG8gaG9sZCBkYW5nZXJvdXMsIHJlY2lkaXZpc3QgZmVsb25zIHRvIGFjY291bnQuXCI8L3A+PHAgY2xhc3M9XCJhZCBnYW1cIj48L3A+PHA+PGEgaHJlZj1cImh0dHBzOi8vd3d3LmZveG5ld3MuY29tL2FwcHMtcHJvZHVjdHM/cGlkPUFwcEFydGljbGVMaW5rXCIgdGFyZ2V0PVwiX2JsYW5rXCI+PHN0cm9uZz5DTElDSyBIRVJFIFRPIEdFVCBUSEUgRk9YIE5FV1MgQVBQPC9zdHJvbmc+PC9hPjwvcD48cD5JbiBhZGRpdGlvbiB0byB0aGUgRGlhbW9uZCBFbnRlcnByaXNlJiM4MjE3O3Mgb3BlcmF0aW9ucywgSXNlbmkgc2VwYXJhdGVseSBhZG1pdHRlZCB0byB0aHJlYXRlbmluZyBhIHZpY3RpbSB3aXRoIHBoeXNpY2FsIHZpb2xlbmNlLCBpbmNsdWRpbmcgYW4gaW5jaWRlbnQgd2hlcmUgaGUgaGVsZCBhIGZvcmsgY2xvc2UgdG8gYSBjby1kZWZlbmRhbnQmIzgyMTc7cyBleWUgYW5kIHRocmVhdGVuZWQgdG8gamFiIGl0IGluLCBhbmQgYSBob3N0IG9mIGFkZGl0aW9uYWwgY3JpbWVzLCBpbmNsdWRpbmcgbW9uZXkgbGF1bmRlcmluZywgYmFuayBmcmF1ZCBjb25zcGlyYWN5LCBhbmQgbWFraW5nIGZhbHNlIHN0YXRlbWVudHMgdG8gYSBiYW5rIGZvciB0aGUgcHVycG9zZSBvZiBpbmR1Y2luZyB0aGUgYmFuayB0byByZWxlYXNlIGZ1bmRzIHRvIHdoaWNoIGhlIHdhcyBub3QgZW50aXRsZWQsIGFjY29yZGluZyB0byBmZWRlcmFsIHByb3NlY3V0b3JzLiYjMTYwOzwvcD48cCBjbGFzcz1cImFkIGdhbVwiPjwvcD48L2Rpdj4iLCJhcnRpY2xlX2Fic3RyYWN0IjpudWxsfQ==
+  recorded_at: Wed, 20 Apr 2022 19:41:20 GMT
+recorded_with: VCR 6.1.0
