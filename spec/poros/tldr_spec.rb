@@ -19,8 +19,8 @@ RSpec.describe Tldr do
                     article_html: "<div><p class=\"css-g5piaz evys1bk0\">The pizza chain Papa John&#8217;s adopted a....",
                     article_abstract: nil
                   }
-  end
-
+                end
+                
   it 'will create an Article object' do 
     tldr = Tldr.new(@tldr_data, "left_bias", "nytimes")
 
@@ -31,5 +31,28 @@ RSpec.describe Tldr do
     expect(tldr.source).to eq("nytimes")
     expect(tldr.photo_url).to eq("https://static01.nyt.com/images/2022/04/15/business/15xp-poisonpill1/15xp-poisonpill1-facebookJumbo.jpg")
     expect(tldr.pub_date).to eq("Apr 15, 2022")
+  end
+                
+  it 'will create an article even if summary is nil' do 
+    bad_data = {
+                  summary: nil,
+                  article_text: nil,
+                  article_title: nil,
+                  article_authors: nil,
+                  article_image: nil,
+                  article_pub_date: nil,
+                  article_url: nil,
+                  article_html: nil,
+                  article_abstract: nil
+                }
+
+    tldr = Tldr.new(bad_data, "left_bias", "nytimes")
+
+    expect(tldr.bias).to eq("left_bias")
+    expect(tldr.source).to eq("nytimes")
+    expect(tldr.summary).to eq(nil)
+    expect(tldr.photo_url).to eq(nil)
+    expect(tldr.pub_date).to eq(nil)
+    expect(tldr.title).to eq(nil)
   end
 end
