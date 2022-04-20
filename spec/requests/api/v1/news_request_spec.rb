@@ -25,20 +25,13 @@ describe 'News API', :vcr do
         expect(response).to have_http_status(400)
       end
       
-      it 'sends 400 error code and response of most recent articles without any topic if keyword param is empty string' do 
+      it 'returns error message "invalid parameters"' do
         get '/api/v1/news?keyword='
-        
         expect(response).to have_http_status(400)
         
         json = JSON.parse(response.body, symbolize_names: true)
         
-        expect(json[:topic]).to eq("")
-        
-        json[:data].each_pair do |key, data|
-          expect(data[:title]).to_not eq("null")
-          expect(data[:title]).to_not eq("")
-          expect(data[:title]).to_not eq("nil")
-        end
+        expect(json[:error]).to eq({:message=>"invalid parameters"})  
       end
     end
     
