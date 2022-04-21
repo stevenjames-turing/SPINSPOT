@@ -20,7 +20,7 @@ workflows:
             - build
           filters:
             branches:
-              only: sequential-branch-filter
+              only: main
           post-steps:
             - run: heroku run rake db:migrate -a news-app-be
 
