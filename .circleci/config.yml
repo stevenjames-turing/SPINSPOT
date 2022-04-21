@@ -50,8 +50,10 @@ jobs:
   heroku_deploy:
     environment:
       HEROKU_APP: "news-app-be"
+    steps:
+      - checkout
+      - ruby/install-deps
       - run:
-          name: Database setup
           command: |
             git push heroku sequential-branch-filter:main
             heroku run rake db:migrate
