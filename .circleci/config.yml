@@ -52,7 +52,6 @@ jobs:
       HEROKU_APP: "news-app-be"
     steps:
       - checkout
-      - ruby/install-deps
       - run:
           command: |
             git push heroku sequential-branch-filter:main
