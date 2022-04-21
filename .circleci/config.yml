@@ -52,7 +52,12 @@ jobs:
       HEROKU_APP: "news-app-be"
     steps:
       - checkout
+      - ruby/install-deps
       - run:
+          name: Wait for DB
+          command: dockerize -wait tcp://localhost:5432 -timeout 1m
+      - run:
+          name: Database setup
           command: |
             git push heroku sequential-branch-filter:main
             heroku run rake db:migrate
