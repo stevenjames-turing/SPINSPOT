@@ -1,0 +1,68 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.mediastack.com/v1/news?access_key=<mediastack_key>&countries=us&keywords=Elon&languages=en&limit=1&sort=published_desc&sources=abc-news,cnn,guardian,nytimes
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.2.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 20 Apr 2022 20:22:26 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - no-cache, private
+      X-Request-Time:
+      - '0.058'
+      - '0.126'
+      X-Apilayer-Transaction-Id:
+      - 1b036d50-525a-45f7-b5f7-159b94dc112c
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET, POST, HEAD, OPTIONS
+      Access-Control-Allow-Headers:
+      - "*"
+      X-Quota-Limit:
+      - '500'
+      X-Quota-Remaining:
+      - '351'
+      X-Increment-Usage:
+      - '1'
+      Cf-Cache-Status:
+      - DYNAMIC
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=NFKyLRpbqeNcpw82T%2BNheHEIgV3nv6f7ni%2FSrp%2B%2BAq3%2FjNt9UV18tvBeA8qovY56YPr5RGu2qFjt8srQKiLgp%2FzeVRZ%2BVakDclhvE1jgWhgWbpcG%2FJgbX5L5ewEEU%2Fcg2BvbhP8%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 6ff09790fa5f86ec-ORD
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"pagination":{"limit":1,"offset":0,"count":1,"total":67},"data":[{"author":null,"title":"Tesla
+        shareholders try to get Elon Musk to just stop","description":"Elon Musk wants
+        everyone to believe he really did have the money secured to take Tesla private
+        back in 2018. But a group suing him over that claim say he didn\u0027t have
+        it, and that the SEC and a federal judge agree.","url":"https:\/\/www.cnn.com\/2022\/04\/19\/business\/elon-musk-judge-tweets\/index.html","source":"CNN","image":"https:\/\/cdn.cnn.com\/cnnnext\/dam\/assets\/220417134850-elon-musk-judge-tweets-false-super-169.jpg","category":"general","language":"en","country":"us","published_at":"2022-04-20T02:00:57+00:00"}]}'
+  recorded_at: Wed, 20 Apr 2022 20:22:26 GMT
+recorded_with: VCR 6.1.0

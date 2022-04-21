@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sun, 17 Apr 2022 17:42:56 GMT
+      - Tue, 19 Apr 2022 19:54:28 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -29,10 +29,10 @@ http_interactions:
       Cache-Control:
       - no-cache, private
       X-Request-Time:
-      - '0.043'
-      - '0.073'
+      - '0.054'
+      - '0.081'
       X-Apilayer-Transaction-Id:
-      - 79685751-2356-406c-ad15-c05f1e0c3ead
+      - f3ad7af2-a6f0-4e9d-a431-a50370a8f227
       Access-Control-Allow-Origin:
       - "*"
       Access-Control-Allow-Methods:
@@ -42,19 +42,19 @@ http_interactions:
       X-Quota-Limit:
       - '500'
       X-Quota-Remaining:
-      - '220'
+      - '478'
       X-Increment-Usage:
       - '1'
       Cf-Cache-Status:
       - DYNAMIC
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=R1LDWv6POa3%2FbnoVA19YCxJfcKjStTub0F9UvAPSD2JarDcwSfqiT95mKERP2kMrJkJqVILv2bXKfz08P4%2FFk7OqhG%2FPLss5K8jeU%2Bt1MmQGp3D%2BkdWX%2FzX44HiKF8%2BY%2B%2BgJy5Y%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=3M7cHgBfOHMsEBj%2F0qM37oBLzAfbfMjJUMq1oOmyb0jNPNEKjwULC7wcgaHVUTfzTT5c30NqovYrFqEkmD8Ba4aMEBZnfj%2BioMVVm3kRnXZBdt4fdaDiqApop03qeQwNLaJY%2FKY%3D"}],"group":"cf-nel","max_age":604800}'
       Nel:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Cf-Ray:
-      - 6fd6f5c8f8ab635c-ORD
+      - 6fe831372bd366dd-DFW
       Alt-Svc:
       - h3=":443"; ma=86400, h3-29=":443"; ma=86400
     body:
@@ -65,5 +65,5 @@ http_interactions:
         feature to $12,000 on January 17, Elon Musk has announced. The system remains
         in development in beta.","url":"https:\/\/www.foxnews.com\/auto\/tesla-raising-full-self-driving-price-12000","source":"FOX
         News - Lifestyle","image":"https:\/\/static.foxnews.com\/foxnews.com\/content\/uploads\/2021\/10\/SELF.jpg","category":"entertainment","language":"en","country":"us","published_at":"2022-01-10T12:17:03+00:00"}]}'
-  recorded_at: Sun, 17 Apr 2022 17:42:56 GMT
+  recorded_at: Tue, 19 Apr 2022 19:54:28 GMT
 recorded_with: VCR 6.1.0

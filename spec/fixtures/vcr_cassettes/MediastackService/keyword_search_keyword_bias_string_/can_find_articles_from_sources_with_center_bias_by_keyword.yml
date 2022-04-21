@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sun, 17 Apr 2022 17:46:28 GMT
+      - Tue, 19 Apr 2022 19:47:12 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -29,10 +29,10 @@ http_interactions:
       Cache-Control:
       - no-cache, private
       X-Request-Time:
-      - '0.052'
-      - '0.079'
+      - '0.058'
+      - '0.082'
       X-Apilayer-Transaction-Id:
-      - ed3e1b56-b004-412a-9f04-4e460749c402
+      - 2d38ee0d-4e65-40e6-b6c0-bb8f516436e0
       Access-Control-Allow-Origin:
       - "*"
       Access-Control-Allow-Methods:
@@ -42,27 +42,27 @@ http_interactions:
       X-Quota-Limit:
       - '500'
       X-Quota-Remaining:
-      - '213'
+      - '484'
       X-Increment-Usage:
       - '1'
       Cf-Cache-Status:
       - DYNAMIC
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=8bzGX3yMk7T323r1GVhUHiURhLlglANU7%2BeE9gyKr2%2B0X7vg7Pcve8fhp%2Ff%2FuAPGJwkQoKBxr4i7IDSRaVB7FISMgsXT9ij6H8MdwETHuZBctfvqe1qJxRMRgjbX2wNpIkgyDrs%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=n%2FfMZ5AqvugeT0ISdhOwAp%2BPGKKQ6s%2FsCC1lfLGLOf68sBVKoQMOnMhaoNGSXQU48EZwkCxbIlmO4VDUPhe5o1choO%2B2QGy9hz7IVWrwR4nppTkLJ0l3D7WuCYRofAKFaJJgHw4%3D"}],"group":"cf-nel","max_age":604800}'
       Nel:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Cf-Ray:
-      - 6fd6faf64bdf2d82-ORD
+      - 6fe826947bfd2fbd-DFW
       Alt-Svc:
       - h3=":443"; ma=86400, h3-29=":443"; ma=86400
     body:
       encoding: ASCII-8BIT
-      string: '{"pagination":{"limit":1,"offset":0,"count":1,"total":166},"data":[{"author":"Shiyin
-        Chen","title":"Twitter Board\u2019s Interest Not Aligned With Holders, Musk
-        Says","description":"Twitter Board\u2019s Interest Not Aligned With Holders,
-        Musk Says","url":"https:\/\/www.bloombergquint.com\/business\/twitter-board-s-economic-interest-not-aligned-with-holders-musk","source":"Bloomberg
-        | Latest And Live Business","image":null,"category":"business","language":"en","country":"us","published_at":"2022-04-17T05:29:05+00:00"}]}'
-  recorded_at: Sun, 17 Apr 2022 17:46:28 GMT
+      string: '{"pagination":{"limit":1,"offset":0,"count":1,"total":173},"data":[{"author":null,"title":"National
+        Urban League urges Twitter to reject Elon Musk\u0027s bid over civil rights
+        concerns","description":"Musk hopes to transform Twitter with few free speech
+        restrictions, a move that could threaten civil rights, the National Urban
+        League said.","url":"https:\/\/www.cnbc.com\/2022\/04\/19\/national-urban-league-urges-twitter-to-reject-musk-bid.html","source":"CNBC","image":null,"category":"general","language":"en","country":"us","published_at":"2022-04-19T17:09:24+00:00"}]}'
+  recorded_at: Tue, 19 Apr 2022 19:47:12 GMT
 recorded_with: VCR 6.1.0

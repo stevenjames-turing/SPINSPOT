@@ -5,9 +5,17 @@ class Tldr
     @bias = bias
     @source = source
     @title = tldr_data[:article_title]
-    @summary = tldr_data[:summary]
+    @summary = !tldr_data[:summary].nil? ? single_string_summary(tldr_data[:summary]) : tldr_data[:summary]
     @url = tldr_data[:article_url]
     @photo_url = tldr_data[:article_image]
     @pub_date = tldr_data[:article_pub_date]
+  end
+
+  def single_string_summary(summary)
+    summary_string = ""
+    summary.each do |string|
+      summary_string << "#{string.lstrip} "
+    end
+    summary_string.gsub('\n', '')
   end
 end

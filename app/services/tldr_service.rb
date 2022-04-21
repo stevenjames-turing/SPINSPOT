@@ -9,7 +9,7 @@ class TldrService
     response = conn.post('https://tldrthis.p.rapidapi.com/v1/model/abstractive/summarize-url/') do |req|
       req.body = "{
                           \"url\": \"#{article_url}\",
-                          \"min_length\": 100,
+                          \"min_length\": 200,
                           \"max_length\": 300,
                           \"is_detailed\": false
                           }"

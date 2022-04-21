@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sun, 17 Apr 2022 17:42:55 GMT
+      - Tue, 19 Apr 2022 19:54:27 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -29,10 +29,10 @@ http_interactions:
       Cache-Control:
       - no-cache, private
       X-Request-Time:
-      - '0.060'
-      - '0.108'
+      - '0.062'
+      - '0.089'
       X-Apilayer-Transaction-Id:
-      - d8450730-425b-489a-b0ab-a2dc4f978f7c
+      - 3d877bff-399c-4279-a2f3-536cac94b14e
       Access-Control-Allow-Origin:
       - "*"
       Access-Control-Allow-Methods:
@@ -42,27 +42,28 @@ http_interactions:
       X-Quota-Limit:
       - '500'
       X-Quota-Remaining:
-      - '224'
+      - '481'
       X-Increment-Usage:
       - '1'
       Cf-Cache-Status:
       - DYNAMIC
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=JVvB9alHL%2FwVnx3xiIIVrB5QD%2BHndStZkr9J9%2FZSUTv0yOS7eHsTOU7U7gWluaPC%2BhA2QX13hB9EnALpCYZ408H9Y2%2BIZqzn%2BHcnNgH%2BNoigjLHFFT%2FIACiqb53Dd1Uv3bbPDFg%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=TP7uGT0IOwU1QZMnSxpBJvH3z9pJPKGWJVk5VafSaJEhjcNvb9n%2Bf31g1zJfYP3HAH6xB8fPUJpe1%2BqdZkKzHevSZ6yogOCGgG0oo74k4GyJDiDWtX0kdnxyzwE6WXSoqN85TFk%3D"}],"group":"cf-nel","max_age":604800}'
       Nel:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Cf-Ray:
-      - 6fd6f5c3098e296e-ORD
+      - 6fe831322df2aa4c-DFW
       Alt-Svc:
       - h3=":443"; ma=86400, h3-29=":443"; ma=86400
     body:
       encoding: ASCII-8BIT
-      string: '{"pagination":{"limit":1,"offset":0,"count":1,"total":60},"data":[{"author":null,"title":"Twitter
-        adopts \u0027poison pill\u0027 measure that could thwart Elon Musk\u0027s
-        takeover bid","description":"Twitter\u0027s board of directors has adopted
-        a limited-term shareholder rights plan called a \u0022poison pill\u0022 that
-        could make it harder for Elon Musk to acquire the company.","url":"https:\/\/www.cnn.com\/2022\/04\/15\/tech\/twitter-elon-musk-poison-pill\/index.html","source":"CNN","image":"https:\/\/cdn.cnn.com\/cnnnext\/dam\/assets\/220415072137-04-elon-musk-ted-0414-super-169.jpg","category":"general","language":"en","country":"us","published_at":"2022-04-15T20:31:15+00:00"}]}'
-  recorded_at: Sun, 17 Apr 2022 17:42:55 GMT
+      string: '{"pagination":{"limit":1,"offset":0,"count":1,"total":65},"data":[{"author":null,"title":"Shareholders
+        await Musk\u0027s next move in Twitter takeover bid","description":"Twitter
+        has dropped a major roadblock in front of Elon Musk\u0026rsquo;s effort to
+        take over the company, leaving investors to wonder about the mercurial Tesla
+        CEO\u0026rsquo;s next move","url":"https:\/\/abcnews.go.com\/Technology\/wireStory\/shareholders-await-musks-move-twitter-takeover-bid-84154620","source":"ABC
+        News","image":"https:\/\/s.abcnews.com\/images\/Technology\/WireAP_be9ad0760e034d2ba15f9a0b995769bc_4x3_384.jpg","category":"general","language":"en","country":"us","published_at":"2022-04-19T05:08:25+00:00"}]}'
+  recorded_at: Tue, 19 Apr 2022 19:54:27 GMT
 recorded_with: VCR 6.1.0

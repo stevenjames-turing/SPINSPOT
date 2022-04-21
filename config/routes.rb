@@ -6,4 +6,6 @@ Rails.application.routes.draw do
       resources :news, only: [:index]
     end
   end
+
+  get '/', to: 'static#index', as: 'root'
 end

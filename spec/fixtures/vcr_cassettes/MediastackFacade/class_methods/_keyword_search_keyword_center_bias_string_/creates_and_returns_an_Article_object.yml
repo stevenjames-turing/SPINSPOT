@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sun, 17 Apr 2022 17:42:55 GMT
+      - Wed, 20 Apr 2022 20:22:27 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -29,10 +29,10 @@ http_interactions:
       Cache-Control:
       - no-cache, private
       X-Request-Time:
-      - '0.041'
-      - '0.064'
+      - '0.070'
+      - '0.100'
       X-Apilayer-Transaction-Id:
-      - d9bd04e2-84d2-4c9b-8290-353abc53f2e0
+      - 9c4a43c1-170a-4d03-8b76-7196dc7d3445
       Access-Control-Allow-Origin:
       - "*"
       Access-Control-Allow-Methods:
@@ -42,28 +42,26 @@ http_interactions:
       X-Quota-Limit:
       - '500'
       X-Quota-Remaining:
-      - '222'
+      - '350'
       X-Increment-Usage:
       - '1'
       Cf-Cache-Status:
       - DYNAMIC
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=hwYkiJYePiTqin%2BcpXNfKejH2xgkoCJe%2FePL3KQDMlPLW%2B6OHYun43kOzOQwnpSVHz6KObBJg2K9yE0%2BuAYyoGGouoqeN%2Fq9asM4tq5NVze%2F%2B66tfP1L5iZLlZ1sGWNvHvTt%2FJ4%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=mMtgBDjEeH6GK3zTuYOlYl2mZAZ1HmROwMQ%2BL%2B0foCsTu1d8WUU%2BOsq8tjCGEK8Qb1c6la2vpFCCQowGFMG%2FTVnZ58c1RZ2fT1v1OGEGREjElFJUbr7A8hx338SNwde%2BLWhLlRw%3D"}],"group":"cf-nel","max_age":604800}'
       Nel:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Cf-Ray:
-      - 6fd6f5c63a6b2c68-ORD
+      - 6ff0979329896363-ORD
       Alt-Svc:
       - h3=":443"; ma=86400, h3-29=":443"; ma=86400
     body:
       encoding: ASCII-8BIT
-      string: '{"pagination":{"limit":1,"offset":0,"count":1,"total":117},"data":[{"author":null,"title":"Elon
-        Musk \u2018funding secured\u2019 tweets ruled false new court filing suggests","description":"A
-        court filing out Friday suggests a judge ruled that CEO Elon Musk knowingly
-        made false statements when he tweeted about a take-private deal for Tesla
-        in 2018.","url":"https:\/\/www.cnbc.com\/2022\/04\/16\/elon-musk-funding-secured-tweets-ruled-false-new-court-filing-suggests.html","source":"Cnbc
-        | World Business News Leader","image":null,"category":"business","language":"en","country":"us","published_at":"2022-04-16T21:47:00+00:00"}]}'
-  recorded_at: Sun, 17 Apr 2022 17:42:55 GMT
+      string: '{"pagination":{"limit":1,"offset":0,"count":1,"total":127},"data":[{"author":"Dani
+        Di Placido, Senior Contributor","title":"Elon Musk Dismisses Netflix As \u2018Woke\u2019
+        And \u2018Unwatchable\u2019","description":"Following Netflix\u2019s subscriber
+        loss, Elon Musk trolled the streaming giant on Twitter.","url":"https:\/\/www.forbes.com\/sites\/danidiplacido\/2022\/04\/20\/elon-musk-dismisses-netflix-as-woke-and-unwatchable\/","source":"Forbes","image":"https:\/\/thumbor.forbes.com\/thumbor\/fit-in\/0x0\/filters%3Aformat%28jpg%29\/https:\/\/specials-images.forbesimg.com\/imageserve\/5ec2be2dbe5e8b00064d7e12\/0x0.jpg","category":"general","language":"en","country":"us","published_at":"2022-04-20T18:32:22+00:00"}]}'
+  recorded_at: Wed, 20 Apr 2022 20:22:27 GMT
 recorded_with: VCR 6.1.0

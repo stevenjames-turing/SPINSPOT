@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sun, 17 Apr 2022 17:42:56 GMT
+      - Tue, 19 Apr 2022 19:54:28 GMT
       Content-Type:
       - application/json
       Transfer-Encoding:
@@ -29,10 +29,10 @@ http_interactions:
       Cache-Control:
       - no-cache, private
       X-Request-Time:
-      - '0.045'
-      - '0.070'
+      - '0.071'
+      - '0.099'
       X-Apilayer-Transaction-Id:
-      - 156e2643-b4cc-478d-8d71-ddfa24688c41
+      - 24959021-7c7f-4a8f-b5d9-ca2746fdb319
       Access-Control-Allow-Origin:
       - "*"
       Access-Control-Allow-Methods:
@@ -42,19 +42,19 @@ http_interactions:
       X-Quota-Limit:
       - '500'
       X-Quota-Remaining:
-      - '219'
+      - '477'
       X-Increment-Usage:
       - '1'
       Cf-Cache-Status:
       - DYNAMIC
       Report-To:
-      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=mourxoLIDFONdkypzeoZccN75Sfjt0iP0QL0QQXVMDr55iUFYU78UQElIF1u73z0hEFMdnLch%2BNUiVvX2YM0amDgT%2FBGDQm2KCHMtO0UPr%2BfwVHVRxdRnUK3Mw4F7W41rze7zDs%3D"}],"group":"cf-nel","max_age":604800}'
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=ZIZoMOuUMnmJzHR1Tf00EEv3LSYBQkgOWFLIqIl5LtKx030xrVS3skaMacV8KsWNjVGP5JJDC%2Bn2bpq7QC84Cl01LlkjzHe32x4ZJYZPcLh9qABjkpEztvFkFomKj22Flf2EMB4%3D"}],"group":"cf-nel","max_age":604800}'
       Nel:
       - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
       Server:
       - cloudflare
       Cf-Ray:
-      - 6fd6f5ca29702c80-ORD
+      - 6fe8313879c82848-DFW
       Alt-Svc:
       - h3=":443"; ma=86400, h3-29=":443"; ma=86400
     body:
@@ -65,5 +65,5 @@ http_interactions:
         feature to $12,000 on January 17, Elon Musk has announced. The system remains
         in development in beta.","url":"https:\/\/www.foxnews.com\/auto\/tesla-raising-full-self-driving-price-12000","source":"FOX
         News - Lifestyle","image":"https:\/\/static.foxnews.com\/foxnews.com\/content\/uploads\/2021\/10\/SELF.jpg","category":"entertainment","language":"en","country":"us","published_at":"2022-01-10T12:17:03+00:00"}]}'
-  recorded_at: Sun, 17 Apr 2022 17:42:56 GMT
+  recorded_at: Tue, 19 Apr 2022 19:54:28 GMT
 recorded_with: VCR 6.1.0
