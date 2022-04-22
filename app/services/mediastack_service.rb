@@ -28,7 +28,7 @@ class MediastackService
         when "right_bias"
           faraday.params['sources'] = "foxnews,breitbart"
         else
-          faraday.params['sources'] = nil
+          faraday.params['sources'] = "nil"
       end
 
       faraday.params['languages'] = "en"
