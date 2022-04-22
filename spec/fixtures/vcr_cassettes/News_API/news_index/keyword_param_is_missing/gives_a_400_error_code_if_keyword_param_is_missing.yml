@@ -1,0 +1,343 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.mediastack.com/v1/news?access_key=<mediastack_key>&countries=us&keywords=&languages=en&limit=1&sort=published_desc&sources=abc-news,cnn,guardian,nytimes
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.2.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 22 Apr 2022 06:22:43 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - no-cache, private
+      X-Request-Time:
+      - '0.077'
+      - '0.110'
+      X-Apilayer-Transaction-Id:
+      - edea3bc1-5542-42d0-83c5-85f076a9e653
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET, POST, HEAD, OPTIONS
+      Access-Control-Allow-Headers:
+      - "*"
+      X-Quota-Limit:
+      - '500'
+      X-Quota-Remaining:
+      - '399'
+      X-Increment-Usage:
+      - '1'
+      Cf-Cache-Status:
+      - DYNAMIC
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=qc7W7XHVqUzndM%2F1nXTQa%2Fdjy1NI6fVRUImu6rSgyM4BCdkxqVNXOpltWX1RnQXGFA085F1ChAGBv5JjM9zdM997KVg188MvV6bZ1CD5fCpfVohQ0KF0zppxGDcha6lryBLVjeE%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 6ffc4441daefaa67-DFW
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"pagination":{"limit":1,"offset":0,"count":1,"total":10000},"data":[{"author":null,"title":"Civil
+        rights leader Rev. Al Sharpton to deliver the eulogy at funeral of Patrick
+        Lyoya, who was fatally shot by Michigan police","description":"The family
+        of Patrick Lyoya, a Black man who was fatally shot by a Michigan police officer
+        during a traffic stop earlier this month, has asked civil rights leader Rev.
+        Al Sharpton to deliver the eulogy during their son\u0027s funeral Friday.","url":"https:\/\/www.cnn.com\/2022\/04\/22\/us\/al-sharpton-delivers-eulogy-at-patrick-lyoya-funeral\/index.html","source":"CNN","image":"https:\/\/cdn.cnn.com\/cnnnext\/dam\/assets\/220414115739-patrick-lyoya-super-169.jpg","category":"general","language":"en","country":"us","published_at":"2022-04-22T05:10:16+00:00"}]}'
+  recorded_at: Fri, 22 Apr 2022 06:22:44 GMT
+- request:
+    method: get
+    uri: http://api.mediastack.com/v1/news?access_key=<mediastack_key>&countries=us&keywords=&languages=en&limit=1&sort=published_desc&sources=bloomberg,cnbc,forbes,npr-national-public-radio,reuters
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.2.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 22 Apr 2022 06:22:44 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - no-cache, private
+      X-Request-Time:
+      - '0.060'
+      - '0.084'
+      X-Apilayer-Transaction-Id:
+      - 3b93b6b9-b524-473d-913d-a01eb2e6e1ea
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET, POST, HEAD, OPTIONS
+      Access-Control-Allow-Headers:
+      - "*"
+      X-Quota-Limit:
+      - '500'
+      X-Quota-Remaining:
+      - '398'
+      X-Increment-Usage:
+      - '1'
+      Cf-Cache-Status:
+      - DYNAMIC
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=seWwjWLsNdbI1LY84OMK0UACfOgiIULA9vZlrILW%2FyJhC3cUrbkmpYeNtljHulucrRsqruwvmabpyGzNfAqjVAV6XxLpFwkM9jNEJBvfZBS%2F495QpASqwE6CeWg4RSlCPyahmIQ%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 6ffc44466ab98175-DFW
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"pagination":{"limit":1,"offset":0,"count":1,"total":10000},"data":[{"author":"ICICI
+        Securities","title":"Balkrishna Industries - Industry Export Trends Remain
+        Robust: ICICI Securities","description":"Balkrishna Industries - Industry
+        Export Trends Remain Robust: ICICI Securities","url":"https:\/\/www.bloombergquint.com\/research-reports\/balkrishna-industries-industry-export-trends-remain-robust-icici-securities","source":"Bloomberg
+        | Latest And Live Business","image":null,"category":"business","language":"en","country":"us","published_at":"2022-04-22T05:46:46+00:00"}]}'
+  recorded_at: Fri, 22 Apr 2022 06:22:44 GMT
+- request:
+    method: get
+    uri: http://api.mediastack.com/v1/news?access_key=<mediastack_key>&countries=us&keywords=&languages=en&limit=1&sort=published_desc&sources=foxnews,breitbart
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.2.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 22 Apr 2022 06:22:44 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - no-cache, private
+      X-Request-Time:
+      - '0.070'
+      - '0.100'
+      X-Apilayer-Transaction-Id:
+      - c349e193-44db-4c6e-82d8-5f2424936393
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET, POST, HEAD, OPTIONS
+      Access-Control-Allow-Headers:
+      - "*"
+      X-Quota-Limit:
+      - '500'
+      X-Quota-Remaining:
+      - '397'
+      X-Increment-Usage:
+      - '1'
+      Cf-Cache-Status:
+      - DYNAMIC
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=scBze4bviIZg9x%2B2wCWRfTvwcbPpswaEzhl5myhx%2Bn2I%2BO%2FRUWZFQa2hyLw50cx0kwZxwzDVnnRXHDvl%2FRgXY87CWdk2HS0CCSl%2F%2Bud%2B%2F501lvZxmY%2Bw18S9pQFZ5sBiYjdZtJY%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 6ffc444918feaa85-DFW
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"pagination":{"limit":1,"offset":0,"count":1,"total":3008},"data":[{"author":"Paul
+        Best","title":"B1-B Lancer catches fire at Dyess Air Force Base, two people
+        injured","description":"A B-1B Lancer caught fire during engine maintenance
+        at Dyess Air Force Base in Central Texas on Wednesday evening.","url":"https:\/\/www.foxnews.com\/us\/b1-b-lancer-catches-fire-at-dyess-air-force-base-two-people-injured","source":"FOX
+        News - Most Popular","image":"https:\/\/static.foxnews.com\/foxnews.com\/content\/uploads\/2020\/11\/AirForce-B1-Hypersonic.jpg","category":"general","language":"en","country":"us","published_at":"2022-04-21T20:35:45+00:00"}]}'
+  recorded_at: Fri, 22 Apr 2022 06:22:44 GMT
+- request:
+    method: post
+    uri: https://tldrthis.p.rapidapi.com/v1/model/extractive/summarize-url/
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+                          "url": "https://www.cnn.com/2022/04/22/us/al-sharpton-delivers-eulogy-at-patrick-lyoya-funeral/index.html",
+                          "num_sentences": 5,
+                          "is_detailed": false
+                          }
+    headers:
+      X-Rapidapi-Host:
+      - tldrthis.p.rapidapi.com
+      X-Rapidapi-Key:
+      - "<tldr_key>"
+      User-Agent:
+      - Faraday v2.2.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 429
+      message: Too Many Requests
+    headers:
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 22 Apr 2022 06:22:44 GMT
+      Server:
+      - RapidAPI-1.2.8
+      X-Rapidapi-Proxy-Response:
+      - 'true'
+      X-Rapidapi-Region:
+      - AWS - us-west-2
+      X-Rapidapi-Version:
+      - 1.2.8
+      Content-Length:
+      - '99'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"message":"You have exceeded the rate limit per minute for your plan,
+        BASIC, by the API provider"}'
+  recorded_at: Fri, 22 Apr 2022 06:22:44 GMT
+- request:
+    method: post
+    uri: https://tldrthis.p.rapidapi.com/v1/model/extractive/summarize-url/
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+                          "url": "https://www.bloombergquint.com/research-reports/balkrishna-industries-industry-export-trends-remain-robust-icici-securities",
+                          "num_sentences": 5,
+                          "is_detailed": false
+                          }
+    headers:
+      X-Rapidapi-Host:
+      - tldrthis.p.rapidapi.com
+      X-Rapidapi-Key:
+      - "<tldr_key>"
+      User-Agent:
+      - Faraday v2.2.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 429
+      message: Too Many Requests
+    headers:
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 22 Apr 2022 06:22:45 GMT
+      Server:
+      - RapidAPI-1.2.8
+      X-Rapidapi-Proxy-Response:
+      - 'true'
+      X-Rapidapi-Region:
+      - AWS - us-west-2
+      X-Rapidapi-Version:
+      - 1.2.8
+      Content-Length:
+      - '99'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"message":"You have exceeded the rate limit per minute for your plan,
+        BASIC, by the API provider"}'
+  recorded_at: Fri, 22 Apr 2022 06:22:45 GMT
+- request:
+    method: post
+    uri: https://tldrthis.p.rapidapi.com/v1/model/extractive/summarize-url/
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+                          "url": "https://www.foxnews.com/us/b1-b-lancer-catches-fire-at-dyess-air-force-base-two-people-injured",
+                          "num_sentences": 5,
+                          "is_detailed": false
+                          }
+    headers:
+      X-Rapidapi-Host:
+      - tldrthis.p.rapidapi.com
+      X-Rapidapi-Key:
+      - "<tldr_key>"
+      User-Agent:
+      - Faraday v2.2.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 429
+      message: Too Many Requests
+    headers:
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 22 Apr 2022 06:22:45 GMT
+      Server:
+      - RapidAPI-1.2.8
+      X-Rapidapi-Proxy-Response:
+      - 'true'
+      X-Rapidapi-Region:
+      - AWS - us-west-2
+      X-Rapidapi-Version:
+      - 1.2.8
+      Content-Length:
+      - '99'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"message":"You have exceeded the rate limit per minute for your plan,
+        BASIC, by the API provider"}'
+  recorded_at: Fri, 22 Apr 2022 06:22:45 GMT
+recorded_with: VCR 6.1.0

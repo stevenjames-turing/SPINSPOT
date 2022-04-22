@@ -1,6 +1,7 @@
 class Api::V1::NewsController < ApplicationController
 
   def index
+      # Checking if Keyword is empty/nil is done on frontend, currently breaks service if check is on backend
       get_tldr_summaries(params[:keyword])
       json_response(ArticleSummarySerializer.article_summary_json(params[:keyword], @left_bias_tldr, @center_bias_tldr, @right_bias_tldr))
   end

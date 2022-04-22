@@ -1,0 +1,537 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://api.mediastack.com/v1/news?access_key=<mediastack_key>&countries=us&keywords=&languages=en&limit=1&sort=published_desc&sources=abc-news,cnn,guardian,nytimes
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.2.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 22 Apr 2022 06:22:28 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - no-cache, private
+      X-Request-Time:
+      - '0.059'
+      - '0.085'
+      X-Apilayer-Transaction-Id:
+      - '09a61147-0afa-4af7-adaf-b6e556233402'
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET, POST, HEAD, OPTIONS
+      Access-Control-Allow-Headers:
+      - "*"
+      X-Quota-Limit:
+      - '500'
+      X-Quota-Remaining:
+      - '405'
+      X-Increment-Usage:
+      - '1'
+      Cf-Cache-Status:
+      - DYNAMIC
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=ju5OLfbCWfkwcRPAZrBiSLzWP5xGQ9y%2F0VUaufElfWrFGImHMk2jTPf3Xj0if1X919eBxspxouIPJs1JCnWsjfZCcvdApf22vZApD7gXDKicrc6OsyWPx7XrUqhzlmq%2Bn%2F547BE%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 6ffc43e449b1aa2e-DFW
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"pagination":{"limit":1,"offset":0,"count":1,"total":10000},"data":[{"author":null,"title":"Civil
+        rights leader Rev. Al Sharpton to deliver the eulogy at funeral of Patrick
+        Lyoya, who was fatally shot by Michigan police","description":"The family
+        of Patrick Lyoya, a Black man who was fatally shot by a Michigan police officer
+        during a traffic stop earlier this month, has asked civil rights leader Rev.
+        Al Sharpton to deliver the eulogy during their son\u0027s funeral Friday.","url":"https:\/\/www.cnn.com\/2022\/04\/22\/us\/al-sharpton-delivers-eulogy-at-patrick-lyoya-funeral\/index.html","source":"CNN","image":"https:\/\/cdn.cnn.com\/cnnnext\/dam\/assets\/220414115739-patrick-lyoya-super-169.jpg","category":"general","language":"en","country":"us","published_at":"2022-04-22T05:10:16+00:00"}]}'
+  recorded_at: Fri, 22 Apr 2022 06:22:29 GMT
+- request:
+    method: get
+    uri: http://api.mediastack.com/v1/news?access_key=<mediastack_key>&countries=us&keywords=&languages=en&limit=1&sort=published_desc&sources=bloomberg,cnbc,forbes,npr-national-public-radio,reuters
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.2.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 22 Apr 2022 06:22:29 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - no-cache, private
+      X-Request-Time:
+      - '0.069'
+      - '0.096'
+      X-Apilayer-Transaction-Id:
+      - 1327cac8-062a-4c2c-9c0b-c8a77fd21f20
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET, POST, HEAD, OPTIONS
+      Access-Control-Allow-Headers:
+      - "*"
+      X-Quota-Limit:
+      - '500'
+      X-Quota-Remaining:
+      - '404'
+      X-Increment-Usage:
+      - '1'
+      Cf-Cache-Status:
+      - DYNAMIC
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=PKBTkBk8lDdPmpoJnYZS8LwTTeb10ns67R1twmy6Cgl9RUchMqiSlmIw%2BEbr%2BAdod2TCjWTAE1BF9TtpnTGs2YRHiTFCziLUUFA7o9JNG7PSszK8C5kNfgajUvScxHAFr24d4So%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 6ffc43e82c389eb2-DFW
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"pagination":{"limit":1,"offset":0,"count":1,"total":10000},"data":[{"author":"ICICI
+        Securities","title":"Balkrishna Industries - Industry Export Trends Remain
+        Robust: ICICI Securities","description":"Balkrishna Industries - Industry
+        Export Trends Remain Robust: ICICI Securities","url":"https:\/\/www.bloombergquint.com\/research-reports\/balkrishna-industries-industry-export-trends-remain-robust-icici-securities","source":"Bloomberg
+        | Latest And Live Business","image":null,"category":"business","language":"en","country":"us","published_at":"2022-04-22T05:46:46+00:00"}]}'
+  recorded_at: Fri, 22 Apr 2022 06:22:29 GMT
+- request:
+    method: get
+    uri: http://api.mediastack.com/v1/news?access_key=<mediastack_key>&countries=us&keywords=&languages=en&limit=1&sort=published_desc&sources=foxnews,breitbart
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.2.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 22 Apr 2022 06:22:29 GMT
+      Content-Type:
+      - application/json
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Cache-Control:
+      - no-cache, private
+      X-Request-Time:
+      - '0.055'
+      - '0.094'
+      X-Apilayer-Transaction-Id:
+      - 103705d0-b05b-44bb-b3f5-bc0753c435a4
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Allow-Methods:
+      - GET, POST, HEAD, OPTIONS
+      Access-Control-Allow-Headers:
+      - "*"
+      X-Quota-Limit:
+      - '500'
+      X-Quota-Remaining:
+      - '403'
+      X-Increment-Usage:
+      - '1'
+      Cf-Cache-Status:
+      - DYNAMIC
+      Report-To:
+      - '{"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=d1hP8ZeXu9eikiXB%2BwnP7EjQWLwSk%2Fuqy5UAdb5tlri6zEknBsg3hp08E8kRiRjxKYfR3fPLNd3Q0MhC%2Fh0TJTxjGrDShjMj2vQI6XOjti4U%2BJY%2FPg%2Brbwk4eD1evPV13I%2F%2B7DY%3D"}],"group":"cf-nel","max_age":604800}'
+      Nel:
+      - '{"success_fraction":0,"report_to":"cf-nel","max_age":604800}'
+      Server:
+      - cloudflare
+      Cf-Ray:
+      - 6ffc43ebcc5828dd-DFW
+      Alt-Svc:
+      - h3=":443"; ma=86400, h3-29=":443"; ma=86400
+    body:
+      encoding: ASCII-8BIT
+      string: '{"pagination":{"limit":1,"offset":0,"count":1,"total":3008},"data":[{"author":"Paul
+        Best","title":"B1-B Lancer catches fire at Dyess Air Force Base, two people
+        injured","description":"A B-1B Lancer caught fire during engine maintenance
+        at Dyess Air Force Base in Central Texas on Wednesday evening.","url":"https:\/\/www.foxnews.com\/us\/b1-b-lancer-catches-fire-at-dyess-air-force-base-two-people-injured","source":"FOX
+        News - Most Popular","image":"https:\/\/static.foxnews.com\/foxnews.com\/content\/uploads\/2020\/11\/AirForce-B1-Hypersonic.jpg","category":"general","language":"en","country":"us","published_at":"2022-04-21T20:35:45+00:00"}]}'
+  recorded_at: Fri, 22 Apr 2022 06:22:29 GMT
+- request:
+    method: post
+    uri: https://tldrthis.p.rapidapi.com/v1/model/extractive/summarize-url/
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+                          "url": "https://www.cnn.com/2022/04/22/us/al-sharpton-delivers-eulogy-at-patrick-lyoya-funeral/index.html",
+                          "num_sentences": 5,
+                          "is_detailed": false
+                          }
+    headers:
+      X-Rapidapi-Host:
+      - tldrthis.p.rapidapi.com
+      X-Rapidapi-Key:
+      - "<tldr_key>"
+      User-Agent:
+      - Faraday v2.2.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 22 Apr 2022 06:22:31 GMT
+      Server:
+      - RapidAPI-1.2.8
+      X-Rapidapi-Region:
+      - AWS - us-west-2
+      X-Rapidapi-Version:
+      - 1.2.8
+      X-Ratelimit-Requests-Limit:
+      - '100'
+      X-Ratelimit-Requests-Remaining:
+      - '66'
+      X-Ratelimit-Requests-Reset:
+      - '2025139'
+      Content-Length:
+      - '10099'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"summary":["(CNN)The family of Patrick Lyoya, a Black man who was
+        fatally shot by a Michigan police officer during a traffic stop earlier this
+        month, has asked civil rights leader Rev. Al Sharpton to deliver the eulogy
+        during their son''s funeral Friday.","This week, Lyoya''s family announced
+        through their attorney, Ben Crump, that the funeral will be held at 11 a.m.
+        ET at the Renaissance Church of God in Christ in Grand Rapids, Michigan, according
+        to a joint release from Crump and the National Action Network (NAN).","An
+        autopsy commissioned by Lyoya''s family shows he was shot in the back of the
+        head by the Grand Rapids officer, who has not been publicly identified.","The
+        footage released by the police department begins with the officer walking
+        toward the car, CNN previously reported.","Video shows Lyoya getting up and
+        standing, the officer drawing and then deploying a Taser, though police say
+        the prongs didn''t hit Lyoya.","CNN''s Peter Nickeas contributed to this report."],"article_text":"(CNN)The
+        family of Patrick Lyoya, a Black man who was fatally shot by a Michigan police
+        officer during a traffic stop earlier this month, has asked civil rights leader
+        Rev. Al Sharpton to deliver the eulogy during their son''s funeral Friday.\nThis
+        week, Lyoya''s family announced through their attorney, Ben Crump, that the
+        funeral will be held at 11 a.m. ET at the Renaissance Church of God in Christ
+        in Grand Rapids, Michigan, according to a joint release from Crump and the
+        National Action Network (NAN).\nCrump, who has represented the families of
+        Breonna Taylor, George Floyd and Michael Brown and other high-profile victims
+        of police violence, will make a call to action during the funeral services,
+        the release said.\nSharpton and NAN have pledged to help Lyoya''s family cover
+        his funeral costs, the release says.\nLyoya, 26, moved to the United States
+        with his family from the Democratic Republic of Congo in 2014 and \"tirelessly
+        worked to support his family,\" according to the release.\nAn officer from
+        the Grand Rapids Police Department fatally shot Lyoya on April 4 after pulling
+        him over for an allegedly unregistered license plate. The police department
+        released several forms of video footage capturing the approximately two minute
+        and 40 second interaction.\nAn autopsy commissioned by Lyoya''s family shows
+        he was shot in the back of the head by the Grand Rapids officer, who has not
+        been publicly identified. Lyoya wasn''t armed at the time of the shooting,
+        according to a family attorney.\nThe Michigan Department of Civil Rights (MDCR)
+        has made a request to the Justice Department to launch a \"pattern-or-practice\"
+        investigation into the police department following the fatal shooting of Lyoya.\nThe
+        footage released by the police department begins with the officer walking
+        toward the car, CNN previously reported.\nAccording to the video footage,
+        Lyoya turns his back to the officer and appears to walk toward the front of
+        the car. The officer puts his hands on Lyoya''s shoulder and back, saying
+        \"no, no, no, stop, stop,\" and Lyoya is seen resisting the officer''s touch
+        and backing away from the officer.\nThe officer tackles him to the ground.
+        Video shows Lyoya getting up and standing, the officer drawing and then deploying
+        a Taser, though police say the prongs didn''t hit Lyoya.\nThe two end up physically
+        struggling on the ground once more, where the officer shot Lyoya. The officer
+        is heard saying \"let go of the Taser\" before firing the fatal shot.\nCNN''s
+        Peter Nickeas contributed to this report.","article_title":"Civil rights leader
+        Rev. Al Sharpton to deliver the eulogy at funeral of Patrick Lyoya, who was
+        fatally shot by Michigan police","article_authors":["Emma Tucker and Kristina
+        Sgueglia"],"article_image":"https://cdn.cnn.com/cnnnext/dam/assets/220414115739-patrick-lyoya-exlarge-169.jpg","article_pub_date":"Fri,
+        22 Apr 2022 00:00:00 GMT","article_url":"https://www.cnn.com/2022/04/22/us/al-sharpton-delivers-eulogy-at-patrick-lyoya-funeral/index.html","article_html":"<figure><img
+        alt=\"Patrick Lyoya, 26, moved to the United States with his family from the
+        Democratic Republic of Congo in 2014, according to a release from the family''s
+        lawyer.\" data-demand-load=\"loaded\" data-eq-pts=\"mini: 0, xsmall: 221,
+        small: 308, medium: 461, large: 781\" data-eq-state=\"mini xsmall small medium\"
+        data-src=\"//cdn.cnn.com/cnnnext/dam/assets/220414115739-patrick-lyoya-exlarge-169.jpg\"
+        data-src-full16x9=\"//cdn.cnn.com/cnnnext/dam/assets/220414115739-patrick-lyoya-full-169.jpg\"
+        data-src-large=\"//cdn.cnn.com/cnnnext/dam/assets/220414115739-patrick-lyoya-super-169.jpg\"
+        data-src-medium=\"//cdn.cnn.com/cnnnext/dam/assets/220414115739-patrick-lyoya-exlarge-169.jpg\"
+        data-src-mini=\"//cdn.cnn.com/cnnnext/dam/assets/220414115739-patrick-lyoya-small-169.jpg\"
+        data-src-mini1x1=\"//cdn.cnn.com/cnnnext/dam/assets/220414115739-patrick-lyoya-small-11.jpg\"
+        data-src-small=\"//cdn.cnn.com/cnnnext/dam/assets/220414115739-patrick-lyoya-large-169.jpg\"
+        data-src-xsmall=\"//cdn.cnn.com/cnnnext/dam/assets/220414115739-patrick-lyoya-medium-plus-169.jpg\"
+        src=\"https://cdn.cnn.com/cnnnext/dam/assets/220414115739-patrick-lyoya-exlarge-169.jpg\"></img><figcaption>Patrick
+        Lyoya, 26, moved to the United States with his family from the Democratic
+        Republic of Congo in 2014, according to a release from the family''s lawyer.</figcaption></figure>\n<p>(CNN)The
+        family of Patrick Lyoya, a Black man who was fatally shot by a Michigan police
+        officer during a traffic stop earlier this month, has asked civil rights leader
+        Rev. Al Sharpton to deliver the eulogy during their son''s funeral Friday.</p>\n<p>This
+        week, Lyoya''s family announced through their attorney, Ben Crump, that the
+        funeral will be held at 11 a.m. ET at the Renaissance Church of God in Christ
+        in Grand Rapids, Michigan, according to a joint release from Crump and the
+        National Action Network (NAN).</p>\n<p>Crump, who has represented the families
+        of Breonna Taylor, George Floyd and Michael Brown and other high-profile victims
+        of police violence, will make a call to action during the funeral services,
+        the release said.</p>\n<p>Sharpton and NAN have pledged to help Lyoya''s family
+        cover his funeral costs, the release says.</p>\n<p>Lyoya, 26, <a href=\"https://www.cnn.com/2022/04/14/us/patrick-lyoya-family-calls-for-officer-termination/index.html\">moved
+        to the United States with his family</a> from the Democratic Republic of Congo
+        in 2014 and &quot;tirelessly worked to support his family,&quot; according
+        to the release.</p>\n<figure><a href=\"https://www.cnn.com/2022/04/13/us/michigan-grand-rapids-police-video-patrick-lyoya/index.html\"><img
+        alt=\"Videos show the fatal police shooting of Michigan man after a struggle
+        during a traffic stop\" data-demand-load=\"loaded\" data-eq-pts=\"mini: 0,
+        xsmall: 221, small: 308, medium: 461, large: 781\" data-eq-state=\"mini xsmall\"
+        data-lazy-img-observe=\"true\" data-src=\"//cdn.cnn.com/cnnnext/dam/assets/220412200204-02-patrick-lyoya-grand-rapids-medium-plus-169.jpg\"
+        data-src-full16x9=\"//cdn.cnn.com/cnnnext/dam/assets/220412200204-02-patrick-lyoya-grand-rapids-full-169.jpg\"
+        data-src-large=\"//cdn.cnn.com/cnnnext/dam/assets/220412200204-02-patrick-lyoya-grand-rapids-super-169.jpg\"
+        data-src-medium=\"//cdn.cnn.com/cnnnext/dam/assets/220412200204-02-patrick-lyoya-grand-rapids-exlarge-169.jpg\"
+        data-src-mini=\"//cdn.cnn.com/cnnnext/dam/assets/220412200204-02-patrick-lyoya-grand-rapids-small-169.jpg\"
+        data-src-mini1x1=\"//cdn.cnn.com/cnnnext/dam/assets/220412200204-02-patrick-lyoya-grand-rapids-small-11.jpg\"
+        data-src-small=\"//cdn.cnn.com/cnnnext/dam/assets/220412200204-02-patrick-lyoya-grand-rapids-large-169.jpg\"
+        data-src-xsmall=\"//cdn.cnn.com/cnnnext/dam/assets/220412200204-02-patrick-lyoya-grand-rapids-medium-plus-169.jpg\"
+        src=\"https://cdn.cnn.com/cnnnext/dam/assets/220412200204-02-patrick-lyoya-grand-rapids-medium-plus-169.jpg\"></img></a><figcaption><a
+        href=\"https://www.cnn.com/2022/04/13/us/michigan-grand-rapids-police-video-patrick-lyoya/index.html\">Videos
+        show the fatal police shooting of Michigan man after a struggle during a traffic
+        stop</a></figcaption></figure>\n<p>An officer from the Grand Rapids Police
+        Department fatally shot Lyoya on April 4 after pulling him over for an allegedly
+        unregistered license plate. The police department released several forms of
+        video footage capturing the approximately two minute and 40 second interaction.</p>\n<p>An
+        autopsy <a href=\"https://www.cnn.com/2022/04/19/us/patrick-lyoya-autopsy/index.html\">commissioned
+        by Lyoya''s family</a> shows he was shot in the back of the head by the Grand
+        Rapids officer, who has not been publicly identified. Lyoya wasn''t armed
+        at the time of the shooting, according to a family attorney.</p>\n<p>The Michigan
+        Department of Civil Rights (MDCR) <a href=\"https://www.cnn.com/2022/04/20/us/grand-rapids-police-investigation-patrick-lyoya/index.html\">has
+        made a request</a> to the Justice Department to launch a &quot;pattern-or-practice&quot;
+        investigation into the police department following the fatal shooting of Lyoya.</p>\n<p>The
+        footage released by the police department begins with the officer walking
+        toward the car, <a href=\"https://www.cnn.com/2022/04/13/us/michigan-grand-rapids-police-video-patrick-lyoya/index.html\">CNN
+        previously reported</a>.</p>\n<p>According to the video footage, Lyoya turns
+        his back to the officer and appears to walk toward the front of the car. The
+        officer puts his hands on Lyoya''s shoulder and back, saying &quot;no, no,
+        no, stop, stop,&quot; and Lyoya is seen resisting the officer''s touch and
+        backing away from the officer.</p>\n<p>The officer tackles him to the ground.
+        Video shows Lyoya getting up and standing, the officer drawing and then deploying
+        a Taser, though police say the prongs didn''t hit Lyoya.</p>\n<p>The two end
+        up physically struggling on the ground once more, where the officer shot Lyoya.
+        The officer is heard saying &quot;let go of the Taser&quot; before firing
+        the fatal shot.</p>\n<p>CNN''s Peter Nickeas contributed to this report.</p>","article_abstract":null}'
+  recorded_at: Fri, 22 Apr 2022 06:22:31 GMT
+- request:
+    method: post
+    uri: https://tldrthis.p.rapidapi.com/v1/model/extractive/summarize-url/
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+                          "url": "https://www.bloombergquint.com/research-reports/balkrishna-industries-industry-export-trends-remain-robust-icici-securities",
+                          "num_sentences": 5,
+                          "is_detailed": false
+                          }
+    headers:
+      X-Rapidapi-Host:
+      - tldrthis.p.rapidapi.com
+      X-Rapidapi-Key:
+      - "<tldr_key>"
+      User-Agent:
+      - Faraday v2.2.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 22 Apr 2022 06:22:33 GMT
+      Server:
+      - RapidAPI-1.2.8
+      X-Rapidapi-Region:
+      - AWS - us-west-2
+      X-Rapidapi-Version:
+      - 1.2.8
+      X-Ratelimit-Requests-Limit:
+      - '100'
+      X-Ratelimit-Requests-Remaining:
+      - '65'
+      X-Ratelimit-Requests-Reset:
+      - '2025137'
+      Content-Length:
+      - '4350'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJzdW1tYXJ5IjpbIkJRIEJsdWXigJlzIHNwZWNpYWwgcmVzZWFyY2ggc2VjdGlvbiBjb2xsYXRlcyBxdWFsaXR5IGFuZCBpbi1kZXB0aCBlcXVpdHkgYW5kIGVjb25vbXkgcmVzZWFyY2ggcmVwb3J0cyBmcm9tIGFjcm9zcyBJbmRpYeKAmXMgdG9wIGJyb2tlcmFnZXMsIGFzc2V0IG1hbmFnZXJzIGFuZCByZXNlYXJjaCBhZ2VuY2llcy4iLCJCYWxrcmlzaG5hIEluZHVzdHJpZXPigJkga2V5IGV4cG9ydCBtYXJrZXRzIHJlcG9ydGVkIHN0cm9uZyBkZW1hbmQgdHJlbmRzIHdpdGggRmVi4oCZMjIgaW5kdXN0cnkgZXhwb3J0cyB1cCAyMCUgWW9ZLiBUaG91Z2ggdGhlIGRhdGEgaW5kaWNhdGVzIGNvbnRpbnVlZCBtb21lbnR1bSBpbiBPVFIgc2VnbWVudCAodXAgMjAlIFlvWSkgYW5kIHN0dXJkeSBhZ3JpIGRlbWFuZCBhdCB+MjAlIFlvWSwgb3ZlcmFsbCBzYWxlcyBhcmUgZmxhdHRpc2ggUW9RLCBpbiBsaW5lIHdpdGggbWFuYWdlbWVudCBjb21tZW50YXJ5IG9mIGxvd2VyIHN1cHBseSBkdWUgdG8gY2FwYWNpdHkgY29uc3RyYWludHMuIiwiVGhlIGNvbnRlbnRzIG9mIHRoaXMgc2VjdGlvbiBkbyBub3QgY29uc3RpdHV0ZSBpbnZlc3RtZW50IGFkdmljZS4iLCJUaGUgdmlld3MgZXhwcmVzc2VkIGluIHRoZSByZXBvcnQgYXJlIHRoYXQgb2YgdGhlIGF1dGhvciBlbnRpdHkgYW5kIGRvIG5vdCByZXByZXNlbnQgdGhlIHZpZXdzIG9mIEJsb29tYmVyZ1F1aW50LiIsIlVzZXJzIGhhdmUgbm8gbGljZW5zZSB0byBjb3B5LCBtb2RpZnksIG9yIGRpc3RyaWJ1dGUgdGhlIGNvbnRlbnQgd2l0aG91dCBwZXJtaXNzaW9uIG9mIHRoZSBPcmlnaW5hbCBPd25lci4iXSwiYXJ0aWNsZV90ZXh0IjoiQlEgQmx1ZeKAmXMgc3BlY2lhbCByZXNlYXJjaCBzZWN0aW9uIGNvbGxhdGVzIHF1YWxpdHkgYW5kIGluLWRlcHRoIGVxdWl0eSBhbmQgZWNvbm9teSByZXNlYXJjaCByZXBvcnRzIGZyb20gYWNyb3NzIEluZGlh4oCZcyB0b3AgYnJva2VyYWdlcywgYXNzZXQgbWFuYWdlcnMgYW5kIHJlc2VhcmNoIGFnZW5jaWVzLiBUaGVzZSByZXBvcnRzIG9mZmVyIEJsb29tYmVyZ1F1aW504oCZcyBzdWJzY3JpYmVycyBhbiBvcHBvcnR1bml0eSB0byBleHBhbmQgdGhlaXIgdW5kZXJzdGFuZGluZyBvZiBjb21wYW5pZXMsIHNlY3RvcnMgYW5kIHRoZSBlY29ub215LlxuQmFsa3Jpc2huYSBJbmR1c3RyaWVz4oCZIGtleSBleHBvcnQgbWFya2V0cyByZXBvcnRlZCBzdHJvbmcgZGVtYW5kIHRyZW5kcyB3aXRoIEZlYuKAmTIyIGluZHVzdHJ5IGV4cG9ydHMgdXAgMjAlIFlvWS4gVGhvdWdoIHRoZSBkYXRhIGluZGljYXRlcyBjb250aW51ZWQgbW9tZW50dW0gaW4gT1RSIHNlZ21lbnQgKHVwIDIwJSBZb1kpIGFuZCBzdHVyZHkgYWdyaSBkZW1hbmQgYXQgfjIwJSBZb1ksIG92ZXJhbGwgc2FsZXMgYXJlIGZsYXR0aXNoIFFvUSwgaW4gbGluZSB3aXRoIG1hbmFnZW1lbnQgY29tbWVudGFyeSBvZiBsb3dlciBzdXBwbHkgZHVlIHRvIGNhcGFjaXR5IGNvbnN0cmFpbnRzLlxuRGF0YSBjb250aW51ZXMgdG8gc3VwcG9ydCB0aGUgcm9idXN0IGRlbWFuZCBtb21lbnR1bSBkcml2ZW4gYnkgYm90aCBhZ3JpIGFuZCBPVFIgc2VnbWVudHMgKEZZMjItWVREIGluZHVzdHJ5IGV4cG9ydHMgYXJlIHVwIH40NyUgWW9ZIG9uIFVTRCBiYXNpcykuXG5DbGljayBvbiB0aGUgYXR0YWNobWVudCB0byByZWFkIHRoZSBmdWxsIHJlcG9ydDpcbkRJU0NMQUlNRVJcblRoaXMgcmVwb3J0IGlzIGF1dGhvcmVkIGJ5IGFuIGV4dGVybmFsIHBhcnR5LiBCbG9vbWJlcmdRdWludCBkb2VzIG5vdCB2b3VjaCBmb3IgdGhlIGFjY3VyYWN5IG9mIGl0cyBjb250ZW50cyBub3IgaXMgcmVzcG9uc2libGUgZm9yIHRoZW0gaW4gYW55IHdheS4gVGhlIGNvbnRlbnRzIG9mIHRoaXMgc2VjdGlvbiBkbyBub3QgY29uc3RpdHV0ZSBpbnZlc3RtZW50IGFkdmljZS4gRm9yIHRoYXQgeW91IG11c3QgYWx3YXlzIGNvbnN1bHQgYW4gZXhwZXJ0IGJhc2VkIG9uIHlvdXIgaW5kaXZpZHVhbCBuZWVkcy4gVGhlIHZpZXdzIGV4cHJlc3NlZCBpbiB0aGUgcmVwb3J0IGFyZSB0aGF0IG9mIHRoZSBhdXRob3IgZW50aXR5IGFuZCBkbyBub3QgcmVwcmVzZW50IHRoZSB2aWV3cyBvZiBCbG9vbWJlcmdRdWludC5cblVzZXJzIGhhdmUgbm8gbGljZW5zZSB0byBjb3B5LCBtb2RpZnksIG9yIGRpc3RyaWJ1dGUgdGhlIGNvbnRlbnQgd2l0aG91dCBwZXJtaXNzaW9uIG9mIHRoZSBPcmlnaW5hbCBPd25lci4iLCJhcnRpY2xlX3RpdGxlIjoiQmFsa3Jpc2huYSBJbmR1c3RyaWVzIC0gSW5kdXN0cnkgRXhwb3J0IFRyZW5kcyBSZW1haW4gUm9idXN0OiBJQ0lDSSBTZWN1cml0aWVzIiwiYXJ0aWNsZV9hdXRob3JzIjpbIklDSUNJIFNlY3VyaXRpZXMiXSwiYXJ0aWNsZV9pbWFnZSI6Imh0dHBzOi8vZ3VtbGV0LmFzc2V0dHlwZS5jb20vYmxvb21iZXJncXVpbnQlMkYyMDIxLTA1JTJGM2ViOTlmNTctMzg3Zi00NmIyLWI4OTgtMjVlNGQ0ODk4NjI1JTJGQmFsa3Jpc2huYV9JbmR1c3RyaWVzX0x0ZF9fX2ltYWdlX0NvbXBhbnlfd2Vic2l0ZV8ucG5nP3JlY3Q9MCUyQzAlMkMxMTM5JTJDNTk4Jnc9MTIwMCZhdXRvPWZvcm1hdCUyQ2NvbXByZXNzJm9nSW1hZ2U9dHJ1ZSIsImFydGljbGVfcHViX2RhdGUiOiJGcmksIDIyIEFwciAyMDIyIDEwOjE2OjAwIEdNVCIsImFydGljbGVfdXJsIjoiaHR0cHM6Ly93d3cuYmxvb21iZXJncXVpbnQuY29tL3Jlc2VhcmNoLXJlcG9ydHMvYmFsa3Jpc2huYS1pbmR1c3RyaWVzLWluZHVzdHJ5LWV4cG9ydC10cmVuZHMtcmVtYWluLXJvYnVzdC1pY2ljaS1zZWN1cml0aWVzIiwiYXJ0aWNsZV9odG1sIjoiPHA+PGVtPjxzdHJvbmc+QlEgQmx1ZSZyc3F1bztzIHNwZWNpYWwgcmVzZWFyY2ggc2VjdGlvbiBjb2xsYXRlcyBxdWFsaXR5IGFuZCBpbi1kZXB0aCBlcXVpdHkgYW5kIGVjb25vbXkgcmVzZWFyY2ggcmVwb3J0cyBmcm9tIGFjcm9zcyBJbmRpYSZyc3F1bztzIHRvcCBicm9rZXJhZ2VzLCBhc3NldCBtYW5hZ2VycyBhbmQgcmVzZWFyY2ggYWdlbmNpZXMuIFRoZXNlIHJlcG9ydHMgb2ZmZXIgQmxvb21iZXJnUXVpbnQmcnNxdW87cyBzdWJzY3JpYmVycyBhbiBvcHBvcnR1bml0eSB0byBleHBhbmQgdGhlaXIgdW5kZXJzdGFuZGluZyBvZiBjb21wYW5pZXMsIHNlY3RvcnMgYW5kIHRoZSBlY29ub215Ljwvc3Ryb25nPjwvZW0+PC9wPlxuPHA+QmFsa3Jpc2huYSBJbmR1c3RyaWVzJnJzcXVvOyBrZXkgZXhwb3J0IG1hcmtldHMgcmVwb3J0ZWQgc3Ryb25nIGRlbWFuZCB0cmVuZHMgd2l0aCBGZWImcnNxdW87MjIgaW5kdXN0cnkgZXhwb3J0cyB1cCAyMCUgWW9ZLiBUaG91Z2ggdGhlIGRhdGEgaW5kaWNhdGVzIGNvbnRpbnVlZCBtb21lbnR1bSBpbiBPVFIgc2VnbWVudCAodXAgMjAlIFlvWSkgYW5kIHN0dXJkeSBhZ3JpIGRlbWFuZCBhdCB+MjAlIFlvWSwgb3ZlcmFsbCBzYWxlcyBhcmUgZmxhdHRpc2ggUW9RLCBpbiBsaW5lIHdpdGggbWFuYWdlbWVudCBjb21tZW50YXJ5IG9mIGxvd2VyIHN1cHBseSBkdWUgdG8gY2FwYWNpdHkgY29uc3RyYWludHMuPC9wPlxuPHA+RGF0YSBjb250aW51ZXMgdG8gc3VwcG9ydCB0aGUgcm9idXN0IGRlbWFuZCBtb21lbnR1bSBkcml2ZW4gYnkgYm90aCBhZ3JpIGFuZCBPVFIgc2VnbWVudHMgKEZZMjItWVREIGluZHVzdHJ5IGV4cG9ydHMgYXJlIHVwIH40NyUgWW9ZIG9uIFVTRCBiYXNpcykuPC9wPlxuPGgzPjxzdHJvbmc+Q2xpY2sgb24gdGhlIGF0dGFjaG1lbnQgdG8gcmVhZCB0aGUgZnVsbCByZXBvcnQ6PC9zdHJvbmc+PC9oMz5cbjxwPjxzdHJvbmc+RElTQ0xBSU1FUjwvc3Ryb25nPjwvcD5cbjxwPjxlbT5UaGlzIHJlcG9ydCBpcyBhdXRob3JlZCBieSBhbiBleHRlcm5hbCBwYXJ0eS4gQmxvb21iZXJnUXVpbnQgZG9lcyBub3Qgdm91Y2ggZm9yIHRoZSBhY2N1cmFjeSBvZiBpdHMgY29udGVudHMgbm9yIGlzIHJlc3BvbnNpYmxlIGZvciB0aGVtIGluIGFueSB3YXkuIFRoZSBjb250ZW50cyBvZiB0aGlzIHNlY3Rpb24gZG8gbm90IGNvbnN0aXR1dGUgaW52ZXN0bWVudCBhZHZpY2UuIEZvciB0aGF0IHlvdSBtdXN0IGFsd2F5cyBjb25zdWx0IGFuIGV4cGVydCBiYXNlZCBvbiB5b3VyIGluZGl2aWR1YWwgbmVlZHMuIFRoZSB2aWV3cyBleHByZXNzZWQgaW4gdGhlIHJlcG9ydCBhcmUgdGhhdCBvZiB0aGUgYXV0aG9yIGVudGl0eSBhbmQgZG8gbm90IHJlcHJlc2VudCB0aGUgdmlld3Mgb2YgQmxvb21iZXJnUXVpbnQuPC9lbT48L3A+XG48cD48ZW0+VXNlcnMgaGF2ZSBubyBsaWNlbnNlIHRvIGNvcHksIG1vZGlmeSwgb3IgZGlzdHJpYnV0ZSB0aGUgY29udGVudCB3aXRob3V0IHBlcm1pc3Npb24gb2YgdGhlIE9yaWdpbmFsIE93bmVyLjwvZW0+PC9wPiIsImFydGljbGVfYWJzdHJhY3QiOm51bGx9
+  recorded_at: Fri, 22 Apr 2022 06:22:33 GMT
+- request:
+    method: post
+    uri: https://tldrthis.p.rapidapi.com/v1/model/extractive/summarize-url/
+    body:
+      encoding: UTF-8
+      string: |-
+        {
+                          "url": "https://www.foxnews.com/us/b1-b-lancer-catches-fire-at-dyess-air-force-base-two-people-injured",
+                          "num_sentences": 5,
+                          "is_detailed": false
+                          }
+    headers:
+      X-Rapidapi-Host:
+      - tldrthis.p.rapidapi.com
+      X-Rapidapi-Key:
+      - "<tldr_key>"
+      User-Agent:
+      - Faraday v2.2.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json
+      Date:
+      - Fri, 22 Apr 2022 06:22:34 GMT
+      Server:
+      - RapidAPI-1.2.8
+      X-Rapidapi-Region:
+      - AWS - us-west-2
+      X-Rapidapi-Version:
+      - 1.2.8
+      X-Ratelimit-Requests-Limit:
+      - '100'
+      X-Ratelimit-Requests-Remaining:
+      - '64'
+      X-Ratelimit-Requests-Reset:
+      - '2025136'
+      Content-Length:
+      - '6293'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"summary":["NEW You can now listen to Fox News articles!","A bystander
+        video shows flames shooting out of what appears to be a plane behind a fenced
+        installation.","Joseph Kramer said in a statement Thursday. \"","About one
+        year ago, the Air Force grounded its entire fleet of B-1B Lancers for a few
+        weeks after an issue was discovered with the bomber''s fuel system, according
+        to the War Zone.","The 2021 defense appropriations bill put nearly $3 billion
+        toward B-21 development and the Department of Defense eventually plans to
+        acquire at least 100 of them."],"article_text":"NEW You can now listen to
+        Fox News articles!\n\nA B-1B Lancer caught fire during engine maintenance
+        at Dyess Air Force Base in Texas on Wednesday evening.\n\nTwo individuals
+        were injured during the fire and transported to a local hospital with non-life-threatning
+        injuries.\n\nA bystander video shows flames shooting out of what appears to
+        be a plane behind a fenced installation. A spokesperson for the 7th Bomb Wing
+        told Fox News Digital they are looking into the video.\n\nLOUISIANA AIR FORCE
+        BASE GAS EXPLOSION INJURES SEVERAL\n\n\"We are so grateful that all members
+        of Team Dyess involved have been treated and are now safely back at home,\"
+        7th Bomb Wing commander Col. Joseph Kramer said in a statement Thursday. \"Our
+        B-1 fleet and warfighters remain ready to execute any long-range strike mission.\"\n\nnext
+        Image 1 of 2\n\nprev Image 2 of 2\n\nDyess Air Force Base, located about seven
+        miles south of Abilene, Texas, is known as the \"home of the B-1.\"\n\nUS
+        DEPLOYS SIX STEALTH STRIKE FIGHTER JETS TO BOLSTER NATO''S EASTERN FLANK\n\nThe
+        B-1B Lancer is a long-range bomber that was developed in the 1980s and carries
+        a 75,000 pound payload.\n\nAbout one year ago, the Air Force grounded its
+        entire fleet of B-1B Lancers for a few weeks after an issue was discovered
+        with the bomber''s fuel system, according to the War Zone.\n\nCLICK HERE TO
+        GET THE FOX NEWS APP\n\nThe military is currently developing a new long-range
+        bomber, the B-21 Raider, to replace the B-1 and B-2 bombers.\n\nThe 2021 defense
+        appropriations bill put nearly $3 billion toward B-21 development and the
+        Department of Defense eventually plans to acquire at least 100 of them.","article_title":"B1-B
+        Lancer catches fire at Dyess Air Force Base, two people injured","article_authors":["Paul
+        Best"],"article_image":"https://static.foxnews.com/foxnews.com/content/uploads/2020/11/AirForce-B1-Hypersonic.jpg","article_pub_date":null,"article_url":"https://www.foxnews.com/us/b1-b-lancer-catches-fire-at-dyess-air-force-base-two-people-injured","article_html":"<div><p
+        class=\"info\"><p class=\"label-bg\">NEW</p>You can now listen to Fox News
+        articles!\n  </p><p class=\"speakable\">A B-1B Lancer caught <a href=\"https://www.foxnews.com/category/us/disasters/fires\"
+        target=\"_blank\">fire</a> during engine maintenance at <a href=\"https://www.foxnews.com/category/us/military/air-force\"
+        target=\"_blank\">Dyess Air Force Base</a> in <a href=\"https://www.foxnews.com/category/us/us-regions/southwest/texas\"
+        target=\"_blank\">Texas</a> on Wednesday evening.&#160;</p><p class=\"ad gam\"></p><p
+        class=\"ad gam\"></p><p class=\"speakable\">Two individuals were injured during
+        the fire and transported to a local hospital with non-life-threatning injuries.&#160;</p><p>A
+        bystander video shows flames shooting out of what appears to be a plane behind
+        a fenced installation. A spokesperson for the 7th Bomb Wing told Fox News
+        Digital they are looking into the video.&#160;</p><p class=\"ad gam\"></p><p><a
+        href=\"https://www.foxnews.com/us/louisiana-air-force-gas-well-explosion\"
+        target=\"_blank\"><strong>LOUISIANA AIR FORCE BASE GAS EXPLOSION INJURES SEVERAL</strong></a></p><p
+        class=\"ad gam\"></p><p>\"We are so grateful that all members of Team Dyess
+        involved have been treated and are now safely back at home,\" 7th Bomb Wing
+        commander Col. Joseph Kramer said in a statement Thursday. &#160;\"Our B-1
+        fleet and warfighters remain ready to execute any long-range strike mission.\"</p><p
+        class=\"ad gam\"></p><ul class=\"slide-container\"> <li class=\"slide\"><img
+        src=\"https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2020/11/918/516/AirForce-B1-Hypersonic.jpg?ve=1&amp;tl=1\"
+        alt=\"B-1\"> <p class=\"ctrl\">  \n          next\n        </p><p class=\"pager\">Image
+        1 of 2</p> </li> <li class=\"slide\"><img src=\"https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2019/08/918/516/B-1B-USAF.jpg?ve=1&amp;tl=1\"
+        alt=\"B-1\"> <p class=\"ctrl\">\n          prev\n         </p><p class=\"pager\">Image
+        2 of 2</p> </li></ul><p>Dyess Air Force Base, located about seven miles south
+        of Abilene, Texas, is known as the \"home of the B-1.\"&#160;</p><p><a href=\"https://www.foxnews.com/world/u-s-deploys-six-stealth-fighter-jets-bolster-natos-eastern-flank\"
+        target=\"_blank\"><strong>US DEPLOYS SIX STEALTH STRIKE FIGHTER JETS TO BOLSTER
+        NATO''S EASTERN FLANK</strong></a></p><p class=\"ad gam\"></p><p>The B-1B
+        Lancer is a long-range bomber that was developed in the 1980s and carries
+        a 75,000 pound payload.&#160;</p><p>About one year ago, the Air Force grounded
+        its entire fleet of B-1B Lancers for a few weeks after an issue was discovered
+        with the bomber''s fuel system, according to the <a href=\"https://www.thedrive.com/the-war-zone/40282/all-b-1b-bombers-have-been-grounded\"
+        target=\"_blank\" rel=\"nofollow\">War Zone</a>.&#160;</p><p class=\"ad gam\"></p>
+        <img src=\"https://a57.foxnews.com/static.foxnews.com/foxnews.com/content/uploads/2019/05/640/320/air-force-b21.jpg?ve=1&amp;tl=1\"
+        alt=\"An artist''s impression of the B-21 Raider.\"><p><a href=\"https://www.foxnews.com/apps-products?pid=AppArticleLink\"
+        target=\"_blank\"><strong>CLICK HERE TO GET THE FOX NEWS APP</strong></a><strong>&#160;</strong></p><p
+        class=\"ad gam\"></p><p class=\"ad gam\"></p><p>The military is currently
+        developing a new long-range bomber, the B-21 Raider, to replace the B-1 and
+        B-2 bombers.&#160;</p><p>The 2021 defense appropriations bill put nearly <a
+        href=\"https://sgp.fas.org/crs/weapons/R44463.pdf\" target=\"_blank\" rel=\"nofollow\">$3
+        billion toward B-21 development</a> and the Department of Defense eventually
+        plans to acquire at least 100 of them.&#160;</p> </div>","article_abstract":null}'
+  recorded_at: Fri, 22 Apr 2022 06:22:34 GMT
+recorded_with: VCR 6.1.0
