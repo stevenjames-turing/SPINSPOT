@@ -3,7 +3,7 @@ class MediastackFacade
   def self.keyword_search(keyword, bias_string)
     json = MediastackService.keyword_search(keyword, bias_string)
 
-    if json[:data] == []
+    if json[:data] == [] || json.has_key?("error")
       empty_response = {
         title: "No Articles Found!",
         url: nil,
