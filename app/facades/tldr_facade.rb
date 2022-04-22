@@ -7,7 +7,7 @@ class TldrFacade
         article_title: "Article Not Found!",
         summary: ["Whatever you were looking up is probably fake news anyway."],
         url: nil,
-        article_image: "https://stryvemarketing.com/wp-content/uploads/2016/04/image.gif",
+        article_image: "https://pbs.twimg.com/profile_images/998934127339454465/Wg5Wni-w_400x400.jpg",
         pub_date: nil
       }
 
